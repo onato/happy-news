@@ -123,8 +123,16 @@ jobs:
                 "source":    "<publication name, e.g. 'BBC News'>",
                 "published": "<ISO8601 publication date of the article>",
                 "category":  "<one of: Science, Health, Environment, Community, Culture, Animals>",
-                "added":     "<ISO8601 timestamp of this run>"
+                "added":     "<ISO8601 timestamp of this run>",
+                "image":     "<absolute https URL of the article's lead image, or omit>"
               }
+
+            For `image`, use the article's Open Graph image (the `og:image` meta tag) when
+            you have already fetched the page with WebFetch, or an image URL given in the
+            search results. Do NOT spend extra turns fetching pages just to find one — the
+            feed renders fine without images, and a missing `image` is always acceptable.
+            It must be an absolute `https://` URL pointing directly at an image file; omit
+            the field entirely rather than guessing, using a page URL, or inventing one.
 
             Set the top-level `updated` field to the current UTC time.
 
@@ -162,6 +170,10 @@ jobs:
                   sys.exit(f"story {i} missing fields: {sorted(missing)}")
               if not str(s['url']).startswith(('http://', 'https://')):
                   sys.exit(f"story {i} has a non-http url: {s['url']!r}")
+              # `image` is optional, but must be a real https URL when present.
+              img = s.get('image')
+              if img is not None and not str(img).startswith('https://'):
+                  sys.exit(f"story {i} has a non-https image: {img!r}")
           urls = [s['url'] for s in stories]
           if len(urls) != len(set(urls)):
               sys.exit("duplicate urls in feed")

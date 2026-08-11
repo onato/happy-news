@@ -76,9 +76,41 @@ function card(story) {
     meta.append(el('span', 'tag', story.category));
   }
 
-  a.append(meta, el('h2', null, story.headline || 'Untitled'));
-  if (story.summary) a.append(el('p', 'summary', story.summary));
+  a.append(meta);
+
+  const body = el('div', 'body');
+  body.append(el('h2', null, story.headline || 'Untitled'));
+  if (story.summary) body.append(el('p', 'summary', story.summary));
+
+  const img = thumbnail(story);
+  if (img) {
+    // Thumbnail floats right so short headlines let the summary wrap beside it
+    // instead of leaving a gap under the image.
+    const row = el('div', 'has-thumb');
+    row.append(img, body);
+    a.append(row);
+  } else {
+    a.append(body);
+  }
   return a;
+}
+
+/** Thumbnail element, or null when there's no usable image.
+    Publisher images are hotlinked, so any that 404 or block us are hidden. */
+function thumbnail(story) {
+  const src = story.image && safeUrl(story.image);
+  if (!src) return null;
+
+  const wrap = el('div', 'thumb');
+  const img = document.createElement('img');
+  img.src = src;
+  img.alt = '';
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.referrerPolicy = 'no-referrer';
+  img.addEventListener('error', () => wrap.remove());
+  wrap.append(img);
+  return wrap;
 }
 
 function render() {
