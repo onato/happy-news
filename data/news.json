@@ -1,4 +1,41 @@
 {
-  "updated": "2026-08-11T00:00:00Z",
-  "stories": []
+  "updated": "2026-08-11T02:50:44Z",
+  "stories": [
+    {
+      "headline": "India Crosses 300 Gigawatts of Clean Power Capacity, Reaching 60% of Its 2030 Target",
+      "summary": "India's non-fossil fuel electricity capacity passed 300 GW as of July 31, 2026, now more than 54% of the country's total generation capacity. Solar power alone has grown from 2.8 GW in 2014 to nearly 165 GW today, putting the country past 60% of its goal to reach 500 GW of clean capacity by 2030.",
+      "url": "https://www.businesstoday.in/india/story/60-of-2030-target-india-hits-300-gw-clean-energy-milestone-as-solar-capacity-skyrockets-548178-2026-08-09",
+      "source": "Business Today",
+      "published": "2026-08-09T10:37:00Z",
+      "category": "Environment",
+      "added": "2026-08-11T02:50:44Z"
+    },
+    {
+      "headline": "Toddlers With Duchenne Muscular Dystrophy Show Rapid Motor Gains in New Drug Trial",
+      "summary": "In a Phase II trial, Binghamton University researchers gave the steroid-alternative drug vamorolone to boys aged 2 to under 4 with Duchenne muscular dystrophy. After just 12 weeks, gross-motor scores rose sharply with no serious side effects, raising hope that treatment can start before symptoms fully set in now that DMD has been added to newborn screening recommendations.",
+      "url": "https://www.goodnewsnetwork.org/new-treatment-shows-remarkable-motor-improvements-in-boys-with-muscular-dystrophy/",
+      "source": "Good News Network",
+      "published": "2026-08-10T00:00:00Z",
+      "category": "Health",
+      "added": "2026-08-11T02:50:44Z"
+    },
+    {
+      "headline": "Team USA Smashes World U20 Record in Men's 4x100m Relay",
+      "summary": "At the World Athletics U20 Championships in Eugene, Oregon, the American quartet of Blake Hamilton, Dillon Mitchell, Kyler Brown and Tate Taylor ran 38.16 seconds to break the U20 world record in the men's 4x100m relay, beating the previous mark by more than a third of a second. Anchor Tate Taylor capped the meet with three gold medals.",
+      "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/report/day-five-men-track-oregon-26",
+      "source": "World Athletics",
+      "published": "2026-08-09T00:00:00Z",
+      "category": "Culture",
+      "added": "2026-08-11T02:50:44Z"
+    },
+    {
+      "headline": "Blind Dressage Horse Wins Competitions Using 'Equine Braille'",
+      "summary": "Milo, a 15-year-old Appaloosa who lost his sight to an eye condition, continues to compete successfully in dressage with rider Megan Share. The pair developed a tactile system of pressure cues so Milo can navigate the arena purely by feel, and he's now won the Royal Windsor Horse Show for the eighth year running.",
+      "url": "https://www.goodnewsnetwork.org/blind-dressage-horse-wins-competitions-by-using-equine-braille/",
+      "source": "Good News Network",
+      "published": "2026-08-09T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-08-11T02:50:44Z"
+    }
+  ]
 }
