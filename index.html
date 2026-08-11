@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy News</title>
+  <meta name="description" content="A daily feed of genuinely good news, collected automatically.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌻</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <h1><span aria-hidden="true">🌻</span> Happy News</h1>
+      <p class="tagline">Genuinely good things that actually happened.</p>
+    </div>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="Filter by category"></nav>
+
+  <main id="feed" class="feed" aria-live="polite">
+    <p class="state">Loading the good news…</p>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Collected daily by <a href="https://claude.com/claude-code">Claude Code</a>.
+      Every story links to its original publisher.
+    </p>
+    <p id="updated" class="updated"></p>
+  </footer>
+
+  <script src="js/feed.js"></script>
+</body>
+</html>

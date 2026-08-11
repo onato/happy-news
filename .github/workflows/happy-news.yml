@@ -1,0 +1,216 @@
+name: Happy News Collector
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # ~6am NZST / 7am NZDT daily
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: "Skip the collection and send a test Telegram message"
+        type: boolean
+        default: false
+
+# Only one run at a time — two runs appending to data/news.json would conflict.
+concurrency:
+  group: happy-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anthropics/claude-code-action@v1
+        id: claude
+        if: ${{ !inputs.test_telegram }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          claude_args: |
+            --allowedTools "WebSearch,WebFetch,Read,Write,Bash(python3:*)"
+            --max-turns 60
+          prompt: |
+            You collect genuinely uplifting news and add it to a feed. Your output is a
+            JSON file that a static site renders as a news feed. Quality over quantity —
+            a short feed of real good news beats a long feed padded with filler.
+
+            ## 1. Read the existing feed
+
+            Read data/news.json. It has the shape:
+              { "updated": "<ISO8601>", "stories": [ {...}, ... ] }
+            Stories are newest-first. Note the headlines and `url`s already present —
+            you must not add the same story twice.
+
+            ## 2. Find happy news from the last 48 hours
+
+            Use WebSearch to find genuinely positive, uplifting stories published in the
+            LAST 48 HOURS. Search several distinct areas so the feed is varied — aim for
+            a mix across categories such as:
+              - Science & discovery (breakthroughs, space, research results)
+              - Health & medicine (treatments, recoveries, public-health wins)
+              - Environment & conservation (species recovery, restoration, clean energy)
+              - Community & kindness (people helping people, local heroes)
+              - Culture, sport & human achievement
+              - Animals & wildlife
+
+            Run a separate search per category rather than one generic "good news" search —
+            generic searches mostly return aggregator listicles, which you should skip.
+
+            What qualifies as happy news:
+            - Something genuinely good HAPPENED. A concrete outcome, not a plan or a hope.
+            - It stands on its own as good news, not "less bad than expected".
+
+            Reject:
+            - Tragedy with a silver lining (a disaster where some people survived)
+            - Crime, war, or disaster stories framed positively
+            - Pure promotion: product launches, company PR, fundraising announcements
+            - Listicles and aggregators ("20 good news stories this week")
+            - Anything whose good outcome is speculative or not yet realised
+
+            Verify recency by publication date: search engines routinely resurface old
+            articles. Confirm each story's actual publication date from result metadata,
+            or by fetching the article with WebFetch when unclear. A story only qualifies
+            if it was PUBLISHED within the last ~48 hours. Discard stories whose date you
+            cannot verify.
+
+            Prefer the ORIGINAL publisher over syndicated copies or aggregators — the feed
+            links readers to the source.
+
+            ## 3. Deduplicate (hard requirement)
+
+            The feed must never show the same story twice. Drop anything covering the same
+            underlying EVENT as a story already in data/news.json, even if the headline,
+            outlet, or URL differs (syndication, day-2 coverage, follow-up commentary).
+            Only include a follow-up when there is a genuinely new development, and lead
+            with what is new.
+
+            Aim for 5-10 new stories. If you can only find three that truly qualify, add
+            three. If you find none, make no changes and finish quietly.
+
+            ## 4. Write the feed
+
+            Prepend the new stories (newest first) to the `stories` array, keeping the
+            existing entries below them. Each story object must have exactly these fields:
+
+              {
+                "headline":  "<the story's headline, plain text, no outlet name>",
+                "summary":   "<2-3 sentences on what happened and why it's good news>",
+                "url":       "<link to the original article>",
+                "source":    "<publication name, e.g. 'BBC News'>",
+                "published": "<ISO8601 publication date of the article>",
+                "category":  "<one of: Science, Health, Environment, Community, Culture, Animals>",
+                "added":     "<ISO8601 timestamp of this run>"
+              }
+
+            Set the top-level `updated` field to the current UTC time.
+
+            Cap the feed at the 200 most recent stories — drop the oldest beyond that.
+
+            Write the file with the Write tool. It must be valid JSON — after writing,
+            verify with:
+              python3 -c "import json;d=json.load(open('data/news.json'));print(len(d['stories']),'stories')"
+            If that command fails, fix the file until it passes. Do not finish with a
+            broken feed: the site reads this file directly.
+
+      # The action exits green even when Claude Code errors (e.g. bad auth),
+      # so check the execution log ourselves and fail the run loudly.
+      - name: Fail if the collection errored
+        if: ${{ !inputs.test_telegram }}
+        run: |
+          file="${{ steps.claude.outputs.execution_file }}"
+          if [ ! -f "$file" ] || [ "$(jq -r 'last | .is_error' "$file")" != "false" ]; then
+            echo "::error::Claude collection reported an error — see the step above."
+            exit 1
+          fi
+
+      # Guard the site against a malformed feed: never commit JSON the page can't read.
+      - name: Validate the feed
+        if: ${{ !inputs.test_telegram }}
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open('data/news.json'))
+          stories = d['stories']
+          required = {'headline', 'summary', 'url', 'source', 'published', 'category', 'added'}
+          for i, s in enumerate(stories):
+              missing = required - s.keys()
+              if missing:
+                  sys.exit(f"story {i} missing fields: {sorted(missing)}")
+              if not str(s['url']).startswith(('http://', 'https://')):
+                  sys.exit(f"story {i} has a non-http url: {s['url']!r}")
+          urls = [s['url'] for s in stories]
+          if len(urls) != len(set(urls)):
+              sys.exit("duplicate urls in feed")
+          print(f"feed OK — {len(stories)} stories")
+          PY
+
+      - name: Commit new stories
+        id: commit
+        if: ${{ !inputs.test_telegram }}
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "No new stories today."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Count how many stories were added, for the Telegram ping.
+          before=$(git show HEAD:data/news.json | python3 -c "import json,sys;print(len(json.load(sys.stdin)['stories']))")
+          after=$(python3 -c "import json;print(len(json.load(open('data/news.json'))['stories']))")
+          added=$(( after - before ))
+          [ "$added" -lt 0 ] && added=0
+
+          top=$(python3 -c "import json;print(json.load(open('data/news.json'))['stories'][0]['headline'])")
+
+          echo "changed=true"    >> "$GITHUB_OUTPUT"
+          echo "added=$added"    >> "$GITHUB_OUTPUT"
+          echo "top=$top"        >> "$GITHUB_OUTPUT"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "feed: add $added stor$([ "$added" = 1 ] && echo y || echo ies) — $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Notify Telegram
+        if: ${{ inputs.test_telegram || steps.commit.outputs.changed == 'true' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_TELEGRAM: ${{ inputs.test_telegram }}
+          ADDED: ${{ steps.commit.outputs.added }}
+          TOP: ${{ steps.commit.outputs.top }}
+          FEED_URL: ${{ vars.FEED_URL }}
+        run: |
+          send() {
+            curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
+              --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
+              --data-urlencode text="$1" > /dev/null
+          }
+
+          if [ "$TEST_TELEGRAM" = "true" ]; then
+            send "🔔 Test message from the happy-news workflow. Telegram wiring works."
+            echo "Test message sent."
+            exit 0
+          fi
+
+          url="${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}"
+          send "🌻 $ADDED new happy stor$([ "$ADDED" = 1 ] && echo y || echo ies) today
+
+          $TOP
+
+          $url"
+          echo "Notified: $ADDED stories."
+
+      - name: Notify Telegram of failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
+            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
+            --data-urlencode text="⚠️ Happy news collection FAILED — no new stories today. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > /dev/null
