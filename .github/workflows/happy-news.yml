@@ -29,10 +29,9 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          show_full_output: true
           claude_args: |
             --allowedTools "WebSearch,WebFetch,Read,Write,Bash(python3:*)"
-            --max-turns 60
+            --max-turns 150
           prompt: |
             You collect genuinely uplifting news and add it to a feed. Your output is a
             JSON file that a static site renders as a news feed. Quality over quantity —
@@ -90,6 +89,13 @@ jobs:
 
             Aim for 5-10 new stories. If you can only find three that truly qualify, add
             three. If you find none, make no changes and finish quietly.
+
+            Work within a budget: roughly one or two searches per category, and only fetch
+            an article with WebFetch when its publication date is genuinely unclear from
+            the search results. Do not keep hunting for more stories once you have worked
+            through the categories — a short feed of verified stories is the goal, and a
+            thin day is an acceptable outcome. Stop and write the file rather than
+            searching indefinitely.
 
             ## 4. Write the feed
 
