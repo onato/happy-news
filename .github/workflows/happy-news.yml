@@ -179,7 +179,7 @@ jobs:
         if: ${{ inputs.test_telegram || steps.commit.outputs.changed == 'true' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
           TEST_TELEGRAM: ${{ inputs.test_telegram }}
           ADDED: ${{ steps.commit.outputs.added }}
           TOP: ${{ steps.commit.outputs.top }}
@@ -209,7 +209,7 @@ jobs:
         if: failure()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
         run: |
           curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
             --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \

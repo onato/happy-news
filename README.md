@@ -26,22 +26,30 @@ Set these under **Settings → Secrets and variables → Actions → Secrets**:
 | --- | --- |
 | `CLAUDE_CODE_OAUTH_TOKEN` | Generate with `claude setup-token` |
 | `TELEGRAM_BOT_TOKEN` | From [@BotFather](https://t.me/botfather) |
-| `TELEGRAM_CHAT_ID` | Your chat ID with the bot |
 
 ```sh
 printf '%s' '<token>' | gh secret set CLAUDE_CODE_OAUTH_TOKEN
 printf '%s' '<token>' | gh secret set TELEGRAM_BOT_TOKEN
-printf '%s' '<id>'    | gh secret set TELEGRAM_CHAT_ID
 ```
 
 ### Variables
 
-Optional, under the **Variables** tab — used in the Telegram message so it links
-to the feed rather than the repo:
+Under the **Variables** tab:
+
+| Variable | What it is |
+| --- | --- |
+| `TELEGRAM_CHAT_ID` | Your chat ID with the bot |
+| `FEED_URL` | Optional — where the Telegram ping links; defaults to the repo |
 
 ```sh
+gh variable set TELEGRAM_CHAT_ID --body '<id>'
 gh variable set FEED_URL --body 'https://<user>.github.io/happy-news/'
 ```
+
+The chat ID is a variable rather than a secret: it's an address, not a
+credential — it does nothing without the bot token. Note that Actions masks
+secrets in logs but does **not** mask variables, so avoid adding verbose curl
+output to the Telegram steps.
 
 ### Pages
 
