@@ -1,6 +1,35 @@
 {
-  "updated": "2026-08-11T02:50:44Z",
+  "updated": "2026-08-11T19:14:49Z",
   "stories": [
+    {
+      "headline": "Rare 'Death Bloom' Agave Forces Botanical Garden to Cut Open Its Greenhouse Roof",
+      "summary": "A decade-old Agave sisalana at Birmingham Botanical Gardens in England has entered its once-in-a-lifetime 'death bloom,' with its flower spike growing so tall — over 18 feet — that horticulturists had to remove glasshouse ceiling panels to let it keep growing. The monocarpic plant is now producing hundreds of bulbils and seeds, plus four cloned 'pups,' to ensure new agaves carry on its genetic line after it dies.",
+      "url": "https://www.ibtimes.co.uk/birmingham-botanical-gardens-agave-sisalana-death-bloom-1813633",
+      "source": "IBTimes UK",
+      "published": "2026-08-11T16:59:00Z",
+      "category": "Environment",
+      "added": "2026-08-11T19:14:49Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Greenhouse-Horticulturist-Alberto-Trinco-with-agave-at-Birmingham-Botanical-Gardens-by-Anita-Maric-via-SWNS-.jpeg"
+    },
+    {
+      "headline": "Star Cluster Discovery Could Change How Scientists Measure the Universe",
+      "summary": "University of Missouri researchers found that the ratio of large to small stars varies depending on the environment where they form, challenging the long-held assumption that stars form in uniform proportions everywhere. The finding could improve how astronomers estimate galaxy mass and age, and may explain why some galaxies observed by the James Webb Space Telescope have looked more massive than expected.",
+      "url": "https://phys.org/news/2026-08-star-cluster-discovery-scientists-universe.html",
+      "source": "Phys.org",
+      "published": "2026-08-11T18:38:00Z",
+      "category": "Science",
+      "added": "2026-08-11T19:14:49Z",
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2019/1-milkyway.jpg"
+    },
+    {
+      "headline": "Dogs' Brains Can Tell the Difference Between Fear and Sadness, Study Finds",
+      "summary": "Using brain scans, researchers from the University of Vienna, UNAM and Eotvos Lorand University found that dogs' brains respond differently to human faces showing fear versus sadness, the first evidence that dogs distinguish between specific negative emotions rather than just reading 'good' or 'bad.' Happy human faces lit up reward-related regions in the dogs' brains, hinting at just how finely tuned dogs are to their owners' feelings.",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260811011132.htm",
+      "source": "ScienceDaily",
+      "published": "2026-08-11T01:11:32Z",
+      "category": "Science",
+      "added": "2026-08-11T19:14:49Z"
+    },
     {
       "headline": "India Crosses 300 Gigawatts of Clean Power Capacity, Reaching 60% of Its 2030 Target",
       "summary": "India's non-fossil fuel electricity capacity passed 300 GW as of July 31, 2026, now more than 54% of the country's total generation capacity. Solar power alone has grown from 2.8 GW in 2014 to nearly 165 GW today, putting the country past 60% of its goal to reach 500 GW of clean capacity by 2030.",
