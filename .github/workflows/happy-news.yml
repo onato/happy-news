@@ -50,11 +50,13 @@ jobs:
             Stories are newest-first. Note the headlines and `url`s already present —
             you must not add the same story twice.
 
-            ## 2. Find happy news from the last 48 hours
+            ## 2. Find happy news from the last 30 hours
 
             Use WebSearch to find genuinely positive, uplifting stories published in the
-            LAST 48 HOURS. Search several distinct areas so the feed is varied — aim for
-            a mix across categories such as:
+            LAST 30 HOURS. This runs daily, so a wider window fills the feed with stories
+            that are already a day or two old by the time anyone reads them — freshness
+            matters more than volume here. Search several distinct areas so the feed is
+            varied — aim for a mix across categories such as:
               - Science & discovery (breakthroughs, space, research results)
               - Health & medicine (treatments, recoveries, public-health wins)
               - Environment & conservation (species recovery, restoration, clean energy)
@@ -64,6 +66,19 @@ jobs:
 
             Run a separate search per category rather than one generic "good news" search —
             generic searches mostly return aggregator listicles, which you should skip.
+
+            These outlets reliably publish qualifying stories — searching them by name
+            (e.g. `site:positive.news coral reef`, or "Positive News <topic>") often beats
+            an open search, which tends to surface listicles:
+              - Positive News, Reasons to be Cheerful, The Optimist Daily
+              - BBC, The Guardian, Reuters, AP News, NPR, Sky News
+              - Nature, ScienceDaily, New Scientist, Phys.org, NASA
+              - Mongabay, Yale e360 (environment); STAT News (health)
+              - RNZ, NZ Herald, Stuff (New Zealand)
+
+            Treat that list as a starting point, not a limit — a genuinely good story from
+            any credible outlet qualifies. Use open search as well, especially for
+            community and animal stories, which are usually local news.
 
             What qualifies as happy news:
             - Something genuinely good HAPPENED. A concrete outcome, not a plan or a hope.
@@ -79,8 +94,11 @@ jobs:
             Verify recency by publication date: search engines routinely resurface old
             articles. Confirm each story's actual publication date from result metadata,
             or by fetching the article with WebFetch when unclear. A story only qualifies
-            if it was PUBLISHED within the last ~48 hours. Discard stories whose date you
+            if it was PUBLISHED within the last ~30 hours. Discard stories whose date you
             cannot verify.
+
+            Note the current date and time at the start of the run and measure the window
+            from that — do not assume the previous calendar day.
 
             Prefer the ORIGINAL publisher over syndicated copies or aggregators — the feed
             links readers to the source.
@@ -93,8 +111,10 @@ jobs:
             Only include a follow-up when there is a genuinely new development, and lead
             with what is new.
 
-            Aim for 5-10 new stories. If you can only find three that truly qualify, add
-            three. If you find none, make no changes and finish quietly.
+            Aim for 4-8 new stories. The 30-hour window is deliberately tight, so some
+            days will genuinely yield only two or three — that is a correct outcome, not a
+            failure. Never pad the feed with weaker stories, older stories, or listicles to
+            hit a number. If you find none, make no changes and finish quietly.
 
             Work within a budget: roughly one or two searches per category, and only fetch
             an article with WebFetch when its publication date is genuinely unclear from
