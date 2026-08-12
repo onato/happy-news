@@ -1,6 +1,55 @@
 {
-  "updated": "2026-08-11T19:14:49Z",
+  "updated": "2026-08-12T19:11:13Z",
   "stories": [
+    {
+      "headline": "Fishing Guide's 911 Call Leads to Rescue of Entangled Manatee as Her Calf Watches",
+      "summary": "A fishing guide near St. Simons Island, Georgia, spotted an adult female manatee wrapped tightly in crab-trap line and called for help, triggering a two-day, multi-state response by Georgia DNR, Florida wildlife officials and the US Fish and Wildlife Service. The team freed her completely, fitted her with a satellite tag, and left her free to keep raising the dependent calf that stayed by her side throughout.",
+      "url": "https://www.goodnewsnetwork.org/fishing-guide-helps-save-entangled-manatee-while-calf-watches/",
+      "source": "Good News Network",
+      "published": "2026-08-12T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-08-12T19:11:13Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Manatee-with-baby-Credit-U.S.-Fish-and-Wildlife-Service-Southeast-Region-Gaylen-Rathburn-CC-BY-2.jpg"
+    },
+    {
+      "headline": "Scientists Discover Adult Brains Can Rebuild Their Own Damaged Support Cells",
+      "summary": "University of Zurich researchers found that astrocytes, brain support cells long thought unable to regenerate in adults, can send newly formed nuclei gliding across their extensions to repopulate tissue after injury. The discovery overturns a long-held assumption and points to new therapeutic targets for repairing brain damage and treating autoimmune neurological diseases.",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015158.htm",
+      "source": "ScienceDaily",
+      "published": "2026-08-12T01:51:58Z",
+      "category": "Science",
+      "added": "2026-08-12T19:11:13Z"
+    },
+    {
+      "headline": "Great Barrier Reef Gets a Reprieve as Monsoon Rains Cool the Water",
+      "summary": "A late monsoon season increased cloud cover and lowered sea temperatures this year, sparing the Great Barrier Reef the mass bleaching it suffered in 2024 and 2025. The Australian Institute of Marine Science's annual survey found coral cover actually rose 16.7% in the Northern Region and 10.2% in the Central Region, with 106 of 121 surveyed reefs showing moderate to high coral coverage.",
+      "url": "https://www.goodnewsnetwork.org/great-barrier-reefs-recovery-from-bleaching-is-aided-by-monsoon/",
+      "source": "Good News Network",
+      "published": "2026-08-11T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-08-12T19:11:13Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Diver-surveying-corals-on-the-Great-Barrier-Reef-by-Australian-Institute-of-Marine-Science-and-SWNS.jpeg"
+    },
+    {
+      "headline": "Women's Professional Baseball Returns to the Field for the First Time Since 1954",
+      "summary": "The new Women's Professional Baseball League played its inaugural game in Springfield, Illinois, with 99-year-old Maybelle Blair — a veteran of the original All-American Girls Professional Baseball League — throwing out the first pitch despite recently broken ribs. The LA Queens beat the NY Heights to open a 30-game season, marking the first pro women's baseball competition in the US since the league that inspired 'A League of Their Own' folded in 1954.",
+      "url": "https://www.goodnewsnetwork.org/pro-womens-baseball-resumes-for-first-time-since-1954-a-league-of-their-own-is-back/",
+      "source": "Good News Network",
+      "published": "2026-08-11T00:00:00Z",
+      "category": "Culture",
+      "added": "2026-08-12T19:11:13Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Female-pro-baseball-player-Courtesy-of-WPBL-submitted.jpeg"
+    },
+    {
+      "headline": "Brown Student Spends Summer Helping Providence Teens Find Their Voice in English",
+      "summary": "Rising sophomore Justin Dunn spent four weeks teaching an English class for teens at the Providence Public Library through Brown University's SPRINT-iProv fellowship, taking students to a local market and having them build resumes so language skills stuck outside the classroom. Some of the library staff he worked alongside are immigrants who once learned English through the same program before returning to teach it themselves.",
+      "url": "https://www.goodnewsnetwork.org/brown-student-spends-summer-helping-teens-find-their-voice-in-english/",
+      "source": "Good News Network",
+      "published": "2026-08-11T00:00:00Z",
+      "category": "Community",
+      "added": "2026-08-12T19:11:13Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Justin-Dunn-teaching-ESL-English-by-Lynda-Curtis-for-Brown-University-released.jpeg"
+    },
     {
       "headline": "Rare 'Death Bloom' Agave Forces Botanical Garden to Cut Open Its Greenhouse Roof",
       "summary": "A decade-old Agave sisalana at Birmingham Botanical Gardens in England has entered its once-in-a-lifetime 'death bloom,' with its flower spike growing so tall — over 18 feet — that horticulturists had to remove glasshouse ceiling panels to let it keep growing. The monocarpic plant is now producing hundreds of bulbils and seeds, plus four cloned 'pups,' to ensure new agaves carry on its genetic line after it dies.",
