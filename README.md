@@ -136,27 +136,38 @@ Render a real episode locally (needs `GEMINI_API_KEY` and `ffmpeg`):
 GEMINI_API_KEY=… python3 scripts/digest.py --out build/audio
 ```
 
-### Free local voices
+### Voices
 
 The Gemini free tier allows only about **3 TTS requests a minute and 10 a day**,
-and failed attempts count too — so developing against it burns the quota fast.
-Two local engines render the identical pipeline for free:
+and failed attempts count too. Three other engines render the identical pipeline
+for free:
 
 ```sh
+python3 scripts/digest.py --engine piper  --out build/audio   # also runs on CI
+python3 scripts/digest.py --engine kokoro --out build/audio   # ~25s, best voice
 python3 scripts/digest.py --engine say    --out build/audio   # instant, robotic
-python3 scripts/digest.py --engine kokoro --out build/audio   # ~25s, good voice
 ```
 
-- **`say`** is macOS's built-in voice. No setup, renders in seconds. Ideal for
-  exercising pause detection, chapter offsets, and the player.
+- **`piper`** is the fallback the workflow uses automatically when the Gemini
+  quota is gone — neural but ONNX-based, so it installs in about a minute with no
+  PyTorch and needs no API key. `pip install piper-tts && python3 -m
+  piper.download_voices en_GB-alba-medium`. Voice via `PIPER_VOICE`.
+  Note the macOS wheel has a hardcoded espeak-ng data path from its build machine
+  and cannot synthesize locally; it works on Linux, so use kokoro or say on a Mac.
 - **`kokoro`** reuses the venv from the sibling [earful](../earful) project
-  (`cd ../earful && uv sync --extra kokoro`). Point `KOKORO_PYTHON` elsewhere if
-  it lives somewhere else. Voice via `KOKORO_VOICE` (default `bm_george`).
+  (`cd ../earful && uv sync --extra kokoro`). Best quality of the free options,
+  but 865 MB of venv plus a 314 MB model, so it stays local. Voice via
+  `KOKORO_VOICE` (default `bm_george`), interpreter via `KOKORO_PYTHON`.
+- **`say`** is macOS's built-in voice. No setup, renders a digest in ~6 seconds.
+  Handy for quickly re-testing the player.
 
-Both return PCM in the same format as Gemini, so everything downstream —
-silence detection, chapters, encoding, the manifest — is exercised identically.
-Only the ~15 lines that call the API differ. `gemini` stays the default, and CI
-never sets `--engine`.
+Every engine returns PCM in the same format, so everything downstream — silence
+detection, chapters, encoding, the manifest — is exercised identically. Only the
+call to the voice differs. `gemini` stays the default.
+
+**On a day the Gemini quota is exhausted the workflow narrates with piper
+instead**, so an episode still publishes. You'll hear the difference; you won't
+miss a day.
 
 Check every published episode is still downloadable and the sizes still match:
 
