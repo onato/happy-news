@@ -1,1 +1,7 @@
 .DS_Store
+
+# Rendered audio and its TTS chunk cache. Episodes live in GitHub Releases, not
+# in git — a committed mp3 would stay in every clone forever, even after the
+# 30-day prune deletes the release.
+build/
+*.mp3

@@ -63,6 +63,8 @@ function card(story) {
     a.href = href;
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
+    // The audio player matches cards to chapters by url (see js/episode.js).
+    a.dataset.url = story.url;
   }
 
   const meta = el('div', 'meta');
@@ -136,6 +138,10 @@ function render() {
     }
     feedEl.append(card(story));
   }
+
+  // Re-add the per-story play buttons: this rebuilds the DOM on every filter
+  // click, so the player has to decorate the new cards each time.
+  window.happyPlayer?.decorate(feedEl);
 }
 
 function buildFilters() {

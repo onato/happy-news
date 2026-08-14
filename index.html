@@ -6,6 +6,7 @@
   <title>Happy News</title>
   <meta name="description" content="A daily feed of genuinely good news, collected automatically.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌻</text></svg>">
+  <link rel="alternate" type="application/rss+xml" title="Happy News podcast" href="podcast.xml">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,6 +16,20 @@
       <p class="tagline">Genuinely good things that actually happened.</p>
     </div>
   </header>
+
+  <!-- Revealed by js/episode.js only when there's an episode to play. -->
+  <div class="player" id="player" hidden>
+    <div class="player-inner">
+      <button class="player-toggle" id="player-toggle" type="button"
+              aria-label="Play the digest" aria-pressed="false">▶</button>
+      <span class="player-title" id="player-title"></span>
+      <input class="player-seek" id="player-seek" type="range"
+             min="0" max="0" value="0" step="1" aria-label="Seek">
+      <span class="player-time" id="player-time">0:00</span>
+      <a class="player-rss" href="podcast.xml" title="Subscribe in a podcast app">Subscribe</a>
+      <audio id="player-audio" preload="none"></audio>
+    </div>
+  </div>
 
   <nav class="filters" id="filters" aria-label="Filter by category"></nav>
 
@@ -30,6 +45,7 @@
     <p id="updated" class="updated"></p>
   </footer>
 
+  <script src="js/episode.js"></script>
   <script src="js/feed.js"></script>
 </body>
 </html>

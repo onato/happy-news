@@ -74,6 +74,99 @@ a { color: inherit; }
   font-size: .875rem;
 }
 
+/* ---------- audio player ----------
+   Built entirely from the custom properties above, so the dark-mode block at the
+   top of this file restyles it with no extra rules. */
+
+.player {
+  position: sticky;
+  /* Sits under the masthead (z-index 10), which is opaque, so on desktop it
+     tucks beneath rather than colliding with it. */
+  top: 0;
+  z-index: 9;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+/* The hidden attribute must win over the flex display below. */
+.player[hidden] { display: none; }
+
+.player-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-toggle {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: inherit;
+  font-size: .75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.player-title {
+  flex: 0 1 auto;
+  font-size: .8125rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player-seek {
+  flex: 1 1 auto;
+  min-width: 60px;
+  accent-color: var(--accent);
+}
+
+.player-time {
+  flex: 0 0 auto;
+  font-size: .75rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.player-rss {
+  flex: 0 0 auto;
+  font-size: .75rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.player-rss:hover { text-decoration: underline; }
+
+/* Per-story play button. Floated right like .thumb so the summary wraps beside
+   it rather than leaving a gap. */
+.card-play {
+  float: right;
+  margin: 0 0 6px 10px;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--accent);
+  font: inherit;
+  font-size: .6875rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.card-play:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+.card.is-playing { border-color: var(--accent); }
+.card.is-playing .card-play { border-color: var(--accent); background: var(--accent-soft); }
+
 /* ---------- category filters ---------- */
 
 .filters {
@@ -295,4 +388,29 @@ a { color: inherit; }
   }
 
   .footer { padding: 20px 16px; }
+
+  /* The masthead scrolls away on phones, so a sticky bar under it would have
+     nothing to stick to. Pin the transport to the bottom instead — the usual
+     place for it on a phone, and always in reach. */
+  .player {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    border-bottom: none;
+    border-top: 1px solid var(--border);
+    /* Clear the iOS home indicator. */
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .player-inner { padding: 8px 16px; gap: 8px; }
+
+  /* Narrow screens: the transport matters more than the episode name. */
+  .player-title { display: none; }
+  .player-rss { display: none; }
+
+  /* Keep the last card clear of the fixed bar. */
+  body:has(.player:not([hidden])) .feed { padding-bottom: 68px; }
 }
