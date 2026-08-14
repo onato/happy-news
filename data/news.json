@@ -1,6 +1,45 @@
 {
-  "updated": "2026-08-13T19:14:17Z",
+  "updated": "2026-08-14T19:10:00Z",
   "stories": [
+    {
+      "headline": "Stress Hormone Discovered to Help the Brain Repair Itself After Injury",
+      "summary": "Researchers found that after brain injury, cells called oligodendrocyte progenitor cells release the stress hormone CRH near the damaged area, which helps guide those cells to mature and rebuild myelin, the protective insulation around nerve fibers. The discovery reveals a natural repair pathway and could point toward new treatments for brain damage.",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
+      "source": "ScienceDaily",
+      "published": "2026-08-14T01:10:44Z",
+      "category": "Health",
+      "added": "2026-08-14T19:10:00Z"
+    },
+    {
+      "headline": "Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own",
+      "summary": "Nearly 200 rescued and rehabilitated Sumatran orangutans released into Indonesia's Jantho Pine Forest Nature Reserve over the past 15 years have successfully adapted to the wild, and at least 10 babies have now been born there. The births mark the establishment of an entirely new wild population of the critically endangered species.",
+      "url": "https://www.goodnewsnetwork.org/rescued-orangutans-released-into-empty-forest-now-raising-babies/",
+      "source": "Good News Network",
+      "published": "2026-08-14T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-08-14T19:10:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Bornean-orangutan-Pongo-pygmaeus-at-Tanjung-Putting-National-Park-by-Thomas-Fuhrmann-CC-BY-SA-4-wikimedia.jpeg"
+    },
+    {
+      "headline": "Chester Zoo Hatches Five Secretarybird Chicks in Conservation First",
+      "summary": "Chester Zoo successfully bred secretarybirds for the first time in its 95-year history, with five chicks hatching to parents John and Jolene. With fewer than 6,700 secretarybirds left in the wild, the hatching is a major boost for the European breeding program, which produced only three other chicks elsewhere this year.",
+      "url": "https://www.goodnewsnetwork.org/five-endangered-secretarybird-chicks-hatch-in-major-conservation-first/",
+      "source": "Good News Network",
+      "published": "2026-08-14T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-08-14T19:10:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Secretarybird-with-chick-that-hatched-in-Chester-Zoo-video-news-release.jpg"
+    },
+    {
+      "headline": "Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home",
+      "summary": "Researchers found that osprey recovery in Britain is being accelerated by independent-minded pairs that nest far from established populations, colonizing new territory rather than crowding existing sites. Conservationists are now using translocation and artificial nests to deliberately replicate this natural strategy and speed up the species' comeback.",
+      "url": "https://www.goodnewsnetwork.org/ospreys-recover-thanks-to-pioneering-pairs-who-nest-afar/",
+      "source": "Good News Network",
+      "published": "2026-08-13T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-08-14T19:10:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Osprey-chicks-in-nest-by-Osprey-Birds-of-Poole-Harbour-SWNS.jpeg"
+    },
     {
       "headline": "236-Million-Year-Old Fossil Suggests Mammal Ancestors Gave Birth to Live Young Far Earlier Than Thought",
       "summary": "Paleontologists studying a cynodont fossil found a neonatal growth line and a newborn body size that match live-birth patterns seen in modern mammals rather than egg-layers, pushing back the known origin of live birth by roughly 95 million years. The find reshapes the story of how mammalian reproduction evolved.",
