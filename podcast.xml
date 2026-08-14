@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Happy News</title>
+    <link>https://www.onato.com/happy-news/</link>
+    <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Aug 2026 22:54:17 +0000</lastBuildDate>
+    <generator>happy-news</generator>
+    <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Happy News</itunes:author>
+    <itunes:summary>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://www.onato.com/happy-news/assets/podcast-cover.jpg" />
+    <itunes:owner>
+      <itunes:name>Happy News</itunes:name>
+      <itunes:email>onato.com@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="News">
+      <itunes:category text="Daily News" />
+    </itunes:category>
+    <image>
+      <url>https://www.onato.com/happy-news/assets/podcast-cover.jpg</url>
+      <title>Happy News</title>
+      <link>https://www.onato.com/happy-news/</link>
+    </image>
+    <item>
+      <title>Happy News — 14 August 2026</title>
+      <description>Four good things: Stress Hormone Discovered to Help the Brain Repair Itself After Injury; Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own; Chester Zoo Hatches Five Secretarybird Chicks in Conservation First; Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home</description>
+      <itunes:summary>Four good things: Stress Hormone Discovered to Help the Brain Repair Itself After Injury; Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own; Chester Zoo Hatches Five Secretarybird Chicks in Conservation First; Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 22:54:05 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3" length="897706" type="audio/mpeg" />
+      <itunes:duration>0:01:52</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
