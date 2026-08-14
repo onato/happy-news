@@ -1,0 +1,19 @@
+name: List Gemini models
+on:
+  workflow_dispatch:
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY&pageSize=200" \
+            | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          for m in d.get('models',[]):
+              n=m['name'].replace('models/','')
+              if 'tts' in n.lower():
+                  print(n, '|', ','.join(m.get('supportedGenerationMethods',[])))
+          "
