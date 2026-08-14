@@ -66,10 +66,13 @@ SYSTEM_INSTRUCTION = (
 
 # The free tier allows only ~10 TTS requests per DAY, and every attempt counts
 # against it — including failed ones. So retries are deliberately few: burning
-# five attempts on one bad segment would eat half a day's budget and leave
-# nothing for the remaining stories.
+# five attempts on one bad request would eat half a day's budget.
 MAX_ATTEMPTS = 3
 BACKOFF_BASE = 2.0  # 2, 4s
+
+# Observed free-tier ceilings, reported by the API itself in its 429 bodies:
+# 3 requests per minute, ~10 per day. Used to tell the two 429s apart.
+FREE_TIER_RPM = 3
 
 
 # Measured narration rate (chars per minute) — used only for --dry-run estimates.
@@ -276,6 +279,17 @@ def synthesize(text: str, api_key: str) -> bytes:
             break
         except urllib.error.HTTPError as exc:
             detail = exc.read()[:800].decode("utf-8", "replace")
+
+            # Both the per-minute and per-day free-tier limits report the same
+            # metric name, so the only thing separating them is the number:
+            # "limit: 3" is the per-minute ceiling (worth sitting out), while the
+            # larger daily one is terminal — waiting cannot help within this run
+            # and each further attempt only digs the hole deeper.
+            if exc.code == 429:
+                limit = re.search(r"limit:\s*(\d+)", detail)
+                if limit and int(limit.group(1)) > FREE_TIER_RPM:
+                    raise QuotaExceeded(f"daily TTS quota exhausted: {detail}") from exc
+
             retryable = exc.code == 429 or exc.code >= 500
             if retryable and attempt < MAX_ATTEMPTS - 1:
                 # The API tells us how long to wait; trust it over blind backoff
@@ -286,7 +300,7 @@ def synthesize(text: str, api_key: str) -> bytes:
                     wait = max(wait, hinted + 2.0)
                 # Print the body: on the free tier every attempt costs daily
                 # quota, so a silent retry loop is expensive guesswork.
-                print(f"    HTTP {exc.code}; retrying in {wait:.0f}s — {detail[:300]}",
+                print(f"    HTTP {exc.code}; retrying in {wait:.0f}s — {detail[:200]}",
                       file=sys.stderr)
                 time.sleep(wait)
                 continue
