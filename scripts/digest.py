@@ -2,14 +2,21 @@
 """Turn the newest batch of stories in data/news.json into a spoken digest.
 
 Stdlib only, by design: happy-news is a zero-dependency static site and CI has no
-Python packaging step. The only external tools are ffmpeg/ffprobe, which are
-preinstalled on GitHub's ubuntu-latest runners.
+Python packaging step. The only external tool is ffmpeg (installed by the
+workflow — it is not on the runner image).
 
-The audio pipeline has one load-bearing rule: **concatenate raw PCM and encode
-once**. Encoding each story separately and joining the MP3s accumulates encoder
-padding (~30 ms per story, compounding), which would progressively desync the
-per-story seek offsets the web player depends on. Joining PCM also makes those
-offsets exact arithmetic on byte counts rather than a sum of rounded durations.
+Two constraints shape this script:
+
+1. **The whole digest is ONE API request.** The Gemini free tier allows about 3
+   TTS requests a minute and only ~10 a day, and every attempt counts — including
+   failed ones. Narrating story-by-story would spend most of a day's budget on a
+   single digest and leave nothing for a retry.
+
+2. **Chapter offsets come from detecting the pauses in the returned audio.** The
+   model is asked to leave a beat between stories; we find those silences in the
+   raw PCM and use them as chapter boundaries. Working on the pre-encode stream
+   keeps offsets exact — mp3 encoder padding would otherwise drift them ~30 ms
+   per story, compounding, and progressively desync the player's seek buttons.
 
 Usage:
     python3 scripts/digest.py --dry-run          # no API calls, prints the script
@@ -37,7 +44,6 @@ SAMPLE_RATE = 24000
 BYTES_PER_SAMPLE = 2
 BYTES_PER_SECOND = SAMPLE_RATE * BYTES_PER_SAMPLE
 
-GAP_SECONDS = 0.6  # a beat between stories, so they don't run together
 MP3_BITRATE = "64k"  # transparent for 24 kHz speech; ~0.5 MB per minute
 
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
@@ -47,21 +53,24 @@ API = ("https://generativelanguage.googleapis.com/v1beta/models/"
 
 # generateContent is a chat endpoint, so without this it sometimes prefixes the
 # audio with "Sure, here's that read aloud:".
+#
+# The pause instruction is load-bearing, not cosmetic: the chapter offsets that
+# drive per-story seeking are recovered by finding those silences in the audio
+# (see find_pauses).
 SYSTEM_INSTRUCTION = (
     "You are a news narrator. Read the supplied text aloud verbatim in a warm, "
     "clear, unhurried broadcast voice. Add no commentary, greeting, or "
-    "acknowledgement of these instructions."
+    "acknowledgement of these instructions. "
+    "Leave a clear one-second silent pause between paragraphs."
 )
 
-MAX_ATTEMPTS = 6
-BACKOFF_BASE = 2.0  # 2, 4, 8, 16, 32s
+# The free tier allows only ~10 TTS requests per DAY, and every attempt counts
+# against it — including failed ones. So retries are deliberately few: burning
+# five attempts on one bad segment would eat half a day's budget and leave
+# nothing for the remaining stories.
+MAX_ATTEMPTS = 3
+BACKOFF_BASE = 2.0  # 2, 4s
 
-# The free tier allows 3 requests per minute for the TTS models, so requests are
-# spaced to stay just under that rather than relying on retries — no amount of
-# backoff gets six requests through a throughput ceiling. A digest is a handful
-# of segments once a day, so the extra wall-clock is free.
-FREE_TIER_RPM = 3
-PACE_SECONDS = 60.0 / FREE_TIER_RPM + 1.0  # 21s between requests
 
 # Measured narration rate (chars per minute) — used only for --dry-run estimates.
 CHARS_PER_MINUTE = 950
@@ -275,7 +284,10 @@ def synthesize(text: str, api_key: str) -> bytes:
                 hinted = _retry_delay(detail)
                 if hinted is not None:
                     wait = max(wait, hinted + 2.0)
-                print(f"    HTTP {exc.code}; retrying in {wait:.0f}s", file=sys.stderr)
+                # Print the body: on the free tier every attempt costs daily
+                # quota, so a silent retry loop is expensive guesswork.
+                print(f"    HTTP {exc.code}; retrying in {wait:.0f}s — {detail[:300]}",
+                      file=sys.stderr)
                 time.sleep(wait)
                 continue
             if exc.code == 429:
@@ -341,41 +353,76 @@ def encode(pcm_path: Path, mp3_path: Path, title: str, date_iso: str, comment: s
     )
 
 
+def find_pauses(pcm: bytes, want: int) -> list[int]:
+    """Byte offsets of the `want` longest silences — the gaps between stories.
+
+    The narrator is asked to pause between stories, so the longest quiet stretches
+    are the story boundaries. Returns offsets at the END of each chosen silence,
+    i.e. where the next story's first word begins, sorted in playback order.
+    """
+    if want <= 0:
+        return []
+
+    frame = int(SAMPLE_RATE * 0.02) * BYTES_PER_SAMPLE   # 20 ms
+    threshold = 500          # |sample| below this is effectively silence
+    min_run = int(BYTES_PER_SECOND * 0.35)               # ignore breath-length gaps
+
+    runs: list[tuple[int, int]] = []                     # (length, end offset)
+    run_start = None
+
+    for offset in range(0, len(pcm) - frame, frame):
+        chunk = pcm[offset:offset + frame]
+        peak = max(abs(int.from_bytes(chunk[i:i + 2], "little", signed=True))
+                   for i in range(0, len(chunk), 2))
+        if peak < threshold:
+            if run_start is None:
+                run_start = offset
+        else:
+            if run_start is not None:
+                length = offset - run_start
+                if length >= min_run:
+                    runs.append((length, offset))
+                run_start = None
+
+    # Longest silences are the deliberate story breaks; then back to time order.
+    runs.sort(reverse=True)
+    return sorted(end for _, end in runs[:want])
+
+
 def render(segments: list[dict], out_dir: Path, api_key: str,
            title: str, date_iso: str, comment: str) -> tuple[Path, list[dict]]:
-    """Synthesize every segment, join the PCM, encode once. Returns (mp3, chapters).
+    """Narrate the whole digest in one request, then locate the story boundaries.
 
-    Chapter offsets are byte arithmetic on the pre-encode stream, so they are
-    exact — no rounding, no accumulated encoder padding.
+    One request keeps us inside the free tier's ~10-per-day ceiling with room to
+    retry. Offsets are measured on the raw PCM, before encoding, so they stay
+    exact.
     """
     cache_dir = out_dir / "cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
 
-    gap = b"\x00" * int(BYTES_PER_SECOND * GAP_SECONDS)
-    audio = bytearray()
+    script = "\n\n".join(segment["text"] for segment in segments)
+
+    cached = cache_path(cache_dir, script)
+    if cached.exists():
+        pcm = cached.read_bytes()
+        print("  (using cached audio)", file=sys.stderr)
+    else:
+        pcm = synthesize(script, api_key)
+        cached.write_bytes(pcm)
+
+    total = len(pcm) / BYTES_PER_SECOND
+    print(f"  {total:.1f}s of audio", file=sys.stderr)
+
+    stories = [segment["story"] for segment in segments if segment["story"] is not None]
+
+    # Boundaries: one before each story, plus one before the sign-off.
+    boundaries = find_pauses(pcm, len(stories) + 1)
+
     chapters: list[dict] = []
-    synthesized = 0
-
-    for index, segment in enumerate(segments):
-        if audio:
-            audio += gap
-
-        cached = cache_path(cache_dir, segment["text"])
-        was_cached = cached.exists()
-        if was_cached:
-            pcm = cached.read_bytes()
-        else:
-            if synthesized:
-                time.sleep(PACE_SECONDS)
-            pcm = synthesize(segment["text"], api_key)
-            cached.write_bytes(pcm)
-            synthesized += 1
-
-        start = len(audio)
-        audio += pcm
-
-        story = segment["story"]
-        if story is not None:
+    if len(boundaries) == len(stories) + 1:
+        for index, story in enumerate(stories):
+            start = boundaries[index]
+            end = boundaries[index + 1]
             chapters.append({
                 # Keyed by story url — the feed's unique key, already enforced
                 # unique by the workflow's "Validate the feed" step. The player's
@@ -383,13 +430,17 @@ def render(segments: list[dict], out_dir: Path, api_key: str,
                 "url": story.get("url", ""),
                 "headline": story.get("headline", ""),
                 "start": round(start / BYTES_PER_SECOND, 3),
-                "duration": round(len(pcm) / BYTES_PER_SECOND, 3),
+                "duration": round((end - start) / BYTES_PER_SECOND, 3),
             })
-        print(f"  [{index + 1}/{len(segments)}] {len(pcm) / BYTES_PER_SECOND:5.1f}s"
-              f"{'  (cached)' if was_cached else ''}", file=sys.stderr)
+    else:
+        # Couldn't find a clean break per story. Ship the audio anyway — the
+        # digest still plays end to end; only the per-story buttons are lost.
+        print(f"  WARNING: found {len(boundaries)} pauses for {len(stories)} "
+              f"stories — per-story seeking disabled for this episode.",
+              file=sys.stderr)
 
     pcm_path = out_dir / "digest.pcm"
-    pcm_path.write_bytes(bytes(audio))
+    pcm_path.write_bytes(pcm)
 
     mp3_path = out_dir / f"happy-news-{date_iso[:10]}.mp3"
     encode(pcm_path, mp3_path, title, date_iso, comment)
@@ -471,10 +522,9 @@ def main() -> int:
     # the offsets and the audio have diverged and the seek buttons would be wrong.
     if chapters:
         last = chapters[-1]
-        drift = abs(total - (last["start"] + last["duration"] + GAP_SECONDS))
-        if drift > 1.0:
-            print(f"WARNING: chapter drift {drift:.3f}s — seek offsets may be off.",
-                  file=sys.stderr)
+        if last["start"] + last["duration"] > total + 1.0:
+            print("WARNING: chapters run past the end of the audio — "
+                  "seek offsets may be off.", file=sys.stderr)
 
     episode = {
         "date": date_iso[:10],
