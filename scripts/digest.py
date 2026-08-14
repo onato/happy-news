@@ -60,6 +60,10 @@ KOKORO_PYTHON = os.environ.get(
     "KOKORO_PYTHON", str(Path(__file__).resolve().parents[2] / "earful" / ".venv" / "bin" / "python"))
 KOKORO_VOICE = os.environ.get("KOKORO_VOICE", "bm_george")
 SAY_VOICE = os.environ.get("SAY_VOICE", "Daniel")
+# Piper is the free engine that also works on the CI runner: neural, ONNX-based
+# (no PyTorch), ~60 MB per voice, and about 16x faster than real time on a
+# runner. It emits 22.05 kHz, so its output is resampled to match.
+PIPER_VOICE = os.environ.get("PIPER_VOICE", "en_GB-alba-medium")
 
 # generateContent is a chat endpoint, so without this it sometimes prefixes the
 # audio with "Sure, here's that read aloud:".
@@ -260,7 +264,8 @@ def _retry_delay(detail: str) -> float | None:
 def cache_path(cache_dir: Path, text: str) -> Path:
     # The engine and voice are part of the key, so switching engines never
     # replays audio the other one produced.
-    voice = {"kokoro": KOKORO_VOICE, "say": SAY_VOICE}.get(ENGINE, VOICE)
+    voice = {"kokoro": KOKORO_VOICE, "say": SAY_VOICE,
+             "piper": PIPER_VOICE}.get(ENGINE, VOICE)
     fingerprint = f"{ENGINE}|{MODEL if ENGINE == 'gemini' else ENGINE}|{voice}|pcm"
     key = hashlib.sha256(f"{fingerprint}|{text}".encode()).hexdigest()[:20]
     return cache_dir / f"{key}.pcm"
@@ -448,15 +453,67 @@ def synthesize_say(script: str, _api_key: str | None = None) -> bytes:
     return bytes(out)
 
 
+def synthesize_piper(script: str, _api_key: str | None = None) -> bytes:
+    """Narrate with Piper — the free engine that also runs on the CI runner.
+
+    ONNX rather than PyTorch, so it installs in about a minute and needs no GPU.
+    Piper has no system-instruction concept, so the inter-story pauses that
+    find_pauses looks for are inserted here.
+    """
+    helper = '''
+import io, sys, wave
+from piper import PiperVoice
+
+voice = PiperVoice.load(sys.argv[1] + ".onnx")
+paragraphs = [p for p in sys.stdin.read().split("\\n\\n") if p.strip()]
+out = []
+rate = None
+for paragraph in paragraphs:
+    buffer = io.BytesIO()
+    with wave.open(buffer, "wb") as handle:
+        voice.synthesize_wav(paragraph, handle)
+    buffer.seek(0)
+    with wave.open(buffer, "rb") as handle:
+        rate = handle.getframerate()
+        out.append(handle.readframes(handle.getnframes()))
+gap = b"\\x00" * (rate * 2)          # 1.0s of silence between stories
+# Report the rate on a marker line — onnxruntime writes warnings to stderr too.
+sys.stderr.write(f"\\nPIPER_RATE={rate}\\n")
+sys.stdout.buffer.write(gap.join(out))
+'''
+    result = subprocess.run(
+        [sys.executable, "-c", helper, PIPER_VOICE],
+        input=script.encode(), capture_output=True,
+    )
+    if result.returncode != 0 or not result.stdout:
+        raise TTSError(f"piper failed: {result.stderr[-500:].decode('utf-8', 'replace')}")
+
+    match = re.search(r"PIPER_RATE=(\d+)", result.stderr.decode("utf-8", "replace"))
+    if not match:
+        raise TTSError("piper did not report its sample rate")
+    rate = int(match.group(1))
+    pcm = result.stdout
+    if rate != SAMPLE_RATE:
+        # Everything downstream assumes 24 kHz; let ffmpeg do the resampling.
+        pcm = subprocess.run(
+            ["ffmpeg", "-v", "error", "-f", "s16le", "-ar", str(rate), "-ac", "1",
+             "-i", "pipe:0", "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", "1", "pipe:1"],
+            input=pcm, capture_output=True, check=True,
+        ).stdout
+    return pcm
+
+
 def synthesize_for(engine: str):
     try:
         return {
             "gemini": synthesize,
+            "piper": synthesize_piper,
             "kokoro": synthesize_kokoro,
             "say": synthesize_say,
         }[engine]
     except KeyError:
-        raise TTSError(f"unknown TTS_ENGINE {engine!r} (gemini, kokoro, say)") from None
+        raise TTSError(
+            f"unknown TTS_ENGINE {engine!r} (gemini, piper, kokoro, say)") from None
 
 
 def find_pauses(pcm: bytes, want: int) -> list[int]:
@@ -565,9 +622,10 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=Path("build/audio"))
     parser.add_argument("--dry-run", action="store_true",
                         help="print the narration script and exit; no API calls")
-    parser.add_argument("--engine", choices=["gemini", "kokoro", "say"],
+    parser.add_argument("--engine", choices=["gemini", "piper", "kokoro", "say"],
                         help="which voice to narrate with (default: $TTS_ENGINE, "
-                             "or gemini). kokoro and say are free and local.")
+                             "or gemini). piper, kokoro and say are free; piper "
+                             "is the one that also runs on CI.")
     args = parser.parse_args()
 
     global ENGINE

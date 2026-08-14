@@ -1,8 +1,14 @@
-# Temporary: proves the Gemini TTS call, PCM->mp3 encode, and chapter offsets
-# work on a runner with the real secret. Deleted once verified.
+# Temporary: proves the audio pipeline end to end on a runner. The engine is
+# selectable so it can be exercised without spending the Gemini free tier.
 name: Audio smoke test
 on:
   workflow_dispatch:
+    inputs:
+      engine:
+        description: "TTS engine"
+        type: choice
+        options: [piper, gemini]
+        default: piper
 jobs:
   smoke:
     runs-on: ubuntu-latest
@@ -13,36 +19,40 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq --no-install-recommends ffmpeg
           ffmpeg -version | head -1
+      - name: Install piper
+        if: inputs.engine == 'piper'
+        run: |
+          python3 -m pip install --quiet piper-tts
+          python3 -m piper.download_voices "${PIPER_VOICE:-en_GB-alba-medium}"
       - name: Narrate the current feed
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           set +e
           mkdir -p build/audio
-          python3 scripts/digest.py --out build/audio > build/audio/episode.json
+          python3 scripts/digest.py --engine "${{ inputs.engine }}" --out build/audio > build/audio/episode.json
           code=$?
           set -e
           echo "exit=$code"
-          echo "--- episode.json ---"
           cat build/audio/episode.json
-          if [ "$code" -ne 0 ]; then exit "$code"; fi
+          [ "$code" -ne 0 ] && exit "$code"
           echo "--- ffprobe ---"
           ffprobe -hide_banner -v error -show_entries format=duration,bit_rate:stream=sample_rate,channels \
             -of default=nw=1 build/audio/*.mp3
-          echo "--- chapter drift check ---"
+          echo "--- chapters ---"
           python3 - <<'PY'
-          import json, subprocess, glob
+          import json, glob, subprocess
           ep = json.load(open("build/audio/episode.json"))
           mp3 = glob.glob("build/audio/*.mp3")[0]
           total = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration",
               "-of","default=nw=1:nk=1",mp3],capture_output=True,text=True).stdout)
-          last = ep["chapters"][-1]
-          print(f"total={total:.3f}s  last chapter ends={last['start']+last['duration']:.3f}s")
-          print(f"drift={abs(total-(last['start']+last['duration'])):.3f}s (gap of 0.6s expected at the outro)")
+          print(f"total={total:.2f}s  stories={ep['storyCount']}  chapters={len(ep['chapters'])}")
           for c in ep["chapters"]:
               print(f"  {c['start']:7.2f}s  {c['headline'][:60]}")
+          if len(ep["chapters"]) != ep["storyCount"]:
+              raise SystemExit("chapter count does not match story count")
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: digest-audio
+          name: digest-${{ inputs.engine }}
           path: build/audio/*.mp3
