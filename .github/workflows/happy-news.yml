@@ -399,13 +399,15 @@ jobs:
         if: always()
         continue-on-error: true
         run: |
-          if git diff --quiet -- podcast.xml data/episodes.json; then
-            echo "No podcast changes."
-            exit 0
-          fi
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add podcast.xml data/episodes.json
+          # Check the STAGED diff: on the first run these files are new, and
+          # `git diff` alone ignores untracked files, so the commit was skipped.
+          if git diff --cached --quiet; then
+            echo "No podcast changes."
+            exit 0
+          fi
           git commit -m "audio: episode $(date -u +%Y-%m-%d)"
           git pull --rebase --autostash origin main
           git push
