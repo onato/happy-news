@@ -53,9 +53,15 @@ SYSTEM_INSTRUCTION = (
     "acknowledgement of these instructions."
 )
 
-MAX_ATTEMPTS = 5
-BACKOFF_BASE = 2.0  # 2, 4, 8, 16s
-PACE_SECONDS = 1.5  # between requests, to stay clear of free-tier RPM
+MAX_ATTEMPTS = 6
+BACKOFF_BASE = 2.0  # 2, 4, 8, 16, 32s
+
+# The free tier allows 3 requests per minute for the TTS models, so requests are
+# spaced to stay just under that rather than relying on retries — no amount of
+# backoff gets six requests through a throughput ceiling. A digest is a handful
+# of segments once a day, so the extra wall-clock is free.
+FREE_TIER_RPM = 3
+PACE_SECONDS = 60.0 / FREE_TIER_RPM + 1.0  # 21s between requests
 
 # Measured narration rate (chars per minute) — used only for --dry-run estimates.
 CHARS_PER_MINUTE = 950
@@ -217,6 +223,18 @@ def build_segments(batch: list[dict], when: datetime) -> list[dict]:
 # ---------------------------------------------------------------- synthesis
 
 
+def _retry_delay(detail: str) -> float | None:
+    """Seconds the API asked us to wait, from its retryDelay or message text."""
+    match = re.search(r'"retryDelay"\s*:\s*"([\d.]+)s"', detail)
+    if not match:
+        match = re.search(r"retry in ([\d.]+)\s*(ms|s)", detail)
+        if match:
+            value = float(match.group(1))
+            return value / 1000 if match.group(2) == "ms" else value
+        return None
+    return float(match.group(1))
+
+
 def cache_path(cache_dir: Path, text: str) -> Path:
     key = hashlib.sha256(f"gemini|{MODEL}|{VOICE}|pcm|{text}".encode()).hexdigest()[:20]
     return cache_dir / f"{key}.pcm"
@@ -248,10 +266,17 @@ def synthesize(text: str, api_key: str) -> bytes:
                 payload = json.load(response)
             break
         except urllib.error.HTTPError as exc:
-            detail = exc.read()[:500].decode("utf-8", "replace")
+            detail = exc.read()[:800].decode("utf-8", "replace")
             retryable = exc.code == 429 or exc.code >= 500
             if retryable and attempt < MAX_ATTEMPTS - 1:
-                time.sleep(BACKOFF_BASE ** (attempt + 1))
+                # The API tells us how long to wait; trust it over blind backoff
+                # and add a margin, since it reports the minimum.
+                wait = BACKOFF_BASE ** (attempt + 1)
+                hinted = _retry_delay(detail)
+                if hinted is not None:
+                    wait = max(wait, hinted + 2.0)
+                print(f"    HTTP {exc.code}; retrying in {wait:.0f}s", file=sys.stderr)
+                time.sleep(wait)
                 continue
             if exc.code == 429:
                 raise QuotaExceeded(f"HTTP 429 after {attempt + 1} tries: {detail}") from exc

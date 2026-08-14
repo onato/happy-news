@@ -74,7 +74,13 @@ jobs:
             These outlets reliably publish qualifying stories — searching them by name
             (e.g. `site:positive.news coral reef`, or "Positive News <topic>") often beats
             an open search, which tends to surface listicles:
-              - Positive News, Reasons to be Cheerful, The Optimist Daily
+              - Positive News: www.positive.news
+              - Reasons to be Cheerful: reasonstobecheerful.world
+              - The Optimist Daily: www.optimistdaily.com
+              - Good News Network: goodnewsnetwork.org
+              - The Daily Encourager: dailyencourager.co.nz
+              - Upworthy: upworthy.com
+              - The Happy Newspaper: thehappynewspaper.com
               - BBC, The Guardian, Reuters, AP News, NPR, Sky News
               - Nature, ScienceDaily, New Scientist, Phys.org, NASA
               - Mongabay, Yale e360 (environment); STAT News (health)
@@ -408,9 +414,9 @@ jobs:
   deploy:
     needs: [collect, audio]
     if: ${{ always()
-            && needs.collect.result == 'success'
-            && (needs.collect.outputs.changed == 'true' || inputs.audio_only)
-            && needs.audio.result != 'cancelled' }}
+      && needs.collect.result == 'success'
+      && (needs.collect.outputs.changed == 'true' || inputs.audio_only)
+      && needs.audio.result != 'cancelled' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
