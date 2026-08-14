@@ -1,0 +1,30 @@
+name: Piper probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install piper and a voice
+        run: |
+          python3 -m pip install --quiet piper-tts
+          python3 -m piper.download_voices en_GB-alba-medium
+          ls -lh en_GB-alba-medium.onnx
+      - name: Synthesize
+        run: |
+          python3 - <<'PY'
+          from piper import PiperVoice
+          import wave, time
+          v = PiperVoice.load("en_GB-alba-medium.onnx")
+          t = time.time()
+          with wave.open("out.wav", "wb") as w:
+              v.synthesize_wav("Rescued orangutans released into the wild are now raising babies of their own. "
+                               "This is a test of the happy news digest narration.", w)
+          print(f"synthesized in {time.time()-t:.2f}s")
+          PY
+          sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg
+          ffprobe -v error -show_entries stream=sample_rate,channels -show_entries format=duration -of default=nw=1 out.wav
+      - uses: actions/upload-artifact@v4
+        with:
+          name: piper-sample
+          path: out.wav
