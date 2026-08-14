@@ -46,10 +46,20 @@ BYTES_PER_SECOND = SAMPLE_RATE * BYTES_PER_SAMPLE
 
 MP3_BITRATE = "64k"  # transparent for 24 kHz speech; ~0.5 MB per minute
 
+ENGINE = os.environ.get("TTS_ENGINE", "gemini")
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE = os.environ.get("GEMINI_TTS_VOICE", "Kore")
 API = ("https://generativelanguage.googleapis.com/v1beta/models/"
        "{model}:generateContent")
+
+# Free local engines, for developing the pipeline without spending the Gemini
+# free tier's ~10 requests a day. Every engine returns raw PCM in the format
+# above, so everything downstream — pause detection, encoding, chapters — is
+# identical no matter which one produced the audio.
+KOKORO_PYTHON = os.environ.get(
+    "KOKORO_PYTHON", str(Path(__file__).resolve().parents[2] / "earful" / ".venv" / "bin" / "python"))
+KOKORO_VOICE = os.environ.get("KOKORO_VOICE", "bm_george")
+SAY_VOICE = os.environ.get("SAY_VOICE", "Daniel")
 
 # generateContent is a chat endpoint, so without this it sometimes prefixes the
 # audio with "Sure, here's that read aloud:".
@@ -248,7 +258,11 @@ def _retry_delay(detail: str) -> float | None:
 
 
 def cache_path(cache_dir: Path, text: str) -> Path:
-    key = hashlib.sha256(f"gemini|{MODEL}|{VOICE}|pcm|{text}".encode()).hexdigest()[:20]
+    # The engine and voice are part of the key, so switching engines never
+    # replays audio the other one produced.
+    voice = {"kokoro": KOKORO_VOICE, "say": SAY_VOICE}.get(ENGINE, VOICE)
+    fingerprint = f"{ENGINE}|{MODEL if ENGINE == 'gemini' else ENGINE}|{voice}|pcm"
+    key = hashlib.sha256(f"{fingerprint}|{text}".encode()).hexdigest()[:20]
     return cache_dir / f"{key}.pcm"
 
 
@@ -367,6 +381,84 @@ def encode(pcm_path: Path, mp3_path: Path, title: str, date_iso: str, comment: s
     )
 
 
+def synthesize_kokoro(script: str, _api_key: str | None = None) -> bytes:
+    """Narrate locally with Kokoro, reusing the venv from the earful project.
+
+    Free and unlimited, so the whole pipeline can be exercised without touching
+    the Gemini quota. Kokoro has no notion of a system instruction, so the
+    inter-story pauses that find_pauses looks for are inserted here instead.
+    """
+    if not Path(KOKORO_PYTHON).exists():
+        raise TTSError(
+            f"Kokoro python not found at {KOKORO_PYTHON}. "
+            "Set KOKORO_PYTHON, or run: cd ../earful && uv sync --extra kokoro")
+
+    helper = '''
+import sys, numpy as np
+from kokoro import KPipeline
+voice = sys.argv[1]
+paragraphs = [p for p in sys.stdin.read().split("\\n\\n") if p.strip()]
+pipeline = KPipeline(lang_code=voice[0], repo_id="hexgrad/Kokoro-82M")
+gap = np.zeros(int(24000 * 1.0), dtype=np.float32)   # the inter-story pause
+chunks = []
+for index, paragraph in enumerate(paragraphs):
+    if index:
+        chunks.append(gap)
+    for result in pipeline(paragraph, voice=voice):
+        audio = getattr(result, "audio", None)
+        if audio is None:
+            audio = result[2]
+        chunks.append(np.asarray(audio, dtype=np.float32))
+merged = np.concatenate(chunks)
+peak = float(np.max(np.abs(merged))) or 1.0
+pcm = (merged / peak * 0.95 * 32767).astype("<i2")
+sys.stdout.buffer.write(pcm.tobytes())
+'''
+    result = subprocess.run(
+        [KOKORO_PYTHON, "-c", helper, KOKORO_VOICE],
+        input=script.encode(), capture_output=True,
+    )
+    if result.returncode != 0 or not result.stdout:
+        raise TTSError(f"kokoro failed: {result.stderr[-500:].decode('utf-8', 'replace')}")
+    return result.stdout
+
+
+def synthesize_say(script: str, _api_key: str | None = None) -> bytes:
+    """Narrate with macOS `say`. Instant and always available; robotic but fine
+    for exercising pause detection, chapters, and the player."""
+    paragraphs = [p for p in script.split("\n\n") if p.strip()]
+    gap = b"\x00" * int(BYTES_PER_SECOND * 1.0)
+    out = bytearray()
+
+    for index, paragraph in enumerate(paragraphs):
+        if index:
+            out += gap
+        aiff = Path(f"/tmp/hn-say-{index}.aiff")
+        subprocess.run(["say", "-v", SAY_VOICE, "-o", str(aiff), paragraph], check=True)
+        pcm = subprocess.run(
+            ["ffmpeg", "-v", "error", "-i", str(aiff),
+             "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-"],
+            capture_output=True, check=True,
+        ).stdout
+        aiff.unlink(missing_ok=True)
+        out += pcm
+
+    if not out:
+        raise TTSError("say produced no audio")
+    return bytes(out)
+
+
+def synthesize_for(engine: str):
+    try:
+        return {
+            "gemini": synthesize,
+            "kokoro": synthesize_kokoro,
+            "say": synthesize_say,
+        }[engine]
+    except KeyError:
+        raise TTSError(f"unknown TTS_ENGINE {engine!r} (gemini, kokoro, say)") from None
+
+
 def find_pauses(pcm: bytes, want: int) -> list[int]:
     """Byte offsets of the `want` longest silences — the gaps between stories.
 
@@ -421,7 +513,7 @@ def render(segments: list[dict], out_dir: Path, api_key: str,
         pcm = cached.read_bytes()
         print("  (using cached audio)", file=sys.stderr)
     else:
-        pcm = synthesize(script, api_key)
+        pcm = synthesize_for(ENGINE)(script, api_key)
         cached.write_bytes(pcm)
 
     total = len(pcm) / BYTES_PER_SECOND
@@ -473,7 +565,14 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=Path("build/audio"))
     parser.add_argument("--dry-run", action="store_true",
                         help="print the narration script and exit; no API calls")
+    parser.add_argument("--engine", choices=["gemini", "kokoro", "say"],
+                        help="which voice to narrate with (default: $TTS_ENGINE, "
+                             "or gemini). kokoro and say are free and local.")
     args = parser.parse_args()
+
+    global ENGINE
+    if args.engine:
+        ENGINE = args.engine
 
     feed = json.loads(args.news.read_text())
     batch = todays_stories(feed)
@@ -515,14 +614,15 @@ def main() -> int:
         return 0
 
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
+    if ENGINE == "gemini" and not api_key:
         print("GEMINI_API_KEY is not set.", file=sys.stderr)
         return EX_TEMPFAIL
 
     check_ffmpeg()
     args.out.mkdir(parents=True, exist_ok=True)
 
-    print(f"Narrating {len(batch)} stories as {len(segments)} segments…", file=sys.stderr)
+    print(f"Narrating {len(batch)} stories as {len(segments)} segments "
+          f"with {ENGINE}…", file=sys.stderr)
     try:
         mp3_path, chapters = render(segments, args.out, api_key, title, date_iso, comment)
     except QuotaExceeded as exc:

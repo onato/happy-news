@@ -136,6 +136,28 @@ Render a real episode locally (needs `GEMINI_API_KEY` and `ffmpeg`):
 GEMINI_API_KEY=… python3 scripts/digest.py --out build/audio
 ```
 
+### Free local voices
+
+The Gemini free tier allows only about **3 TTS requests a minute and 10 a day**,
+and failed attempts count too — so developing against it burns the quota fast.
+Two local engines render the identical pipeline for free:
+
+```sh
+python3 scripts/digest.py --engine say    --out build/audio   # instant, robotic
+python3 scripts/digest.py --engine kokoro --out build/audio   # ~25s, good voice
+```
+
+- **`say`** is macOS's built-in voice. No setup, renders in seconds. Ideal for
+  exercising pause detection, chapter offsets, and the player.
+- **`kokoro`** reuses the venv from the sibling [earful](../earful) project
+  (`cd ../earful && uv sync --extra kokoro`). Point `KOKORO_PYTHON` elsewhere if
+  it lives somewhere else. Voice via `KOKORO_VOICE` (default `bm_george`).
+
+Both return PCM in the same format as Gemini, so everything downstream —
+silence detection, chapters, encoding, the manifest — is exercised identically.
+Only the ~15 lines that call the API differ. `gemini` stays the default, and CI
+never sets `--engine`.
+
 Check every published episode is still downloadable and the sizes still match:
 
 ```sh
