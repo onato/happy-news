@@ -63,6 +63,18 @@ PAUSE_FLOOR = 1.4       # only silences longer than this can be a boundary
 # breaks need a token of their own that survives the round trip.
 PARAGRAPH_BREAK = "\n<p>\n"
 
+
+def silence(seconds: float, rate: int = SAMPLE_RATE) -> bytes:
+    """`seconds` of silent 16-bit PCM, always a whole number of samples.
+
+    Sizing a gap in bytes rather than samples is a real hazard here: at piper's
+    native 22.05 kHz, int(22050 * 2 * 0.7) is 30869 — an ODD byte count, which
+    shifts every following sample by one byte and turns the rest of the audio
+    into static. Multiplying the sample count by BYTES_PER_SAMPLE last keeps the
+    result even by construction, whatever the rate and pause.
+    """
+    return b"\x00" * (int(rate * seconds) * BYTES_PER_SAMPLE)
+
 ENGINE = os.environ.get("TTS_ENGINE", "piper")
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE = os.environ.get("GEMINI_TTS_VOICE", "Kore")
@@ -478,8 +490,8 @@ def synthesize_say(script: str, _api_key: str | None = None) -> bytes:
     """Narrate with macOS `say`. Instant and always available; robotic but fine
     for exercising pause detection, chapters, and the player."""
     stories = [s for s in script.split("\n\n") if s.strip()]
-    story_gap = b"\x00" * int(BYTES_PER_SECOND * STORY_PAUSE)
-    paragraph_gap = b"\x00" * int(BYTES_PER_SECOND * PARAGRAPH_PAUSE)
+    story_gap = silence(STORY_PAUSE)
+    paragraph_gap = silence(PARAGRAPH_PAUSE)
     out = bytearray()
 
     for story_index, story in enumerate(stories):
@@ -536,9 +548,11 @@ for story in stories:
     for paragraph in [p for p in story.split(marker) if p.strip()]:
         rate, pcm = say(paragraph.strip())
         chunks.append(pcm)
-    gap = b"\\x00" * int(rate * 2 * paragraph_pause)
+    # Whole SAMPLES, not bytes: an odd byte count shifts every following sample
+    # by one byte and turns the rest of the audio into static.
+    gap = b"\\x00" * (int(rate * paragraph_pause) * 2)
     out.append(gap.join(chunks))
-gap = b"\\x00" * int(rate * 2 * story_pause)
+gap = b"\\x00" * (int(rate * story_pause) * 2)
 # Report the rate on a marker line — onnxruntime writes warnings to stderr too.
 sys.stderr.write(f"\\nPIPER_RATE={rate}\\n")
 sys.stdout.buffer.write(gap.join(out))
