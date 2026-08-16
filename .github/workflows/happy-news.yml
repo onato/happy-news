@@ -443,6 +443,31 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main # the feed and podcast commits this run just pushed
+
+      # Copy the retained episodes into the site itself, so the browser player
+      # loads them SAME-ORIGIN.
+      #
+      # Release assets can't drive an <audio> element: they 302 to
+      # release-assets.githubusercontent.com, which sends no
+      # access-control-allow-origin and labels the file
+      # `content-type: application/octet-stream` with
+      # `content-disposition: attachment`. Desktop browsers often sniff past
+      # that; mobile Safari honours the attachment and refuses to play inline,
+      # which is why the site's play button worked on a laptop and never on a
+      # phone.
+      #
+      # These files are downloaded into the Pages ARTIFACT, never committed —
+      # upload-pages-artifact takes the working tree, so git history stays free
+      # of audio (a year of episodes would be ~0.75 GB of permanent history).
+      # Releases remain the durable blob store and the podcast enclosure; this
+      # is only the web player's copy, rebuilt from the manifest every deploy
+      # and pruned by construction.
+      - name: Stage the audio for the web player
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/stage_web_audio.sh
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
