@@ -18,9 +18,16 @@
 
   // Duplicated from feed.js rather than shared: keeps both files independently
   // loadable, with no load-order coupling and no module conversion.
+  //
+  // Resolved against document.baseURI so a RELATIVE episode url works. The
+  // deploy job rewrites data/episodes.json to point at audio/ on this origin
+  // (Release assets can't drive an <audio> element — see
+  // scripts/stage_web_audio.sh), and a bare `new URL(relative)` throws, which
+  // previously left the player hidden. Resolving first keeps the http(s)-only
+  // check doing its real job: rejecting javascript: and data: sources.
   function safeUrl(url) {
     try {
-      const u = new URL(url);
+      const u = new URL(url, document.baseURI);
       return (u.protocol === 'http:' || u.protocol === 'https:') ? u.href : null;
     } catch {
       return null;
