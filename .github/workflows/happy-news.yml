@@ -56,13 +56,28 @@ jobs:
             Stories are newest-first. Note the headlines and `url`s already present —
             you must not add the same story twice.
 
-            ## 2. Find happy news from the last 30 hours
+            ## 2. Find happy news — recent first, then widen if thin
 
-            Use WebSearch to find genuinely positive, uplifting stories published in the
-            LAST 30 HOURS. This runs daily, so a wider window fills the feed with stories
-            that are already a day or two old by the time anyone reads them — freshness
-            matters more than volume here. Search several distinct areas so the feed is
-            varied — aim for a mix across categories such as:
+            Use WebSearch to find genuinely positive, uplifting stories. Work the
+            recency window in two passes:
+
+            **Pass 1 — the last 30 hours.** Prefer stories published in that window;
+            they are the freshest and the ones the feed exists to surface.
+
+            **Pass 2 — widen to the last 7 days, but only to top up.** If pass 1 leaves
+            you below 6 qualifying stories, go back through the categories that came up
+            empty and search again across the past week. A genuinely good story from
+            four days ago that nobody has seen beats an empty feed, and readers do not
+            know or care when it was filed. Take the most recent qualifying story
+            available in each category, and never add a week-old story when a fresh one
+            on the same subject exists.
+
+            Do not use pass 2 to pad with weaker material — the quality bar in the next
+            section is identical in both passes. It exists so a quiet news day still
+            produces a full feed, not so a thin day gets filled with filler.
+
+            Search several distinct areas so the feed is varied — aim for a mix across
+            categories such as:
               - Science & discovery (breakthroughs, space, research results)
               - Health & medicine (treatments, recoveries, public-health wins)
               - Environment & conservation (species recovery, restoration, clean energy)
@@ -104,10 +119,11 @@ jobs:
             - Anything whose good outcome is speculative or not yet realised
 
             Verify recency by publication date: search engines routinely resurface old
-            articles. Confirm each story's actual publication date from result metadata,
-            or by fetching the article with WebFetch when unclear. A story only qualifies
-            if it was PUBLISHED within the last ~30 hours. Discard stories whose date you
-            cannot verify.
+            articles, sometimes years old. Confirm each story's actual publication date
+            from result metadata, or by fetching the article with WebFetch when unclear.
+            A story qualifies only if it was PUBLISHED within the window you are working
+            (30 hours in pass 1, 7 days in pass 2). Discard stories whose date you cannot
+            verify — an undated story is not a fresh one.
 
             Note the current date and time at the start of the run and measure the window
             from that — do not assume the previous calendar day.
@@ -123,17 +139,33 @@ jobs:
             Only include a follow-up when there is a genuinely new development, and lead
             with what is new.
 
-            Aim for 4-8 new stories. The 30-hour window is deliberately tight, so some
-            days will genuinely yield only two or three — that is a correct outcome, not a
-            failure. Never pad the feed with weaker stories, older stories, or listicles to
-            hit a number. If you find none, make no changes and finish quietly.
+            **Target 6-10 new stories, and treat 6 as a floor rather than a hope.**
+            Recent runs have been finding only two or three, which is too few — not
+            because the bar was too high, but because searching stopped too early. There
+            is far more qualifying good news published than two stories a day.
 
-            Work within a budget: roughly one or two searches per category. Do not keep
-            hunting for more stories once you have worked through the categories — a
-            short feed of verified stories is the goal, and a thin day is an acceptable
-            outcome. Spend your remaining turns going DEEP on the stories you have
-            (fetching them so you can write a proper `narrative`) rather than wide on
-            finding more. Six well-told stories make a better digest than ten thin ones.
+            How to actually hit that number:
+            - Cover every category. If one yields nothing in pass 1, come back to it in
+              pass 2 rather than writing the category off.
+            - Vary the phrasing. If "conservation win" returns nothing, try the concrete
+              thing: a species name, "population rebounds", "reintroduced", "restored".
+              One failed search does not mean a category is empty that day.
+            - Search the named outlets directly (`site:goodnewsnetwork.org`,
+              `site:positive.news`) AND search openly. The named list is a floor, not a
+              ceiling, and leaning on one outlet makes the feed monotonous — recent runs
+              have been dominated by a single source.
+            - Local and regional news is a deep well for community and animal stories,
+              and it is where open search beats site: search.
+
+            You have a large turn budget — around 150 turns, and recent runs have used a
+            small fraction of it. Spend it. Roughly 2-4 searches per category is a
+            reasonable shape, more when a category is proving stubborn.
+
+            Quality still governs: never pad with weaker stories, listicles, or anything
+            failing the bar above just to reach a number. If a genuine effort across both
+            passes and all categories yields fewer than 6, that is an acceptable outcome —
+            but reach that conclusion after thorough searching, not after one search per
+            category. If you find none at all, make no changes and finish quietly.
 
             ## 4. Save as you go (important)
 
@@ -178,6 +210,11 @@ jobs:
             experience). You will usually need to WebFetch the article to have enough
             detail to write this well; that is a good use of a turn, unlike fetching
             merely to confirm a date.
+
+            **Finding the stories comes first.** Do the searching and reach the target
+            before investing turns in long narratives — a feed of 8 stories with plain
+            narratives beats 3 beautifully written ones. If turns run short, write
+            shorter narratives rather than dropping stories.
 
             If a story is too thin to support 4-6 paragraphs without padding, write
             fewer — three solid paragraphs beat six with filler. `narrative` is
