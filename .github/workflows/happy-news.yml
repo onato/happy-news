@@ -371,11 +371,12 @@ jobs:
           code=0
           narrate "$engine" || code=$?
 
-          # 75 (EX_TEMPFAIL) is Gemini's quota/rate limit. Rather than skip the
-          # episode, fall back to the local voice — a digest in a plainer voice
-          # beats no digest.
-          if [ "$code" -eq 75 ] && [ "$engine" = "gemini" ]; then
-            echo "::warning::Gemini quota exhausted — falling back to piper."
+          # ANY gemini failure falls back to the local voice, not just the quota
+          # one. 75 (EX_TEMPFAIL) is the quota/rate limit, but Gemini also returns
+          # plain 500s, which exit 1 — and an episode narrated by piper beats no
+          # episode whichever way the remote engine failed.
+          if [ "$code" -ne 0 ] && [ "$engine" = "gemini" ]; then
+            echo "::warning::gemini failed with code $code — falling back to piper."
             engine=piper
             code=0
             narrate piper || code=$?
