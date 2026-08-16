@@ -3,55 +3,55 @@
     {
       "date": "2026-08-16",
       "title": "Happy News \u2014 16 August 2026",
-      "runKey": "2026-08-16T05:45:00Z",
-      "published": "2026-08-16T05:43:41Z",
-      "duration": 1026.34,
-      "bytes": 8211656,
+      "runKey": "2026-08-16T18:38:25Z",
+      "published": "2026-08-16T18:45:59Z",
+      "duration": 932.38,
+      "bytes": 7459976,
       "storyCount": 7,
       "guid": "happy-news-2026-08-16",
-      "summary": "Seven good things: NASA Engineers a Power-Saving 'Big Bang' to Keep Voyager 2 Running Another Year; New Radiation-Free Lung Scan Could Help Doctors Spot Disease in Children Sooner; China's Air and Water Quality Keep Improving Through Mid-2026; 97-Year-Old Doctor Is Overwhelmed to Attend Great-Granddaughter's Med School Graduation, 60 Years After His Own",
+      "summary": "Seven good things: Astronomers Discover an Entirely New Kind of Cosmic Object: A 'Black Hole Star'; Scientists Restore Two Hours of Sleep in Alzheimer's-Model Mice by Targeting Brain Immune Cells; German Teen Cancer-Free a Year After Experimental Cell Therapy Shrank Tumors in His Liver and Brain; Wendy's Bosses Who Funded His Community College Now Watch Him Head to Yale",
       "chapters": [
         {
-          "url": "https://www.goodnewsnetwork.org/voyager-2-was-running-low-on-power-until-nasa-engineered-big-bang-to-buy-another-year/",
-          "headline": "NASA Engineers a Power-Saving 'Big Bang' to Keep Voyager 2 Running Another Year",
-          "start": 7.26,
-          "duration": 148.58
+          "url": "https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812",
+          "headline": "Astronomers Discover an Entirely New Kind of Cosmic Object: A 'Black Hole Star'",
+          "start": 7.32,
+          "duration": 148.72
         },
         {
-          "url": "https://www.goodnewsnetwork.org/new-radiation-free-lung-scan-could-help-doctors-spot-disease-in-children-earlier/",
-          "headline": "New Radiation-Free Lung Scan Could Help Doctors Spot Disease in Children Sooner",
-          "start": 155.84,
-          "duration": 147.62
+          "url": "https://www.goodnewsnetwork.org/two-hours-of-sleep-restored-in-alzheimers-brains-in-research-breakthrough/",
+          "headline": "Scientists Restore Two Hours of Sleep in Alzheimer's-Model Mice by Targeting Brain Immune Cells",
+          "start": 156.04,
+          "duration": 140.12
         },
         {
-          "url": "http://en.people.cn/n3/2026/0813/c90000-20488362.html",
-          "headline": "China's Air and Water Quality Keep Improving Through Mid-2026",
-          "start": 303.46,
-          "duration": 149.6
+          "url": "https://time.com/article/2026/08/12/experimental-pediatric-cancer-treatment/",
+          "headline": "German Teen Cancer-Free a Year After Experimental Cell Therapy Shrank Tumors in His Liver and Brain",
+          "start": 296.16,
+          "duration": 137.12
         },
         {
-          "url": "https://www.goodnewsnetwork.org/97-year-old-is-overwhelmed-returns-to-med-school-to-attend-great-granddaughters-graduation-60-years-later/",
-          "headline": "97-Year-Old Doctor Is Overwhelmed to Attend Great-Granddaughter's Med School Graduation, 60 Years After His Own",
-          "start": 453.06,
-          "duration": 143.82
+          "url": "https://www.goodnewsnetwork.org/wendys-worker-is-going-to-yale-after-his-bosses-fund-scholarship-for-the-immigrant-who-survived-violence/",
+          "headline": "Wendy's Bosses Who Funded His Community College Now Watch Him Head to Yale",
+          "start": 433.28,
+          "duration": 123.98
         },
         {
-          "url": "https://onwardstate.com/2026/08/15/penn-state-awards-one-millionth-degree-at-summer-commencement-ceremonies/",
-          "headline": "Penn State Awards Its One Millionth Degree",
-          "start": 596.88,
-          "duration": 137.08
+          "url": "https://www.timesnowworld.com/us-news/college-student-lillie-vehling-lake-washington-seafair-blue-angels-article-155606240",
+          "headline": "College Student Pulls Three Drowning Girls From Lake Washington During Seafair Weekend",
+          "start": 557.26,
+          "duration": 101.9
         },
         {
-          "url": "https://www.ktvu.com/news/bay-area-swimmer-crosses-strait-gibraltar-from-spain-morocco-verge-breaking-world-record",
-          "headline": "Teen Swimmer Completes Sixth of Seven Toughest Open-Water Swims in the World",
-          "start": 733.96,
-          "duration": 145.3
+          "url": "https://www.deseret.com/u-s-world/2026/08/12/land-speed-record-bonneville-salt-flats/",
+          "headline": "The Only Man to Break the Sound Barrier on Land Now Holds the Hydrogen Land Speed Record Too",
+          "start": 659.16,
+          "duration": 131.84
         },
         {
-          "url": "https://blockclubchicago.org/2026/08/13/shedd-aquarium-takes-in-4-more-rescued-beluga-whales-from-shuttered-canadian-marine-park/",
-          "headline": "Four More Rescued Beluga Whales Arrive at Chicago's Shedd Aquarium",
-          "start": 879.26,
-          "duration": 144.52
+          "url": "https://dailyinterlake.com/news/2026/aug/14/state-vaccinates-libby-dam-bats-against-deadly-fungal-disease/",
+          "headline": "Montana Wildlife Crews Vaccinate 900 Bats Against Deadly Fungal Disease",
+          "start": 791.0,
+          "duration": 138.82
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3"
@@ -95,5 +95,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-16T05:44:56Z"
+  "updated": "2026-08-16T18:47:07Z"
 }
