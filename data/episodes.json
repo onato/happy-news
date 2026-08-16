@@ -1,32 +1,6 @@
 {
   "episodes": [
     {
-      "date": "2026-08-16",
-      "title": "Happy News \u2014 16 August 2026",
-      "runKey": "2026-08-16T04:30:00Z",
-      "published": "2026-08-16T04:24:58Z",
-      "duration": 259.37,
-      "bytes": 2075704,
-      "storyCount": 2,
-      "guid": "happy-news-2026-08-16",
-      "summary": "Two good things: Restored California Creek Helps Threatened Salmon Grow Twice as Fast and Doubles Their Survival; Once-Distrustful Rescue Horse Learns to 'Play' Guitar and Harp, Earning a Spot on a Debut Album",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/california-creek-restoration-helps-young-salmon-grow-twice-as-fast-and-doubles-their-survival-rate/",
-          "headline": "Restored California Creek Helps Threatened Salmon Grow Twice as Fast and Doubles Their Survival",
-          "start": 7.32,
-          "duration": 136.38
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/a-real-rockin-horse-rescue-foal-learns-to-play-instruments-for-album-debut/",
-          "headline": "Once-Distrustful Rescue Horse Learns to 'Play' Guitar and Harp, Earning a Spot on a Debut Album",
-          "start": 143.7,
-          "duration": 113.08
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3"
-    },
-    {
       "date": "2026-08-14",
       "title": "Happy News \u2014 14 August 2026",
       "runKey": "2026-08-14T19:10:00Z",
