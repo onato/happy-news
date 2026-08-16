@@ -24,8 +24,20 @@ The feed is capped at the 200 most recent stories.
 
 ## Audio
 
-Each run turns the day's stories into a 3–5 minute digest: a short intro, then
-each story read as "From *source*. *Headline*. *Summary*."
+Each run turns the day's stories into a roughly 8–15 minute digest: a short
+intro, then each story read as "From *source*. *Headline*." followed by its
+`narrative` — the collector's own 4–6 paragraph retelling, written to be
+listened to rather than skimmed.
+
+The site and the audio deliberately carry different text. Story cards show the
+short `summary` so the feed stays scannable; the narrator reads the longer
+`narrative`. Stories written before this split, or any the collector judged too
+thin to expand, have no `narrative` and fall back to being read from `summary`.
+
+`narrative` is always the collector's **own prose**, not the publisher's. The
+feed's premise is that it sends people to the original article, so the digest
+retells each story rather than reproducing the copy that outlets host and
+monetise themselves.
 
 - **Narration** uses the [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation)
   free tier — the same speech technology behind NotebookLM's Audio Overviews.
@@ -47,13 +59,23 @@ Audio is deliberately **best-effort**: every step in the `audio` job continues o
 error, and `deploy` runs regardless, so a TTS outage costs the audio only — the
 news feed still publishes.
 
-### One implementation detail worth knowing
+### Two implementation details worth knowing
 
 `scripts/digest.py` synthesizes each story separately but concatenates the **raw
 PCM** and encodes to mp3 **once**. Encoding per story and joining the mp3s
 accumulates encoder padding (~30 ms each, compounding), which would progressively
 desync the per-story seek offsets. Joining PCM also makes those offsets exact
 arithmetic on byte counts rather than a sum of rounded durations.
+
+**Two pause lengths, and the difference is load-bearing.** Chapter offsets are
+recovered by finding the silences in the finished audio — but now that a story
+runs to several paragraphs, there are pauses *inside* a story too. So the digest
+uses two: `PARAGRAPH_PAUSE` (0.7s) between paragraphs of one story, and
+`STORY_PAUSE` (2.2s) between stories, with `find_pauses` ignoring anything
+shorter than `PAUSE_FLOOR` (1.4s). Move those three values closer together and
+the per-story seek buttons start landing mid-story. Every engine implements the
+same contract: paragraphs within a story are joined by `PARAGRAPH_BREAK`, stories
+by a blank line.
 
 ## Setup
 

@@ -126,11 +126,12 @@ jobs:
             failure. Never pad the feed with weaker stories, older stories, or listicles to
             hit a number. If you find none, make no changes and finish quietly.
 
-            Work within a budget: roughly one or two searches per category, and only fetch
-            an article with WebFetch when its publication date is genuinely unclear from
-            the search results. Do not keep hunting for more stories once you have worked
-            through the categories — a short feed of verified stories is the goal, and a
-            thin day is an acceptable outcome.
+            Work within a budget: roughly one or two searches per category. Do not keep
+            hunting for more stories once you have worked through the categories — a
+            short feed of verified stories is the goal, and a thin day is an acceptable
+            outcome. Spend your remaining turns going DEEP on the stories you have
+            (fetching them so you can write a proper `narrative`) rather than wide on
+            finding more. Six well-told stories make a better digest than ten thin ones.
 
             ## 4. Save as you go (important)
 
@@ -149,6 +150,7 @@ jobs:
               {
                 "headline":  "<the story's headline, plain text, no outlet name>",
                 "summary":   "<2-3 sentences on what happened and why it's good news>",
+                "narrative": "<4-6 paragraphs, IN YOUR OWN WORDS, separated by blank lines>",
                 "url":       "<link to the original article>",
                 "source":    "<publication name, e.g. 'BBC News'>",
                 "published": "<ISO8601 publication date of the article>",
@@ -156,6 +158,29 @@ jobs:
                 "added":     "<ISO8601 timestamp of this run>",
                 "image":     "<absolute https URL of the article's lead image, or omit>"
               }
+
+            `summary` is what the website's story cards show — keep it to the 2-3
+            tight sentences it is today. `narrative` is what gets READ ALOUD in the
+            daily audio digest, and it is the one that should be generous: 4-6
+            paragraphs, around 300-500 words, that tell the story properly for someone
+            listening with their eyes elsewhere. Cover what happened, who it happened
+            to, the detail and context a headline has to drop, and why it is genuinely
+            good news. Write it to be heard: full sentences, no bullet points, no
+            markdown, no URLs read aloud. Separate paragraphs with a blank line.
+
+            Write `narrative` IN YOUR OWN WORDS. Do not copy or lightly reword the
+            article's sentences — this is a retelling for listeners, not a reproduction
+            of someone else's copy, and the feed's whole premise is that it sends
+            readers on to the original. Quote at most one short sentence, and only when
+            the exact wording genuinely matters (someone's own words about their own
+            experience). You will usually need to WebFetch the article to have enough
+            detail to write this well; that is a good use of a turn, unlike fetching
+            merely to confirm a date.
+
+            If a story is too thin to support 4-6 paragraphs without padding, write
+            fewer — three solid paragraphs beat six with filler. `narrative` is
+            optional: omit it entirely rather than padding, and the digest falls back to
+            reading `summary` for that story.
 
             For `image`, use the article's Open Graph image (the `og:image` meta tag) when
             you have already fetched the page with WebFetch, or an image URL given in the
@@ -204,6 +229,15 @@ jobs:
               img = s.get('image')
               if img is not None and not str(img).startswith('https://'):
                   sys.exit(f"story {i} has a non-https image: {img!r}")
+              # `narrative` is optional too — the digest falls back to `summary`.
+              # When present it must be prose the narrator can read: a string, long
+              # enough to be a real retelling rather than a stray copy of the summary.
+              nar = s.get('narrative')
+              if nar is not None:
+                  if not isinstance(nar, str) or len(nar.strip()) < 200:
+                      sys.exit(f"story {i} has a too-short narrative: {str(nar)[:80]!r}")
+                  if 'http://' in nar or 'https://' in nar:
+                      sys.exit(f"story {i} has a URL in its narrative (it is read aloud)")
           urls = [s['url'] for s in stories]
           if len(urls) != len(set(urls)):
               sys.exit("duplicate urls in feed")

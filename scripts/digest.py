@@ -46,6 +46,23 @@ BYTES_PER_SECOND = SAMPLE_RATE * BYTES_PER_SAMPLE
 
 MP3_BITRATE = "64k"  # transparent for 24 kHz speech; ~0.5 MB per minute
 
+# Two pause lengths, and the gap between them is load-bearing.
+#
+# Stories are now several paragraphs long, so silence alone no longer marks a
+# story boundary — there are pauses *inside* a story too. find_pauses picks the
+# longest silences, so the between-story gap has to be unambiguously longer than
+# any within-story one. 2.2s vs 0.7s gives a wide margin either side of the 1.4s
+# midpoint that PAUSE_FLOOR keys on, which survives the ±10% an engine's own
+# phrase-final silence can add on top.
+STORY_PAUSE = 2.2       # between stories — a chapter boundary
+PARAGRAPH_PAUSE = 0.7   # between paragraphs within one story — just a breath
+PAUSE_FLOOR = 1.4       # only silences longer than this can be a boundary
+
+# The marker used to join paragraphs inside a single story's text. A literal
+# blank line already means "new story" to every engine's splitter, so within-story
+# breaks need a token of their own that survives the round trip.
+PARAGRAPH_BREAK = "\n<p>\n"
+
 ENGINE = os.environ.get("TTS_ENGINE", "gemini")
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE = os.environ.get("GEMINI_TTS_VOICE", "Kore")
@@ -75,7 +92,11 @@ SYSTEM_INSTRUCTION = (
     "You are a news narrator. Read the supplied text aloud verbatim in a warm, "
     "clear, unhurried broadcast voice. Add no commentary, greeting, or "
     "acknowledgement of these instructions. "
-    "Leave a clear one-second silent pause between paragraphs."
+    "The text marks two kinds of break, and the difference matters. A blank line "
+    "separates one story from the next: leave a long silent pause of at least two "
+    "seconds there. A line containing only <p> is a paragraph break within the "
+    "same story: leave a short pause of about half a second, and never read the "
+    "<p> marker aloud."
 )
 
 # The free tier allows only ~10 TTS requests per DAY, and every attempt counts
@@ -216,12 +237,35 @@ def run_key(batch: list[dict]) -> str:
 # ---------------------------------------------------------------- script
 
 
+def story_text(story: dict) -> str:
+    """The words read aloud for one story.
+
+    Prefers `narrative` — the collector's long-form retelling, several paragraphs
+    of its own prose — and falls back to the short `summary` that the story cards
+    display. Older feed entries have no narrative, so both shapes stay playable.
+
+    Paragraphs are joined with PARAGRAPH_BREAK rather than a blank line: a blank
+    line is the between-story separator, and find_pauses distinguishes the two by
+    duration alone (see render).
+    """
+    source = speakable(story.get("source", "")).rstrip(".")
+    headline = speakable(story.get("headline", ""))
+
+    body = story.get("narrative") or story.get("summary", "")
+    paragraphs = [speakable(p) for p in re.split(r"\n\s*\n", body) if p.strip()]
+
+    # Provenance before claim, the way radio news does it.
+    opening = f"From {source}. {headline}".strip()
+    return PARAGRAPH_BREAK.join([opening + " " + paragraphs[0]] + paragraphs[1:]) \
+        if paragraphs else opening
+
+
 def build_segments(batch: list[dict], when: datetime) -> list[dict]:
     """The narration, as a list of {text, story} segments.
 
-    One segment per TTS request, which is also one chapter. Keeping requests
-    short sidesteps the documented quality drift on long generations and gives
-    per-story retry and per-story seek offsets.
+    One segment is one story, which is also one chapter. A segment may now run to
+    several paragraphs, so it is no longer a short request — see render for how
+    the story boundaries stay recoverable once paragraphs exist inside a story.
     """
     count = len(batch)
     intro = (
@@ -232,12 +276,7 @@ def build_segments(batch: list[dict], when: datetime) -> list[dict]:
     segments = [{"text": intro, "story": None}]
 
     for story in batch:
-        source = speakable(story.get("source", "")).rstrip(".")
-        headline = speakable(story.get("headline", ""))
-        summary = speakable(story.get("summary", ""))
-        # Provenance before claim, the way radio news does it.
-        text = f"From {source}. {headline} {summary}".strip()
-        segments.append({"text": text, "story": story})
+        segments.append({"text": story_text(story), "story": story})
 
     segments.append({
         "text": "That's the good news for today. See you tomorrow.",
@@ -390,8 +429,9 @@ def synthesize_kokoro(script: str, _api_key: str | None = None) -> bytes:
     """Narrate locally with Kokoro, reusing the venv from the earful project.
 
     Free and unlimited, so the whole pipeline can be exercised without touching
-    the Gemini quota. Kokoro has no notion of a system instruction, so the
-    inter-story pauses that find_pauses looks for are inserted here instead.
+    the Gemini quota. Kokoro has no notion of a system instruction, so both pause
+    lengths — STORY_PAUSE between stories, PARAGRAPH_PAUSE within one — are
+    inserted here instead.
     """
     if not Path(KOKORO_PYTHON).exists():
         raise TTSError(
@@ -402,25 +442,31 @@ def synthesize_kokoro(script: str, _api_key: str | None = None) -> bytes:
 import sys, numpy as np
 from kokoro import KPipeline
 voice = sys.argv[1]
-paragraphs = [p for p in sys.stdin.read().split("\\n\\n") if p.strip()]
+story_pause, paragraph_pause, marker = float(sys.argv[2]), float(sys.argv[3]), sys.argv[4]
+stories = [s for s in sys.stdin.read().split("\\n\\n") if s.strip()]
 pipeline = KPipeline(lang_code=voice[0], repo_id="hexgrad/Kokoro-82M")
-gap = np.zeros(int(24000 * 1.0), dtype=np.float32)   # the inter-story pause
+story_gap = np.zeros(int(24000 * story_pause), dtype=np.float32)
+paragraph_gap = np.zeros(int(24000 * paragraph_pause), dtype=np.float32)
 chunks = []
-for index, paragraph in enumerate(paragraphs):
-    if index:
-        chunks.append(gap)
-    for result in pipeline(paragraph, voice=voice):
-        audio = getattr(result, "audio", None)
-        if audio is None:
-            audio = result[2]
-        chunks.append(np.asarray(audio, dtype=np.float32))
+for story_index, story in enumerate(stories):
+    if story_index:
+        chunks.append(story_gap)
+    for para_index, paragraph in enumerate(p for p in story.split(marker) if p.strip()):
+        if para_index:
+            chunks.append(paragraph_gap)
+        for result in pipeline(paragraph.strip(), voice=voice):
+            audio = getattr(result, "audio", None)
+            if audio is None:
+                audio = result[2]
+            chunks.append(np.asarray(audio, dtype=np.float32))
 merged = np.concatenate(chunks)
 peak = float(np.max(np.abs(merged))) or 1.0
 pcm = (merged / peak * 0.95 * 32767).astype("<i2")
 sys.stdout.buffer.write(pcm.tobytes())
 '''
     result = subprocess.run(
-        [KOKORO_PYTHON, "-c", helper, KOKORO_VOICE],
+        [KOKORO_PYTHON, "-c", helper, KOKORO_VOICE,
+         str(STORY_PAUSE), str(PARAGRAPH_PAUSE), PARAGRAPH_BREAK],
         input=script.encode(), capture_output=True,
     )
     if result.returncode != 0 or not result.stdout:
@@ -431,22 +477,28 @@ sys.stdout.buffer.write(pcm.tobytes())
 def synthesize_say(script: str, _api_key: str | None = None) -> bytes:
     """Narrate with macOS `say`. Instant and always available; robotic but fine
     for exercising pause detection, chapters, and the player."""
-    paragraphs = [p for p in script.split("\n\n") if p.strip()]
-    gap = b"\x00" * int(BYTES_PER_SECOND * 1.0)
+    stories = [s for s in script.split("\n\n") if s.strip()]
+    story_gap = b"\x00" * int(BYTES_PER_SECOND * STORY_PAUSE)
+    paragraph_gap = b"\x00" * int(BYTES_PER_SECOND * PARAGRAPH_PAUSE)
     out = bytearray()
 
-    for index, paragraph in enumerate(paragraphs):
-        if index:
-            out += gap
-        aiff = Path(f"/tmp/hn-say-{index}.aiff")
-        subprocess.run(["say", "-v", SAY_VOICE, "-o", str(aiff), paragraph], check=True)
-        pcm = subprocess.run(
-            ["ffmpeg", "-v", "error", "-i", str(aiff),
-             "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-"],
-            capture_output=True, check=True,
-        ).stdout
-        aiff.unlink(missing_ok=True)
-        out += pcm
+    for story_index, story in enumerate(stories):
+        if story_index:
+            out += story_gap
+        paragraphs = [p for p in story.split(PARAGRAPH_BREAK) if p.strip()]
+        for para_index, paragraph in enumerate(paragraphs):
+            if para_index:
+                out += paragraph_gap
+            aiff = Path(f"/tmp/hn-say-{story_index}-{para_index}.aiff")
+            subprocess.run(["say", "-v", SAY_VOICE, "-o", str(aiff), paragraph.strip()],
+                           check=True)
+            pcm = subprocess.run(
+                ["ffmpeg", "-v", "error", "-i", str(aiff),
+                 "-f", "s16le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-"],
+                capture_output=True, check=True,
+            ).stdout
+            aiff.unlink(missing_ok=True)
+            out += pcm
 
     if not out:
         raise TTSError("say produced no audio")
@@ -457,32 +509,43 @@ def synthesize_piper(script: str, _api_key: str | None = None) -> bytes:
     """Narrate with Piper — the free engine that also runs on the CI runner.
 
     ONNX rather than PyTorch, so it installs in about a minute and needs no GPU.
-    Piper has no system-instruction concept, so the inter-story pauses that
-    find_pauses looks for are inserted here.
+    Piper has no system-instruction concept, so both pause lengths — STORY_PAUSE
+    between stories, PARAGRAPH_PAUSE within one — are inserted here.
     """
     helper = '''
 import io, sys, wave
 from piper import PiperVoice
 
 voice = PiperVoice.load(sys.argv[1] + ".onnx")
-paragraphs = [p for p in sys.stdin.read().split("\\n\\n") if p.strip()]
-out = []
-rate = None
-for paragraph in paragraphs:
+story_pause, paragraph_pause, marker = float(sys.argv[2]), float(sys.argv[3]), sys.argv[4]
+
+def say(text):
     buffer = io.BytesIO()
     with wave.open(buffer, "wb") as handle:
-        voice.synthesize_wav(paragraph, handle)
+        voice.synthesize_wav(text, handle)
     buffer.seek(0)
     with wave.open(buffer, "rb") as handle:
-        rate = handle.getframerate()
-        out.append(handle.readframes(handle.getnframes()))
-gap = b"\\x00" * (rate * 2)          # 1.0s of silence between stories
+        return handle.getframerate(), handle.readframes(handle.getnframes())
+
+# Outer split = stories, inner split = paragraphs within one story. The two get
+# different pause lengths so the story boundaries stay the longest silences.
+stories = [s for s in sys.stdin.read().split("\\n\\n") if s.strip()]
+out, rate = [], None
+for story in stories:
+    chunks = []
+    for paragraph in [p for p in story.split(marker) if p.strip()]:
+        rate, pcm = say(paragraph.strip())
+        chunks.append(pcm)
+    gap = b"\\x00" * int(rate * 2 * paragraph_pause)
+    out.append(gap.join(chunks))
+gap = b"\\x00" * int(rate * 2 * story_pause)
 # Report the rate on a marker line — onnxruntime writes warnings to stderr too.
 sys.stderr.write(f"\\nPIPER_RATE={rate}\\n")
 sys.stdout.buffer.write(gap.join(out))
 '''
     result = subprocess.run(
-        [sys.executable, "-c", helper, PIPER_VOICE],
+        [sys.executable, "-c", helper, PIPER_VOICE,
+         str(STORY_PAUSE), str(PARAGRAPH_PAUSE), PARAGRAPH_BREAK],
         input=script.encode(), capture_output=True,
     )
     if result.returncode != 0 or not result.stdout:
@@ -517,18 +580,21 @@ def synthesize_for(engine: str):
 
 
 def find_pauses(pcm: bytes, want: int) -> list[int]:
-    """Byte offsets of the `want` longest silences — the gaps between stories.
+    """Byte offsets of the story boundaries — the longest silences in the audio.
 
-    The narrator is asked to pause between stories, so the longest quiet stretches
-    are the story boundaries. Returns offsets at the END of each chosen silence,
-    i.e. where the next story's first word begins, sorted in playback order.
+    Stories run to several paragraphs, so silence alone is not a boundary: there
+    are PARAGRAPH_PAUSE gaps inside a story too. Only silences longer than
+    PAUSE_FLOOR are eligible, which excludes those by construction; of those, the
+    `want` longest are the boundaries. Returns offsets at the END of each chosen
+    silence, i.e. where the next story's first word begins, in playback order.
     """
     if want <= 0:
         return []
 
     frame = int(SAMPLE_RATE * 0.02) * BYTES_PER_SAMPLE   # 20 ms
     threshold = 500          # |sample| below this is effectively silence
-    min_run = int(BYTES_PER_SECOND * 0.35)               # ignore breath-length gaps
+    # Anything shorter than this is a breath or a paragraph break, not a boundary.
+    min_run = int(BYTES_PER_SECOND * PAUSE_FLOOR)
 
     runs: list[tuple[int, int]] = []                     # (length, end offset)
     run_start = None
