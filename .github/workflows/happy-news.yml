@@ -30,6 +30,8 @@ jobs:
       contents: write
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      added: ${{ steps.commit.outputs.added }}
+      top: ${{ steps.commit.outputs.top }}
     steps:
       - uses: actions/checkout@v4
 
@@ -272,35 +274,19 @@ jobs:
           git commit -m "feed: add $added stor$([ "$added" = 1 ] && echo y || echo ies) — $(date -u +%Y-%m-%d)"
           git push
 
-      - name: Notify Telegram
-        if: ${{ inputs.test_telegram || steps.commit.outputs.changed == 'true' }}
+      # The story and episode pings both live in the `notify` job at the bottom,
+      # which runs after Pages has published — a link sent from here would point
+      # at a site that does not have the new stories on it yet.
+      - name: Send the Telegram test message
+        if: ${{ inputs.test_telegram }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          TEST_TELEGRAM: ${{ inputs.test_telegram }}
-          ADDED: ${{ steps.commit.outputs.added }}
-          TOP: ${{ steps.commit.outputs.top }}
-          FEED_URL: ${{ vars.FEED_URL }}
         run: |
-          send() {
-            curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
-              --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
-              --data-urlencode text="$1" > /dev/null
-          }
-
-          if [ "$TEST_TELEGRAM" = "true" ]; then
-            send "🔔 Test message from the happy-news workflow. Telegram wiring works."
-            echo "Test message sent."
-            exit 0
-          fi
-
-          url="${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}"
-          send "🌻 $ADDED new happy stor$([ "$ADDED" = 1 ] && echo y || echo ies) today
-
-          $TOP
-
-          $url"
-          echo "Notified: $ADDED stories."
+          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
+            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
+            --data-urlencode text="🔔 Test message from the happy-news workflow. Telegram wiring works." > /dev/null
+          echo "Test message sent."
 
       - name: Notify Telegram of failure
         if: failure()
@@ -325,6 +311,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # release assets + committing the feed
+    outputs:
+      published: ${{ steps.publish.outcome }}
+      episode: ${{ steps.digest.outputs.episode }}
+      minutes: ${{ steps.digest.outputs.minutes }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -447,23 +437,6 @@ jobs:
           git pull --rebase --autostash origin main
           git push
 
-      - name: Notify Telegram of the episode
-        if: steps.publish.outcome == 'success' && steps.digest.outputs.episode != 'none'
-        continue-on-error: true
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          MINUTES: ${{ steps.digest.outputs.minutes }}
-          FEED_URL: ${{ vars.FEED_URL }}
-        run: |
-          # Quiet: the story ping already buzzed the phone a couple of minutes ago.
-          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
-            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
-            --data-urlencode disable_notification=true \
-            --data-urlencode text="🎧 Today's digest is ready — ${MINUTES} min
-
-          ${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}" > /dev/null
-
   # Commits made with GITHUB_TOKEN don't trigger other workflows (GitHub's
   # anti-recursion rule), so pages.yml never fires for the feed commit —
   # this run has to publish the new stories itself.
@@ -495,3 +468,47 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Every ping to the phone happens here, and this job runs LAST — after Pages
+  # has published. Notifying from `collect`/`audio` (as this used to) linked to a
+  # site that was still serving yesterday's feed for another minute or two, so
+  # tapping the notification the moment it arrived showed nothing new.
+  notify:
+    needs: [collect, audio, deploy]
+    if: ${{ always() && needs.deploy.result == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+      FEED_URL: ${{ vars.FEED_URL }}
+    steps:
+      - name: Notify Telegram of new stories
+        if: ${{ needs.collect.outputs.changed == 'true' }}
+        env:
+          ADDED: ${{ needs.collect.outputs.added }}
+          TOP: ${{ needs.collect.outputs.top }}
+        run: |
+          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
+            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
+            --data-urlencode text="🌻 $ADDED new happy stor$([ "$ADDED" = 1 ] && echo y || echo ies) today
+
+          $TOP
+
+          ${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}" > /dev/null
+          echo "Notified: $ADDED stories."
+
+      - name: Notify Telegram of the episode
+        if: ${{ needs.audio.outputs.published == 'success'
+          && needs.audio.outputs.episode != 'none'
+          && needs.audio.outputs.episode != '' }}
+        continue-on-error: true
+        env:
+          MINUTES: ${{ needs.audio.outputs.minutes }}
+        run: |
+          # Quiet: the story ping already buzzed the phone moments ago.
+          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
+            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
+            --data-urlencode disable_notification=true \
+            --data-urlencode text="🎧 Today's digest is ready — ${MINUTES} min
+
+          ${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}" > /dev/null
