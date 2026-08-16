@@ -329,10 +329,12 @@ jobs:
           sudo apt-get install -y -qq --no-install-recommends ffmpeg
           ffmpeg -version | head -1
 
-      # The fallback narrator. Gemini's free tier is ~10 requests a day, so on a
-      # day it is exhausted this is what keeps the podcast publishing. Neural but
-      # ONNX-based, so it installs in about a minute with no PyTorch.
-      - name: Install piper (fallback voice)
+      # The narrator. Neural but ONNX-based, so it installs in about a minute
+      # with no PyTorch, and it runs entirely on the runner — no API, no quota,
+      # no outage. Gemini was tried first for several weeks and never once
+      # narrated an episode: its free tier (~10 requests a day) ran out before a
+      # digest finished, and when it had quota it returned 500s instead.
+      - name: Install piper
         continue-on-error: true
         run: |
           python3 -m pip install --quiet piper-tts
@@ -341,42 +343,21 @@ jobs:
       - name: Narrate the digest
         id: digest
         continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p build/audio
 
-          narrate() {
-            python3 scripts/digest.py --engine "$1" --out build/audio > build/audio/episode.json
-          }
-
-          engine=gemini
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::warning::GEMINI_API_KEY is not set — narrating with piper."
-            engine=piper
-          fi
-
           # `|| code=$?` matters: the step runs under `bash -e`, so a bare call
-          # would abort here and the fallback below would never run.
+          # would abort the step before the exit code could be inspected.
           code=0
-          narrate "$engine" || code=$?
-
-          # ANY gemini failure falls back to the local voice, not just the quota
-          # one. 75 (EX_TEMPFAIL) is the quota/rate limit, but Gemini also returns
-          # plain 500s, which exit 1 — and an episode narrated by piper beats no
-          # episode whichever way the remote engine failed.
-          if [ "$code" -ne 0 ] && [ "$engine" = "gemini" ]; then
-            echo "::warning::gemini failed with code $code — falling back to piper."
-            engine=piper
-            code=0
-            narrate piper || code=$?
-          fi
+          python3 scripts/digest.py --engine piper --out build/audio \
+            > build/audio/episode.json || code=$?
 
           if [ "$code" -eq 75 ]; then
             echo "::warning::No narration available today."
             echo "episode=none" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          engine=piper
           echo "engine=$engine" >> "$GITHUB_OUTPUT"
           if [ "$code" -ne 0 ]; then
             echo "::error::digest.py failed with code $code"

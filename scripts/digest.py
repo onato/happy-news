@@ -63,7 +63,7 @@ PAUSE_FLOOR = 1.4       # only silences longer than this can be a boundary
 # breaks need a token of their own that survives the round trip.
 PARAGRAPH_BREAK = "\n<p>\n"
 
-ENGINE = os.environ.get("TTS_ENGINE", "gemini")
+ENGINE = os.environ.get("TTS_ENGINE", "piper")
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE = os.environ.get("GEMINI_TTS_VOICE", "Kore")
 API = ("https://generativelanguage.googleapis.com/v1beta/models/"
@@ -690,8 +690,8 @@ def main() -> int:
                         help="print the narration script and exit; no API calls")
     parser.add_argument("--engine", choices=["gemini", "piper", "kokoro", "say"],
                         help="which voice to narrate with (default: $TTS_ENGINE, "
-                             "or gemini). piper, kokoro and say are free; piper "
-                             "is the one that also runs on CI.")
+                             "or piper, which is what CI runs). kokoro and say "
+                             "are free too; gemini needs GEMINI_API_KEY.")
     args = parser.parse_args()
 
     global ENGINE

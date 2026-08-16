@@ -13,9 +13,11 @@ the site or subscribe to as a podcast.
    prepends the new ones to `data/news.json`.
 2. The run validates the JSON, commits it, and sends a Telegram ping with the
    top headline and a link to the feed.
-3. The `audio` job narrates the new stories with Gemini TTS, uploads the mp3 as a
+3. The `audio` job narrates the new stories with piper, uploads the mp3 as a
    GitHub Release asset, and regenerates `podcast.xml`.
 4. The `deploy` job publishes the site to GitHub Pages.
+5. The `notify` job sends the Telegram pings — last, so the link it carries
+   points at a site that has already published.
 5. **`.github/workflows/pages.yml`** covers ordinary pushes to `main` (human
    commits); the daily run deploys itself, because commits made with
    `GITHUB_TOKEN` don't trigger other workflows.
@@ -39,9 +41,9 @@ feed's premise is that it sends people to the original article, so the digest
 retells each story rather than reproducing the copy that outlets host and
 monetise themselves.
 
-- **Narration** uses the [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation)
-  free tier — the same speech technology behind NotebookLM's Audio Overviews.
-  It returns audio in seconds and costs no CI compute.
+- **Narration** uses [piper](https://github.com/OHF-Voice/piper1-gpl), a neural
+  ONNX voice that runs on the runner itself. No API key, no quota, no outage —
+  it installs in about a minute and adds ~10s of CI time per episode.
 - **Storage** is GitHub Releases, one per day, tagged `audio-YYYY-MM-DD`.
   Releases have no size or bandwidth limit, and deleting an asset actually
   reclaims the space — a committed mp3 would live in every clone forever.
@@ -87,16 +89,13 @@ Set these under **Settings → Secrets and variables → Actions → Secrets**:
 | --- | --- |
 | `CLAUDE_CODE_OAUTH_TOKEN` | Generate with `claude setup-token` |
 | `TELEGRAM_BOT_TOKEN` | From [@BotFather](https://t.me/botfather) |
-| `GEMINI_API_KEY` | From [Google AI Studio](https://aistudio.google.com/apikey) — free tier is ample for one digest a day |
 
 ```sh
 printf '%s' '<token>' | gh secret set CLAUDE_CODE_OAUTH_TOKEN
 printf '%s' '<token>' | gh secret set TELEGRAM_BOT_TOKEN
-printf '%s' '<key>'   | gh secret set GEMINI_API_KEY
 ```
 
-Without `GEMINI_API_KEY` the audio job logs a warning and skips; everything else
-runs as normal.
+The audio job needs no key of its own — piper runs locally on the runner.
 
 ### Variables
 
@@ -152,28 +151,26 @@ Preview the narration script without calling the API or spending anything:
 python3 scripts/digest.py --dry-run
 ```
 
-Render a real episode locally (needs `GEMINI_API_KEY` and `ffmpeg`):
+Render a real episode locally (needs `ffmpeg`):
 
 ```sh
-GEMINI_API_KEY=… python3 scripts/digest.py --out build/audio
+python3 scripts/digest.py --engine piper --out build/audio
 ```
 
 ### Voices
 
-The Gemini free tier allows only about **3 TTS requests a minute and 10 a day**,
-and failed attempts count too. Three other engines render the identical pipeline
-for free:
+`piper` is what CI uses. The other engines render the identical pipeline:
 
 ```sh
-python3 scripts/digest.py --engine piper  --out build/audio   # also runs on CI
+python3 scripts/digest.py --engine piper  --out build/audio   # what CI runs
 python3 scripts/digest.py --engine kokoro --out build/audio   # ~25s, best voice
 python3 scripts/digest.py --engine say    --out build/audio   # instant, robotic
+python3 scripts/digest.py --engine gemini --out build/audio   # needs GEMINI_API_KEY
 ```
 
-- **`piper`** is the fallback the workflow uses automatically when the Gemini
-  quota is gone — neural but ONNX-based, so it installs in about a minute with no
-  PyTorch and needs no API key. `pip install piper-tts && python3 -m
-  piper.download_voices en_GB-alba-medium`. Voice via `PIPER_VOICE`.
+- **`piper`** is the workflow's narrator — neural but ONNX-based, so it installs
+  in about a minute with no PyTorch and needs no API key. `pip install piper-tts
+  && python3 -m piper.download_voices en_GB-alba-medium`. Voice via `PIPER_VOICE`.
   Note the macOS wheel has a hardcoded espeak-ng data path from its build machine
   and cannot synthesize locally; it works on Linux, so use kokoro or say on a Mac.
 - **`kokoro`** reuses the venv from the sibling [earful](../earful) project
@@ -185,11 +182,13 @@ python3 scripts/digest.py --engine say    --out build/audio   # instant, robotic
 
 Every engine returns PCM in the same format, so everything downstream — silence
 detection, chapters, encoding, the manifest — is exercised identically. Only the
-call to the voice differs. `gemini` stays the default.
+call to the voice differs.
 
-**On a day the Gemini quota is exhausted the workflow narrates with piper
-instead**, so an episode still publishes. You'll hear the difference; you won't
-miss a day.
+**`gemini` was the original default and was dropped in August 2026.** It never
+narrated a single published episode: the free tier (~3 TTS requests a minute, 10
+a day, failed attempts counted) ran out before a digest finished, and when it had
+quota left it returned 500s. It remains available behind `--engine gemini` for
+local use.
 
 Check every published episode is still downloadable and the sizes still match:
 
@@ -225,9 +224,6 @@ the audio won't work locally even though it works on the real site.
   Change that condition carefully.
 - Chapter offsets are keyed by story URL, which the feed-validation step already
   enforces as unique. Per-story seeking depends on that guarantee.
-- Gemini TTS models are all `-preview` and may be renamed or retired at short
-  notice. Override with the `GEMINI_TTS_MODEL` / `GEMINI_TTS_VOICE` environment
-  variables; a failure is contained to the audio job.
 - A listener part-way through an expired episode gets a 404 once it is pruned.
   Acceptable for a daily digest.
 
