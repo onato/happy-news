@@ -80,3 +80,38 @@ print(f"Staged {staged} episode(s) for same-origin playback.")
 PY
 
 du -sh "$out" 2>/dev/null || true
+
+# Cache-bust the site's own assets.
+#
+# Pages serves css/js with `cache-control: max-age=600` and no way to override
+# it, so a browser that loaded the page before a fix can keep serving the stale
+# file for ten minutes — mobile Safari, in practice, for considerably longer.
+# That is not a hypothetical: a stale episode.js is exactly what kept the player
+# hidden after the relative-url fix had already deployed.
+#
+# Appending the commit sha makes each deploy a new URL, so a fix reaches phones
+# immediately instead of whenever the cache happens to expire. Done here in the
+# artifact rather than committed, so index.html stays clean in git.
+stamp="${GITHUB_SHA:-$(git rev-parse --short HEAD 2>/dev/null || echo dev)}"
+stamp="${stamp:0:8}"
+python3 - index.html "$stamp" <<'PY'
+import re, sys
+
+path, stamp = sys.argv[1], sys.argv[2]
+html = open(path).read()
+
+# Only local assets; leave any absolute URL alone. Strip an existing ?v= first
+# so re-running is idempotent rather than accumulating query strings.
+def stamp_asset(match):
+    quote, url = match.group(2), match.group(3)
+    if "//" in url:
+        return match.group(0)
+    url = url.split("?", 1)[0]
+    return f"{match.group(1)}{quote}{url}?v={stamp}{quote}"
+
+html = re.sub(r'(src=|href=)(["\'])((?:js|css)/[^"\']+)\2', stamp_asset, html)
+open(path, "w").write(html)
+print(f"Cache-busted local assets with ?v={stamp}")
+PY
+
+grep -oE '(js|css)/[^"]+' index.html | head -5
