@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 04:30:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 04:45:00 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -31,9 +31,9 @@
       <itunes:summary>Two good things: Restored California Creek Helps Threatened Salmon Grow Twice as Fast and Doubles Their Survival; Once-Distrustful Rescue Horse Learns to 'Play' Guitar and Harp, Earning a Spot on a Debut Album</itunes:summary>
       <link>https://www.onato.com/happy-news/</link>
       <guid isPermaLink="false">happy-news-2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 04:24:58 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3" length="2075704" type="audio/mpeg" />
-      <itunes:duration>0:04:19</itunes:duration>
+      <pubDate>Sun, 16 Aug 2026 04:44:35 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3" length="2090680" type="audio/mpeg" />
+      <itunes:duration>0:04:21</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
