@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-08-18",
+      "title": "Happy News \u2014 18 August 2026",
+      "runKey": "2026-08-18T15:30:00Z",
+      "published": "2026-08-18T19:00:26Z",
+      "duration": 1015.3,
+      "bytes": 8123336,
+      "storyCount": 7,
+      "guid": "happy-news-2026-08-18",
+      "summary": "Seven good things: Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds; French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'; All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands; Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real",
+      "chapters": [
+        {
+          "url": "https://phys.org/news/2026-08-ancient-colombians-built-huge-centralized.html",
+          "headline": "Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds",
+          "start": 7.74,
+          "duration": 166.7
+        },
+        {
+          "url": "https://reasonstobecheerful.world/france-medical-deserts-traveling-doctors/",
+          "headline": "French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'",
+          "start": 174.44,
+          "duration": 163.14
+        },
+        {
+          "url": "https://reasonstobecheerful.world/saving-indonesias-coral-reefs-by-empowering-women/",
+          "headline": "All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands",
+          "start": 337.58,
+          "duration": 144.56
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/270000-square-miles-around-easter-island-to-become-indigenous-managed-ocean-reserve/",
+          "headline": "Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real",
+          "start": 482.14,
+          "duration": 155.38
+        },
+        {
+          "url": "https://abc7news.com/story/heroic-santa-cruz-california-teen-lifeguard-ryder-williams-saved-child-recognized-president-trump-white-house/19693184/",
+          "headline": "Teen Lifeguard Honored at the White House for Saving a Drowning Boy",
+          "start": 637.52,
+          "duration": 133.68
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/garbage-workers-in-italy-help-woman-find-her-million-jackpot/",
+          "headline": "Sanitation Workers in Italy Dig Through an Entire Truckload of Trash to Recover a Woman's \u20ac1 Million Lottery Ticket",
+          "start": 771.2,
+          "duration": 117.48
+        },
+        {
+          "url": "https://ktvz.com/news/theres-good-news/2026/08/17/theres-good-news-injured-golden-eagle-rehabilitated-released-thanks-to-think-wild/",
+          "headline": "Golden Eagle Grounded by a Damaged Wing Flies Free Again After Rare Feather-Transplant Surgery",
+          "start": 888.68,
+          "duration": 124.06
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-18/happy-news-2026-08-18.mp3"
+    },
+    {
       "date": "2026-08-16",
       "title": "Happy News \u2014 16 August 2026",
       "runKey": "2026-08-16T18:38:25Z",
@@ -95,5 +151,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-16T18:47:07Z"
+  "updated": "2026-08-18T19:01:40Z"
 }
