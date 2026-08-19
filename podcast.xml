@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 19:01:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:57:44 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 19 August 2026</title>
+      <description>Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef</description>
+      <itunes:summary>Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:56:15 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3" length="9697352" type="audio/mpeg" />
+      <itunes:duration>0:20:12</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 18 August 2026</title>
       <description>Seven good things: Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds; French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'; All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands; Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real</description>

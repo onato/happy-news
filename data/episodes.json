@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-08-19",
+      "title": "Happy News \u2014 19 August 2026",
+      "runKey": "2026-08-19T18:43:00Z",
+      "published": "2026-08-19T18:56:15Z",
+      "duration": 1212.05,
+      "bytes": 9697352,
+      "storyCount": 8,
+      "guid": "happy-news-2026-08-19",
+      "summary": "Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef",
+      "chapters": [
+        {
+          "url": "https://phys.org/news/2026-08-astronomers-hot-birth-galaxy-cluster.html",
+          "headline": "Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago",
+          "start": 8.04,
+          "duration": 160.74
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/08/16/metro/rare-disease-gene-therapy-deaf/",
+          "headline": "First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness",
+          "start": 168.78,
+          "duration": 165.98
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/chewing-gum-cuts-risk-of-certain-head-neck-cancers-to-near-zero/",
+          "headline": "Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial",
+          "start": 334.76,
+          "duration": 160.98
+        },
+        {
+          "url": "https://phys.org/news/2026-08-coral-experts-historic-effort-florida.html",
+          "headline": "Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef",
+          "start": 495.74,
+          "duration": 167.12
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/zion-becomes-first-national-park-to-get-all-terrain-wheelchair-for-public-use/",
+          "headline": "Zion Becomes the First National Park to Offer a Free All-Terrain Wheelchair to Visitors",
+          "start": 662.86,
+          "duration": 130.14
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/boyfriend-secretly-trains-for-two-months-to-surprise-girlfriend-and-run-alongside-her-in-dreaded-first-half-marathon/",
+          "headline": "Boyfriend Secretly Trained for Two Months to Run His Girlfriend's Dreaded First Half-Marathon at Her Side",
+          "start": 793.0,
+          "duration": 113.58
+        },
+        {
+          "url": "https://www.nbcsports.com/olympics/news/flag-football-world-championship-usa-italy-ifaf",
+          "headline": "USA Wins a Sixth Straight Flag Football World Title, and Four Nations Punch Historic Tickets to the 2028 Olympics",
+          "start": 906.58,
+          "duration": 167.62
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/white-storks-make-historic-return-to-the-english-midlands-after-600-year-absence/",
+          "headline": "White Storks Return to Breed in England's Midlands for the First Time in 600 Years",
+          "start": 1074.2,
+          "duration": 135.3
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3"
+    },
+    {
       "date": "2026-08-18",
       "title": "Happy News \u2014 18 August 2026",
       "runKey": "2026-08-18T15:30:00Z",
@@ -151,5 +213,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-18T19:01:40Z"
+  "updated": "2026-08-19T18:57:43Z"
 }
