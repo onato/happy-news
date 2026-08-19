@@ -21,7 +21,7 @@
   <div class="player" id="player" hidden>
     <div class="player-inner">
       <button class="player-toggle" id="player-toggle" type="button"
-              aria-label="Play the digest" aria-pressed="false">▶</button>
+              aria-label="Play the digest" aria-pressed="false"><span class="glyph">▶</span></button>
       <span class="player-title" id="player-title"></span>
       <input class="player-seek" id="player-seek" type="range"
              min="0" max="0" value="0" step="1" aria-label="Seek">
@@ -30,6 +30,10 @@
       <audio id="player-audio" preload="none"></audio>
     </div>
   </div>
+
+  <!-- Shown by js/episode.js while the playing story is scrolled off screen. -->
+  <button class="player-jump" id="player-jump" type="button" hidden
+          aria-label="Scroll to the playing story"><span class="glyph">↓</span> Now playing</button>
 
   <nav class="filters" id="filters" aria-label="Filter by category"></nav>
 

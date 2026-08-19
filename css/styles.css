@@ -114,6 +114,58 @@ a { color: inherit; }
   cursor: pointer;
 }
 
+/* ---------- progress ring ----------
+   An SVG circle laid over the round play buttons. Its dash offset is set by
+   js/episode.js as playback advances, so the arc sweeps clockwise from 12
+   o'clock like an App Store download. The glyph sits above it. */
+
+.player-toggle,
+.card-play {
+  position: relative;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-toggle .glyph,
+.card-play .glyph {
+  position: relative;
+  z-index: 1;
+}
+
+.ring {
+  position: absolute;
+  /* Percentages resolve against the padding box, so -1px / +2px grows the ring
+     back out over the 1px border: the stroke (8/100 of the width) then sits
+     right on the button's edge. */
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+.ring circle {
+  fill: none;
+  stroke-width: 8;
+}
+
+.ring-track { stroke: var(--border); opacity: 0; }
+
+.ring-fill {
+  stroke: var(--accent);
+  stroke-linecap: round;
+  opacity: 0;
+  transition: stroke-dashoffset .25s linear, opacity .2s;
+}
+
+/* Only the button that's actually sounding shows a ring. */
+.has-progress .ring-track { opacity: .6; }
+.has-progress .ring-fill { opacity: 1; }
+.card-play.has-progress,
+.player-toggle.has-progress { border-color: transparent; }
+
 .player-title {
   flex: 0 1 auto;
   font-size: .8125rem;
@@ -165,7 +217,55 @@ a { color: inherit; }
 .card-play:hover { border-color: var(--accent); background: var(--accent-soft); }
 
 .card.is-playing { border-color: var(--accent); }
-.card.is-playing .card-play { border-color: var(--accent); background: var(--accent-soft); }
+.card.is-playing .card-play { background: var(--accent-soft); }
+
+/* ---------- "jump to the playing story" arrow ----------
+   A floating pill that appears when the playing card has scrolled out of
+   view. Its arrow points toward the card; tapping it scrolls there. */
+
+.player-jump {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Under the sticky masthead + player bar on desktop. */
+  top: 146px;
+  z-index: 12;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px 7px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow: var(--shadow-hover);
+  cursor: pointer;
+  animation: jump-in .2s ease-out;
+}
+
+.player-jump[hidden] { display: none; }
+
+.player-jump .glyph { font-size: 1rem; }
+
+/* Point from the bottom edge when the story is below the fold. */
+.player-jump[data-dir="down"] {
+  top: auto;
+  bottom: 24px;
+}
+
+:root[data-theme="dark"] .player-jump { color: #0f1a13; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .player-jump { color: #0f1a13; }
+}
+
+@keyframes jump-in {
+  from { opacity: 0; transform: translateX(-50%) scale(.9); }
+  to   { opacity: 1; transform: translateX(-50%) scale(1); }
+}
 
 /* ---------- category filters ---------- */
 
@@ -413,4 +513,13 @@ a { color: inherit; }
 
   /* Keep the last card clear of the fixed bar. */
   body:has(.player:not([hidden])) .feed { padding-bottom: 68px; }
+
+  /* The masthead scrolls away and the player is pinned to the bottom, so the
+     arrow hugs the top edge when pointing up and floats above the bar when
+     pointing down. */
+  .player-jump { top: 12px; }
+  .player-jump[data-dir="down"] {
+    top: auto;
+    bottom: calc(72px + env(safe-area-inset-bottom, 0));
+  }
 }

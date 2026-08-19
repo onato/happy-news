@@ -48,6 +48,50 @@
   let playingUrl = null;
   let scrubbing = false;
 
+  /* Whether the playing card is currently on screen, and on which side of the
+     viewport it sits when it isn't. Drives the "jump to playing" arrow. */
+  let watched = null;         // card element the observer is watching
+  let observer = null;
+
+  // App-Store-style progress ring: the dash offset of an SVG circle tracks how
+  // far through the chapter (or the whole episode) playback has reached.
+  const RING_R = 45;                       // viewBox 0 0 100 100, stroke 8
+  const RING_C = 2 * Math.PI * RING_R;
+
+  function ring() {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', 'ring');
+    svg.setAttribute('viewBox', '0 0 100 100');
+    svg.setAttribute('aria-hidden', 'true');
+    const track = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    track.setAttribute('class', 'ring-track');
+    const fill = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    fill.setAttribute('class', 'ring-fill');
+    for (const c of [track, fill]) {
+      c.setAttribute('cx', '50');
+      c.setAttribute('cy', '50');
+      c.setAttribute('r', String(RING_R));
+    }
+    fill.style.strokeDasharray = String(RING_C);
+    fill.style.strokeDashoffset = String(RING_C);
+    svg.append(track, fill);
+    return svg;
+  }
+
+  /** Set a button's ring to a 0..1 fraction; null hides it. */
+  function setRing(button, fraction) {
+    const fill = button && button.querySelector('.ring-fill');
+    if (!fill) return;
+    if (fraction == null) {
+      button.classList.remove('has-progress');
+      fill.style.strokeDashoffset = String(RING_C);
+      return;
+    }
+    const f = Math.min(1, Math.max(0, fraction));
+    button.classList.add('has-progress');
+    fill.style.strokeDashoffset = String(RING_C * (1 - f));
+  }
+
   function fmt(seconds) {
     if (!isFinite(seconds) || seconds < 0) seconds = 0;
     const total = Math.floor(seconds);
@@ -68,7 +112,7 @@
   /** Reflect play state on the bar and on whichever card is currently sounding. */
   function paint() {
     const playing = !audio.paused && !audio.ended;
-    toggle.textContent = playing ? '❚❚' : '▶';
+    toggle.querySelector('.glyph').textContent = playing ? '❚❚' : '▶';
     toggle.setAttribute('aria-label', playing ? 'Pause' : 'Play the digest');
     toggle.setAttribute('aria-pressed', String(playing));
 
@@ -87,11 +131,57 @@
       const button = card.querySelector('.card-play');
       if (button) {
         const on = playing && cardUrl === playingUrl;
-        button.textContent = on ? '❚❚' : '▶';
+        button.querySelector('.glyph').textContent = on ? '❚❚' : '▶';
         button.setAttribute('aria-label',
           on ? 'Pause' : 'Play this story in the digest');
+        setRing(button, on
+          ? (audio.currentTime - current.start) / current.duration
+          : null);
       }
     }
+
+    // Whole-episode progress on the transport button.
+    setRing(toggle, playing && audio.duration
+      ? audio.currentTime / audio.duration
+      : null);
+
+    watch(active || null);
+  }
+
+  /* ---- "jump to the playing story" arrow ----
+     Shown only while something is playing AND its card is scrolled out of view.
+     The arrow points the way; tapping scrolls the card into the middle of the
+     screen. */
+  const jump = document.getElementById('player-jump');
+
+  function watch(card) {
+    if (card === watched) return;
+    if (observer) observer.disconnect();
+    watched = card;
+    if (!card || !jump || !('IntersectionObserver' in window)) {
+      if (jump) jump.hidden = true;
+      return;
+    }
+    observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        jump.hidden = true;
+        return;
+      }
+      // Off-screen: is it above or below the viewport?
+      const above = entry.boundingClientRect.top < 0;
+      jump.hidden = false;
+      jump.dataset.dir = above ? 'up' : 'down';
+      jump.querySelector('.glyph').textContent = above ? '↑' : '↓';
+      jump.setAttribute('aria-label',
+        above ? 'Scroll up to the playing story' : 'Scroll down to the playing story');
+    }, { threshold: 0.25 });
+    observer.observe(card);
+  }
+
+  if (jump) {
+    jump.addEventListener('click', () => {
+      if (watched) watched.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
   }
 
   function playFrom(chapter) {
@@ -116,7 +206,10 @@
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'card-play';
-      button.textContent = '▶';
+      const glyph = document.createElement('span');
+      glyph.className = 'glyph';
+      glyph.textContent = '▶';
+      button.append(ring(), glyph);
       button.setAttribute('aria-label', 'Play this story in the digest');
       button.addEventListener('click', (event) => {
         // The whole card is a link — without this, playing navigates away.
@@ -134,6 +227,8 @@
   }
 
   window.happyPlayer = { decorate };
+
+  toggle.prepend(ring());
 
   toggle.addEventListener('click', () => {
     if (audio.paused) {

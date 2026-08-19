@@ -129,7 +129,6 @@ CHARS_PER_MINUTE = 950
 # today" rather than a hard error, so a quota blip never fails the run.
 EX_TEMPFAIL = 75
 
-CATEGORY_ORDER = ["Science", "Health", "Environment", "Community", "Culture", "Animals"]
 
 NUMBER_WORDS = {
     1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six",
@@ -227,13 +226,10 @@ def todays_stories(feed: dict) -> list[dict]:
         return []
     batch = [s for s in stories if s.get("added") == latest]
 
-    def sort_key(story: dict) -> tuple[int, str]:
-        category = story.get("category", "")
-        rank = CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
-        # Newest first within a category.
-        return (rank, _invert(story.get("published", "")))
-
-    batch.sort(key=sort_key)
+    # Newest first — the same order the web feed renders (js/feed.js sorts by
+    # `published` descending, stable), so the episode plays top-to-bottom as the
+    # listener sees it. Stable sort keeps ties in file order, as the feed does.
+    batch.sort(key=lambda story: _invert(story.get("published", "")))
     return batch
 
 
