@@ -13,8 +13,27 @@
   --maxw: 720px;
 }
 
+/* ---------- theme ----------
+   Light is the default. The dark palette applies either when the OS asks for
+   it (and the user hasn't overridden it) or when js/theme.js has stamped
+   data-theme="dark" on <html>. The two selectors below are kept identical —
+   edit both. */
+
+:root[data-theme="dark"] {
+  --bg: #14171a;
+  --surface: #1c2024;
+  --surface-hover: #232830;
+  --border: #2f353d;
+  --text: #e8eaed;
+  --text-muted: #9aa4b0;
+  --accent: #6ee7a0;
+  --accent-soft: #1d3327;
+  --shadow: none;
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, .35);
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #14171a;
     --surface: #1c2024;
     --surface-hover: #232830;
@@ -26,6 +45,14 @@
     --shadow: none;
     --shadow-hover: 0 4px 12px rgba(0, 0, 0, .35);
   }
+}
+
+/* Tell the browser which palette is active so form controls, scrollbars and
+   the range input follow. */
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { color-scheme: dark; }
 }
 
 * { box-sizing: border-box; }
@@ -60,7 +87,64 @@ a { color: inherit; }
   max-width: var(--maxw);
   margin: 0 auto;
   padding: 18px 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
+
+.masthead-text { min-width: 0; }
+
+/* ---------- theme toggle ----------
+   Cycles auto → light → dark (js/theme.js). The glyph shows the *current*
+   effective scheme; the title says what a tap will do. */
+
+.theme-toggle {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+
+.theme-toggle:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* A small "A" badge marks the auto (follow-the-OS) state. */
+.theme-toggle .auto-badge {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  font-size: .5625rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 1px 3px;
+  border-radius: 4px;
+  background: var(--accent);
+  color: var(--bg);
+  display: none;
+}
+
+.theme-toggle { position: relative; }
+.theme-toggle[data-mode="auto"] .auto-badge { display: block; }
 
 .masthead h1 {
   margin: 0;
