@@ -217,6 +217,9 @@
         event.stopPropagation();
         if (!audio.paused && playingUrl === url) {
           audio.pause();
+        } else if (audio.paused && chapterAt(audio.currentTime) === chapter) {
+          // Paused mid-story: resume where it stopped, don't restart the story.
+          audio.play().catch(() => {});
         } else {
           playFrom(chapter);
         }
