@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-08-20",
+      "title": "Happy News \u2014 20 August 2026",
+      "runKey": "2026-08-20T18:00:00Z",
+      "published": "2026-08-20T18:59:08Z",
+      "duration": 1008.07,
+      "bytes": 8065957,
+      "storyCount": 7,
+      "guid": "happy-news-2026-08-20",
+      "summary": "Seven good things: Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization; Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks; Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial; A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/archaeologists-triple-the-scale-of-an-ancient-amazonian-civilization-we-know-almost-nothing-about/",
+          "headline": "Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization",
+          "start": 7.4,
+          "duration": 165.26
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/woman-gives-1-million-in-life-changing-bonuses-to-teachers-in-her-school-district/",
+          "headline": "Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks",
+          "start": 172.66,
+          "duration": 129.3
+        },
+        {
+          "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+          "headline": "Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial",
+          "start": 301.96,
+          "duration": 165.68
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/tiktoker-showers-doordash-driver-and-fiance-with-wedding-gifts-thanks-to-the-note-he-left-in-the-bag/",
+          "headline": "A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding",
+          "start": 467.64,
+          "duration": 120.42
+        },
+        {
+          "url": "https://www.euronews.com/culture/2026/08/19/beninese-french-singer-angelique-kidjo-makes-history-as-first-black-african-to-get-hollywo",
+          "headline": "Ang\u00e9lique Kidjo Becomes the First African Musician to Receive a Hollywood Walk of Fame Star",
+          "start": 588.06,
+          "duration": 152.08
+        },
+        {
+          "url": "https://www.fox10tv.com/2026/08/19/rescued-sea-turtles-released-back-into-gulf-gulf-state-park/",
+          "headline": "Two Rescued Sea Turtles, Hooked by Fishermen, Swim Free Again in the Gulf",
+          "start": 740.14,
+          "duration": 122.82
+        },
+        {
+          "url": "https://www.wosu.org/2026-08-19/ohio-wildlife-center-rescues-150-baby-animals-orphaned-by-recent-storms",
+          "headline": "Ohio Wildlife Center Takes In 150 Storm-Orphaned Baby Animals in Just Two Days",
+          "start": 862.96,
+          "duration": 142.52
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-20/happy-news-2026-08-20.mp3"
+    },
+    {
       "date": "2026-08-19",
       "title": "Happy News \u2014 19 August 2026",
       "runKey": "2026-08-19T18:43:00Z",
@@ -213,5 +269,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-19T18:57:43Z"
+  "updated": "2026-08-20T19:00:23Z"
 }

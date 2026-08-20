@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 18:57:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 19:00:24 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 20 August 2026</title>
+      <description>Seven good things: Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization; Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks; Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial; A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding</description>
+      <itunes:summary>Seven good things: Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization; Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks; Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial; A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:59:08 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-20/happy-news-2026-08-20.mp3" length="8065957" type="audio/mpeg" />
+      <itunes:duration>0:16:48</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 19 August 2026</title>
       <description>Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef</description>
