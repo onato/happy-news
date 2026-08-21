@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-08-21",
+      "title": "Happy News \u2014 21 August 2026",
+      "runKey": "2026-08-21T20:00:00Z",
+      "published": "2026-08-21T18:51:56Z",
+      "duration": 1236.24,
+      "bytes": 9890888,
+      "storyCount": 8,
+      "guid": "happy-news-2026-08-21",
+      "summary": "Eight good things: A River Otter Returns to the Bronx After a Century's Absence; Tar and Pollen Trapped in a 2,200-Year-Old Roman Shipwreck Reveal Where It Was Repaired; Large Swedish Study Finds At-Home Bowel Cancer Screening Cuts Death Risk by 43%; Former Courier Has Made Over 200 Trips a Year Connecting Isolated Elders With Children Working Abroad",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/first-river-otter-spotted-in-the-bronx-in-100-years-along-the-bronx-river/",
+          "headline": "A River Otter Returns to the Bronx After a Century's Absence",
+          "start": 7.58,
+          "duration": 142.48
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202907.htm",
+          "headline": "Tar and Pollen Trapped in a 2,200-Year-Old Roman Shipwreck Reveal Where It Was Repaired",
+          "start": 150.06,
+          "duration": 164.76
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202833.htm",
+          "headline": "Large Swedish Study Finds At-Home Bowel Cancer Screening Cuts Death Risk by 43%",
+          "start": 314.82,
+          "duration": 156.52
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/man-makes-200-trips-to-remote-villages-to-connect-elders-with-their-children-working-abroad/",
+          "headline": "Former Courier Has Made Over 200 Trips a Year Connecting Isolated Elders With Children Working Abroad",
+          "start": 471.34,
+          "duration": 156.94
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/community-rallies-to-support-wages-of-beloved-pizza-joints-staff-while-they-rebuild-after-a-fire/",
+          "headline": "After a Fire Closed Their Restaurant, a Minneapolis Community Raised $21,000 to Cover Staff Wages",
+          "start": 628.28,
+          "duration": 150.9
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/experimental-drug-generates-immune-response-against-pancreatic-cancer-in-people-at-high-risk/",
+          "headline": "Experimental Vaccine Trains the Immune System to Fight Pancreatic Cancer Before It Starts",
+          "start": 779.18,
+          "duration": 163.82
+        },
+        {
+          "url": "https://news.exeter.ac.uk/research/iconic-bluefin-tuna-tagged-in-northeast-england-after-returning-for-first-time-in-60-years/",
+          "headline": "Bluefin Tuna Return to Northeast England's Coast for the First Time in 60 Years",
+          "start": 943.0,
+          "duration": 151.02
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/italian-police-recover-stolen-renoir-cezanne-and-matisse-artworks-worth-millions/",
+          "headline": "Italian Police Recover Stolen Renoir, C\u00e9zanne, and Matisse Works Worth Millions",
+          "start": 1094.02,
+          "duration": 139.66
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-21/happy-news-2026-08-21.mp3"
+    },
+    {
       "date": "2026-08-20",
       "title": "Happy News \u2014 20 August 2026",
       "runKey": "2026-08-20T18:00:00Z",
@@ -269,5 +331,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-20T19:00:23Z"
+  "updated": "2026-08-21T18:53:26Z"
 }
