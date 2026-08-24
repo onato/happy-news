@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-08-24",
+      "title": "Happy News \u2014 24 August 2026",
+      "runKey": "2026-08-24T12:00:00Z",
+      "published": "2026-08-24T19:00:46Z",
+      "duration": 1013.88,
+      "bytes": 8112008,
+      "storyCount": 7,
+      "guid": "happy-news-2026-08-24",
+      "summary": "Seven good things: 82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species; A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing; Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital; Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/zebra-sharks-the-first-ever-to-be-rewilded-after-82-pups-released-by-dedicated-shark-nannies/",
+          "headline": "82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species",
+          "start": 7.74,
+          "duration": 152.08
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/inventor-envisioned-a-waterless-toilet-for-astronauts-realized-it-could-solve-a-global-sanitation-crisis-instead/",
+          "headline": "A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing",
+          "start": 159.82,
+          "duration": 138.94
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/die-on-the-road-not-in-hospital-chinese-man-takes-paralyzed-wife-on-epic-road-trip/",
+          "headline": "Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital",
+          "start": 298.76,
+          "duration": 141.34
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/ethiopian-farmers-save-thousands-by-switching-to-solar-irrigation/",
+          "headline": "Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions",
+          "start": 440.1,
+          "duration": 144.02
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/zoo-plucks-21-snails-from-extinction-and-returns-hundreds-to-pristine-atlantic-island-watch/",
+          "headline": "Chester Zoo Breeds Hundreds of Snails Rescued From the Brink of Extinction Back Onto a Remote Island",
+          "start": 584.12,
+          "duration": 142.44
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/08/19/3348019/0/en/ultragenyx-announces-u-s-fda-approval-of-genglycos-gene-therapy-the-first-ever-fda-approved-treatment-designed-to-treat-the-underlying-cause-of-glycogen-storage-disease-type-ia-gsd.html",
+          "headline": "FDA Approves First Gene Therapy to Treat the Root Cause of a Rare Metabolic Disease",
+          "start": 726.56,
+          "duration": 141.88
+        },
+        {
+          "url": "https://www.euronews.com/my-europe/2026/08/18/sophie-adenot-to-become-first-french-woman-to-conduct-spacewalk-at-iss",
+          "headline": "Sophie Adenot Becomes the First French Woman to Walk in Space",
+          "start": 868.44,
+          "duration": 142.88
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3"
+    },
+    {
       "date": "2026-08-21",
       "title": "Happy News \u2014 21 August 2026",
       "runKey": "2026-08-21T20:00:00Z",
@@ -331,5 +387,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-21T18:53:26Z"
+  "updated": "2026-08-24T19:01:35Z"
 }

@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 18:53:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 19:01:36 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 24 August 2026</title>
+      <description>Seven good things: 82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species; A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing; Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital; Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions</description>
+      <itunes:summary>Seven good things: 82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species; A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing; Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital; Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 19:00:46 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3" length="8112008" type="audio/mpeg" />
+      <itunes:duration>0:16:54</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 21 August 2026</title>
       <description>Eight good things: A River Otter Returns to the Bronx After a Century's Absence; Tar and Pollen Trapped in a 2,200-Year-Old Roman Shipwreck Reveal Where It Was Repaired; Large Swedish Study Finds At-Home Bowel Cancer Screening Cuts Death Risk by 43%; Former Courier Has Made Over 200 Trips a Year Connecting Isolated Elders With Children Working Abroad</description>
