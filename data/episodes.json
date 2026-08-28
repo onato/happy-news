@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-08-28",
+      "title": "Happy News \u2014 28 August 2026",
+      "runKey": "2026-08-28T02:11:04Z",
+      "published": "2026-08-28T02:16:10Z",
+      "duration": 970.58,
+      "bytes": 7765640,
+      "storyCount": 8,
+      "guid": "happy-news-2026-08-28",
+      "summary": "Eight good things: Astronomers Capture the Clearest-Ever Image of Betelgeuse's Long-Sought Companion Star; Retired Logger Revives a Drowning Baby Otter With Mouth-to-Mouth; Pakistan Creates a 250-Mile Protected Corridor for the World's Second-Rarest River Dolphin; Alison dos Santos Breaks the 400m Hurdles World Record",
+      "chapters": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260827010514.htm",
+          "headline": "Astronomers Capture the Clearest-Ever Image of Betelgeuse's Long-Sought Companion Star",
+          "start": 7.52,
+          "duration": 141.78
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/man-saves-baby-otter-with-cpr-a-lifes-a-life-no-matter-what-it-is/",
+          "headline": "Retired Logger Revives a Drowning Baby Otter With Mouth-to-Mouth",
+          "start": 149.3,
+          "duration": 91.36
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/pakistan-combines-river-dolphin-sanctuaries-along-the-indus-river-protecting-250-miles-of-habitat/",
+          "headline": "Pakistan Creates a 250-Mile Protected Corridor for the World's Second-Rarest River Dolphin",
+          "start": 240.66,
+          "duration": 130.96
+        },
+        {
+          "url": "https://www.olympics.com/en/news/zurich-2026-mens-400m-hurdles-dos-santos-world-record",
+          "headline": "Alison dos Santos Breaks the 400m Hurdles World Record",
+          "start": 371.62,
+          "duration": 132.96
+        },
+        {
+          "url": "https://www.wabi.tv/2026/08/27/orono-senior-citizens-ride-kindness-kruise-surprising-local-departments-with-gifts/",
+          "headline": "Retirement Home Residents' 'Kindness Kruise' Surprises a Small Town's First Responders",
+          "start": 504.58,
+          "duration": 68.72
+        },
+        {
+          "url": "https://www.scientificamerican.com/article/u-s-approves-breakthrough-pancreatic-cancer-drug-heralding-a-new-era-for-an-intractable-disease/",
+          "headline": "FDA Approves a Pancreatic Cancer Drug That Nearly Doubles Survival",
+          "start": 573.3,
+          "duration": 141.38
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/indias-lion-populations-increase-70-total-habitat-by-15-over-the-last-decade/",
+          "headline": "India's Asiatic Lion Population Grows 70% Over the Past Decade",
+          "start": 714.68,
+          "duration": 127.74
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/scientists-and-volunteers-take-big-step-towards-saving-rare-cryptic-australian-orchid/",
+          "headline": "Scientists Double the Nursery Population of One of Australia's Rarest Orchids",
+          "start": 842.42,
+          "duration": 125.6
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-28/happy-news-2026-08-28.mp3"
+    },
+    {
       "date": "2026-08-24",
       "title": "Happy News \u2014 24 August 2026",
       "runKey": "2026-08-24T12:00:00Z",
@@ -387,5 +449,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-24T19:01:35Z"
+  "updated": "2026-08-28T02:17:21Z"
 }
