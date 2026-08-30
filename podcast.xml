@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 02:17:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 21:01:23 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 30 August 2026</title>
+      <description>Two good things: CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind; Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home</description>
+      <itunes:summary>Two good things: CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind; Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 21:00:57 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-30/happy-news-2026-08-30.mp3" length="2346225" type="audio/mpeg" />
+      <itunes:duration>0:04:53</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 28 August 2026</title>
       <description>Eight good things: Astronomers Capture the Clearest-Ever Image of Betelgeuse's Long-Sought Companion Star; Retired Logger Revives a Drowning Baby Otter With Mouth-to-Mouth; Pakistan Creates a 250-Mile Protected Corridor for the World's Second-Rarest River Dolphin; Alison dos Santos Breaks the 400m Hurdles World Record</description>

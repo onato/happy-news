@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-08-30",
+      "title": "Happy News \u2014 30 August 2026",
+      "runKey": "2026-08-30T13:00:00Z",
+      "published": "2026-08-30T21:00:57Z",
+      "duration": 293.18,
+      "bytes": 2346225,
+      "storyCount": 2,
+      "guid": "happy-news-2026-08-30",
+      "summary": "Two good things: CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind; Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home",
+      "chapters": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260828082330.htm",
+          "headline": "CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind",
+          "start": 7.0,
+          "duration": 167.52
+        },
+        {
+          "url": "https://www.sunnyskyz.com/good-news/6288/Golden-Retriever-Rescued-After-Being-Buried-in-Landslide-for-Three-Days",
+          "headline": "Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home",
+          "start": 174.52,
+          "duration": 116.12
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-30/happy-news-2026-08-30.mp3"
+    },
+    {
       "date": "2026-08-28",
       "title": "Happy News \u2014 28 August 2026",
       "runKey": "2026-08-28T02:11:04Z",
@@ -449,5 +475,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-28T02:17:21Z"
+  "updated": "2026-08-30T21:01:22Z"
 }
