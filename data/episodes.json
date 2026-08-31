@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-08-31",
+      "title": "Happy News \u2014 31 August 2026",
+      "runKey": "2026-08-31T22:45:33Z",
+      "published": "2026-08-31T22:49:47Z",
+      "duration": 975.48,
+      "bytes": 7805221,
+      "storyCount": 8,
+      "guid": "happy-news-2026-08-31",
+      "summary": "Eight good things: Florida Teen Siblings' Pizza-Donation App Has Delivered 25,000 Slices to Families in Need; London Children's Lungs Are Growing Faster as the City's Low-Emission Zone Cuts Traffic Pollution; Kemp's Ridley Sea Turtle Found Dying on a Welsh Beach Flies Home to Texas for a Second Chance at the Wild; New \u00a31 Million Mobile Dental Unit Will Bring Free Care to Homeless and Vulnerable People Across the UK",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/",
+          "headline": "Florida Teen Siblings' Pizza-Donation App Has Delivered 25,000 Slices to Families in Need",
+          "start": 7.42,
+          "duration": 107.52
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/",
+          "headline": "London Children's Lungs Are Growing Faster as the City's Low-Emission Zone Cuts Traffic Pollution",
+          "start": 114.94,
+          "duration": 125.14
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/rare-sea-turtle-near-death-on-uk-beach-gets-5000-mile-lift-to-texas/",
+          "headline": "Kemp's Ridley Sea Turtle Found Dying on a Welsh Beach Flies Home to Texas for a Second Chance at the Wild",
+          "start": 240.08,
+          "duration": 124.76
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/mobile-dental-lab-brings-volunteer-dentists-to-uk-homeless/",
+          "headline": "New \u00a31 Million Mobile Dental Unit Will Bring Free Care to Homeless and Vulnerable People Across the UK",
+          "start": 364.84,
+          "duration": 121.6
+        },
+        {
+          "url": "https://www.khaosodenglish.com/featured/2026/08/30/age-107-two-golds-thai-athlete-breaks-world-record/",
+          "headline": "107-Year-Old Thai Athlete Breaks His Own World Record \u2014 Twice \u2014 at the World Masters Championships",
+          "start": 486.44,
+          "duration": 116.84
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/artist-creates-huge-wood-sculptures-using-a-chainsaw/",
+          "headline": "Self-Taught Chainsaw Artist Turns Tree Trunks Into Lifelike Wildlife Sculptures",
+          "start": 603.28,
+          "duration": 107.92
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260828082347.htm",
+          "headline": "Scientists Discover Seven New Frog Species Hidden in Madagascar's Forest Floor",
+          "start": 711.2,
+          "duration": 126.62
+        },
+        {
+          "url": "https://news.mongabay.com/2026/08/the-conservation-population-of-australias-endangered-eastern-quoll-welcomes-joeys/",
+          "headline": "Once Extinct on the Mainland, Australia's Eastern Quolls Are Breeding Successfully in the Wild Again",
+          "start": 837.82,
+          "duration": 135.06
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-31/happy-news-2026-08-31.mp3"
+    },
+    {
       "date": "2026-08-30",
       "title": "Happy News \u2014 30 August 2026",
       "runKey": "2026-08-30T13:00:00Z",
@@ -475,5 +537,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-30T21:01:22Z"
+  "updated": "2026-08-31T22:50:58Z"
 }
