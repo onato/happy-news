@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 22:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 21:00:20 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 1 September 2026</title>
+      <description>Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River</description>
+      <itunes:summary>Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 20:59:16 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-01/happy-news-2026-09-01.mp3" length="6575244" type="audio/mpeg" />
+      <itunes:duration>0:13:42</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 31 August 2026</title>
       <description>Eight good things: Florida Teen Siblings' Pizza-Donation App Has Delivered 25,000 Slices to Families in Need; London Children's Lungs Are Growing Faster as the City's Low-Emission Zone Cuts Traffic Pollution; Kemp's Ridley Sea Turtle Found Dying on a Welsh Beach Flies Home to Texas for a Second Chance at the Wild; New £1 Million Mobile Dental Unit Will Bring Free Care to Homeless and Vulnerable People Across the UK</description>

@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-01",
+      "title": "Happy News \u2014 1 September 2026",
+      "runKey": "2026-09-01T20:55:00Z",
+      "published": "2026-09-01T20:59:16Z",
+      "duration": 821.78,
+      "bytes": 6575244,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-01",
+      "summary": "Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/who-declares-uganda-ebola-free-after-42-days-without-new-cases/",
+          "headline": "Uganda Declared Ebola-Free After Rapid Outbreak Containment",
+          "start": 7.34,
+          "duration": 116.5
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/",
+          "headline": "Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam",
+          "start": 123.84,
+          "duration": 99.68
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/",
+          "headline": "Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline",
+          "start": 223.52,
+          "duration": 92.32
+        },
+        {
+          "url": "https://www.wftv.com/news/local/manatee-named-citron-returns-crystal-river-after-seaworld-rehabilitation/2YMY65B2UFGMPABVZZUND6L2JU/",
+          "headline": "Twice-Rescued Manatee Citron Returns to Florida's Crystal River",
+          "start": 315.84,
+          "duration": 112.68
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260831015141.htm",
+          "headline": "Scientists Find a Human-Only Gene That May Explain Our Brainpower",
+          "start": 428.52,
+          "duration": 121.56
+        },
+        {
+          "url": "https://www.usparaswimming.org/news/2026/august/30/world-record-by-evan-wilkerson-highlights-final-day-of-2026-para-pan-pacific-championships",
+          "headline": "Team USA Para Swimmers Set Three World Records at Pan Pacific Championships",
+          "start": 550.08,
+          "duration": 128.38
+        },
+        {
+          "url": "https://theconversation.com/we-finally-have-some-encouraging-news-on-great-barrier-reef-water-quality-289723",
+          "headline": "Decades of Data Show Great Barrier Reef Water Quality Is Slowly Improving",
+          "start": 678.46,
+          "duration": 140.76
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-01/happy-news-2026-09-01.mp3"
+    },
+    {
       "date": "2026-08-31",
       "title": "Happy News \u2014 31 August 2026",
       "runKey": "2026-08-31T22:45:33Z",
@@ -537,5 +593,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-08-31T22:50:58Z"
+  "updated": "2026-09-01T21:00:19Z"
 }
