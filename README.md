@@ -22,7 +22,12 @@ the site or subscribe to as a podcast.
    commits); the daily run deploys itself, because commits made with
    `GITHUB_TOKEN` don't trigger other workflows.
 
-The feed is capped at the 200 most recent stories.
+The feed is capped at the 200 most recent stories. It opens showing only the
+latest collection run — the stories that are actually new, and the ones the day's
+audio digest covers — with a "Show N earlier stories" button that appends the
+rest. Batches are identified by each story's `added` stamp rather than by
+`published`, because a run often picks up a story published a day or two earlier,
+and those belong with the batch that found them.
 
 ## Audio
 
@@ -51,7 +56,11 @@ monetise themselves.
   and `podcast.xml` is regenerated from the surviving episodes, so the feed can
   never link to a deleted file.
 - **Playback**: a sticky bar plays the whole digest, and each story card gets a
-  play button that seeks to that story's offset in the same mp3.
+  play button that seeks to that story's offset in the same mp3. The bar also
+  carries skip-to-story buttons, and marks each story's start on the scrubber —
+  both driven by the same chapter offsets. "Previous" restarts the current story
+  unless playback only just entered it, which is the convention every music
+  player uses; skipping past the last story runs to the end and stops.
 - **Subscribe** in any podcast app via `podcast.xml` at the site root.
 
 `data/episodes.json` is the manifest the player and the RSS feed both read. It

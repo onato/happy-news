@@ -7,9 +7,21 @@ const CATEGORIES = ['Science', 'Health', 'Environment', 'Community', 'Culture', 
 const feedEl = document.getElementById('feed');
 const filtersEl = document.getElementById('filters');
 const updatedEl = document.getElementById('updated');
+const moreEl = document.getElementById('more');
 
 let stories = [];
 let active = 'All';
+
+/* The feed opens on the latest collection run only — the stories that are
+   genuinely new, and the ones today's audio digest covers. `showAll` is flipped
+   by the "more" button, which then appends the rest of the archive.
+
+   Batches are identified by `added` (the collector stamps every story it writes
+   in a run with the same value), not by `published`: a run often picks up a
+   story published the day before, and those belong with the batch that found
+   them. */
+let showAll = false;
+let latestBatch = null;
 
 /** Relative time, in the style of a news aggregator. */
 function timeAgo(iso) {
@@ -115,16 +127,38 @@ function thumbnail(story) {
   return wrap;
 }
 
+/** True for stories from the most recent collection run. */
+function isNew(story) {
+  return latestBatch != null && story.added === latestBatch;
+}
+
+/** Label and reveal the "show earlier" button, or hide it when nothing is held back. */
+function updateMore(held) {
+  if (!moreEl) return;
+  if (showAll || held <= 0) {
+    moreEl.hidden = true;
+    return;
+  }
+  moreEl.hidden = false;
+  moreEl.textContent = `Show ${held} earlier stor${held === 1 ? 'y' : 'ies'}`;
+}
+
 function render() {
-  const shown = active === 'All'
+  const matching = active === 'All'
     ? stories
     : stories.filter((s) => s.category === active);
 
+  // Category filtering happens first, so the button's count reflects what
+  // pressing it would actually add to the view you're looking at.
+  const shown = showAll ? matching : matching.filter(isNew);
+  const held = matching.length - shown.length;
+
   feedEl.replaceChildren();
+  updateMore(held);
 
   if (!shown.length) {
     feedEl.append(el('p', 'state', stories.length
-      ? `No ${active.toLowerCase()} stories yet — check back tomorrow.`
+      ? `No new ${active === 'All' ? '' : `${active.toLowerCase()} `}stories today${held ? ' — the earlier ones are below.' : ' — check back tomorrow.'}`
       : 'No stories yet. The collector runs each morning.'));
     return;
   }
@@ -163,6 +197,17 @@ function buildFilters() {
   }
 }
 
+if (moreEl) {
+  moreEl.addEventListener('click', () => {
+    showAll = true;
+    // Where the archive begins, so the click doesn't leave you looking at the
+    // same screen with a button missing.
+    const anchor = feedEl.lastElementChild;
+    render();
+    anchor?.nextElementSibling?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
 fetch('data/news.json', { cache: 'no-cache' })
   .then((r) => {
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -172,6 +217,16 @@ fetch('data/news.json', { cache: 'no-cache' })
     stories = Array.isArray(data.stories) ? data.stories : [];
     // Newest first, regardless of the order they were written in.
     stories.sort((a, b) => new Date(b.published) - new Date(a.published));
+
+    // The newest `added` stamp is the latest run. Taken by max rather than by
+    // position, because the sort above is by publication date, not collection
+    // date, so the newest batch isn't necessarily stories[0].
+    const stamps = stories.map((s) => s.added).filter(Boolean);
+    latestBatch = stamps.length ? stamps.reduce((a, b) => (a > b ? a : b)) : null;
+
+    // Nothing to hide behind the button if every story came in one run — and
+    // with no usable stamps at all, fall back to showing the whole feed.
+    if (!latestBatch || stories.every(isNew)) showAll = true;
 
     buildFilters();
     render();
@@ -183,5 +238,6 @@ fetch('data/news.json', { cache: 'no-cache' })
   })
   .catch((err) => {
     feedEl.replaceChildren(el('p', 'state', "Couldn't load the feed. Please try again later."));
+    if (moreEl) moreEl.hidden = true;
     console.error('Failed to load data/news.json:', err);
   });

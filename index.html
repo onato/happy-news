@@ -35,9 +35,17 @@
     <div class="player-inner">
       <button class="player-toggle" id="player-toggle" type="button"
               aria-label="Play the digest" aria-pressed="false"><span class="glyph">▶</span></button>
+      <button class="player-skip" id="player-prev" type="button"
+              aria-label="Previous story"><span class="glyph">⏮</span></button>
+      <button class="player-skip" id="player-next" type="button"
+              aria-label="Next story"><span class="glyph">⏭</span></button>
       <span class="player-title" id="player-title"></span>
-      <input class="player-seek" id="player-seek" type="range"
-             min="0" max="0" value="0" step="1" aria-label="Seek">
+      <!-- The ticks layer marks where each story starts; js/episode.js fills it. -->
+      <div class="player-track" id="player-track">
+        <input class="player-seek" id="player-seek" type="range"
+               min="0" max="0" value="0" step="1" aria-label="Seek">
+        <div class="player-ticks" id="player-ticks" aria-hidden="true"></div>
+      </div>
       <span class="player-time" id="player-time">0:00</span>
       <a class="player-rss" href="podcast.xml" title="Subscribe in a podcast app">Subscribe</a>
       <audio id="player-audio" preload="none"></audio>
@@ -53,6 +61,11 @@
   <main id="feed" class="feed" aria-live="polite">
     <p class="state">Loading the good news…</p>
   </main>
+
+  <!-- Revealed by js/feed.js when there are older stories held back. -->
+  <div class="more-wrap">
+    <button class="more" id="more" type="button" hidden></button>
+  </div>
 
   <footer class="footer">
     <p>

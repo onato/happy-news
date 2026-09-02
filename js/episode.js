@@ -40,10 +40,14 @@
   const seek = document.getElementById('player-seek');
   const titleEl = document.getElementById('player-title');
   const timeEl = document.getElementById('player-time');
+  const prevBtn = document.getElementById('player-prev');
+  const nextBtn = document.getElementById('player-next');
+  const ticksEl = document.getElementById('player-ticks');
 
   if (!box || !audio) return;
 
   let chapters = new Map();   // story url -> chapter
+  let ordered = [];           // same chapters, sorted by start — skip order
   let cards = new Map();      // story url -> card element
   let playingUrl = null;
   let scrubbing = false;
@@ -189,6 +193,83 @@
     audio.play().catch(() => { /* autoplay blocked; the bar still works */ });
   }
 
+  /* ---- skipping between stories ----
+     `ordered` is the chapter list sorted by start, so skipping is a walk along
+     it rather than a lookup: the listener may be in a gap between chapters (the
+     intro, or a pause), where chapterAt() finds nothing but "next" still has an
+     obvious answer. */
+
+  /** Index of the chapter containing `time`, else the one before it; -1 before the first. */
+  function indexAt(time) {
+    let i = -1;
+    for (let n = 0; n < ordered.length; n += 1) {
+      if (time >= ordered[n].start) i = n; else break;
+    }
+    return i;
+  }
+
+  /** Seek to the next story, or to the end of the episode past the last one. */
+  function skipNext() {
+    if (!ordered.length) return;
+    const next = ordered[indexAt(audio.currentTime) + 1];
+    if (next) {
+      seekTo(next.start);
+    } else if (isFinite(audio.duration)) {
+      // Past the final story: run to the end and stop, like a normal podcast.
+      seekTo(audio.duration);
+      audio.pause();
+    }
+  }
+
+  /* Restart the current story, unless playback only just entered it — then step
+     back to the previous one. The grace window is the convention every music
+     player uses, and it makes a double-tap mean "back one story". */
+  const RESTART_WINDOW = 3;
+
+  function skipPrev() {
+    if (!ordered.length) return;
+    const i = indexAt(audio.currentTime);
+    if (i < 0) {
+      seekTo(0);
+      return;
+    }
+    const inCurrent = audio.currentTime - ordered[i].start;
+    const target = (inCurrent > RESTART_WINDOW || i === 0) ? ordered[i] : ordered[i - 1];
+    seekTo(target.start);
+  }
+
+  /** Move the playhead and keep the bar in step, without waiting for timeupdate. */
+  function seekTo(time) {
+    audio.currentTime = Math.max(0, Math.min(time, audio.duration || time));
+    seek.value = String(Math.floor(audio.currentTime));
+    timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+    paint();
+  }
+
+  /* ---- chapter marks on the scrubber ----
+     One absolutely-positioned tick per story start, as a percentage of the
+     episode duration, so it survives any bar width. Needs the duration, which
+     arrives with the metadata, so this runs again on loadedmetadata. */
+  function drawTicks(total) {
+    if (!ticksEl) return;
+    ticksEl.replaceChildren();
+    if (!isFinite(total) || total <= 0 || !ordered.length) return;
+
+    for (const chapter of ordered) {
+      // A tick at 0 would sit under the thumb's start position; skip it.
+      if (chapter.start <= 0) continue;
+      const tick = document.createElement('span');
+      tick.className = 'tick';
+      tick.style.left = `${(chapter.start / total) * 100}%`;
+      ticksEl.append(tick);
+    }
+  }
+
+  /** Redraw from the element's own duration, once the audio has told us. */
+  function renderTicks() {
+    drawTicks(audio.duration || 0);
+  }
+
   /* Called by feed.js after every render. render() rebuilds the DOM on each
      filter click, so this must be safe to run repeatedly. */
   function decorate(root) {
@@ -241,6 +322,9 @@
     }
   });
 
+  if (prevBtn) prevBtn.addEventListener('click', skipPrev);
+  if (nextBtn) nextBtn.addEventListener('click', skipNext);
+
   audio.addEventListener('play', paint);
   audio.addEventListener('pause', paint);
   audio.addEventListener('ended', paint);
@@ -248,6 +332,7 @@
   audio.addEventListener('loadedmetadata', () => {
     seek.max = String(Math.floor(audio.duration || 0));
     timeEl.textContent = `${fmt(0)} / ${fmt(audio.duration)}`;
+    renderTicks();
   });
 
   audio.addEventListener('timeupdate', () => {
@@ -279,11 +364,19 @@
       titleEl.title = `${mins} min · ${count} stor${count === 1 ? 'y' : 'ies'}`;
       timeEl.textContent = `0:00 / ${fmt(episode.duration || 0)}`;
 
-      chapters = new Map(
-        (episode.chapters || [])
-          .filter((c) => c && typeof c.url === 'string' && isFinite(c.start))
-          .map((c) => [c.url, c])
-      );
+      const valid = (episode.chapters || [])
+        .filter((c) => c && typeof c.url === 'string' && isFinite(c.start));
+      chapters = new Map(valid.map((c) => [c.url, c]));
+      ordered = valid.slice().sort((a, b) => a.start - b.start);
+
+      // preload="none" means duration is unknown until playback starts, so the
+      // ticks are drawn from the manifest first and redrawn on loadedmetadata.
+      if (!audio.duration && isFinite(episode.duration) && episode.duration > 0) {
+        seek.max = String(Math.floor(episode.duration));
+        drawTicks(episode.duration);
+      } else {
+        renderTicks();
+      }
 
       box.hidden = false;
       // The feed may have rendered before this resolved.

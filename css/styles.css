@@ -259,10 +259,73 @@ a { color: inherit; }
   text-overflow: ellipsis;
 }
 
-.player-seek {
+/* Skip-to-story buttons. Plain glyphs rather than ringed circles: the transport
+   button is the primary control and should keep that weight to itself. */
+.player-skip {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: .8125rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.player-skip:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* ---------- scrubber ----------
+   The range input and the chapter ticks are stacked in one box: the ticks sit
+   under the thumb but over the track, and pass clicks through to the input so
+   the whole bar stays draggable. */
+.player-track {
+  position: relative;
   flex: 1 1 auto;
   min-width: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.player-seek {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
   accent-color: var(--accent);
+  position: relative;
+  z-index: 1;
+}
+
+.player-ticks {
+  position: absolute;
+  /* Inset by half a thumb so a tick lines up with where the thumb's centre
+     lands at that time — the track is shorter than the element by one thumb. */
+  left: 7px;
+  right: 7px;
+  top: 50%;
+  height: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.player-ticks .tick {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  border-radius: 1px;
+  /* Outlined in the bar's own background so a tick stays legible against both
+     halves of the track — the accent-filled played portion and the grey rest. */
+  background: var(--text-muted);
+  box-shadow: 0 0 0 1px var(--surface);
+  opacity: .8;
 }
 
 .player-time {
@@ -495,6 +558,35 @@ a { color: inherit; }
 
 .daybreak:first-child { margin-top: 0; }
 
+/* ---------- "show earlier stories" ----------
+   The feed opens on the latest run only; this reveals the archive below it. */
+
+.more-wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 4px 20px 28px;
+  text-align: center;
+}
+
+.more {
+  font: inherit;
+  font-size: .875rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+
+.more:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.more[hidden] { display: none; }
+
 /* ---------- states & footer ---------- */
 
 .state {
@@ -595,8 +687,16 @@ a { color: inherit; }
   .player-title { display: none; }
   .player-rss { display: none; }
 
-  /* Keep the last card clear of the fixed bar. */
+  /* Keep the last card clear of the fixed bar. When the archive is still
+     collapsed the button is the last thing above it, so it takes the gap
+     instead — otherwise the feed's padding sits between them and the button
+     ends up under the bar. */
   body:has(.player:not([hidden])) .feed { padding-bottom: 68px; }
+  body:has(.player:not([hidden])):has(.more:not([hidden])) .feed { padding-bottom: 4px; }
+  body:has(.player:not([hidden])) .more-wrap { padding-bottom: 76px; }
+
+  /* The bar is tight on a phone; keep the skip glyphs from crowding it. */
+  .player-skip { width: 24px; height: 24px; }
 
   /* The masthead scrolls away and the player is pinned to the bottom, so the
      arrow hugs the top edge when pointing up and floats above the bar when
