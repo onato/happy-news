@@ -690,8 +690,13 @@ a { color: inherit; }
     z-index: 11;
     border-bottom: none;
     border-top: 1px solid var(--border);
-    /* Clear the iOS home indicator. */
-    padding-bottom: env(safe-area-inset-bottom, 0);
+    /* Clear the iOS home indicator — and, failing that, a browser's own bottom
+       toolbar. SFSafariViewController (what Telegram opens links in) reports a
+       safe-area inset of 0 because its toolbar isn't part of the safe area, so
+       the inset alone left the bar sitting right on top of it. max() takes the
+       larger of the two: the home-indicator inset in full-screen Safari, or a
+       flat 12px floor wherever the inset is 0. */
+    padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px);
   }
 
   .player-inner { padding: 8px 16px; gap: 8px; }
@@ -704,9 +709,15 @@ a { color: inherit; }
      collapsed the button is the last thing above it, so it takes the gap
      instead — otherwise the feed's padding sits between them and the button
      ends up under the bar. */
-  body:has(.player:not([hidden])) .feed { padding-bottom: 68px; }
+  /* These track the bar's own bottom padding, so content still clears it once
+     the safe-area floor above makes the bar taller. */
+  body:has(.player:not([hidden])) .feed {
+    padding-bottom: calc(68px + max(env(safe-area-inset-bottom, 0px), 12px));
+  }
   body:has(.player:not([hidden])):has(.more:not([hidden])) .feed { padding-bottom: 4px; }
-  body:has(.player:not([hidden])) .more-wrap { padding-bottom: 76px; }
+  body:has(.player:not([hidden])) .more-wrap {
+    padding-bottom: calc(76px + max(env(safe-area-inset-bottom, 0px), 12px));
+  }
 
   /* The bar is tight on a phone; trim the skip buttons a little. Their border
      means they still read as buttons at this size. */
@@ -718,6 +729,6 @@ a { color: inherit; }
   .player-jump { top: 12px; }
   .player-jump[data-dir="down"] {
     top: auto;
-    bottom: calc(72px + env(safe-area-inset-bottom, 0));
+    bottom: calc(72px + max(env(safe-area-inset-bottom, 0px), 12px));
   }
 }
