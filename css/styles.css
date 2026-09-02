@@ -678,6 +678,12 @@ a { color: inherit; }
 
   .footer { padding: 20px 16px; }
 
+  /* One home for the bottom clearance: the player pads itself by it, and the
+     feed and "show earlier" button add it so their content still clears the bar. */
+  :root {
+    --bottom-gap: max(env(safe-area-inset-bottom, 0px), 68px);
+  }
+
   /* The masthead scrolls away on phones, so a sticky bar under it would have
      nothing to stick to. Pin the transport to the bottom instead — the usual
      place for it on a phone, and always in reach. */
@@ -690,13 +696,22 @@ a { color: inherit; }
     z-index: 11;
     border-bottom: none;
     border-top: 1px solid var(--border);
-    /* Clear the iOS home indicator — and, failing that, a browser's own bottom
-       toolbar. SFSafariViewController (what Telegram opens links in) reports a
-       safe-area inset of 0 because its toolbar isn't part of the safe area, so
-       the inset alone left the bar sitting right on top of it. max() takes the
-       larger of the two: the home-indicator inset in full-screen Safari, or a
-       flat 12px floor wherever the inset is 0. */
-    padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px);
+    /* Clearance for iOS's bottom chrome. Both Safari and the floating pill in
+       SFSafariViewController (what Telegram opens links in) are drawn OVER the
+       page without shrinking it: they are not in the safe area, so
+       env(safe-area-inset-bottom) reads 0 beneath them, and they do not shrink
+       the viewport either, so no vh unit detects them (dvh == svh while the
+       toolbar is up). Nothing in CSS reports their height — hence a fixed
+       floor. Measured off a screenshot from that browser, the pill is ~59px tall
+       and its bottom sits ~60px above the screen edge, overlapping the play
+       button by ~14px; 68px clears it with a little margin.
+
+       Padding, not margin or bottom, so it stays INSIDE the element: the bar's
+       background then runs to the physical bottom edge, the way the page
+       continues under the controls in Safari, rather than leaving a stripe of
+       card text showing beneath the bar. The home-indicator inset wins wherever
+       it is larger. */
+    padding-bottom: var(--bottom-gap);
   }
 
   .player-inner { padding: 8px 16px; gap: 8px; }
@@ -712,11 +727,11 @@ a { color: inherit; }
   /* These track the bar's own bottom padding, so content still clears it once
      the safe-area floor above makes the bar taller. */
   body:has(.player:not([hidden])) .feed {
-    padding-bottom: calc(68px + max(env(safe-area-inset-bottom, 0px), 12px));
+    padding-bottom: calc(68px + var(--bottom-gap));
   }
   body:has(.player:not([hidden])):has(.more:not([hidden])) .feed { padding-bottom: 4px; }
   body:has(.player:not([hidden])) .more-wrap {
-    padding-bottom: calc(76px + max(env(safe-area-inset-bottom, 0px), 12px));
+    padding-bottom: calc(76px + var(--bottom-gap));
   }
 
   /* The bar is tight on a phone; trim the skip buttons a little. Their border
@@ -729,6 +744,6 @@ a { color: inherit; }
   .player-jump { top: 12px; }
   .player-jump[data-dir="down"] {
     top: auto;
-    bottom: calc(72px + max(env(safe-area-inset-bottom, 0px), 12px));
+    bottom: calc(72px + var(--bottom-gap));
   }
 }
