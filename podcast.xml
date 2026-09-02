@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 20:58:53 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 2 September 2026</title>
+      <description>Seven good things: Libya's Rival Factions Sign Deal to Swap a Six-Year Military Standoff for Elections; Scientists Discover Seven New Species Hiding in a 250-Million-Year-Old Marine Group; Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster; School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit</description>
+      <itunes:summary>Seven good things: Libya's Rival Factions Sign Deal to Swap a Six-Year Military Standoff for Elections; Scientists Discover Seven New Species Hiding in a 250-Million-Year-Old Marine Group; Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster; School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 20:57:58 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-02/happy-news-2026-09-02.mp3" length="7488396" type="audio/mpeg" />
+      <itunes:duration>0:15:36</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 1 September 2026</title>
       <description>Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River</description>

@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-02",
+      "title": "Happy News \u2014 2 September 2026",
+      "runKey": "2026-09-02T20:55:00Z",
+      "published": "2026-09-02T20:57:58Z",
+      "duration": 935.93,
+      "bytes": 7488396,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-02",
+      "summary": "Seven good things: Libya's Rival Factions Sign Deal to Swap a Six-Year Military Standoff for Elections; Scientists Discover Seven New Species Hiding in a 250-Million-Year-Old Marine Group; Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster; School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/belligerents-in-this-6-year-military-standoff-agree-to-swap-rifles-for-ballots/",
+          "headline": "Libya's Rival Factions Sign Deal to Swap a Six-Year Military Standoff for Elections",
+          "start": 7.24,
+          "duration": 129.9
+        },
+        {
+          "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html",
+          "headline": "Scientists Discover Seven New Species Hiding in a 250-Million-Year-Old Marine Group",
+          "start": 137.14,
+          "duration": 123.96
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/",
+          "headline": "Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster",
+          "start": 261.1,
+          "duration": 120.42
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/last-minute-flood-warning-saved-over-900-nepal-students-school-principal-said/",
+          "headline": "School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit",
+          "start": 381.52,
+          "duration": 113.28
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/08/260831015203.htm",
+          "headline": "New Nightly Pill Cuts Sleep Apnea Breathing Interruptions by 44% in Major Trial",
+          "start": 494.8,
+          "duration": 139.64
+        },
+        {
+          "url": "https://reasonstobecheerful.world/affordable-childcare-free-staff-housing/",
+          "headline": "Connecticut Preschool Builds the Country's First Housing Village for Its Own Underpaid Teachers",
+          "start": 634.44,
+          "duration": 143.88
+        },
+        {
+          "url": "https://reasonstobecheerful.world/goat-cow-wildfire-prevention/",
+          "headline": "Spain's 'Goat-Cows' Are Munching Their Way Through Wildfire Risk in Galicia",
+          "start": 778.32,
+          "duration": 155.12
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-02/happy-news-2026-09-02.mp3"
+    },
+    {
       "date": "2026-09-01",
       "title": "Happy News \u2014 1 September 2026",
       "runKey": "2026-09-01T20:55:00Z",
@@ -593,5 +649,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-01T21:00:19Z"
+  "updated": "2026-09-02T20:58:52Z"
 }
