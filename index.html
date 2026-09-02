@@ -35,10 +35,16 @@
     <div class="player-inner">
       <button class="player-toggle" id="player-toggle" type="button"
               aria-label="Play the digest" aria-pressed="false"><span class="glyph">▶</span></button>
+      <!-- Inline SVG, not ⏮/⏭: iOS renders those codepoints as full-colour
+           Apple emoji, which ignores currentColor and looks boxed in the button. -->
       <button class="player-skip" id="player-prev" type="button"
-              aria-label="Previous story"><span class="glyph">⏮</span></button>
+              aria-label="Previous story"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M14.5 4v8L9 8l5.5-4Z"/><path d="M8.5 4v8L3 8l5.5-4Z"/><rect x="1" y="4" width="1.6" height="8" rx=".7"/>
+        </svg></button>
       <button class="player-skip" id="player-next" type="button"
-              aria-label="Next story"><span class="glyph">⏭</span></button>
+              aria-label="Next story"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M1.5 4v8L7 8 1.5 4Z"/><path d="M7.5 4v8L13 8 7.5 4Z"/><rect x="13.4" y="4" width="1.6" height="8" rx=".7"/>
+        </svg></button>
       <span class="player-title" id="player-title"></span>
       <!-- The ticks layer marks where each story starts; js/episode.js fills it. -->
       <div class="player-track" id="player-track">

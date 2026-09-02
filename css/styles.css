@@ -259,24 +259,37 @@ a { color: inherit; }
   text-overflow: ellipsis;
 }
 
-/* Skip-to-story buttons. Plain glyphs rather than ringed circles: the transport
-   button is the primary control and should keep that weight to itself. */
+/* Skip-to-story buttons. Bordered so they read as buttons rather than loose
+   glyphs, but in grey against the transport's accent ring: same treatment as
+   .card-play, which keeps play the obviously primary control. */
 .player-skip {
   flex: 0 0 auto;
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   padding: 0;
-  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
   border-radius: 999px;
-  background: none;
+  background: var(--surface);
   color: var(--text-muted);
   font: inherit;
-  font-size: .8125rem;
   line-height: 1;
   cursor: pointer;
 }
 
+/* Sized here rather than by font-size: the icons are SVG, so they take their
+   fill from the button's colour and stay monochrome on every platform. */
+.player-skip .icon {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  display: block;
+}
+
 .player-skip:hover {
+  border-color: var(--accent);
   color: var(--accent);
   background: var(--accent-soft);
 }
@@ -695,8 +708,9 @@ a { color: inherit; }
   body:has(.player:not([hidden])):has(.more:not([hidden])) .feed { padding-bottom: 4px; }
   body:has(.player:not([hidden])) .more-wrap { padding-bottom: 76px; }
 
-  /* The bar is tight on a phone; keep the skip glyphs from crowding it. */
-  .player-skip { width: 24px; height: 24px; }
+  /* The bar is tight on a phone; trim the skip buttons a little. Their border
+     means they still read as buttons at this size. */
+  .player-skip { width: 26px; height: 26px; }
 
   /* The masthead scrolls away and the player is pinned to the bottom, so the
      arrow hugs the top edge when pointing up and floats above the bar when
