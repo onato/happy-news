@@ -2,7 +2,7 @@ name: Happy News Collector
 
 on:
   schedule:
-    - cron: "0 18 * * *" # ~6am NZST / 7am NZDT daily
+    - cron: "0 16 * * *" # ~4am NZST / 5am NZDT daily
   workflow_dispatch:
     inputs:
       test_telegram:
@@ -91,22 +91,54 @@ jobs:
             These outlets reliably publish qualifying stories — searching them by name
             (e.g. `site:positive.news coral reef`, or "Positive News <topic>") often beats
             an open search, which tends to surface listicles:
-              - RNZ: www.rnz.co.nz
               - Positive News: www.positive.news
               - Reasons to be Cheerful: reasonstobecheerful.world
               - The Optimist Daily: www.optimistdaily.com
               - Good News Network: goodnewsnetwork.org
-              - The Daily Encourager: dailyencourager.co.nz
               - Upworthy: upworthy.com
               - The Happy Newspaper: thehappynewspaper.com
               - BBC, The Guardian, Reuters, AP News, NPR, Sky News
               - Nature, ScienceDaily, New Scientist, Phys.org, NASA
               - Mongabay, Yale e360 (environment); STAT News (health)
-              - RNZ, NZ Herald, Stuff (New Zealand)
 
             Treat that list as a starting point, not a limit — a genuinely good story from
             any credible outlet qualifies. Use open search as well, especially for
             community and animal stories, which are usually local news.
+
+            **No single outlet may supply more than a third of the stories you add.**
+            Good News Network has recently been close to half the feed, which makes it
+            monotonous and duplicates one newsroom's judgement. Once an outlet is at that
+            share, search elsewhere for the rest — including the ones lower down the list,
+            which get overlooked precisely because the first two searches usually succeed.
+
+            ## 2a. New Zealand content (required)
+
+            This feed is read in New Zealand, so it should not be all US news. **Run at
+            least four NZ-specific searches every run, and aim for 2-3 NZ stories in the
+            final set** — spread across categories rather than all conservation.
+
+            Do this as its own pass, not as a variation on the category searches above.
+            NZ outlets were previously listed among the sources and produced nothing in
+            weeks of runs: an outlet on a list does not get searched, because the category
+            searches are satisfied before anyone reaches for it. So search NZ explicitly:
+              - RNZ: `site:rnz.co.nz <topic>` — sections /news/environment,
+                /news/community, /news/country, /news/te-manu-korihi are the live ones.
+                (Ignore RNZ's /news/goodnews section: it stopped being updated in 2025,
+                and its weekly round-ups are listicles this feed rejects anyway.)
+              - NZ Herald: `site:nzherald.co.nz <topic>`
+              - Stuff: `site:stuff.co.nz <topic>`
+              - The Daily Encourager: dailyencourager.co.nz — NZ-specific good news
+              - Otago Daily Times, The Post, regional papers, and DOC media releases
+
+            Reliable NZ subjects, as a starting point: native species recovery (kākāpō,
+            takahē, kiwi, kōkako, tīeke), predator-free and sanctuary projects, marine
+            reserves, community trusts and volunteers, Māori-led conservation and
+            revitalisation, science from NZ universities and Crown Research Institutes,
+            and NZ athletes and artists succeeding abroad.
+
+            The quality bar is identical — do not add a weak NZ story to hit the number.
+            If four genuine searches yield nothing worth adding, say so in your summary
+            and move on. But do run them.
 
             What qualifies as happy news:
             - Something genuinely good HAPPENED. A concrete outcome, not a plan or a hope.
@@ -157,10 +189,12 @@ jobs:
               have been dominated by a single source.
             - Local and regional news is a deep well for community and animal stories,
               and it is where open search beats site: search.
+            - Run the New Zealand pass in section 2a. It is a required part of the run,
+              not a top-up if the categories come up short.
 
             You have a large turn budget — around 150 turns, and recent runs have used a
-            small fraction of it. Spend it. Roughly 2-4 searches per category is a
-            reasonable shape, more when a category is proving stubborn.
+            small fraction of it. Spend it. Roughly 2-4 searches per category, plus the
+            four NZ searches, is a reasonable shape — more when a category is stubborn.
 
             Quality still governs: never pad with weaker stories, listicles, or anything
             failing the bar above just to reach a number. If a genuine effort across both
@@ -513,12 +547,17 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
-  # Every ping to the phone happens here, and this job runs LAST — after Pages
-  # has published. Notifying from `collect`/`audio` (as this used to) linked to a
-  # site that was still serving yesterday's feed for another minute or two, so
-  # tapping the notification the moment it arrived showed nothing new.
+  # The single ping to the phone happens here, after Pages has published.
+  # Notifying from `collect` (as this used to) linked to a site that was still
+  # serving yesterday's feed for another minute or two, so tapping the
+  # notification the moment it arrived showed nothing new.
+  #
+  # There is deliberately NO second ping when the audio is ready: one message a
+  # morning is enough, and the episode lands quietly well before it is played.
+  # `audio` is not in `needs` because nothing here reads its outputs — waiting on
+  # it would only delay the story ping behind the render.
   notify:
-    needs: [collect, audio, deploy]
+    needs: [collect, deploy]
     if: ${{ always() && needs.deploy.result == 'success' }}
     runs-on: ubuntu-latest
     env:
@@ -541,18 +580,3 @@ jobs:
           ${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}" > /dev/null
           echo "Notified: $ADDED stories."
 
-      - name: Notify Telegram of the episode
-        if: ${{ needs.audio.outputs.published == 'success'
-          && needs.audio.outputs.episode != 'none'
-          && needs.audio.outputs.episode != '' }}
-        continue-on-error: true
-        env:
-          MINUTES: ${{ needs.audio.outputs.minutes }}
-        run: |
-          # Quiet: the story ping already buzzed the phone moments ago.
-          curl -sf https://api.telegram.org/bot"$TELEGRAM_BOT_TOKEN"/sendMessage \
-            --data-urlencode chat_id="$TELEGRAM_CHAT_ID" \
-            --data-urlencode disable_notification=true \
-            --data-urlencode text="🎧 Today's digest is ready — ${MINUTES} min
-
-          ${FEED_URL:-${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}}" > /dev/null

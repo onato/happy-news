@@ -7,20 +7,28 @@ the site or subscribe to as a podcast.
 
 ## How it works
 
-1. **`.github/workflows/happy-news.yml`** runs daily at 18:00 UTC (~6am NZ).
+1. **`.github/workflows/happy-news.yml`** runs daily at 16:00 UTC (~4am NZ).
    Claude Code searches for uplifting stories published in the last 30 hours
    across six categories, deduplicates them against the existing feed, and
    prepends the new ones to `data/news.json`.
 2. The run validates the JSON, commits it, and sends a Telegram ping with the
-   top headline and a link to the feed.
+   top headline and a link to the feed. That ping is the **only** message a run
+   sends: the audio lands quietly a few minutes later, well before anyone
+   listens, so it does not warrant a second buzz.
 3. The `audio` job narrates the new stories with piper, uploads the mp3 as a
    GitHub Release asset, and regenerates `podcast.xml`.
 4. The `deploy` job publishes the site to GitHub Pages.
-5. The `notify` job sends the Telegram pings — last, so the link it carries
-   points at a site that has already published.
+5. The `notify` job sends that ping — last, so the link it carries points at a
+   site that has already published.
 5. **`.github/workflows/pages.yml`** covers ordinary pushes to `main` (human
    commits); the daily run deploys itself, because commits made with
    `GITHUB_TOKEN` don't trigger other workflows.
+
+The collector runs a required New Zealand pass alongside the category searches,
+aiming for 2-3 NZ stories a day, and no single outlet may supply more than a
+third of a run's stories. Both exist because the feed had drifted: NZ outlets sat
+in the source list for weeks and were never actually searched, while Good News
+Network alone supplied nearly half of everything.
 
 The feed is capped at the 200 most recent stories. It opens showing only the
 latest collection run — the stories that are actually new, and the ones the day's
