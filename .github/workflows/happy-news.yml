@@ -540,6 +540,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bash scripts/stage_web_audio.sh
 
+      # Version the css/js URLs so a deploy is never served from a stale cache.
+      - name: Stamp assets with a content hash
+        run: bash scripts/stamp_assets.sh
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
