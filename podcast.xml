@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 20:58:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 19:25:26 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 3 September 2026</title>
+      <description>Ten good things: Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall; Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole; Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests; New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs</description>
+      <itunes:summary>Ten good things: Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall; Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole; Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests; New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 19:23:58 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-03/happy-news-2026-09-03.mp3" length="9576012" type="audio/mpeg" />
+      <itunes:duration>0:19:57</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 2 September 2026</title>
       <description>Seven good things: Libya's Rival Factions Sign Deal to Swap a Six-Year Military Standoff for Elections; Scientists Discover Seven New Species Hiding in a 250-Million-Year-Old Marine Group; Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster; School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit</description>

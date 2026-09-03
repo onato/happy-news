@@ -1,6 +1,80 @@
 {
   "episodes": [
     {
+      "date": "2026-09-03",
+      "title": "Happy News \u2014 3 September 2026",
+      "runKey": "2026-09-03T19:20:00Z",
+      "published": "2026-09-03T19:23:58Z",
+      "duration": 1196.88,
+      "bytes": 9576012,
+      "storyCount": 10,
+      "guid": "happy-news-2026-09-03",
+      "summary": "Ten good things: Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall; Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole; Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests; New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs",
+      "chapters": [
+        {
+          "url": "https://kvia.com/news/2026/09/03/great-horned-owl-flies-free-at-last-after-months-of-rehabilitation/",
+          "headline": "Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall",
+          "start": 7.64,
+          "duration": 105.86
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+          "headline": "Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole",
+          "start": 113.5,
+          "duration": 131.68
+        },
+        {
+          "url": "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/",
+          "headline": "Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests",
+          "start": 245.18,
+          "duration": 147.44
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/",
+          "headline": "New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs",
+          "start": 392.62,
+          "duration": 135.06
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/",
+          "headline": "Simple Supplement Combo Matches Antibiotics for Treating Severe Gum Disease",
+          "start": 527.68,
+          "duration": 121.74
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260902234514.htm",
+          "headline": "Scientists Capture the First Images of a Microbial Partnership That May Explain How Complex Life Began",
+          "start": 649.42,
+          "duration": 139.42
+        },
+        {
+          "url": "https://www.nbcsports.com/tennis/news/gael-monfils-wins-on-his-40th-birthday-at-the-u-s-open-to-extend-his-grand-slam-career",
+          "headline": "Gael Monfils Becomes Oldest Man to Win a US Open Match Since Jimmy Connors, on His 40th Birthday",
+          "start": 788.84,
+          "duration": 109.06
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/original-picasso-stolen-8-years-ago-found-hanging-in-relinquished-apartment-by-milwaukee-landlord/",
+          "headline": "Stolen Picasso Etching, Missing for 8 Years, Found Hanging in a Vacated Milwaukee Apartment",
+          "start": 897.9,
+          "duration": 87.28
+        },
+        {
+          "url": "https://www.actionnews5.com/2026/09/01/volunteers-renovate-veterans-home-901-day/",
+          "headline": "Memphis Volunteers Spend '901 Day' Renovating a Veteran's Home",
+          "start": 985.18,
+          "duration": 67.92
+        },
+        {
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone",
+          "headline": "New Zealand's Kakapo Population Soars to a Recovery-Era High of 325",
+          "start": 1053.1,
+          "duration": 141.22
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-03/happy-news-2026-09-03.mp3"
+    },
+    {
       "date": "2026-09-02",
       "title": "Happy News \u2014 2 September 2026",
       "runKey": "2026-09-02T20:55:00Z",
@@ -649,5 +723,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-02T20:58:52Z"
+  "updated": "2026-09-03T19:25:25Z"
 }
