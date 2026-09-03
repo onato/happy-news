@@ -691,6 +691,32 @@ a { color: inherit; }
     --bottom-gap: env(safe-area-inset-bottom, 0px);
   }
 
+  /* Paint the canvas in the player's colour while the bar is pinned.
+
+     Nothing can be drawn into the strip between the bar and the glass. Measured
+     on an iPhone 15 (852px screen) in SFSafariViewController, which is what
+     Telegram opens links in: the bar renders at 742-782 while the screen runs
+     to 852, and a pseudo-element under the bar, a separate fixed filler, and
+     the bar's own padding are all clipped at the layout viewport and never
+     appear. env(safe-area-inset-bottom) reads 0 there, so it cannot help either.
+
+     What DOES paint below that line is the canvas: a background set on html or
+     body propagates to it and covers the whole screen, not just the viewport.
+     Until now that came from body, so the strip showed --bg — invisible in
+     light mode, where --bg and --surface are both white, and a visible band in
+     dark mode, where they differ. Setting it on html makes the strip the bar's
+     own colour in both themes. html wins the canvas once it has a background of
+     its own, and body keeps --bg so the feed is untouched. */
+  html:has(.player:not([hidden])) {
+    background: var(--surface);
+  }
+
+  /* body keeps --bg, so the feed and its cards are unchanged; only the canvas
+     beyond the viewport — the strip under the bar — takes the bar's colour. */
+  body:has(.player:not([hidden])) {
+    background: var(--bg);
+  }
+
   /* The masthead scrolls away on phones, so a sticky bar under it would have
      nothing to stick to. Pin the transport to the bottom instead — the usual
      place for it on a phone, and always in reach. */
