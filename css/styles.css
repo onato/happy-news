@@ -681,7 +681,7 @@ a { color: inherit; }
   /* One home for the bottom clearance: the player pads itself by it, and the
      feed and "show earlier" button add it so their content still clears the bar. */
   :root {
-    --bottom-gap: max(env(safe-area-inset-bottom, 0px), 68px);
+    --bottom-gap: max(env(safe-area-inset-bottom, 0px), 12px);
   }
 
   /* The masthead scrolls away on phones, so a sticky bar under it would have
@@ -696,22 +696,33 @@ a { color: inherit; }
     z-index: 11;
     border-bottom: none;
     border-top: 1px solid var(--border);
-    /* Clearance for iOS's bottom chrome. Both Safari and the floating pill in
-       SFSafariViewController (what Telegram opens links in) are drawn OVER the
-       page without shrinking it: they are not in the safe area, so
-       env(safe-area-inset-bottom) reads 0 beneath them, and they do not shrink
-       the viewport either, so no vh unit detects them (dvh == svh while the
-       toolbar is up). Nothing in CSS reports their height — hence a fixed
-       floor. Measured off a screenshot from that browser, the pill is ~59px tall
-       and its bottom sits ~60px above the screen edge, overlapping the play
-       button by ~14px; 68px clears it with a little margin.
-
-       Padding, not margin or bottom, so it stays INSIDE the element: the bar's
-       background then runs to the physical bottom edge, the way the page
-       continues under the controls in Safari, rather than leaving a stripe of
-       card text showing beneath the bar. The home-indicator inset wins wherever
-       it is larger. */
+    /* Just the home-indicator inset, with a small floor. The controls do not
+       need lifting away from the toolbar — see ::after below for the real
+       problem, which is the background, not the position. */
     padding-bottom: var(--bottom-gap);
+  }
+
+  /* Extend the bar's background to the bottom of the SCREEN.
+
+     In Safari the bar already reaches the glass. In SFSafariViewController (what
+     Telegram opens links in) the fixed element stops short — measured on an
+     iPhone 15, 666px down a 852px screen — while the PAGE keeps painting below
+     it, so a strip of card text showed through between the bar and the toolbar.
+
+     This pseudo-element fills that strip with the bar's own colour. It hangs
+     below the bar and is generously tall, since the shortfall varies by device
+     and by whether the toolbar is expanded or collapsed; anything beyond the
+     screen edge simply isn't seen. Where the bar already reaches the bottom, as
+     in Safari, it lands entirely off-screen and changes nothing. */
+  .player::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 240px;
+    background: var(--surface);
+    pointer-events: none;
   }
 
   .player-inner { padding: 8px 16px; gap: 8px; }
