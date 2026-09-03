@@ -679,9 +679,16 @@ a { color: inherit; }
   .footer { padding: 20px 16px; }
 
   /* One home for the bottom clearance: the player pads itself by it, and the
-     feed and "show earlier" button add it so their content still clears the bar. */
+     feed and "show earlier" button add it so their content still clears the bar.
+
+     viewport-fit=cover (see index.html) is what makes this work: without it iOS
+     shrinks the layout viewport to the safe region, which both clips the fixed
+     bar at the top of the browser's bottom toolbar and forces every
+     env(safe-area-inset-*) to 0. With it the page extends under the chrome, the
+     bar reaches the glass on its own, and this reports the real inset — so no
+     hardcoded floor is needed, and none should be added back. */
   :root {
-    --bottom-gap: max(env(safe-area-inset-bottom, 0px), 12px);
+    --bottom-gap: env(safe-area-inset-bottom, 0px);
   }
 
   /* The masthead scrolls away on phones, so a sticky bar under it would have
@@ -696,36 +703,18 @@ a { color: inherit; }
     z-index: 11;
     border-bottom: none;
     border-top: 1px solid var(--border);
-    /* Just the home-indicator inset, with a small floor. The controls do not
-       need lifting away from the toolbar — see ::after below for the real
-       problem, which is the background, not the position. */
+    /* Padding rather than margin: it is inside the element, so the background
+       runs down under the home indicator while the controls stay above it. */
     padding-bottom: var(--bottom-gap);
   }
 
-  /* Extend the bar's background to the bottom of the SCREEN.
-
-     In Safari the bar already reaches the glass. In SFSafariViewController (what
-     Telegram opens links in) the fixed element stops short — measured on an
-     iPhone 15, 666px down a 852px screen — while the PAGE keeps painting below
-     it, so a strip of card text showed through between the bar and the toolbar.
-
-     This pseudo-element fills that strip with the bar's own colour. It hangs
-     below the bar and is generously tall, since the shortfall varies by device
-     and by whether the toolbar is expanded or collapsed; anything beyond the
-     screen edge simply isn't seen. Where the bar already reaches the bottom, as
-     in Safari, it lands entirely off-screen and changes nothing. */
-  .player::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    height: 240px;
-    background: var(--surface);
-    pointer-events: none;
+  /* Landscape: viewport-fit=cover extends the page under the notch and the
+     rounded corners, so the bar's contents keep clear of both. */
+  .player-inner {
+    padding: 8px calc(16px + env(safe-area-inset-right, 0px))
+             8px calc(16px + env(safe-area-inset-left, 0px));
+    gap: 8px;
   }
-
-  .player-inner { padding: 8px 16px; gap: 8px; }
 
   /* Narrow screens: the transport matters more than the episode name. */
   .player-title { display: none; }

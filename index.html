@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- viewport-fit=cover is load-bearing on iOS: without it the layout viewport
+       is confined to the safe region, which clips the fixed player bar at the top
+       of the browser's bottom toolbar and forces every env(safe-area-inset-*) to
+       report 0. With it the page extends under the chrome, the bar reaches the
+       glass, and the insets carry real values. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Happy News</title>
   <meta name="description" content="A daily feed of genuinely good news, collected automatically.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌻</text></svg>">
