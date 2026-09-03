@@ -678,45 +678,6 @@ a { color: inherit; }
 
   .footer { padding: 20px 16px; }
 
-  /* One home for the bottom clearance: the player pads itself by it, and the
-     feed and "show earlier" button add it so their content still clears the bar.
-
-     viewport-fit=cover (see index.html) is what makes this work: without it iOS
-     shrinks the layout viewport to the safe region, which both clips the fixed
-     bar at the top of the browser's bottom toolbar and forces every
-     env(safe-area-inset-*) to 0. With it the page extends under the chrome, the
-     bar reaches the glass on its own, and this reports the real inset — so no
-     hardcoded floor is needed, and none should be added back. */
-  :root {
-    --bottom-gap: env(safe-area-inset-bottom, 0px);
-  }
-
-  /* Paint the canvas in the player's colour while the bar is pinned.
-
-     Nothing can be drawn into the strip between the bar and the glass. Measured
-     on an iPhone 15 (852px screen) in SFSafariViewController, which is what
-     Telegram opens links in: the bar renders at 742-782 while the screen runs
-     to 852, and a pseudo-element under the bar, a separate fixed filler, and
-     the bar's own padding are all clipped at the layout viewport and never
-     appear. env(safe-area-inset-bottom) reads 0 there, so it cannot help either.
-
-     What DOES paint below that line is the canvas: a background set on html or
-     body propagates to it and covers the whole screen, not just the viewport.
-     Until now that came from body, so the strip showed --bg — invisible in
-     light mode, where --bg and --surface are both white, and a visible band in
-     dark mode, where they differ. Setting it on html makes the strip the bar's
-     own colour in both themes. html wins the canvas once it has a background of
-     its own, and body keeps --bg so the feed is untouched. */
-  html:has(.player:not([hidden])) {
-    background: var(--surface);
-  }
-
-  /* body keeps --bg, so the feed and its cards are unchanged; only the canvas
-     beyond the viewport — the strip under the bar — takes the bar's colour. */
-  body:has(.player:not([hidden])) {
-    background: var(--bg);
-  }
-
   /* The masthead scrolls away on phones, so a sticky bar under it would have
      nothing to stick to. Pin the transport to the bottom instead — the usual
      place for it on a phone, and always in reach. */
@@ -729,18 +690,11 @@ a { color: inherit; }
     z-index: 11;
     border-bottom: none;
     border-top: 1px solid var(--border);
-    /* Padding rather than margin: it is inside the element, so the background
-       runs down under the home indicator while the controls stay above it. */
-    padding-bottom: var(--bottom-gap);
+    /* Clear the iOS home indicator. */
+    padding-bottom: env(safe-area-inset-bottom, 0);
   }
 
-  /* Landscape: viewport-fit=cover extends the page under the notch and the
-     rounded corners, so the bar's contents keep clear of both. */
-  .player-inner {
-    padding: 8px calc(16px + env(safe-area-inset-right, 0px))
-             8px calc(16px + env(safe-area-inset-left, 0px));
-    gap: 8px;
-  }
+  .player-inner { padding: 8px 16px; gap: 8px; }
 
   /* Narrow screens: the transport matters more than the episode name. */
   .player-title { display: none; }
@@ -750,15 +704,9 @@ a { color: inherit; }
      collapsed the button is the last thing above it, so it takes the gap
      instead — otherwise the feed's padding sits between them and the button
      ends up under the bar. */
-  /* These track the bar's own bottom padding, so content still clears it once
-     the safe-area floor above makes the bar taller. */
-  body:has(.player:not([hidden])) .feed {
-    padding-bottom: calc(68px + var(--bottom-gap));
-  }
+  body:has(.player:not([hidden])) .feed { padding-bottom: 68px; }
   body:has(.player:not([hidden])):has(.more:not([hidden])) .feed { padding-bottom: 4px; }
-  body:has(.player:not([hidden])) .more-wrap {
-    padding-bottom: calc(76px + var(--bottom-gap));
-  }
+  body:has(.player:not([hidden])) .more-wrap { padding-bottom: 76px; }
 
   /* The bar is tight on a phone; trim the skip buttons a little. Their border
      means they still read as buttons at this size. */
@@ -770,6 +718,6 @@ a { color: inherit; }
   .player-jump { top: 12px; }
   .player-jump[data-dir="down"] {
     top: auto;
-    bottom: calc(72px + var(--bottom-gap));
+    bottom: calc(72px + env(safe-area-inset-bottom, 0));
   }
 }
