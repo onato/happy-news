@@ -1,6 +1,74 @@
 {
   "episodes": [
     {
+      "date": "2026-09-04",
+      "title": "Happy News \u2014 4 September 2026",
+      "runKey": "2026-09-04T20:00:00Z",
+      "published": "2026-09-04T19:00:43Z",
+      "duration": 949.99,
+      "bytes": 7600908,
+      "storyCount": 9,
+      "guid": "happy-news-2026-09-04",
+      "summary": "Nine good things: Volunteers and Local Businesses Rebuild an Elderly Miami-Dade Couple's Crumbling Home; New Zealand Commits $2 Million to Restore Whangamarino Wetland and Breed Its Rarest Giant Weta; Terrier Rescued After Two Days Trapped Underground in a Badger Warren; A Man's 100-Day Pledge to Clean One NYC Block Turns Into a Neighborhood Beautification Project",
+      "chapters": [
+        {
+          "url": "https://www.local10.com/community/2026/09/04/volunteers-businesses-help-transform-elderly-couples-miami-dade-home-from-top-to-bottom/",
+          "headline": "Volunteers and Local Businesses Rebuild an Elderly Miami-Dade Couple's Crumbling Home",
+          "start": 7.22,
+          "duration": 109.52
+        },
+        {
+          "url": "https://www.beehive.govt.nz/release/new-funding-whangamarino-wetland-insect-heavyweight",
+          "headline": "New Zealand Commits $2 Million to Restore Whangamarino Wetland and Breed Its Rarest Giant Weta",
+          "start": 116.74,
+          "duration": 114.56
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/",
+          "headline": "Terrier Rescued After Two Days Trapped Underground in a Badger Warren",
+          "start": 231.3,
+          "duration": 83.7
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/",
+          "headline": "A Man's 100-Day Pledge to Clean One NYC Block Turns Into a Neighborhood Beautification Project",
+          "start": 315.0,
+          "duration": 98.54
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/",
+          "headline": "Sweden and Finland Reconnect a Cross-Border Rail Line After 30 Years",
+          "start": 413.54,
+          "duration": 101.48
+        },
+        {
+          "url": "https://www.wsls.com/news/local/2026/09/03/swva-wildlife-center-releases-hawk/",
+          "headline": "Broad-Winged Hawk Released Back Into the Wild After Recovering From a Car Strike",
+          "start": 515.02,
+          "duration": 68.6
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901010713.htm",
+          "headline": "Scientists Discover Vesper Bats Have a Double Antibody System Never Seen in Any Mammal",
+          "start": 583.62,
+          "duration": 122.04
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
+          "headline": "Physicists Overturn a Century-Old Assumption About the Hall Effect",
+          "start": 705.66,
+          "duration": 115.34
+        },
+        {
+          "url": "https://www.uclh.nhs.uk/news/first-patient-live-ai-assisted-sight-saving-brain-surgery",
+          "headline": "AI-Guided Surgery Saves a Patient's Sight in a World-First Brain Operation",
+          "start": 821.0,
+          "duration": 126.42
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-04/happy-news-2026-09-04.mp3"
+    },
+    {
       "date": "2026-09-03",
       "title": "Happy News \u2014 3 September 2026",
       "runKey": "2026-09-03T19:20:00Z",
@@ -723,5 +791,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-03T19:25:25Z"
+  "updated": "2026-09-04T19:01:53Z"
 }
