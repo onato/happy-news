@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-05",
+      "title": "Happy News \u2014 5 September 2026",
+      "runKey": "2026-09-05T00:00:00Z",
+      "published": "2026-09-05T18:10:23Z",
+      "duration": 982.94,
+      "bytes": 7864524,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-05",
+      "summary": "Seven good things: Endangered Coho Salmon Return to Northern California Rivers in Record Numbers; Compound Found in Sea Squirts Reverses Signs of Aging in Mice; New Program Gives Rapid City Students a Free Book to Keep Every Month; New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/",
+          "headline": "Endangered Coho Salmon Return to Northern California Rivers in Record Numbers",
+          "start": 7.26,
+          "duration": 138.32
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
+          "headline": "Compound Found in Sea Squirts Reverses Signs of Aging in Mice",
+          "start": 145.58,
+          "duration": 143.98
+        },
+        {
+          "url": "https://www.kotatv.com/2026/09/03/new-book-program-aims-boost-literacy-curb-screen-time-rapid-city-students/",
+          "headline": "New Program Gives Rapid City Students a Free Book to Keep Every Month",
+          "start": 289.56,
+          "duration": 123.0
+        },
+        {
+          "url": "https://www.scoop.co.nz/stories/AK2609/S00063/plants-with-superpowers-and-how-they-can-save-us.htm",
+          "headline": "New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time",
+          "start": 412.56,
+          "duration": 147.9
+        },
+        {
+          "url": "https://talker.news/2026/09/02/three-rescued-loggerhead-turtles-to-be-released-back-into-wild/",
+          "headline": "Three Rescued Loggerhead Turtles Fly 1,600 Miles Home to Warmer Seas",
+          "start": 560.46,
+          "duration": 142.7
+        },
+        {
+          "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/",
+          "headline": "Underground Dark Matter Detector Records Its Most Intriguing Signal Yet",
+          "start": 703.16,
+          "duration": 136.78
+        },
+        {
+          "url": "https://www.guinnessworldrecords.com/news/2026/8/discover-all-the-records-broken-at-the-sydney-marathon-2026",
+          "headline": "Runner Living With Incurable Cancer Sets World Record at the Sydney Marathon",
+          "start": 839.94,
+          "duration": 140.56
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-05/happy-news-2026-09-05.mp3"
+    },
+    {
       "date": "2026-09-04",
       "title": "Happy News \u2014 4 September 2026",
       "runKey": "2026-09-04T20:00:00Z",
@@ -791,5 +847,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-04T19:01:53Z"
+  "updated": "2026-09-05T18:11:35Z"
 }

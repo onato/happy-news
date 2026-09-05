@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 19:01:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 18:11:36 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 5 September 2026</title>
+      <description>Seven good things: Endangered Coho Salmon Return to Northern California Rivers in Record Numbers; Compound Found in Sea Squirts Reverses Signs of Aging in Mice; New Program Gives Rapid City Students a Free Book to Keep Every Month; New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time</description>
+      <itunes:summary>Seven good things: Endangered Coho Salmon Return to Northern California Rivers in Record Numbers; Compound Found in Sea Squirts Reverses Signs of Aging in Mice; New Program Gives Rapid City Students a Free Book to Keep Every Month; New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-05</guid>
+      <pubDate>Sat, 05 Sep 2026 18:10:23 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-05/happy-news-2026-09-05.mp3" length="7864524" type="audio/mpeg" />
+      <itunes:duration>0:16:23</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 4 September 2026</title>
       <description>Nine good things: Volunteers and Local Businesses Rebuild an Elderly Miami-Dade Couple's Crumbling Home; New Zealand Commits $2 Million to Restore Whangamarino Wetland and Breed Its Rarest Giant Weta; Terrier Rescued After Two Days Trapped Underground in a Badger Warren; A Man's 100-Day Pledge to Clean One NYC Block Turns Into a Neighborhood Beautification Project</description>
