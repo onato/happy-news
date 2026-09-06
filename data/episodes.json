@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-09-06",
+      "title": "Happy News \u2014 6 September 2026",
+      "runKey": "2026-09-06T18:13:04Z",
+      "published": "2026-09-06T18:14:45Z",
+      "duration": 460.99,
+      "bytes": 3688739,
+      "storyCount": 3,
+      "guid": "happy-news-2026-09-06",
+      "summary": "Three good things: The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto; A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids; Republicans and Democrats in a NY City United to Save Its Last Birthing Center",
+      "chapters": [
+        {
+          "url": "https://www.rugbypass.com/news/springboks-women-prove-power-but-fall-to-electric-black-ferns/",
+          "headline": "The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto",
+          "start": 7.26,
+          "duration": 154.3
+        },
+        {
+          "url": "https://reasonstobecheerful.world/the-spark-laundromat-libraries/",
+          "headline": "A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids",
+          "start": 161.56,
+          "duration": 147.16
+        },
+        {
+          "url": "https://www.npr.org/2026/09/01/nx-s1-5945612/baby-new-york-hospital-birth",
+          "headline": "Republicans and Democrats in a NY City United to Save Its Last Birthing Center",
+          "start": 308.72,
+          "duration": 149.66
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-06/happy-news-2026-09-06.mp3"
+    },
+    {
       "date": "2026-09-05",
       "title": "Happy News \u2014 5 September 2026",
       "runKey": "2026-09-05T00:00:00Z",
@@ -847,5 +879,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-05T18:11:35Z"
+  "updated": "2026-09-06T18:15:20Z"
 }

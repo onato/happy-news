@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 18:11:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 18:15:21 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 6 September 2026</title>
+      <description>Three good things: The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto; A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids; Republicans and Democrats in a NY City United to Save Its Last Birthing Center</description>
+      <itunes:summary>Three good things: The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto; A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids; Republicans and Democrats in a NY City United to Save Its Last Birthing Center</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-06</guid>
+      <pubDate>Sun, 06 Sep 2026 18:14:45 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-06/happy-news-2026-09-06.mp3" length="3688739" type="audio/mpeg" />
+      <itunes:duration>0:07:41</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 5 September 2026</title>
       <description>Seven good things: Endangered Coho Salmon Return to Northern California Rivers in Record Numbers; Compound Found in Sea Squirts Reverses Signs of Aging in Mice; New Program Gives Rapid City Students a Free Book to Keep Every Month; New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time</description>
