@@ -1,6 +1,74 @@
 {
   "episodes": [
     {
+      "date": "2026-09-07",
+      "title": "Happy News \u2014 7 September 2026",
+      "runKey": "2026-09-07T19:44:17Z",
+      "published": "2026-09-07T19:47:58Z",
+      "duration": 1328.4,
+      "bytes": 10628172,
+      "storyCount": 9,
+      "guid": "happy-news-2026-09-07",
+      "summary": "Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/chance-encounter-between-2-indiana-graduates-rescues-former-college-ball-star-from-homelessness/",
+          "headline": "Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness",
+          "start": 7.22,
+          "duration": 147.76
+        },
+        {
+          "url": "https://livenews.co.nz/2026/09/07/community-contribution-strengthens-marine-reserve-compliance/",
+          "headline": "Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves",
+          "start": 154.98,
+          "duration": 157.8
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/22-yo-with-down-syndrome-becomes-certified-fitness-instructor-leads-class-of-60-at-local-gym/",
+          "headline": "Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60",
+          "start": 312.78,
+          "duration": 121.54
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064246.htm",
+          "headline": "Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial",
+          "start": 434.32,
+          "duration": 156.88
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/",
+          "headline": "Hawaii Teen's Discovery That Coconut Fungi Can Filter Plastic and Sunscreen From the Sea Wins Top Science Fair Prize",
+          "start": 591.2,
+          "duration": 147.2
+        },
+        {
+          "url": "https://news.mongabay.com/short-article/2026/09/genetic-road-map-offers-hope-for-threatened-visayan-spotted-deer/",
+          "headline": "First Genome Map of the Endangered Visayan Spotted Deer Gives Conservationists a New Tool to Save It",
+          "start": 738.4,
+          "duration": 142.0
+        },
+        {
+          "url": "https://www.scoop.co.nz/stories/AK2609/S00105/poneke-set-to-ruffle-feathers-with-its-pick-of-the-flock-for-bird-of-the-year.htm",
+          "headline": "Native Birds Now Outnumber Introduced Species in Wellington's Parks for the First Time Since the 1800s",
+          "start": 880.4,
+          "duration": 146.76
+        },
+        {
+          "url": "https://www.who.int/news/item/03-09-2026-who-validates-timor-leste-s-elimination-of-trachoma-as-a-public-health-problem",
+          "headline": "Timor-Leste Becomes the Last Country in Its Region to Eliminate Trachoma as a Public Health Problem",
+          "start": 1027.16,
+          "duration": 151.26
+        },
+        {
+          "url": "https://www.beehive.govt.nz/release/free-cervical-screening-all-women",
+          "headline": "New Zealand Will Make Cervical Screening Free for All Eligible Women From Next Year",
+          "start": 1178.42,
+          "duration": 147.42
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-07/happy-news-2026-09-07.mp3"
+    },
+    {
       "date": "2026-09-06",
       "title": "Happy News \u2014 6 September 2026",
       "runKey": "2026-09-06T18:13:04Z",
@@ -879,5 +947,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-06T18:15:20Z"
+  "updated": "2026-09-07T19:49:15Z"
 }

@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 18:15:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 19:49:16 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 7 September 2026</title>
+      <description>Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial</description>
+      <itunes:summary>Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 19:47:58 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-07/happy-news-2026-09-07.mp3" length="10628172" type="audio/mpeg" />
+      <itunes:duration>0:22:08</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 6 September 2026</title>
       <description>Three good things: The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto; A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids; Republicans and Democrats in a NY City United to Save Its Last Birthing Center</description>
