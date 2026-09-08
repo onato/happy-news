@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 19:49:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 19:27:13 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 8 September 2026</title>
+      <description>Six good things: The World's Only Mainland Royal Albatross Colony Sends Its First Chicks of the Season Out to Sea; Native Birds Are Flooding Back to Otago Peninsula After 15 Years of Possum Removal; Interest-Free Loans Are Helping Northland Families Afford Critical Home Repairs; The FDA Approves the First Ever Treatment for Alexander Disease</description>
+      <itunes:summary>Six good things: The World's Only Mainland Royal Albatross Colony Sends Its First Chicks of the Season Out to Sea; Native Birds Are Flooding Back to Otago Peninsula After 15 Years of Possum Removal; Interest-Free Loans Are Helping Northland Families Afford Critical Home Repairs; The FDA Approves the First Ever Treatment for Alexander Disease</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 19:26:25 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-08/happy-news-2026-09-08.mp3" length="5481036" type="audio/mpeg" />
+      <itunes:duration>0:11:25</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 7 September 2026</title>
       <description>Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial</description>

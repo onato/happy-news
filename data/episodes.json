@@ -1,6 +1,56 @@
 {
   "episodes": [
     {
+      "date": "2026-09-08",
+      "title": "Happy News \u2014 8 September 2026",
+      "runKey": "2026-09-08T19:22:25Z",
+      "published": "2026-09-08T19:26:25Z",
+      "duration": 685.01,
+      "bytes": 5481036,
+      "storyCount": 6,
+      "guid": "happy-news-2026-09-08",
+      "summary": "Six good things: The World's Only Mainland Royal Albatross Colony Sends Its First Chicks of the Season Out to Sea; Native Birds Are Flooding Back to Otago Peninsula After 15 Years of Possum Removal; Interest-Free Loans Are Helping Northland Families Afford Critical Home Repairs; The FDA Approves the First Ever Treatment for Alexander Disease",
+      "chapters": [
+        {
+          "url": "https://www.scoop.co.nz/stories/AK2609/S00268/first-fledgling-toroa-fly-from-pukekuratairaoa-head.htm",
+          "headline": "The World's Only Mainland Royal Albatross Colony Sends Its First Chicks of the Season Out to Sea",
+          "start": 7.24,
+          "duration": 114.06
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/1304990/birds-flocking-back-after-possums-eliminated-from-otago-peninsula",
+          "headline": "Native Birds Are Flooding Back to Otago Peninsula After 15 Years of Possum Removal",
+          "start": 121.3,
+          "duration": 101.1
+        },
+        {
+          "url": "https://dailyencourager.co.nz/making-critical-home-repairs-affordable/",
+          "headline": "Interest-Free Loans Are Helping Northland Families Afford Critical Home Repairs",
+          "start": 222.4,
+          "duration": 111.42
+        },
+        {
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+          "headline": "The FDA Approves the First Ever Treatment for Alexander Disease",
+          "start": 333.82,
+          "duration": 123.84
+        },
+        {
+          "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+          "headline": "Physicists Directly Observe a Falling Quantum Object Obey Einstein's Gravity for the First Time",
+          "start": 457.66,
+          "duration": 123.78
+        },
+        {
+          "url": "https://wtop.com/local/2026/09/wtops-neal-augenstein-thanks-fairfax-co-employees-who-rescued-missing-cat/",
+          "headline": "A Virginia Reporter's Cat, Accidentally Hauled Off in a Couch, Is Rescued From a Landfill",
+          "start": 581.44,
+          "duration": 101.02
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-08/happy-news-2026-09-08.mp3"
+    },
+    {
       "date": "2026-09-07",
       "title": "Happy News \u2014 7 September 2026",
       "runKey": "2026-09-07T19:44:17Z",
@@ -947,5 +997,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-07T19:49:15Z"
+  "updated": "2026-09-08T19:27:12Z"
 }
