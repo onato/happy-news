@@ -1,6 +1,74 @@
 {
   "episodes": [
     {
+      "date": "2026-09-09",
+      "title": "Happy News \u2014 9 September 2026",
+      "runKey": "2026-09-09T19:11:13Z",
+      "published": "2026-09-09T19:16:26Z",
+      "duration": 1054.13,
+      "bytes": 8433996,
+      "storyCount": 9,
+      "guid": "happy-news-2026-09-09",
+      "summary": "Nine good things: Off-Duty NYPD Officer Pulls an Unconscious Driver From a Moving Car and Starts CPR; Danish Homeowner's Yard Work Unearths the Country's Largest Viking Silver Hoard; US Clean Power Additions Hit a Record Second Quarter, Up 45 Percent From a Year Earlier; Scientists Find a Molecular Switch That Builds Stronger Bones in Mice With Osteoporosis",
+      "chapters": [
+        {
+          "url": "https://hoodline.com/2026/09/off-duty-cop-yanks-unconscious-driver-from-car-on-sunset-park-s-8th-avenue/",
+          "headline": "Off-Duty NYPD Officer Pulls an Unconscious Driver From a Moving Car and Starts CPR",
+          "start": 7.26,
+          "duration": 114.48
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/yard-work-reveals-largest-trove-of-viking-silver-ever-discovered-in-denmark/",
+          "headline": "Danish Homeowner's Yard Work Unearths the Country's Largest Viking Silver Hoard",
+          "start": 121.74,
+          "duration": 121.42
+        },
+        {
+          "url": "http://pv-magazine-usa.com/2026/09/09/u-s-clean-power-additions-jump-45-in-q2-2026-reaching-388-gw-cumulative-capacity/",
+          "headline": "US Clean Power Additions Hit a Record Second Quarter, Up 45 Percent From a Year Earlier",
+          "start": 243.16,
+          "duration": 124.24
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+          "headline": "Scientists Find a Molecular Switch That Builds Stronger Bones in Mice With Osteoporosis",
+          "start": 367.4,
+          "duration": 119.6
+        },
+        {
+          "url": "https://www.rnz.co.nz/life/people/identity/new-zealand-s-largest-lightsaber-group-forged-a-village-in-palmy",
+          "headline": "New Zealand's Largest Lightsaber Group Has 'Forged a Village' in Palmerston North",
+          "start": 487.0,
+          "duration": 103.16
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/community/1309242/spca-to-benefit-from-doghouse-that-evolved-from-april-fool-s-joke",
+          "headline": "An April Fools' Joke Doghouse Is Now a Real One, Raising Money for the SPCA",
+          "start": 590.16,
+          "duration": 101.7
+        },
+        {
+          "url": "https://www.who.int/southeastasia/news/detail/08-09-2026-who-south-east-asia-region-recognizes-major-public-health-achievements-across-member-states",
+          "headline": "Bhutan Eliminates Dog-Mediated Rabies, Only the Second Country in the World to Do So",
+          "start": 691.86,
+          "duration": 125.42
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/",
+          "headline": "Record Breeding Season Brings Seven Critically Endangered Penguin Chicks to a South Carolina Aquarium",
+          "start": 817.28,
+          "duration": 116.72
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/emt-ran-1-5-miles-up-1000-feet-of-elevation-in-31-minutes-to-get-blood-transfusion-for-injured-climber/",
+          "headline": "EMT's Mountainside Sprint Delivers a Blood Transfusion to a Critically Injured Climber",
+          "start": 934.0,
+          "duration": 117.52
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-09/happy-news-2026-09-09.mp3"
+    },
+    {
       "date": "2026-09-08",
       "title": "Happy News \u2014 8 September 2026",
       "runKey": "2026-09-08T19:22:25Z",
@@ -997,5 +1065,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-08T19:27:12Z"
+  "updated": "2026-09-09T19:17:44Z"
 }
