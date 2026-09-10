@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 19:17:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 19:11:29 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 10 September 2026</title>
+      <description>Seven good things: Nine Rehabilitated Sea Turtles, Named for Desserts, Are Released Back Into the Atlantic; At 91, 'Grey Beard' Becomes the Oldest Person to Hike the Entire Appalachian Trail; Australia's Giant Grid Battery Hits Full Power Again, Repaired Without Waiting on Overseas Parts; Scientists Design a One-Shot DNA Treatment That Slashes Cholesterol Without Statins</description>
+      <itunes:summary>Seven good things: Nine Rehabilitated Sea Turtles, Named for Desserts, Are Released Back Into the Atlantic; At 91, 'Grey Beard' Becomes the Oldest Person to Hike the Entire Appalachian Trail; Australia's Giant Grid Battery Hits Full Power Again, Repaired Without Waiting on Overseas Parts; Scientists Design a One-Shot DNA Treatment That Slashes Cholesterol Without Statins</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 19:10:19 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-10/happy-news-2026-09-10.mp3" length="7330574" type="audio/mpeg" />
+      <itunes:duration>0:15:16</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 9 September 2026</title>
       <description>Nine good things: Off-Duty NYPD Officer Pulls an Unconscious Driver From a Moving Car and Starts CPR; Danish Homeowner's Yard Work Unearths the Country's Largest Viking Silver Hoard; US Clean Power Additions Hit a Record Second Quarter, Up 45 Percent From a Year Earlier; Scientists Find a Molecular Switch That Builds Stronger Bones in Mice With Osteoporosis</description>
