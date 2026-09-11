@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-09-11",
+      "title": "Happy News \u2014 11 September 2026",
+      "runKey": "2026-09-11T19:07:34Z",
+      "published": "2026-09-11T19:09:56Z",
+      "duration": 833.69,
+      "bytes": 6670478,
+      "storyCount": 8,
+      "guid": "happy-news-2026-09-11",
+      "summary": "Eight good things: Kenyan Startup's Robotic Hands Translate Teachers' Voices Into Sign Language for Deaf Students; First-Ever 'Good Samaritan' Permit Lets Volunteers Clean Up a Century-Old Toxic Mine in Washington State; Fort Worth Zoo's Largest-Ever Gharial Hatch Boosts a Critically Endangered Crocodile; WHO Clears a Cheaper, Multi-Dose RSV Vaccine That Could Reach Millions More Infants",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/kenyan-startup-makes-robotic-hands-that-translate-teachers-voice-into-signs-for-deaf-students/",
+          "headline": "Kenyan Startup's Robotic Hands Translate Teachers' Voices Into Sign Language for Deaf Students",
+          "start": 7.26,
+          "duration": 116.7
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/first-permit-to-clean-up-old-mine-waste-issued-for-wa-state-under-2024-good-samaritan-act/",
+          "headline": "First-Ever 'Good Samaritan' Permit Lets Volunteers Clean Up a Century-Old Toxic Mine in Washington State",
+          "start": 123.96,
+          "duration": 110.7
+        },
+        {
+          "url": "https://www.cbsnews.com/texas/news/fort-worth-zoo-record-gharial-hatchlings-september-2026/",
+          "headline": "Fort Worth Zoo's Largest-Ever Gharial Hatch Boosts a Critically Endangered Crocodile",
+          "start": 234.66,
+          "duration": 99.44
+        },
+        {
+          "url": "https://www.gavi.org/news/media-room/gavi-welcomes-prequalification-multi-dose-rsv-maternal-vaccine-protect-infants",
+          "headline": "WHO Clears a Cheaper, Multi-Dose RSV Vaccine That Could Reach Millions More Infants",
+          "start": 334.1,
+          "duration": 112.08
+        },
+        {
+          "url": "https://conservationvolunteers.co.nz/2026/09/09/cvnz-and-asahi-partner-to-help-restore-papakura-stream/",
+          "headline": "Volunteers Plant Over 1,000 Native Trees Along an Auckland Stream in a Single Morning",
+          "start": 446.18,
+          "duration": 97.56
+        },
+        {
+          "url": "https://abc7ny.com/post/viral-photo-shows-flight-attendant-cradle-baby-plane-newark-liberty-airport-lending-hand-exhausted-mother/19806470/",
+          "headline": "Flight Attendant Cradles a Stranger's Baby So an Exhausted New Mother Could Finally Sleep",
+          "start": 543.74,
+          "duration": 89.74
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/pacific/1284335/cook-islander-crowned-miss-oceania-for-the-second-time-at-miss-world",
+          "headline": "Cook Islander Tiare Henry-Anguna Crowned Miss World Oceania for the Second Time",
+          "start": 633.48,
+          "duration": 81.64
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/health/1256159/party-drug-mdma-gets-official-approval-as-ptsd-treatment",
+          "headline": "New Zealand Becomes Only the Second Country to Approve MDMA-Assisted Therapy for PTSD",
+          "start": 715.12,
+          "duration": 116.08
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-11/happy-news-2026-09-11.mp3"
+    },
+    {
       "date": "2026-09-10",
       "title": "Happy News \u2014 10 September 2026",
       "runKey": "2026-09-10T19:05:54Z",
@@ -1121,5 +1183,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-10T19:11:29Z"
+  "updated": "2026-09-11T19:10:58Z"
 }
