@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 19:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 18:20:02 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 12 September 2026</title>
+      <description>Six good things: Hundreds Tour Dunedin Hospital's New Outpatient Building on Opening Day; Hotel Staff Give a Girl's Lost Stuffed Bear the VIP Treatment Before Mailing Her Home; Maltipoo Reunited With Family Nearly Three Years After Going Missing; World-First Study Shows the Human Heart Can Regrow Muscle After a Heart Attack</description>
+      <itunes:summary>Six good things: Hundreds Tour Dunedin Hospital's New Outpatient Building on Opening Day; Hotel Staff Give a Girl's Lost Stuffed Bear the VIP Treatment Before Mailing Her Home; Maltipoo Reunited With Family Nearly Three Years After Going Missing; World-First Study Shows the Human Heart Can Regrow Muscle After a Heart Attack</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-12</guid>
+      <pubDate>Sat, 12 Sep 2026 18:18:58 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-12/happy-news-2026-09-12.mp3" length="6693134" type="audio/mpeg" />
+      <itunes:duration>0:13:57</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 11 September 2026</title>
       <description>Eight good things: Kenyan Startup's Robotic Hands Translate Teachers' Voices Into Sign Language for Deaf Students; First-Ever 'Good Samaritan' Permit Lets Volunteers Clean Up a Century-Old Toxic Mine in Washington State; Fort Worth Zoo's Largest-Ever Gharial Hatch Boosts a Critically Endangered Crocodile; WHO Clears a Cheaper, Multi-Dose RSV Vaccine That Could Reach Millions More Infants</description>

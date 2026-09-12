@@ -1,6 +1,56 @@
 {
   "episodes": [
     {
+      "date": "2026-09-12",
+      "title": "Happy News \u2014 12 September 2026",
+      "runKey": "2026-09-12T00:00:00Z",
+      "published": "2026-09-12T18:18:58Z",
+      "duration": 836.52,
+      "bytes": 6693134,
+      "storyCount": 6,
+      "guid": "happy-news-2026-09-12",
+      "summary": "Six good things: Hundreds Tour Dunedin Hospital's New Outpatient Building on Opening Day; Hotel Staff Give a Girl's Lost Stuffed Bear the VIP Treatment Before Mailing Her Home; Maltipoo Reunited With Family Nearly Three Years After Going Missing; World-First Study Shows the Human Heart Can Regrow Muscle After a Heart Attack",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/health/1350933/hundreds-turn-up-to-see-dunedin-hospital-s-new-outpatient-building",
+          "headline": "Hundreds Tour Dunedin Hospital's New Outpatient Building on Opening Day",
+          "start": 7.44,
+          "duration": 128.44
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/hotel-staff-give-girls-lost-plushie-the-vip-treatment-before-sending-her-home-with-a-note-look/",
+          "headline": "Hotel Staff Give a Girl's Lost Stuffed Bear the VIP Treatment Before Mailing Her Home",
+          "start": 135.88,
+          "duration": 134.98
+        },
+        {
+          "url": "https://sdhumane.org/heartwarming-reunion-dog-missing-since-2023-reunited-with-family/",
+          "headline": "Maltipoo Reunited With Family Nearly Three Years After Going Missing",
+          "start": 270.86,
+          "duration": 125.58
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909231754.htm",
+          "headline": "World-First Study Shows the Human Heart Can Regrow Muscle After a Heart Attack",
+          "start": 396.44,
+          "duration": 143.12
+        },
+        {
+          "url": "https://newsroom.ucla.edu/releases/scientists-engineer-ready-to-use-cancer-fighting-t-cells-solid-tumors",
+          "headline": "UCLA Engineers Off-the-Shelf Cancer-Fighting T Cells From Donated Cord Blood",
+          "start": 539.56,
+          "duration": 154.1
+        },
+        {
+          "url": "https://www.allblacks.com/news/black-ferns-see-off-brave-springbok-women-effort",
+          "headline": "Black Ferns Win Historic First Test on South African Soil",
+          "start": 693.66,
+          "duration": 140.36
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-12/happy-news-2026-09-12.mp3"
+    },
+    {
       "date": "2026-09-11",
       "title": "Happy News \u2014 11 September 2026",
       "runKey": "2026-09-11T19:07:34Z",
@@ -1183,5 +1233,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-11T19:10:58Z"
+  "updated": "2026-09-12T18:20:01Z"
 }
