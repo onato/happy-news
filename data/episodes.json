@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-13",
+      "title": "Happy News \u2014 13 September 2026",
+      "runKey": "2026-09-13T00:00:00Z",
+      "published": "2026-09-13T18:43:41Z",
+      "duration": 865.58,
+      "bytes": 6925646,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-13",
+      "summary": "Seven good things: Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness; Cat Missing for Six Years Is Reunited With Her Family After a Viral Shelter Post; Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation; Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together",
+      "chapters": [
+        {
+          "url": "https://www.stuff.co.nz/sport/361032910/hayden-wilde-wins-ironman-703-world-championship-france",
+          "headline": "Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness",
+          "start": 7.62,
+          "duration": 131.88
+        },
+        {
+          "url": "https://www.daytondailynews.com/local/dayton-family-reunited-with-missing-cat-after-6-year-separation/article_129a2c86-a37b-547d-9cda-88045eb314e2.html",
+          "headline": "Cat Missing for Six Years Is Reunited With Her Family After a Viral Shelter Post",
+          "start": 139.5,
+          "duration": 103.44
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm",
+          "headline": "Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation",
+          "start": 242.94,
+          "duration": 122.4
+        },
+        {
+          "url": "https://abc7.com/post/actor-christian-bale-opens-together-california-foster-care-village-palmdale-aimed-keeping-siblings/19816433/",
+          "headline": "Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together",
+          "start": 365.34,
+          "duration": 124.24
+        },
+        {
+          "url": "https://www.cbsnews.com/minnesota/news/adult-tyrannosaurus-rex-trackway-north-dakota/",
+          "headline": "Amateur Fossil Hunter's Find Reveals the First Known Trackway of a Full-Grown T. Rex",
+          "start": 489.58,
+          "duration": 126.68
+        },
+        {
+          "url": "https://www.hunter.cuny.edu/news/hunter-scientists-discover-elephants-can-resist-impulsive-behavior/",
+          "headline": "Study Finds Elephants Can Resist Temptation and Think Before They Act",
+          "start": 616.26,
+          "duration": 122.84
+        },
+        {
+          "url": "https://thespinoff.co.nz/society/07-09-2026/it-was-10-years-of-work-all-in-one-moment-wellingtons-kiwi-are-now-truly-free-range",
+          "headline": "Wellington's Wild Kiwi Population Goes 'Free Range' After a Decade of Community Conservation",
+          "start": 739.1,
+          "duration": 123.98
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-13/happy-news-2026-09-13.mp3"
+    },
+    {
       "date": "2026-09-12",
       "title": "Happy News \u2014 12 September 2026",
       "runKey": "2026-09-12T00:00:00Z",
@@ -1233,5 +1289,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-12T18:20:01Z"
+  "updated": "2026-09-13T18:44:45Z"
 }
