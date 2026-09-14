@@ -1,6 +1,56 @@
 {
   "episodes": [
     {
+      "date": "2026-09-14",
+      "title": "Happy News \u2014 14 September 2026",
+      "runKey": "2026-09-14T00:00:00Z",
+      "published": "2026-09-14T20:19:34Z",
+      "duration": 853.01,
+      "bytes": 6825451,
+      "storyCount": 6,
+      "guid": "happy-news-2026-09-14",
+      "summary": "Six good things: Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force; Every Weeknight, a Different Kind of Classroom Is Teaching Auckland Te Reo M\u0101ori Through Song; Southeast Asia Becomes Fully Free of Trachoma After Timor-Leste's Elimination Certification; Fossilized Feather Found Inside 66-Million-Year-Old Dinosaur Dung Hints at Why Birds Alone Survived Mass Extinction",
+      "chapters": [
+        {
+          "url": "https://www.nzherald.co.nz/nz/aucklands-city-rail-link-25000-more-train-passengers-on-first-weekday/SDXDOL6DIRBQTBGRFYLOAONAEA/",
+          "headline": "Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force",
+          "start": 7.18,
+          "duration": 162.64
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/te-ao-maori/1380529/the-aroha-in-this-room-learning-te-reo-maori-through-waiata-creates-connection",
+          "headline": "Every Weeknight, a Different Kind of Classroom Is Teaching Auckland Te Reo M\u0101ori Through Song",
+          "start": 169.82,
+          "duration": 99.02
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/following-timor-lestes-triumph-all-of-southeast-asia-has-eliminated-trachoma/",
+          "headline": "Southeast Asia Becomes Fully Free of Trachoma After Timor-Leste's Elimination Certification",
+          "start": 268.84,
+          "duration": 165.74
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/feather-preserved-in-dinosaur-dung-could-explain-why-birds-survived-mass-extinction/",
+          "headline": "Fossilized Feather Found Inside 66-Million-Year-Old Dinosaur Dung Hints at Why Birds Alone Survived Mass Extinction",
+          "start": 434.58,
+          "duration": 147.74
+        },
+        {
+          "url": "https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/news/report/report-men-1500m-world-ultimate-championship-budapest-26",
+          "headline": "Josh Kerr Completes a Remarkable Season Sweep With 1500m Gold at the World Athletics Ultimate Championship",
+          "start": 582.32,
+          "duration": 155.46
+        },
+        {
+          "url": "https://www.thecooldown.com/green-home/firefighters-revive-cat-phoenix-garage-fire/",
+          "headline": "Phoenix Firefighters Save a Cat's Life With a Pet Oxygen Mask After Garage Fire",
+          "start": 737.78,
+          "duration": 112.8
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-14/happy-news-2026-09-14.mp3"
+    },
+    {
       "date": "2026-09-13",
       "title": "Happy News \u2014 13 September 2026",
       "runKey": "2026-09-13T00:00:00Z",
@@ -1249,45 +1299,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Happy News \u2014 14 August 2026",
-      "runKey": "2026-08-14T19:10:00Z",
-      "published": "2026-08-14T22:54:05Z",
-      "duration": 112.1,
-      "bytes": 897706,
-      "storyCount": 4,
-      "guid": "happy-news-2026-08-14",
-      "summary": "Four good things: Stress Hormone Discovered to Help the Brain Repair Itself After Injury; Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own; Chester Zoo Hatches Five Secretarybird Chicks in Conservation First; Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home",
-      "chapters": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
-          "headline": "Stress Hormone Discovered to Help the Brain Repair Itself After Injury",
-          "start": 6.14,
-          "duration": 25.44
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/rescued-orangutans-released-into-empty-forest-now-raising-babies/",
-          "headline": "Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own",
-          "start": 31.58,
-          "duration": 26.28
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/five-endangered-secretarybird-chicks-hatch-in-major-conservation-first/",
-          "headline": "Chester Zoo Hatches Five Secretarybird Chicks in Conservation First",
-          "start": 57.86,
-          "duration": 24.96
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/ospreys-recover-thanks-to-pioneering-pairs-who-nest-afar/",
-          "headline": "Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home",
-          "start": 82.82,
-          "duration": 26.76
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3"
     }
   ],
-  "updated": "2026-09-13T18:44:45Z"
+  "updated": "2026-09-14T20:20:34Z"
 }

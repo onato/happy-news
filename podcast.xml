@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 18:44:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 20:20:34 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 14 September 2026</title>
+      <description>Six good things: Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force; Every Weeknight, a Different Kind of Classroom Is Teaching Auckland Te Reo Māori Through Song; Southeast Asia Becomes Fully Free of Trachoma After Timor-Leste's Elimination Certification; Fossilized Feather Found Inside 66-Million-Year-Old Dinosaur Dung Hints at Why Birds Alone Survived Mass Extinction</description>
+      <itunes:summary>Six good things: Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force; Every Weeknight, a Different Kind of Classroom Is Teaching Auckland Te Reo Māori Through Song; Southeast Asia Becomes Fully Free of Trachoma After Timor-Leste's Elimination Certification; Fossilized Feather Found Inside 66-Million-Year-Old Dinosaur Dung Hints at Why Birds Alone Survived Mass Extinction</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 20:19:34 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-14/happy-news-2026-09-14.mp3" length="6825451" type="audio/mpeg" />
+      <itunes:duration>0:14:13</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 13 September 2026</title>
       <description>Seven good things: Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness; Cat Missing for Six Years Is Reunited With Her Family After a Viral Shelter Post; Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation; Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together</description>
@@ -286,18 +298,6 @@
       <pubDate>Sun, 16 Aug 2026 18:45:59 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3" length="7459976" type="audio/mpeg" />
       <itunes:duration>0:15:32</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 14 August 2026</title>
-      <description>Four good things: Stress Hormone Discovered to Help the Brain Repair Itself After Injury; Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own; Chester Zoo Hatches Five Secretarybird Chicks in Conservation First; Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home</description>
-      <itunes:summary>Four good things: Stress Hormone Discovered to Help the Brain Repair Itself After Injury; Rescued Orangutans Released Into the Wild Are Now Raising Babies of Their Own; Chester Zoo Hatches Five Secretarybird Chicks in Conservation First; Ospreys Are Recovering in Britain Thanks to 'Pioneering Pairs' That Nest Far From Home</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 22:54:05 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-14/happy-news-2026-08-14.mp3" length="897706" type="audio/mpeg" />
-      <itunes:duration>0:01:52</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
