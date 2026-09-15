@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 20:20:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 19:42:17 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 15 September 2026</title>
+      <description>Nine good things: Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House; Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary; Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades; British Runner Completes the Mountain Challenge That Once Stopped His Heart</description>
+      <itunes:summary>Nine good things: Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House; Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary; Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades; British Runner Completes the Mountain Challenge That Once Stopped His Heart</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 19:40:53 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-15/happy-news-2026-09-15.mp3" length="9255566" type="audio/mpeg" />
+      <itunes:duration>0:19:17</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 14 September 2026</title>
       <description>Six good things: Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force; Every Weeknight, a Different Kind of Classroom Is Teaching Auckland Te Reo Māori Through Song; Southeast Asia Becomes Fully Free of Trachoma After Timor-Leste's Elimination Certification; Fossilized Feather Found Inside 66-Million-Year-Old Dinosaur Dung Hints at Why Birds Alone Survived Mass Extinction</description>

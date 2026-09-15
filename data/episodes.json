@@ -1,6 +1,74 @@
 {
   "episodes": [
     {
+      "date": "2026-09-15",
+      "title": "Happy News \u2014 15 September 2026",
+      "runKey": "2026-09-15T19:32:00Z",
+      "published": "2026-09-15T19:40:53Z",
+      "duration": 1156.82,
+      "bytes": 9255566,
+      "storyCount": 9,
+      "guid": "happy-news-2026-09-15",
+      "summary": "Nine good things: Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House; Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary; Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades; British Runner Completes the Mountain Challenge That Once Stopped His Heart",
+      "chapters": [
+        {
+          "url": "https://abc7.com/post/dog-reunited-heroic-firefighters-rescued-pasadena-house-fire/19831416/",
+          "headline": "Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House",
+          "start": 7.24,
+          "duration": 118.68
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/1000-bonus-for-every-year-at-the-company-casino-employees-shocked-at-companys-50th-anniversary/",
+          "headline": "Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary",
+          "start": 125.92,
+          "duration": 129.4
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/wind-turbines-have-made-up-half-this-ranchers-income-since-fateful-choice-to-allow-them-on-his-land/",
+          "headline": "Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades",
+          "start": 255.32,
+          "duration": 126.88
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/uk-runner-makes-improbable-comeback-to-conquer-the-grueling-trail-run-that-nearly-killed-him/",
+          "headline": "British Runner Completes the Mountain Challenge That Once Stopped His Heart",
+          "start": 382.2,
+          "duration": 116.32
+        },
+        {
+          "url": "https://www.cleveland19.com/2026/09/15/baby-born-weighing-less-than-2-pounds-graduates-nicu-after-334-days/",
+          "headline": "Baby Born at 24 Weeks Weighing Under 2 Pounds Finally Goes Home After 334 Days in the NICU",
+          "start": 498.52,
+          "duration": 132.98
+        },
+        {
+          "url": "https://www.odt.co.nz/otago/north-otago/recovery-milestone-for-kakapo-after-bumper-year-for-chicks-h053s1yt",
+          "headline": "K\u0101k\u0101p\u014d Population Hits Recovery-Era High of 325 After Record Breeding Season",
+          "start": 631.5,
+          "duration": 134.1
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm",
+          "headline": "Physicists Make Quantum Computer Operations 1,000 Times Faster, Easing a Key Roadblock",
+          "start": 765.6,
+          "duration": 135.82
+        },
+        {
+          "url": "https://www.nzherald.co.nz/the-country/news/kaikoura-community-helps-replant-former-forestry-reserve/CQFNCIKDQJGNRMO4W4UM63JYKU/",
+          "headline": "Kaik\u014dura Locals Plant Hundreds of Native Trees to Bring Back a Logged Forest Reserve",
+          "start": 901.42,
+          "duration": 125.98
+        },
+        {
+          "url": "https://uk.whales.org/2026/09/09/first-white-peales-dolphin-spotted/",
+          "headline": "Scientists Spot the First Known All-White Peale's Dolphin Off Patagonia",
+          "start": 1027.4,
+          "duration": 126.88
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-15/happy-news-2026-09-15.mp3"
+    },
+    {
       "date": "2026-09-14",
       "title": "Happy News \u2014 14 September 2026",
       "runKey": "2026-09-14T00:00:00Z",
@@ -1301,5 +1369,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3"
     }
   ],
-  "updated": "2026-09-14T20:20:34Z"
+  "updated": "2026-09-15T19:42:16Z"
 }
