@@ -1,6 +1,102 @@
 {
-  "updated": "2026-09-14T00:00:00Z",
+  "updated": "2026-09-15T19:32:00Z",
   "stories": [
+    {
+      "headline": "Physicists Make Quantum Computer Operations 1,000 Times Faster, Easing a Key Roadblock",
+      "summary": "Researchers at Chalmers University of Technology and Tianjin University developed a method to complete complex quantum operations in a single control cycle instead of thousands, cutting the time errors have to build up. The advance moves fault-tolerant quantum computers, which could aid drug discovery and energy research, a step closer to practical use.",
+      "narrative": "Quantum computers promise to solve problems ordinary computers never could, but they have a persistent weakness: the delicate quantum states they rely on are extremely easy to disturb. Every extra moment an operation takes is another moment for outside noise, vibration or stray electromagnetic fields to corrupt the calculation. For years, that trade-off between doing more complex operations and doing them fast enough to avoid errors has been one of the field's central obstacles.\n\nA team led by researchers Lei Du and Tangyou Huang, working across Chalmers University of Technology in Sweden and Tianjin University in China, has found a way to sidestep much of that problem. Instead of building complex quantum operations out of thousands of small, repeated control cycles, the way most current systems do, their method completes the same operations in a single cycle. The result, published in Physical Review Letters, is operations that run more than a thousand times faster than before.\n\nThe significance is straightforward once you consider what errors do to a quantum calculation: the longer an operation takes, the more chances there are for it to drift off course. By collapsing thousands of cycles into one, the researchers dramatically shrink that window of vulnerability, making the underlying quantum information more likely to survive intact until it's needed.\n\nThis is not the flashy kind of quantum computing headline that promises to break encryption tomorrow. It's closer to a plumbing fix, one of the unglamorous engineering advances that has to happen before quantum computers can be trusted with real, fault-tolerant workloads. Researchers see downstream applications in areas like drug discovery, where quantum simulations of molecules could dramatically speed up the search for new treatments, as well as in energy technology and artificial intelligence.\n\nNo single result makes fault-tolerant quantum computing arrive overnight, and plenty of engineering challenges remain. But shaving three orders of magnitude off operation time is the kind of foundational gain that tends to ripple through an entire field, making every other piece of the puzzle, from error correction to scaling up qubit counts, a little more tractable than it was before.",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm",
+      "source": "ScienceDaily",
+      "published": "2026-09-11T00:00:00Z",
+      "category": "Science",
+      "added": "2026-09-15T19:32:00Z"
+    },
+    {
+      "headline": "Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House",
+      "summary": "A six-year-old Sheltie named Milo was found limp and unconscious under a table during a Pasadena house fire, then revived with oxygen by firefighters within minutes. Days later, Milo was reunited with Sierra Madre firefighter Jessica Johnson, the woman who carried him to safety.",
+      "narrative": "When crews from the Pasadena, Arcadia and Sierra Madre fire departments arrived at a smoke-filled house on September 9, their priority was getting anyone inside out safely. Sierra Madre firefighter Jessica Johnson pushed into the thick black smoke and found Milo, a six-year-old Sheltie, hiding unconscious beneath a table.\n\nJohnson could barely see him. She picked him up and carried him outside, and it was only once they were clear of the smoke that she realized how limp his body was. Milo wasn't breathing normally, and for a dog that had just been pulled from a burning structure, every second mattered.\n\nOutside, colleagues moved fast. They administered oxygen to Milo using specialized pet-sized equipment, the kind fire departments increasingly carry precisely because animals are so often the ones left behind or overlooked in a fast-moving evacuation. Within about five minutes, Milo began to revive, going from unresponsive to breathing on his own.\n\nMilo's owner, Leticia, got her dog back thanks to a rescue that could easily have gone the other way. Structure fires move fast, smoke inhalation can be fatal within minutes, and pets are frequently the hardest to locate in a chaotic scene. That Milo was found at all, let alone revived, came down to Johnson's decision to keep searching the smoke-filled room and her team's readiness with oxygen equipment built for an animal's smaller lungs.\n\nDays after the fire, Milo and Johnson were reunited, this time under much calmer circumstances. Johnson described the moment she first found him, saying she could feel how limp he was and simply focused on getting him outside. For Leticia, the reunion was a chance to properly thank the firefighter who refused to leave a family member behind, and for Johnson, a rare opportunity to see the outcome of a rescue most firefighters never get to witness in person.",
+      "url": "https://abc7.com/post/dog-reunited-heroic-firefighters-rescued-pasadena-house-fire/19831416/",
+      "source": "ABC7 Los Angeles",
+      "published": "2026-09-15T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://cdn.abcotvs.com/dip/images/19833220_091426-KABC-PASADENA-FIRE-DOG-RESCUE-TN-IMG.jpg"
+    },
+    {
+      "headline": "Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary",
+      "summary": "Station Casinos marked its 50th anniversary by giving roughly 10,000 employees $1,000 in company stock for every year they've worked there, a surprise profit-sharing gift totaling around $70 million. Some long-serving staff, including one employee who started in 1977, received tens of thousands of dollars in shares.",
+      "narrative": "Station Casinos was founded in Las Vegas in 1976 by Frank Fertitta Jr., who opened the company's first property, the Bingo Palace. Fifty years later, as the company marked that anniversary, its current leadership decided to celebrate the milestone by handing a substantial piece of the company's success directly to the people who built it.\n\nRather than a one-off bonus or a catered party, Station Casinos gave each of its roughly 10,000 employees $1,000 in Red Rock Resorts Class A stock for every year they had worked at the company. For staff who had been there just a few years, that meant a few thousand dollars. For employees who had spent decades with the company, the numbers grew substantial. Ida Johnson, who started working there in 1977, received $49,000 worth of stock. In total, the gift amounted to roughly $70 million distributed across the workforce.\n\nFor employees, the announcement landed as a genuine surprise. Paula Barrett, who has worked for the company for 47 years, described it simply as a complete honor to receive the check. She and others spoke about the company feeling less like a workplace and more like a second home, the kind of loyalty that a milestone gift like this one is, in part, designed to recognize and reinforce.\n\nCompany leadership framed the gesture as a direct reflection of what has kept the business running for half a century. Lorenzo Fertitta, part of the family that still leads the company, called it an investment in the company's nearly 10,000 team members, crediting their dedication and commitment for the anniversary being worth celebrating in the first place.\n\nProfit-sharing gestures at this scale are unusual even among large employers, and giving it in the form of company stock rather than cash means employees now hold a direct stake in the business they've spent years helping build. For many, that stake will keep growing in value long after the anniversary celebrations are over, turning a single milestone moment into an ongoing form of ownership.",
+      "url": "https://www.goodnewsnetwork.org/1000-bonus-for-every-year-at-the-company-casino-employees-shocked-at-companys-50th-anniversary/",
+      "source": "Good News Network",
+      "published": "2026-09-15T00:00:00Z",
+      "category": "Community",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/credit-Station-Casinos-released-to-the-press.jpg"
+    },
+    {
+      "headline": "Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades",
+      "summary": "Fourth-generation Kansas rancher Pete Ferrell says royalties from 50 wind turbines on his Flint Hills prairie have covered about half his income since 2006, letting him pass the ranch on to his children without a financial burden. Cattle grazing and prairie chicken habitat have continued undisturbed alongside the turbines.",
+      "narrative": "Pete Ferrell runs a 7,000-acre cattle ranch on the tallgrass prairie of Kansas's Flint Hills, land that has been in his family for four generations. Ranching income is notoriously unpredictable, swinging with weather, cattle prices and drought. Twenty years ago, Ferrell made a decision that many of his neighbors viewed with suspicion: he agreed to let a wind energy developer put turbines on his land.\n\nThe original project fell through, and Ferrell ended up working with Greenlight Energy Resources to get fifty turbines built as part of what became known as the Elk River Wind Power project. Since it started generating in 2006, the turbines have produced enough electricity to power roughly 60,000 homes, and the royalty payments Ferrell receives have made up about half of his income ever since.\n\nThat steady stream of income has changed what ranching means for his family. Rather than living at the mercy of cattle markets alone, Ferrell has had a reliable second income that smooths out the bad years. He says it is the reason he can hand the ranch down to his children without them inheriting a business teetering on the edge of financial strain.\n\nFerrell was not naive about the tradeoffs. The Flint Hills are one of the last great expanses of tallgrass prairie left in North America, and turbines change the view of a landscape many people fought to protect. He also faced pushback from other ranchers who saw wind development as a betrayal of the open range aesthetic. But two decades on, his cattle still graze beneath the turbines, and the prairie chicken populations that depend on the grassland have not been driven off.\n\nFerrell has since become something of an informal advisor to other ranching families weighing similar offers from energy developers, sharing what he has learned about contracts, land impacts and how to keep the ranching operation front and center. His story has become a quiet example of how wind income and cattle ranching can coexist on the same acreage, and how a single decision made in the mid-2000s can still be paying dividends for a family two generations later.",
+      "url": "https://www.goodnewsnetwork.org/wind-turbines-have-made-up-half-this-ranchers-income-since-fateful-choice-to-allow-them-on-his-land/",
+      "source": "Good News Network",
+      "published": "2026-09-15T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/credit-supplied-to-the-Environmental-Defense-Fund-as-a-courtesy-by-Pete-Ferrell.jpg"
+    },
+    {
+      "headline": "British Runner Completes the Mountain Challenge That Once Stopped His Heart",
+      "summary": "Four years after suffering cardiac arrest and severe hypothermia during an attempt on the Lake District's brutal Bob Graham Round, UK runner Tommy Price returned and completed the 66-mile, 42-peak challenge within the 24-hour limit. The mountain rescue volunteer who found him and the doctor who revived him were there to see him finish.",
+      "narrative": "The Bob Graham Round is one of British fell running's toughest tests: 66 miles and 42 peaks across the Lake District, all of it meant to be completed inside 24 hours. Tommy Price attempted it once and it very nearly killed him. Deep into the challenge, in punishing conditions, his body temperature plunged to 18 degrees Celsius, or about 64 degrees Fahrenheit, and his heart stopped.\n\nMountain rescue volunteers found him unconscious. It took three attempts to restart his heart before he could be airlifted to the Royal Victoria Infirmary in Newcastle, where doctors worked to slowly rewarm his body. Remarkably, the same extreme cold that had stopped his heart may also have helped protect his brain and organs during those critical minutes, buying his medical team the time they needed to bring him back.\n\nRecovery was slow, but Price did not give up on endurance sport altogether. Along the way, he ran the London Marathon in 3 hours and 10 minutes, raising money for Keswick Mountain Rescue, the very team that had saved him. It was a way of turning the worst day of his life into something that gave back to the people who made sure he had more days at all.\n\nFour years after his near-death experience, Price went back to the fells to finish what he'd started. This time, he completed the full Bob Graham Round within the 24-hour cutoff. Waiting for him were two people who had been there the first time around: the rescue volunteer who had found him unconscious on the mountain, who ran the opening leg alongside him, and the doctor who had coordinated his rescue and treatment, who was waiting at the finish line to greet him.\n\nFor a challenge built on pushing the body to its absolute limit, Price's finish carried a different kind of significance. It was not just a completed circuit of Lakeland peaks, but a full-circle moment with the people who had refused to let his story end on that fellside four years earlier.",
+      "url": "https://www.goodnewsnetwork.org/uk-runner-makes-improbable-comeback-to-conquer-the-grueling-trail-run-that-nearly-killed-him/",
+      "source": "Good News Network",
+      "published": "2026-09-15T00:00:00Z",
+      "category": "Culture",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/3fd05230-ad1d-11f1-826f-933990eae6f0.jpg.jpg"
+    },
+    {
+      "headline": "Kaikōura Locals Plant Hundreds of Native Trees to Bring Back a Logged Forest Reserve",
+      "summary": "Volunteers in Kaikōura have planted around 700 native trees at Pōhowera Park, the first stage of a plan to restore 5.37 hectares of former forestry land to native bush by 2029. The community-led effort, backed by the district council and local tourism operator EcoZip, includes monthly working bees and a new walking track.",
+      "narrative": "South of Kaikōura, a patch of land once known as the South Bay Forest Reserve is being turned back into native bush, tree by tree, by the people who live around it. The site, now called Pōhowera Park, was previously harvested for forestry, and under a ruling from the Ministry for Primary Industries the Kaikōura District Council is required to replant it as native forest by February 2029.\n\nRather than treat that as a compliance box to tick, the council has turned it into a genuine community project. A group calling itself Friends of Pōhowera has been coordinating volunteers, and by mid-September they had already put around 700 native seedlings in the ground, working toward the full 5.37 hectares the council has committed to restoring.\n\nThe planting has pulled in a wide cross-section of the town. Kaikōura High School students have taken part, turning it into a hands-on environmental lesson rather than a classroom exercise. Local tourism operator EcoZip has also joined in, supplying native plants from its own nursery, funded by its customers, so the restoration effort is effectively subsidised by visitors who come to the region for its natural scenery in the first place.\n\nProject manager Colette Doughty has been steering the effort toward monthly working bees, so the planting isn't a one-off event but an ongoing rhythm the community can keep returning to over the coming years. Beyond the trees themselves, the plan includes a new one-kilometre walking track, improvements to the carpark, and potential recreational additions like disc golf, turning the reserve into a place locals will actually want to spend time in as it regrows.\n\nIt will take years for the newly planted seedlings to become anything resembling the forest that once stood there, but the project gives Kaikōura a concrete, visible stake in its own environmental recovery. What started as a regulatory requirement to replant logged land has become a community habit of turning up, seedling in hand, to help a forest come back.",
+      "url": "https://www.nzherald.co.nz/the-country/news/kaikoura-community-helps-replant-former-forestry-reserve/CQFNCIKDQJGNRMO4W4UM63JYKU/",
+      "source": "NZ Herald",
+      "published": "2026-09-10T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-09-15T19:32:00Z"
+    },
+    {
+      "headline": "Kākāpō Population Hits Recovery-Era High of 325 After Record Breeding Season",
+      "summary": "New Zealand's critically endangered kākāpō population has climbed to 325 birds, the highest number since conservation efforts began, after a record 90 chicks were officially added this year. The species numbered just 51 birds when the Department of Conservation's recovery programme started in 1995.",
+      "narrative": "The kākāpō, the world's heaviest parrot and one of New Zealand's strangest and most beloved native birds, has just posted its best breeding season on record. The Department of Conservation confirmed that 90 chicks from this year's season have officially been added to the population, once they reached 150 days old and cleared the riskiest early stage of life. That single season produced almost double the number of chicks it took 16 years to achieve in the early years of the recovery programme.\n\nWith those chicks counted, the total kākāpō population now stands at 325 birds, a number New Zealand has not seen in the recovery era and possibly not in around 75 years. It is a striking turnaround for a bird that came within a whisker of extinction: when the Kākāpō Recovery Programme began in 1995, only 51 birds remained, including just 20 breeding-age females.\n\nKākāpō are flightless, nocturnal and famously slow to breed, only nesting in years when native rimu and other trees produce enough fruit to support raising chicks, which makes big seasons like this one rare and hard-won. The birds are managed intensively across predator-free island sanctuaries, including Whenua Hou/Codfish Island near Rakiura Stewart Island, and Anchor Island and Chalky Island in Fiordland, where teams track every individual bird by name.\n\nDeidre Vercoe of the Kākāpō Recovery Programme called it a significant milestone for the species, noting how much longer similar gains used to take. Partnership with Meridian Energy, which has backed the programme since 2016, has coincided with the population growing by more than 200 birds over that period.\n\nThe scale of this year's success means the next full breeding season may not happen again until 2028, since kākāpō breeding is tied to unpredictable masting cycles in the forest. But for a species once reduced to a few dozen individuals, crossing the 300 mark and climbing to 325 is a milestone conservationists have been working toward for three decades, and a sign that the recovery effort's slow, patient approach is paying off.",
+      "url": "https://www.odt.co.nz/otago/north-otago/recovery-milestone-for-kakapo-after-bumper-year-for-chicks-h053s1yt",
+      "source": "Otago Daily Times",
+      "published": "2026-09-12T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://images.odt.co.nz/view/acePublic/alias/contentid/1tk1h1pmk34m3h06a7m/1/copy-of-alice_and_rupi_130926-jpg.webp?f=ORIGINAL&q=0.75&w=3840"
+    },
+    {
+      "headline": "Scientists Spot the First Known All-White Peale's Dolphin Off Patagonia",
+      "summary": "Researchers with Fundación Cethus have documented what is believed to be the first recorded completely white Peale's dolphin, spotted hunting with two others off the coast of Argentina's Santa Cruz province. Named 'Ieu', meaning snow, the discovery gives scientists a rare new data point on this little-studied species.",
+      "narrative": "Off the windswept coast of southern Patagonia, researchers from the Argentine conservation group Fundación Cethus spotted something none of them had ever documented before: a completely white Peale's dolphin, swimming and hunting alongside two normally-coloured companions. The sighting was made from an observation point on the coast of Santa Cruz province, and the same animal was seen again five days later, this time hunting for around 40 minutes in the company of the other dolphins.\n\nUnusual white colouring, sometimes caused by albinism and sometimes by other genetic conditions, has been recorded in more than 20 whale species over the years. But researchers say this appears to be the first time it has been documented in a Peale's dolphin, a species found only in the cold waters around southern South America and one that has been comparatively little studied.\n\nThe team named the dolphin Ieu, a word meaning snow in the Aoniken language of the indigenous peoples of Patagonia, a nod both to its colouring and to the region it calls home. Fundación Cethus has been researching and advocating for whales and dolphins in Argentine waters for more than two decades, with support from Whale and Dolphin Conservation.\n\nBeyond the novelty of spotting an unusually coloured animal, sightings like this give scientists genuine research value. Every confirmed individual adds to what is known about how Peale's dolphins group together, move and behave, information that feeds directly into efforts to protect the species from threats like fishing net entanglement and habitat disturbance. A distinctively marked animal like Ieu is also easier for researchers to track over time, potentially offering years of data from a single, recognisable dolphin.\n\nFor now, Ieu appears healthy and fully integrated with its podmates, hunting and swimming as part of a normal group. Researchers plan to keep watching for further sightings, hoping this rare and striking animal will keep turning up along the Patagonian coast and keep offering clues about a population that still holds plenty of mysteries.",
+      "url": "https://uk.whales.org/2026/09/09/first-white-peales-dolphin-spotted/",
+      "source": "Whale and Dolphin Conservation",
+      "published": "2026-09-09T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-09-15T19:32:00Z",
+      "image": "https://uk.whales.org/wp-content/uploads/sites/6/bb-plugin/cache/DASJ60-or-Leu-off-Southern-Patagonia-credit-M-Iniguez-Bessega-Fundacion-Cethus-300x200-landscape-5ebb7db7141d5d2887465eebb2a28abc-.jpg"
+    },
+    {
+      "headline": "Baby Born at 24 Weeks Weighing Under 2 Pounds Finally Goes Home After 334 Days in the NICU",
+      "summary": "Minnesota baby Adonis, born three and a half months early weighing just 1 pound 8 ounces, has been discharged from the neonatal intensive care unit after nearly a year of treatment for complications including a MRSA infection and pneumonia. He now weighs over 20 pounds and continues to need daily oxygen support as his lungs keep strengthening.",
+      "narrative": "When Jasmin Wellington went into labour at just 24 weeks and 5 days of pregnancy last October, her son Adonis arrived weighing only 1 pound 8 ounces, small enough to fit in the palm of a hand. Extremely premature babies like Adonis face steep odds, and his early days in the neonatal intensive care unit at North Memorial Health in Maple Grove, Minnesota, were brutal. He needed prolonged intubation to breathe, then developed a MRSA infection and pneumonia on top of everything else his tiny body was already struggling to overcome.\n\nNurse Katherine Martinson, who helped care for him through the worst of it, put it plainly: those first days, he was really, really sick. For a baby born that early, every system in the body, lungs, immune system, digestion, is still developing, and each additional complication makes an already fragile situation more dangerous.\n\nBut Adonis kept fighting, and so did the team around him. Over the following months, he slowly grew stronger, gaining weight, clearing infections, and building up the lung capacity he would eventually need to breathe with less and less machine support. It was a long, incremental process measured not in days or weeks but in the better part of a year.\n\nThat year added up to 334 days in the NICU, one of the longest stays the hospital has seen, before Adonis was finally cleared to go home this September. He left weighing over 20 pounds, having grown from barely more than a pound and a half into a thriving nearly one-year-old. He still needs daily oxygen support while his lungs continue to strengthen, but the milestone of simply being home, in his family's arms instead of a hospital bassinet, marks the end of an extraordinary ordeal.\n\nHis mother Jasmin said she is grateful for his life and his destiny, a sentiment that captures just how far Adonis has come from those first terrifying days. For a family that spent nearly a year commuting to a hospital room instead of a nursery, his homecoming is the ending they'd been working toward with every single one of those 334 days.",
+      "url": "https://www.cleveland19.com/2026/09/15/baby-born-weighing-less-than-2-pounds-graduates-nicu-after-334-days/",
+      "source": "Cleveland 19 News",
+      "published": "2026-09-15T00:00:00Z",
+      "category": "Health",
+      "added": "2026-09-15T19:32:00Z"
+    },
     {
       "headline": "Auckland's City Rail Link Opens After a Century of Waiting, and Commuters Turn Out in Force",
       "summary": "Auckland's underground rail line, first proposed by government in 1924 and finally built over the past decade at a cost of $5.5 billion, opened to passengers this week. On its first full weekday, the network carried roughly 25,000 more passengers than a normal Monday as Aucklanders explored the new tunnels and stations.",
@@ -2004,95 +2100,6 @@
       "category": "Environment",
       "added": "2026-08-12T19:11:13Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Diver-surveying-corals-on-the-Great-Barrier-Reef-by-Australian-Institute-of-Marine-Science-and-SWNS.jpeg"
-    },
-    {
-      "headline": "Women's Professional Baseball Returns to the Field for the First Time Since 1954",
-      "summary": "The new Women's Professional Baseball League played its inaugural game in Springfield, Illinois, with 99-year-old Maybelle Blair — a veteran of the original All-American Girls Professional Baseball League — throwing out the first pitch despite recently broken ribs. The LA Queens beat the NY Heights to open a 30-game season, marking the first pro women's baseball competition in the US since the league that inspired 'A League of Their Own' folded in 1954.",
-      "url": "https://www.goodnewsnetwork.org/pro-womens-baseball-resumes-for-first-time-since-1954-a-league-of-their-own-is-back/",
-      "source": "Good News Network",
-      "published": "2026-08-11T00:00:00Z",
-      "category": "Culture",
-      "added": "2026-08-12T19:11:13Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Female-pro-baseball-player-Courtesy-of-WPBL-submitted.jpeg"
-    },
-    {
-      "headline": "Brown Student Spends Summer Helping Providence Teens Find Their Voice in English",
-      "summary": "Rising sophomore Justin Dunn spent four weeks teaching an English class for teens at the Providence Public Library through Brown University's SPRINT-iProv fellowship, taking students to a local market and having them build resumes so language skills stuck outside the classroom. Some of the library staff he worked alongside are immigrants who once learned English through the same program before returning to teach it themselves.",
-      "url": "https://www.goodnewsnetwork.org/brown-student-spends-summer-helping-teens-find-their-voice-in-english/",
-      "source": "Good News Network",
-      "published": "2026-08-11T00:00:00Z",
-      "category": "Community",
-      "added": "2026-08-12T19:11:13Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Justin-Dunn-teaching-ESL-English-by-Lynda-Curtis-for-Brown-University-released.jpeg"
-    },
-    {
-      "headline": "Rare 'Death Bloom' Agave Forces Botanical Garden to Cut Open Its Greenhouse Roof",
-      "summary": "A decade-old Agave sisalana at Birmingham Botanical Gardens in England has entered its once-in-a-lifetime 'death bloom,' with its flower spike growing so tall — over 18 feet — that horticulturists had to remove glasshouse ceiling panels to let it keep growing. The monocarpic plant is now producing hundreds of bulbils and seeds, plus four cloned 'pups,' to ensure new agaves carry on its genetic line after it dies.",
-      "url": "https://www.ibtimes.co.uk/birmingham-botanical-gardens-agave-sisalana-death-bloom-1813633",
-      "source": "IBTimes UK",
-      "published": "2026-08-11T16:59:00Z",
-      "category": "Environment",
-      "added": "2026-08-11T19:14:49Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Greenhouse-Horticulturist-Alberto-Trinco-with-agave-at-Birmingham-Botanical-Gardens-by-Anita-Maric-via-SWNS-.jpeg"
-    },
-    {
-      "headline": "Star Cluster Discovery Could Change How Scientists Measure the Universe",
-      "summary": "University of Missouri researchers found that the ratio of large to small stars varies depending on the environment where they form, challenging the long-held assumption that stars form in uniform proportions everywhere. The finding could improve how astronomers estimate galaxy mass and age, and may explain why some galaxies observed by the James Webb Space Telescope have looked more massive than expected.",
-      "url": "https://phys.org/news/2026-08-star-cluster-discovery-scientists-universe.html",
-      "source": "Phys.org",
-      "published": "2026-08-11T18:38:00Z",
-      "category": "Science",
-      "added": "2026-08-11T19:14:49Z",
-      "image": "https://scx1.b-cdn.net/csz/news/800a/2019/1-milkyway.jpg"
-    },
-    {
-      "headline": "Dogs' Brains Can Tell the Difference Between Fear and Sadness, Study Finds",
-      "summary": "Using brain scans, researchers from the University of Vienna, UNAM and Eotvos Lorand University found that dogs' brains respond differently to human faces showing fear versus sadness, the first evidence that dogs distinguish between specific negative emotions rather than just reading 'good' or 'bad.' Happy human faces lit up reward-related regions in the dogs' brains, hinting at just how finely tuned dogs are to their owners' feelings.",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260811011132.htm",
-      "source": "ScienceDaily",
-      "published": "2026-08-11T01:11:32Z",
-      "category": "Science",
-      "added": "2026-08-11T19:14:49Z"
-    },
-    {
-      "headline": "India Crosses 300 Gigawatts of Clean Power Capacity, Reaching 60% of Its 2030 Target",
-      "summary": "India's non-fossil fuel electricity capacity passed 300 GW as of July 31, 2026, now more than 54% of the country's total generation capacity. Solar power alone has grown from 2.8 GW in 2014 to nearly 165 GW today, putting the country past 60% of its goal to reach 500 GW of clean capacity by 2030.",
-      "url": "https://www.businesstoday.in/india/story/60-of-2030-target-india-hits-300-gw-clean-energy-milestone-as-solar-capacity-skyrockets-548178-2026-08-09",
-      "source": "Business Today",
-      "published": "2026-08-09T10:37:00Z",
-      "category": "Environment",
-      "added": "2026-08-11T02:50:44Z",
-      "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a78586bbd766-non-fossil-sources-now-account-for-over-54-of-the-nations-total-electricity-generation-capacity--w-093726182-16x9.jpg"
-    },
-    {
-      "headline": "Toddlers With Duchenne Muscular Dystrophy Show Rapid Motor Gains in New Drug Trial",
-      "summary": "In a Phase II trial, Binghamton University researchers gave the steroid-alternative drug vamorolone to boys aged 2 to under 4 with Duchenne muscular dystrophy. After just 12 weeks, gross-motor scores rose sharply with no serious side effects, raising hope that treatment can start before symptoms fully set in now that DMD has been added to newborn screening recommendations.",
-      "url": "https://www.goodnewsnetwork.org/new-treatment-shows-remarkable-motor-improvements-in-boys-with-muscular-dystrophy/",
-      "source": "Good News Network",
-      "published": "2026-08-10T00:00:00Z",
-      "category": "Health",
-      "added": "2026-08-11T02:50:44Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Microscope-view-of-deficient-muscle-tissue-due-to-dystrophin-gene-Courtesy-Binghamton-University.jpeg"
-    },
-    {
-      "headline": "Team USA Smashes World U20 Record in Men's 4x100m Relay",
-      "summary": "At the World Athletics U20 Championships in Eugene, Oregon, the American quartet of Blake Hamilton, Dillon Mitchell, Kyler Brown and Tate Taylor ran 38.16 seconds to break the U20 world record in the men's 4x100m relay, beating the previous mark by more than a third of a second. Anchor Tate Taylor capped the meet with three gold medals.",
-      "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/report/day-five-men-track-oregon-26",
-      "source": "World Athletics",
-      "published": "2026-08-09T00:00:00Z",
-      "category": "Culture",
-      "added": "2026-08-11T02:50:44Z",
-      "image": "https://assets.aws.worldathletics.org/large/6a78f4bd2210f68fb61473f9.JPG"
-    },
-    {
-      "headline": "Blind Dressage Horse Wins Competitions Using 'Equine Braille'",
-      "summary": "Milo, a 15-year-old Appaloosa who lost his sight to an eye condition, continues to compete successfully in dressage with rider Megan Share. The pair developed a tactile system of pressure cues so Milo can navigate the arena purely by feel, and he's now won the Royal Windsor Horse Show for the eighth year running.",
-      "url": "https://www.goodnewsnetwork.org/blind-dressage-horse-wins-competitions-by-using-equine-braille/",
-      "source": "Good News Network",
-      "published": "2026-08-09T00:00:00Z",
-      "category": "Animals",
-      "added": "2026-08-11T02:50:44Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Appaloosa-Dressage-Horse-ridden-by-Megan-Share-SWNS.jpeg"
     }
   ]
 }
