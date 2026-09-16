@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-09-16",
+      "title": "Happy News \u2014 16 September 2026",
+      "runKey": "2026-09-16T19:31:41Z",
+      "published": "2026-09-16T19:35:27Z",
+      "duration": 925.85,
+      "bytes": 7407758,
+      "storyCount": 8,
+      "guid": "happy-news-2026-09-16",
+      "summary": "Eight good things: A 78-Year-Old Nashville Songwriter Has Rescued Dozens of Foxes Suffering From a Treatable Skin Disease; A Rescue Team's Boat Capsized Mid-Mission, but the Hooked Cygnet They Were Chasing Still Got Saved; For the First Time, a Congolese NGO Will Co-Manage One of the DRC's Most Important Wildlife Reserves; Three Dunedin Schoolmates Are Quietly Rebuilding Their Hometown's Heritage Buildings, One at a Time",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/nashville-singer-songwriter-becomes-local-celebrity-rescuing-foxes-and-saving-them-from-mange/",
+          "headline": "A 78-Year-Old Nashville Songwriter Has Rescued Dozens of Foxes Suffering From a Treatable Skin Disease",
+          "start": 7.36,
+          "duration": 110.12
+        },
+        {
+          "url": "https://www.thecooldown.com/outdoors/cygnet-rescue-rubber-boat-incident/",
+          "headline": "A Rescue Team's Boat Capsized Mid-Mission, but the Hooked Cygnet They Were Chasing Still Got Saved",
+          "start": 117.48,
+          "duration": 91.28
+        },
+        {
+          "url": "https://news.mongabay.com/short-article/2026/09/for-the-first-time-congolese-ngo-to-manage-a-drc-protected-area/",
+          "headline": "For the First Time, a Congolese NGO Will Co-Manage One of the DRC's Most Important Wildlife Reserves",
+          "start": 208.76,
+          "duration": 139.38
+        },
+        {
+          "url": "https://dailyencourager.co.nz/local-boys-giving-back/",
+          "headline": "Three Dunedin Schoolmates Are Quietly Rebuilding Their Hometown's Heritage Buildings, One at a Time",
+          "start": 348.14,
+          "duration": 107.64
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/community/1423756/autistic-advocate-hails-introduction-of-low-sensory-shopping-at-dunedin-kmart",
+          "headline": "A Dunedin Advocate's Campaign Wins Low-Sensory Shopping Hours at the City's Kmart",
+          "start": 455.78,
+          "duration": 89.46
+        },
+        {
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+          "headline": "James Webb Telescope Finds the Lightest Brown Dwarfs Ever Seen, Bending the Rules of Star Formation",
+          "start": 545.24,
+          "duration": 143.38
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102436.htm",
+          "headline": "UV Light Reveals a 125-Million-Year-Old Crocodile's Skin, Senses and Possible Camouflage",
+          "start": 688.62,
+          "duration": 119.08
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/",
+          "headline": "FDA Approves First Drug That Targets Muscle Loss Itself in Spinal Muscular Atrophy",
+          "start": 807.7,
+          "duration": 115.5
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-16/happy-news-2026-09-16.mp3"
+    },
+    {
       "date": "2026-09-15",
       "title": "Happy News \u2014 15 September 2026",
       "runKey": "2026-09-15T19:32:00Z",
@@ -1311,63 +1373,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-18/happy-news-2026-08-18.mp3"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Happy News \u2014 16 August 2026",
-      "runKey": "2026-08-16T18:38:25Z",
-      "published": "2026-08-16T18:45:59Z",
-      "duration": 932.38,
-      "bytes": 7459976,
-      "storyCount": 7,
-      "guid": "happy-news-2026-08-16",
-      "summary": "Seven good things: Astronomers Discover an Entirely New Kind of Cosmic Object: A 'Black Hole Star'; Scientists Restore Two Hours of Sleep in Alzheimer's-Model Mice by Targeting Brain Immune Cells; German Teen Cancer-Free a Year After Experimental Cell Therapy Shrank Tumors in His Liver and Brain; Wendy's Bosses Who Funded His Community College Now Watch Him Head to Yale",
-      "chapters": [
-        {
-          "url": "https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812",
-          "headline": "Astronomers Discover an Entirely New Kind of Cosmic Object: A 'Black Hole Star'",
-          "start": 7.32,
-          "duration": 148.72
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/two-hours-of-sleep-restored-in-alzheimers-brains-in-research-breakthrough/",
-          "headline": "Scientists Restore Two Hours of Sleep in Alzheimer's-Model Mice by Targeting Brain Immune Cells",
-          "start": 156.04,
-          "duration": 140.12
-        },
-        {
-          "url": "https://time.com/article/2026/08/12/experimental-pediatric-cancer-treatment/",
-          "headline": "German Teen Cancer-Free a Year After Experimental Cell Therapy Shrank Tumors in His Liver and Brain",
-          "start": 296.16,
-          "duration": 137.12
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/wendys-worker-is-going-to-yale-after-his-bosses-fund-scholarship-for-the-immigrant-who-survived-violence/",
-          "headline": "Wendy's Bosses Who Funded His Community College Now Watch Him Head to Yale",
-          "start": 433.28,
-          "duration": 123.98
-        },
-        {
-          "url": "https://www.timesnowworld.com/us-news/college-student-lillie-vehling-lake-washington-seafair-blue-angels-article-155606240",
-          "headline": "College Student Pulls Three Drowning Girls From Lake Washington During Seafair Weekend",
-          "start": 557.26,
-          "duration": 101.9
-        },
-        {
-          "url": "https://www.deseret.com/u-s-world/2026/08/12/land-speed-record-bonneville-salt-flats/",
-          "headline": "The Only Man to Break the Sound Barrier on Land Now Holds the Hydrogen Land Speed Record Too",
-          "start": 659.16,
-          "duration": 131.84
-        },
-        {
-          "url": "https://dailyinterlake.com/news/2026/aug/14/state-vaccinates-libby-dam-bats-against-deadly-fungal-disease/",
-          "headline": "Montana Wildlife Crews Vaccinate 900 Bats Against Deadly Fungal Disease",
-          "start": 791.0,
-          "duration": 138.82
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-16/happy-news-2026-08-16.mp3"
     }
   ],
-  "updated": "2026-09-15T19:42:16Z"
+  "updated": "2026-09-16T19:36:42Z"
 }
