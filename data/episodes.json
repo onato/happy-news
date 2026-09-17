@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-09-17",
+      "title": "Happy News \u2014 17 September 2026",
+      "runKey": "2026-09-17T20:45:00Z",
+      "published": "2026-09-17T19:46:31Z",
+      "duration": 173.83,
+      "bytes": 1391312,
+      "storyCount": 1,
+      "guid": "happy-news-2026-09-17",
+      "summary": "One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat",
+      "chapters": [
+        {
+          "url": "https://www.vermontpublic.org/local-news/2026-09-11/historic-dams-removed-smugglers-notch-trout-habitat",
+          "headline": "Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat",
+          "start": 7.66,
+          "duration": 163.5
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-17/happy-news-2026-09-17.mp3"
+    },
+    {
       "date": "2026-09-16",
       "title": "Happy News \u2014 16 September 2026",
       "runKey": "2026-09-16T19:31:41Z",
@@ -1375,5 +1395,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-18/happy-news-2026-08-18.mp3"
     }
   ],
-  "updated": "2026-09-16T19:36:42Z"
+  "updated": "2026-09-17T19:47:05Z"
 }

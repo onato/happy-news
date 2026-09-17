@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 19:36:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 19:47:05 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 17 September 2026</title>
+      <description>One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat</description>
+      <itunes:summary>One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 19:46:31 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-17/happy-news-2026-09-17.mp3" length="1391312" type="audio/mpeg" />
+      <itunes:duration>0:02:54</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 16 September 2026</title>
       <description>Eight good things: A 78-Year-Old Nashville Songwriter Has Rescued Dozens of Foxes Suffering From a Treatable Skin Disease; A Rescue Team's Boat Capsized Mid-Mission, but the Hooked Cygnet They Were Chasing Still Got Saved; For the First Time, a Congolese NGO Will Co-Manage One of the DRC's Most Important Wildlife Reserves; Three Dunedin Schoolmates Are Quietly Rebuilding Their Hometown's Heritage Buildings, One at a Time</description>
