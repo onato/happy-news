@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 19:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 19:04:07 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 18 September 2026</title>
+      <description>Eight good things: Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years; Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery; Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration; FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'</description>
+      <itunes:summary>Eight good things: Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years; Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery; Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration; FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 19:02:49 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-18/happy-news-2026-09-18.mp3" length="8384846" type="audio/mpeg" />
+      <itunes:duration>0:17:28</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 17 September 2026</title>
       <description>One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat</description>
@@ -310,18 +322,6 @@
       <pubDate>Wed, 19 Aug 2026 18:56:15 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3" length="9697352" type="audio/mpeg" />
       <itunes:duration>0:20:12</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 18 August 2026</title>
-      <description>Seven good things: Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds; French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'; All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands; Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real</description>
-      <itunes:summary>Seven good things: Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds; French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'; All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands; Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 19:00:26 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-18/happy-news-2026-08-18.mp3" length="8123336" type="audio/mpeg" />
-      <itunes:duration>0:16:55</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

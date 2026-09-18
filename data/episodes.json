@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-09-18",
+      "title": "Happy News \u2014 18 September 2026",
+      "runKey": "2026-09-18T19:00:09Z",
+      "published": "2026-09-18T19:02:49Z",
+      "duration": 1047.98,
+      "bytes": 8384846,
+      "storyCount": 8,
+      "guid": "happy-news-2026-09-18",
+      "summary": "Eight good things: Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years; Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery; Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration; FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'",
+      "chapters": [
+        {
+          "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+          "headline": "Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years",
+          "start": 7.32,
+          "duration": 136.64
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/cataract-surgery-restores-sight-for-54-year-old-chimpanzee-the-first-such-procedure-at-chimp-haven/",
+          "headline": "Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery",
+          "start": 143.96,
+          "duration": 136.1
+        },
+        {
+          "url": "https://www.cleveland19.com/2026/09/18/cleveland-state-university-reopens-historic-fenn-tower-following-18m-renovation/",
+          "headline": "Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration",
+          "start": 280.06,
+          "duration": 121.38
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/",
+          "headline": "FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'",
+          "start": 401.44,
+          "duration": 123.66
+        },
+        {
+          "url": "https://abcnews.com/Health/wireStory/validates-chile-south-american-country-eliminate-dog-transmitted-136436947",
+          "headline": "Chile Becomes the First Country in South America to Wipe Out Dog-Transmitted Rabies",
+          "start": 525.1,
+          "duration": 135.14
+        },
+        {
+          "url": "https://www.bristol247.com/climate/news-climate/council-bans-advertising-of-fast-fashion-flights-and-cars/",
+          "headline": "Bristol Becomes First UK City to Ban Fossil Fuel and Ultra-Fast Fashion Adverts on Council Property",
+          "start": 660.24,
+          "duration": 123.64
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/homeless-guy-famous-for-playing-piano-in-church-raising-50k/",
+          "headline": "A Decade Homeless, He Played Piano in a Cornwall Church \u2014 Now He's Raised $54,000 for Charity",
+          "start": 783.88,
+          "duration": 125.08
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/world/archives/2026/09/10/2003864029",
+          "headline": "Kenyan Startup's 3D-Printed Robotic Hands Let Deaf Students Learn Alongside Hearing Classmates",
+          "start": 908.96,
+          "duration": 136.32
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-18/happy-news-2026-09-18.mp3"
+    },
+    {
       "date": "2026-09-17",
       "title": "Happy News \u2014 17 September 2026",
       "runKey": "2026-09-17T20:45:00Z",
@@ -1337,63 +1399,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Happy News \u2014 18 August 2026",
-      "runKey": "2026-08-18T15:30:00Z",
-      "published": "2026-08-18T19:00:26Z",
-      "duration": 1015.3,
-      "bytes": 8123336,
-      "storyCount": 7,
-      "guid": "happy-news-2026-08-18",
-      "summary": "Seven good things: Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds; French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'; All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands; Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real",
-      "chapters": [
-        {
-          "url": "https://phys.org/news/2026-08-ancient-colombians-built-huge-centralized.html",
-          "headline": "Ancient Colombian Farmers Built a 500,000-Hectare Water System With No Rulers at All, Study Finds",
-          "start": 7.74,
-          "duration": 166.7
-        },
-        {
-          "url": "https://reasonstobecheerful.world/france-medical-deserts-traveling-doctors/",
-          "headline": "French Doctors' Rotating Volunteer Program Has Delivered Over 26,000 Consultations in Rural 'Medical Deserts'",
-          "start": 174.44,
-          "duration": 163.14
-        },
-        {
-          "url": "https://reasonstobecheerful.world/saving-indonesias-coral-reefs-by-empowering-women/",
-          "headline": "All-Women Dive Team Has Restored Nearly 900 Square Meters of Reef Around Indonesia's Gili Islands",
-          "start": 337.58,
-          "duration": 144.56
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/270000-square-miles-around-easter-island-to-become-indigenous-managed-ocean-reserve/",
-          "headline": "Rapa Nui's Vast Indigenous-Led Ocean Reserve Wins International Recognition and New Funding to Make Protection Real",
-          "start": 482.14,
-          "duration": 155.38
-        },
-        {
-          "url": "https://abc7news.com/story/heroic-santa-cruz-california-teen-lifeguard-ryder-williams-saved-child-recognized-president-trump-white-house/19693184/",
-          "headline": "Teen Lifeguard Honored at the White House for Saving a Drowning Boy",
-          "start": 637.52,
-          "duration": 133.68
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/garbage-workers-in-italy-help-woman-find-her-million-jackpot/",
-          "headline": "Sanitation Workers in Italy Dig Through an Entire Truckload of Trash to Recover a Woman's \u20ac1 Million Lottery Ticket",
-          "start": 771.2,
-          "duration": 117.48
-        },
-        {
-          "url": "https://ktvz.com/news/theres-good-news/2026/08/17/theres-good-news-injured-golden-eagle-rehabilitated-released-thanks-to-think-wild/",
-          "headline": "Golden Eagle Grounded by a Damaged Wing Flies Free Again After Rare Feather-Transplant Surgery",
-          "start": 888.68,
-          "duration": 124.06
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-18/happy-news-2026-08-18.mp3"
     }
   ],
-  "updated": "2026-09-17T19:47:05Z"
+  "updated": "2026-09-18T19:04:07Z"
 }
