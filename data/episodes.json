@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-19",
+      "title": "Happy News \u2014 19 September 2026",
+      "runKey": "2026-09-19T18:30:00Z",
+      "published": "2026-09-19T18:42:59Z",
+      "duration": 883.49,
+      "bytes": 7068878,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-19",
+      "summary": "Seven good things: A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission; Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected; A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop; FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients",
+      "chapters": [
+        {
+          "url": "https://www.odt.co.nz/news/dunedin/the-star/never-had-a-haircut-indi-celebrates-being-in-remission-vkley5qq",
+          "headline": "A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission",
+          "start": 7.4,
+          "duration": 122.0
+        },
+        {
+          "url": "https://phys.org/news/2026-09-florida-jays-unusually-young-age.html",
+          "headline": "Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected",
+          "start": 129.4,
+          "duration": 135.32
+        },
+        {
+          "url": "https://www.kfvs12.com/2026/09/18/farming-town-pulls-together-harvest-crop-neighbor-with-stage-4-brain-cancer/",
+          "headline": "A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop",
+          "start": 264.72,
+          "duration": 110.94
+        },
+        {
+          "url": "https://www.fiercepharma.com/pharma/bayers-kerendia-secures-fda-nod-3rd-indication-now-first-drug-30-years-ckd-t1d-patients",
+          "headline": "FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients",
+          "start": 375.66,
+          "duration": 139.7
+        },
+        {
+          "url": "https://scienceblog.com/j-2026-capital-kiwi-250-transmitters-removed/",
+          "headline": "Wellington's Wild Kiwi Population Just Shed Its Last Tracking Collar",
+          "start": 515.36,
+          "duration": 133.18
+        },
+        {
+          "url": "https://www.220triathlon.com/news/hayden-wilde-wins-maiden-ironman-70-3-world-title",
+          "headline": "Hayden Wilde Wins His First Ironman 70.3 World Title After a Season Battling a Lung Condition",
+          "start": 648.54,
+          "duration": 133.72
+        },
+        {
+          "url": "https://www.ktre.com/2026/09/12/missing-dog-reunited-with-family-after-nearly-3-years/",
+          "headline": "A Missing Maltipoo Is Reunited With His San Diego Family Almost Three Years After Vanishing",
+          "start": 782.26,
+          "duration": 98.64
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-19/happy-news-2026-09-19.mp3"
+    },
+    {
       "date": "2026-09-18",
       "title": "Happy News \u2014 18 September 2026",
       "runKey": "2026-09-18T19:00:09Z",
@@ -1337,69 +1393,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-20/happy-news-2026-08-20.mp3"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Happy News \u2014 19 August 2026",
-      "runKey": "2026-08-19T18:43:00Z",
-      "published": "2026-08-19T18:56:15Z",
-      "duration": 1212.05,
-      "bytes": 9697352,
-      "storyCount": 8,
-      "guid": "happy-news-2026-08-19",
-      "summary": "Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef",
-      "chapters": [
-        {
-          "url": "https://phys.org/news/2026-08-astronomers-hot-birth-galaxy-cluster.html",
-          "headline": "Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago",
-          "start": 8.04,
-          "duration": 160.74
-        },
-        {
-          "url": "https://www.bostonglobe.com/2026/08/16/metro/rare-disease-gene-therapy-deaf/",
-          "headline": "First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness",
-          "start": 168.78,
-          "duration": 165.98
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/chewing-gum-cuts-risk-of-certain-head-neck-cancers-to-near-zero/",
-          "headline": "Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial",
-          "start": 334.76,
-          "duration": 160.98
-        },
-        {
-          "url": "https://phys.org/news/2026-08-coral-experts-historic-effort-florida.html",
-          "headline": "Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef",
-          "start": 495.74,
-          "duration": 167.12
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/zion-becomes-first-national-park-to-get-all-terrain-wheelchair-for-public-use/",
-          "headline": "Zion Becomes the First National Park to Offer a Free All-Terrain Wheelchair to Visitors",
-          "start": 662.86,
-          "duration": 130.14
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/boyfriend-secretly-trains-for-two-months-to-surprise-girlfriend-and-run-alongside-her-in-dreaded-first-half-marathon/",
-          "headline": "Boyfriend Secretly Trained for Two Months to Run His Girlfriend's Dreaded First Half-Marathon at Her Side",
-          "start": 793.0,
-          "duration": 113.58
-        },
-        {
-          "url": "https://www.nbcsports.com/olympics/news/flag-football-world-championship-usa-italy-ifaf",
-          "headline": "USA Wins a Sixth Straight Flag Football World Title, and Four Nations Punch Historic Tickets to the 2028 Olympics",
-          "start": 906.58,
-          "duration": 167.62
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/white-storks-make-historic-return-to-the-english-midlands-after-600-year-absence/",
-          "headline": "White Storks Return to Breed in England's Midlands for the First Time in 600 Years",
-          "start": 1074.2,
-          "duration": 135.3
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3"
     }
   ],
-  "updated": "2026-09-18T19:04:07Z"
+  "updated": "2026-09-19T18:44:06Z"
 }

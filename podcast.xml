@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 19:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 18:44:06 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 19 September 2026</title>
+      <description>Seven good things: A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission; Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected; A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop; FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients</description>
+      <itunes:summary>Seven good things: A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission; Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected; A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop; FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 18:42:59 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-19/happy-news-2026-09-19.mp3" length="7068878" type="audio/mpeg" />
+      <itunes:duration>0:14:43</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 18 September 2026</title>
       <description>Eight good things: Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years; Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery; Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration; FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'</description>
@@ -310,18 +322,6 @@
       <pubDate>Thu, 20 Aug 2026 18:59:08 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-20/happy-news-2026-08-20.mp3" length="8065957" type="audio/mpeg" />
       <itunes:duration>0:16:48</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 19 August 2026</title>
-      <description>Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef</description>
-      <itunes:summary>Eight good things: Astronomers Capture the Clearest View Yet of a Galaxy Cluster Being Born 11 Billion Years Ago; First Patient at Boston Children's Hospital Receives Newly Approved Gene Therapy for Inherited Deafness; Bioengineered Chewing Gum Slashes HPV Levels Linked to Throat Cancer in Early Trial; Twelve Organizations Race a Rare Spawning Night to Produce 1.5 Million Coral Embryos for Florida's Dying Reef</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:56:15 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-19/happy-news-2026-08-19.mp3" length="9697352" type="audio/mpeg" />
-      <itunes:duration>0:20:12</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
