@@ -329,10 +329,14 @@ jobs:
           fi
 
           # Count how many stories were added, for the Telegram ping.
-          before=$(git show HEAD:data/news.json | python3 -c "import json,sys;print(len(json.load(sys.stdin)['stories']))")
-          after=$(python3 -c "import json;print(len(json.load(open('data/news.json'))['stories']))")
-          added=$(( after - before ))
-          [ "$added" -lt 0 ] && added=0
+          # Count by URL, not by length: once the feed sits at its 200-story cap,
+          # every new story pushes an old one out and the length never changes.
+          added=$(git show HEAD:data/news.json | python3 -c "
+          import json, sys
+          old = {s['url'] for s in json.load(sys.stdin)['stories']}
+          new = json.load(open('data/news.json'))['stories']
+          print(sum(s['url'] not in old for s in new))
+          ")
 
           top=$(python3 -c "import json;print(json.load(open('data/news.json'))['stories'][0]['headline'])")
 
