@@ -1,6 +1,74 @@
 {
   "episodes": [
     {
+      "date": "2026-09-20",
+      "title": "Happy News \u2014 20 September 2026",
+      "runKey": "2026-09-20T18:37:22Z",
+      "published": "2026-09-20T18:41:24Z",
+      "duration": 1093.61,
+      "bytes": 8749838,
+      "storyCount": 9,
+      "guid": "happy-news-2026-09-20",
+      "summary": "Nine good things: New Zealand's Bird of the Year Vote Just Set an All-Time Record; A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years; A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool; Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/1479437/record-number-of-votes-cast-in-2026-bird-of-the-year-competition",
+          "headline": "New Zealand's Bird of the Year Vote Just Set an All-Time Record",
+          "start": 7.36,
+          "duration": 111.64
+        },
+        {
+          "url": "https://www.farmersweekly.co.nz/farm-management/sheep-and-beef-farm-management/maori-farm-trust-shares-secrets-of-16-profitable-years/",
+          "headline": "A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years",
+          "start": 119.0,
+          "duration": 126.94
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/fox-left-for-dead-on-road-is-recovering-thanks-to-swim-lessons/",
+          "headline": "A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool",
+          "start": 245.94,
+          "duration": 113.9
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/chesapeake-bay-blue-crab-numbers-see-encouraging-bounceback-in-new-survey/",
+          "headline": "Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019",
+          "start": 359.84,
+          "duration": 113.82
+        },
+        {
+          "url": "https://www.thecooldown.com/green-business/rockford-solar-project-saves-households-healthcare/",
+          "headline": "An Illinois Community Solar Farm Saved Neighbors and a Hospital System $163,000 in Its First Year",
+          "start": 473.66,
+          "duration": 131.22
+        },
+        {
+          "url": "https://www.wistv.com/2026/09/18/gene-therapy-offers-new-hope-sickle-cell-patients/",
+          "headline": "A 20-Year-Old's Sickle Cell Disease Has Been Wiped Out by Gene Therapy",
+          "start": 604.88,
+          "duration": 109.6
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/",
+          "headline": "Archaeologists Call an Untouched 600-Year-Old Tomb in Peru the 'Discovery of the Decade'",
+          "start": 714.48,
+          "duration": 123.58
+        },
+        {
+          "url": "https://www.mprnews.org/story/2026/09/15/mesabi-trail-minnesotas-longest-paved-bike-path-completed",
+          "headline": "Minnesota Finally Completes a 165-Mile Bike Trail Three Decades in the Making",
+          "start": 838.06,
+          "duration": 131.66
+        },
+        {
+          "url": "https://reasonstobecheerful.world/adapted-sailing-school/",
+          "headline": "Spain's Free Adapted Sailing School Is Putting Wheelchair Users at the Helm",
+          "start": 969.72,
+          "duration": 121.36
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-20/happy-news-2026-09-20.mp3"
+    },
+    {
       "date": "2026-09-19",
       "title": "Happy News \u2014 19 September 2026",
       "runKey": "2026-09-19T18:30:00Z",
@@ -1337,63 +1405,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-21/happy-news-2026-08-21.mp3"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Happy News \u2014 20 August 2026",
-      "runKey": "2026-08-20T18:00:00Z",
-      "published": "2026-08-20T18:59:08Z",
-      "duration": 1008.07,
-      "bytes": 8065957,
-      "storyCount": 7,
-      "guid": "happy-news-2026-08-20",
-      "summary": "Seven good things: Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization; Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks; Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial; A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/archaeologists-triple-the-scale-of-an-ancient-amazonian-civilization-we-know-almost-nothing-about/",
-          "headline": "Laser Mapping Triples the Known Territory of a Long-Forgotten Amazonian Civilization",
-          "start": 7.4,
-          "duration": 165.26
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/woman-gives-1-million-in-life-changing-bonuses-to-teachers-in-her-school-district/",
-          "headline": "Philanthropist Surprises 100 Underpaid Teachers With $1 Million in Checks",
-          "start": 172.66,
-          "duration": 129.3
-        },
-        {
-          "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
-          "headline": "Personalized Cancer Vaccine Sharply Cuts Melanoma's Return in Landmark Trial",
-          "start": 301.96,
-          "duration": 165.68
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/tiktoker-showers-doordash-driver-and-fiance-with-wedding-gifts-thanks-to-the-note-he-left-in-the-bag/",
-          "headline": "A Handwritten Note in a DoorDash Bag Led the Internet to Fund a Couple's Wedding",
-          "start": 467.64,
-          "duration": 120.42
-        },
-        {
-          "url": "https://www.euronews.com/culture/2026/08/19/beninese-french-singer-angelique-kidjo-makes-history-as-first-black-african-to-get-hollywo",
-          "headline": "Ang\u00e9lique Kidjo Becomes the First African Musician to Receive a Hollywood Walk of Fame Star",
-          "start": 588.06,
-          "duration": 152.08
-        },
-        {
-          "url": "https://www.fox10tv.com/2026/08/19/rescued-sea-turtles-released-back-into-gulf-gulf-state-park/",
-          "headline": "Two Rescued Sea Turtles, Hooked by Fishermen, Swim Free Again in the Gulf",
-          "start": 740.14,
-          "duration": 122.82
-        },
-        {
-          "url": "https://www.wosu.org/2026-08-19/ohio-wildlife-center-rescues-150-baby-animals-orphaned-by-recent-storms",
-          "headline": "Ohio Wildlife Center Takes In 150 Storm-Orphaned Baby Animals in Just Two Days",
-          "start": 862.96,
-          "duration": 142.52
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-20/happy-news-2026-08-20.mp3"
     }
   ],
-  "updated": "2026-09-19T18:44:06Z"
+  "updated": "2026-09-20T18:42:29Z"
 }
