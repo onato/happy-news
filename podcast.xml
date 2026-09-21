@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 18:42:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 20:23:25 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 21 September 2026</title>
+      <description>Seven good things: Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save; A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading; A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal; Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery</description>
+      <itunes:summary>Seven good things: Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save; A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading; A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal; Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 20:22:11 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-21/happy-news-2026-09-21.mp3" length="7253006" type="audio/mpeg" />
+      <itunes:duration>0:15:06</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 20 September 2026</title>
       <description>Nine good things: New Zealand's Bird of the Year Vote Just Set an All-Time Record; A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years; A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool; Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019</description>
@@ -310,18 +322,6 @@
       <pubDate>Mon, 24 Aug 2026 19:00:46 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3" length="8112008" type="audio/mpeg" />
       <itunes:duration>0:16:54</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 21 August 2026</title>
-      <description>Eight good things: A River Otter Returns to the Bronx After a Century's Absence; Tar and Pollen Trapped in a 2,200-Year-Old Roman Shipwreck Reveal Where It Was Repaired; Large Swedish Study Finds At-Home Bowel Cancer Screening Cuts Death Risk by 43%; Former Courier Has Made Over 200 Trips a Year Connecting Isolated Elders With Children Working Abroad</description>
-      <itunes:summary>Eight good things: A River Otter Returns to the Bronx After a Century's Absence; Tar and Pollen Trapped in a 2,200-Year-Old Roman Shipwreck Reveal Where It Was Repaired; Large Swedish Study Finds At-Home Bowel Cancer Screening Cuts Death Risk by 43%; Former Courier Has Made Over 200 Trips a Year Connecting Isolated Elders With Children Working Abroad</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-08-21</guid>
-      <pubDate>Fri, 21 Aug 2026 18:51:56 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-21/happy-news-2026-08-21.mp3" length="9890888" type="audio/mpeg" />
-      <itunes:duration>0:20:36</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
