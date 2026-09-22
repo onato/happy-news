@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-09-22",
+      "title": "Happy News \u2014 22 September 2026",
+      "runKey": "2026-09-22T19:41:24Z",
+      "published": "2026-09-22T19:42:40Z",
+      "duration": 150.74,
+      "bytes": 1206601,
+      "storyCount": 1,
+      "guid": "happy-news-2026-09-22",
+      "summary": "One good things: Plastic Bags on UK Beaches Have Dropped 80% Since Carrier Bag Charges Began",
+      "chapters": [
+        {
+          "url": "https://www.lbc.co.uk/article/beach-charity-calls-volunteers-plastic-5Hjdhd4_2/",
+          "headline": "Plastic Bags on UK Beaches Have Dropped 80% Since Carrier Bag Charges Began",
+          "start": 7.3,
+          "duration": 140.84
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-22/happy-news-2026-09-22.mp3"
+    },
+    {
       "date": "2026-09-21",
       "title": "Happy News \u2014 21 September 2026",
       "runKey": "2026-09-21T00:00:00Z",
@@ -1401,5 +1421,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3"
     }
   ],
-  "updated": "2026-09-21T20:23:25Z"
+  "updated": "2026-09-22T19:42:59Z"
 }
