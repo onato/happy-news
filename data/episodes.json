@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-23",
+      "title": "Happy News \u2014 23 September 2026",
+      "runKey": "2026-09-23T19:33:24Z",
+      "published": "2026-09-23T19:36:03Z",
+      "duration": 1092.29,
+      "bytes": 8739278,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-23",
+      "summary": "Seven good things: Dunedin Wins $3.9 Million to Push Predator-Free Efforts Beyond Its Sanctuary Fence; Bicycles Outnumbered Cars on an Edinburgh Rush-Hour Street for the First Time; NBC's Annual Adopt-a-thon Found Homes for 135,000 Shelter Pets in a Single Month; George Lucas's Museum of Narrative Art Finally Opens Its Doors After 16 Years",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/1541308/new-frontier-as-predator-free-dunedin-sets-sights-on-more-pests",
+          "headline": "Dunedin Wins $3.9 Million to Push Predator-Free Efforts Beyond Its Sanctuary Fence",
+          "start": 7.8,
+          "duration": 152.72
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/",
+          "headline": "Bicycles Outnumbered Cars on an Edinburgh Rush-Hour Street for the First Time",
+          "start": 160.52,
+          "duration": 138.68
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/135000-shelter-pets-found-forever-homes-in-august-thanks-to-nbcs-annual-adopt-a-thon/",
+          "headline": "NBC's Annual Adopt-a-thon Found Homes for 135,000 Shelter Pets in a Single Month",
+          "start": 299.2,
+          "duration": 155.68
+        },
+        {
+          "url": "https://www.archdaily.com/1184508/first-look-at-the-completed-lucas-museum-of-narrative-art-opening-september-22-2026",
+          "headline": "George Lucas's Museum of Narrative Art Finally Opens Its Doors After 16 Years",
+          "start": 454.88,
+          "duration": 160.22
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
+          "headline": "Physicists Watch a Single Particle of Sound Jump Between Quantum States for the First Time",
+          "start": 615.1,
+          "duration": 153.48
+        },
+        {
+          "url": "https://www.positive.news/society/number-of-young-people-out-of-work-and-education-falls-below-one-million/",
+          "headline": "The Number of Young Britons Not in Work or Education Falls Below a Million",
+          "start": 768.58,
+          "duration": 151.84
+        },
+        {
+          "url": "https://www.auckland.ac.nz/en/news/2026/09/18/research-tackles-preterm-babies-brain-bleeds.html",
+          "headline": "Auckland Researchers Find a Treatment Window to Protect Premature Babies' Brains After Bleeds",
+          "start": 920.42,
+          "duration": 169.34
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-23/happy-news-2026-09-23.mp3"
+    },
+    {
       "date": "2026-09-22",
       "title": "Happy News \u2014 22 September 2026",
       "runKey": "2026-09-22T19:41:24Z",
@@ -1421,5 +1477,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3"
     }
   ],
-  "updated": "2026-09-22T19:42:59Z"
+  "updated": "2026-09-23T19:37:06Z"
 }
