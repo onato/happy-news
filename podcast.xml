@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 19:37:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:00:19 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 24 September 2026</title>
+      <description>Eight good things: Dunedin Iwi and Scientists Plant 2,000 Kauri Seedlings Bred to Resist a Killer Disease; A Cat Missing Since a Car Crash Six Years Ago Has Finally Come Home; Cornell Scientists Find a Chemical Bath That Restores Aging EV Batteries to Near-Factory Condition; A Sacred Stone Figure Returns to Tsawwassen First Nation After a Century in a Quebec Museum</description>
+      <itunes:summary>Eight good things: Dunedin Iwi and Scientists Plant 2,000 Kauri Seedlings Bred to Resist a Killer Disease; A Cat Missing Since a Car Crash Six Years Ago Has Finally Come Home; Cornell Scientists Find a Chemical Bath That Restores Aging EV Batteries to Near-Factory Condition; A Sacred Stone Figure Returns to Tsawwassen First Nation After a Century in a Quebec Museum</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 19:59:08 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-24/happy-news-2026-09-24.mp3" length="7456718" type="audio/mpeg" />
+      <itunes:duration>0:15:32</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 23 September 2026</title>
       <description>Seven good things: Dunedin Wins $3.9 Million to Push Predator-Free Efforts Beyond Its Sanctuary Fence; Bicycles Outnumbered Cars on an Edinburgh Rush-Hour Street for the First Time; NBC's Annual Adopt-a-thon Found Homes for 135,000 Shelter Pets in a Single Month; George Lucas's Museum of Narrative Art Finally Opens Its Doors After 16 Years</description>
@@ -334,18 +346,6 @@
       <pubDate>Fri, 28 Aug 2026 02:16:10 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-28/happy-news-2026-08-28.mp3" length="7765640" type="audio/mpeg" />
       <itunes:duration>0:16:11</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 24 August 2026</title>
-      <description>Seven good things: 82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species; A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing; Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital; Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions</description>
-      <itunes:summary>Seven good things: 82 Zebra Shark Pups Released in the First-Ever Rewilding of a Shark Species; A Toilet Designed for Astronauts Is Now Bringing Sanitation to a Billion People Without Plumbing; Man Has Spent 12 Years Driving His Paralyzed Wife Across China So She Could Live, Not Just Wait in a Hospital; Ethiopian Farmers Ditch Diesel Pumps for Solar, Saving Thousands and Cutting Emissions</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-08-24</guid>
-      <pubDate>Mon, 24 Aug 2026 19:00:46 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-08-24/happy-news-2026-08-24.mp3" length="8112008" type="audio/mpeg" />
-      <itunes:duration>0:16:54</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
