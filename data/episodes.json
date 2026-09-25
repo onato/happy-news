@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "date": "2026-09-25",
+      "title": "Happy News \u2014 25 September 2026",
+      "runKey": "2026-09-25T19:54:34Z",
+      "published": "2026-09-25T20:01:07Z",
+      "duration": 1060.92,
+      "bytes": 8488334,
+      "storyCount": 7,
+      "guid": "happy-news-2026-09-25",
+      "summary": "Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/nonprofit-puts-ex-cons-to-work-with-paid-apprenticeships-as-machinists/",
+          "headline": "Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average",
+          "start": 7.5,
+          "duration": 152.3
+        },
+        {
+          "url": "https://phys.org/news/2026-09-tool-gap-harnessing-untapped-potential.html",
+          "headline": "Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses",
+          "start": 159.8,
+          "duration": 153.58
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/1549658/bringing-aotea-back-to-life-through-a-te-ao-maori-lens",
+          "headline": "An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest",
+          "start": 313.38,
+          "duration": 159.72
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/teens-set-world-record-for-most-sports-balls-recycled-in-one-day-diverting-2675-pounds-from-landfills/",
+          "headline": "Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record",
+          "start": 473.1,
+          "duration": 142.84
+        },
+        {
+          "url": "https://www.click2houston.com/news/world/2026/09/24/ugandans-plant-trees-near-national-park-to-keep-people-out-of-gorillas-habitat/",
+          "headline": "Ugandan Communities Plant Trees to Give Mountain Gorillas More Room to Roam",
+          "start": 615.94,
+          "duration": 157.14
+        },
+        {
+          "url": "https://www.opb.org/article/2026/09/23/phil-penny-knight-donation-oregon/",
+          "headline": "Phil and Penny Knight Give $1 Billion to Create a New Engineering College at Oregon",
+          "start": 773.08,
+          "duration": 142.58
+        },
+        {
+          "url": "https://pmn.co.nz/read/sports/seven-year-old-fijian-tongan-star-wins-fourth-world-jiu-jutsu-title",
+          "headline": "A Seven-Year-Old Aucklander Wins Her Fourth World Jiu-Jitsu Title",
+          "start": 915.66,
+          "duration": 142.66
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-25/happy-news-2026-09-25.mp3"
+    },
+    {
       "date": "2026-09-24",
       "title": "Happy News \u2014 24 September 2026",
       "runKey": "2026-09-24T00:00:00Z",
@@ -1483,5 +1539,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-28/happy-news-2026-08-28.mp3"
     }
   ],
-  "updated": "2026-09-24T20:00:19Z"
+  "updated": "2026-09-25T20:02:25Z"
 }

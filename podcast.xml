@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 20:00:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 20:02:26 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 25 September 2026</title>
+      <description>Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record</description>
+      <itunes:summary>Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 20:01:07 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-25/happy-news-2026-09-25.mp3" length="8488334" type="audio/mpeg" />
+      <itunes:duration>0:17:41</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 24 September 2026</title>
       <description>Eight good things: Dunedin Iwi and Scientists Plant 2,000 Kauri Seedlings Bred to Resist a Killer Disease; A Cat Missing Since a Car Crash Six Years Ago Has Finally Come Home; Cornell Scientists Find a Chemical Bath That Restores Aging EV Batteries to Near-Factory Condition; A Sacred Stone Figure Returns to Tsawwassen First Nation After a Century in a Quebec Museum</description>
