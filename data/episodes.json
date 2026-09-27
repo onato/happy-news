@@ -1,6 +1,68 @@
 {
   "episodes": [
     {
+      "date": "2026-09-27",
+      "title": "Happy News \u2014 27 September 2026",
+      "runKey": "2026-09-27T00:00:00Z",
+      "published": "2026-09-27T19:43:23Z",
+      "duration": 1171.63,
+      "bytes": 9374030,
+      "storyCount": 8,
+      "guid": "happy-news-2026-09-27",
+      "summary": "Eight good things: After Decades of Meth Addiction, a Northland Grandmother Is 11 Years Sober and Raising Her Grandkids; An Iwi-Led Floating Solar Farm on a Wastewater Pond Will Fund Power Bills for 50 NZ Families; A One-Time CRISPR Treatment Kept Cholesterol Half Its Normal Level for a Full Year; Eight Pacific Artists Honoured at New Zealand's 30th Arts Pasifika Awards",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/life/wellbeing/she-s-a-miracle-the-northland-nana-who-got-off-meth",
+          "headline": "After Decades of Meth Addiction, a Northland Grandmother Is 11 Years Sober and Raising Her Grandkids",
+          "start": 7.66,
+          "duration": 147.26
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/te-ao-maori/1598435/profits-from-iwi-led-solar-project-tagged-for-families-experiencing-energy-hardship",
+          "headline": "An Iwi-Led Floating Solar Farm on a Wastewater Pond Will Fund Power Bills for 50 NZ Families",
+          "start": 154.92,
+          "duration": 150.9
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+          "headline": "A One-Time CRISPR Treatment Kept Cholesterol Half Its Normal Level for a Full Year",
+          "start": 305.82,
+          "duration": 150.16
+        },
+        {
+          "url": "https://www.scoop.co.nz/stories/CU2609/S00194/creative-new-zealand-announce-the-2026-arts-pasifika-awards-recipients.htm",
+          "headline": "Eight Pacific Artists Honoured at New Zealand's 30th Arts Pasifika Awards",
+          "start": 455.98,
+          "duration": 144.28
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/1557245/fast-track-application-to-mine-denniston-plateau-on-west-coast-rejected",
+          "headline": "New Zealand Regulators Reject a Fast-Tracked Bid to Mine the Denniston Plateau's Rare Wildlife",
+          "start": 600.26,
+          "duration": 142.96
+        },
+        {
+          "url": "https://everettindependent.com/2026/09/23/champions-of-kindness-everett-high-basketball-players-aid-motorist-on-revere-beach-parkway/",
+          "headline": "Massachusetts High Schoolers Push a Stranded Driver's Car to Safety on a Busy Highway",
+          "start": 743.22,
+          "duration": 130.34
+        },
+        {
+          "url": "https://www.nyc.gov/site/dca/news/065-26/mayor-mamdani-wins-record-131-5-million-doordash-delivery-workers",
+          "headline": "New York City Wins a Record $131.5 Million From DoorDash for Underpaid Delivery Workers",
+          "start": 873.56,
+          "duration": 142.4
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+          "headline": "Scientists Discover a New Penguin Species \u2014 the First Named in Over a Century",
+          "start": 1015.96,
+          "duration": 153.18
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-27/happy-news-2026-09-27.mp3"
+    },
+    {
       "date": "2026-09-25",
       "title": "Happy News \u2014 25 September 2026",
       "runKey": "2026-09-25T19:54:34Z",
@@ -1539,5 +1601,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-28/happy-news-2026-08-28.mp3"
     }
   ],
-  "updated": "2026-09-25T20:02:25Z"
+  "updated": "2026-09-27T19:44:51Z"
 }
