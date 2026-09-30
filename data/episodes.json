@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-09-30",
+      "title": "Happy News \u2014 30 September 2026",
+      "runKey": "2026-09-30T20:45:00Z",
+      "published": "2026-09-30T20:34:59Z",
+      "duration": 184.25,
+      "bytes": 1474883,
+      "storyCount": 2,
+      "guid": "happy-news-2026-09-30",
+      "summary": "Two good things: Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline; Indigenous Ash\u00e1ninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero",
+      "chapters": [
+        {
+          "url": "https://english.news.cn/20260930/ac1a5f0f7b144be9aab47b3d71f9730d/c.html",
+          "headline": "Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline",
+          "start": 7.42,
+          "duration": 61.92
+        },
+        {
+          "url": "https://positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires",
+          "headline": "Indigenous Ash\u00e1ninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero",
+          "start": 69.34,
+          "duration": 112.36
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-30/happy-news-2026-09-30.mp3"
+    },
+    {
       "date": "2026-09-29",
       "title": "Happy News \u2014 29 September 2026",
       "runKey": "2026-09-29T20:40:00Z",
@@ -1569,33 +1595,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-31/happy-news-2026-08-31.mp3"
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Happy News \u2014 30 August 2026",
-      "runKey": "2026-08-30T13:00:00Z",
-      "published": "2026-08-30T21:00:57Z",
-      "duration": 293.18,
-      "bytes": 2346225,
-      "storyCount": 2,
-      "guid": "happy-news-2026-08-30",
-      "summary": "Two good things: CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind; Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home",
-      "chapters": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/08/260828082330.htm",
-          "headline": "CAR T-Cell Therapy Puts Severe Rheumatoid Arthritis Into Remission in First Trial of Its Kind",
-          "start": 7.0,
-          "duration": 167.52
-        },
-        {
-          "url": "https://www.sunnyskyz.com/good-news/6288/Golden-Retriever-Rescued-After-Being-Buried-in-Landslide-for-Three-Days",
-          "headline": "Golden Retriever Pulled From the Rubble Alive Three Days After a Landslide Buried Her Home",
-          "start": 174.52,
-          "duration": 116.12
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-08-30/happy-news-2026-08-30.mp3"
     }
   ],
-  "updated": "2026-09-29T20:29:24Z"
+  "updated": "2026-09-30T20:35:19Z"
 }
