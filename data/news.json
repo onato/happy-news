@@ -1,6 +1,37 @@
 {
-  "updated": "2026-10-01T20:55:00Z",
+  "updated": "2026-10-02T12:00:00Z",
   "stories": [
+    {
+      "headline": "Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park",
+      "summary": "Lulingu, a Grauer's gorilla rescued from traffickers as a baby and returned to the wild in 2024, has given birth on Mount Tshiaberimu. The baby, fathered by a wild silverback, is a genetic boost for a tiny, isolated population of a critically endangered ape.",
+      "narrative": "A gorilla who was once a trafficked orphan is now a mother in the wild. Lulingu, a Grauer's gorilla, gave birth in May on Mount Tshiaberimu in Virunga National Park in the Democratic Republic of Congo, and the news has now been shared publicly.\n\nLulingu was rescued from the illegal wildlife trade in 2016, when she was around eighteen months old. She was raised and rehabilitated at the GRACE sanctuary, and at the end of 2024 she was one of four females moved to the mountain in the culmination of a rewilding effort that took more than five years.\n\nThe baby's father is a wild silverback named Mwasa, which suggests she has been accepted and integrated into the local group. That matters a great deal, because the gorillas on this mountain form a small and isolated population, and new genes are valuable.\n\nGrauer's gorillas are critically endangered, with numbers falling by roughly three quarters since the mid-1990s. The work continues despite serious security problems in the region. GRACE's country director said mother and baby are doing perfectly well, and described the joy of watching an animal they knew as an infant now raising her own.\n\nIt is good news because it shows a hard, long project has worked: a rescued animal has returned to the wild and is helping rebuild her species.",
+      "url": "https://news.mongabay.com/short-article/2026/09/reintroduced-grauers-gorilla-gives-birth-in-drc-national-park-makes-us-happy/",
+      "source": "Mongabay",
+      "published": "2026-09-28T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-10-02T12:00:00Z",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/26/2024/10/30114016/IMG_3789-Elodie-Toto-scaled.jpeg"
+    },
+    {
+      "headline": "Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales",
+      "summary": "Norway has protected Andfjorden, about 1,850 square kilometres of Arctic coastal sea with coral reefs, kelp forests, whales and seabirds. A board including the Sámi Parliament will manage it.",
+      "narrative": "Norway has created its biggest marine protected area to date. The new Andfjorden reserve, decided on September 18, covers about 1,850 square kilometres of sea off Andøy, Harstad and Senja in the north of the country, an area roughly the size of 260,000 football pitches.\n\nThe fjord is rich in life. Surveys have found coral reefs and coral gardens, sponge and sea pen communities, kelp forests, and shell-sand and maerl beds that serve as spawning and nursery grounds for fish. Large numbers of whales and seabirds feed there too.\n\nThe area will be run by a dedicated board that includes representatives of the local municipalities, the county, and the Sámi Parliament, giving local and Indigenous voices a direct role.\n\nWith this addition, protected waters off mainland Norway rise from 4.8 to 6 percent, and 24 of 36 planned marine areas are now in place. The environment minister said the protection will let future generations enjoy the fjord's natural values.\n\nIt is good news because a real, legally binding protection is now in place for habitats that were barely mapped until recently.",
+      "url": "https://www.goodnewsnetwork.org/norways-newest-marine-protected-area-shelters-rich-marine-habitat-whales-and-seabirds/",
+      "source": "Good News Network",
+      "published": "2026-09-29T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-10-02T12:00:00Z"
+    },
+    {
+      "headline": "Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery",
+      "summary": "At least 126 pairs of little terns nested at Long Nanny in Northumberland, more than double the previous site record of 57 from 1994. National Trust rangers also report sandwich terns returning to Blakeney Point in Norfolk.",
+      "narrative": "One of Britain's rarest seabirds has had a record-breaking summer. At Long Nanny on the Northumberland coast, at least 126 pairs of little terns nested, more than double the old site record of 57 pairs set in 1994. At least 82 chicks are known to have fledged.\n\nLittle terns are the UK's second rarest breeding seabird, nesting right on the shingle where they are vulnerable to people, predators and storms. National Trust rangers and volunteers spent the season protecting the colony from disturbance and other threats.\n\nFurther south, more than 1,100 pairs of sandwich terns returned to Blakeney Point in Norfolk, and there were 730 pairs of Arctic terns in one of the areas surveyed.\n\nThere is a caveat: Arctic terns on the Farne Islands fell by 27 percent. Still, the National Trust's head of nature conservation said the results show what can be achieved when important breeding sites are carefully managed.\n\nIt is good news because careful, practical protection has produced a clear, countable rebound.",
+      "url": "https://www.aol.co.uk/articles/tern-turnaround-colonies-england-show-040010000.html",
+      "source": "PA Media via AOL",
+      "published": "2026-09-30T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-10-02T12:00:00Z"
+    },
     {
       "headline": "Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall",
       "summary": "Three years after the famous Northumberland tree was illegally felled, the National Trust has shared images of a thick ring of vigorous new shoots around the stump. Protective measures such as reducing soil compaction around the roots appear to be paying off.",
@@ -2054,38 +2085,6 @@
       "category": "Science",
       "added": "2026-09-02T20:55:00Z",
       "image": "https://scx1.b-cdn.net/csz/news/800a/2026/new-species-of-ancient-3.jpg"
-    },
-    {
-      "headline": "New Nightly Pill Cuts Sleep Apnea Breathing Interruptions by 44% in Major Trial",
-      "summary": "In a phase 3 trial of 646 adults with obstructive sleep apnea, a once-nightly pill called AD109 nearly halved nighttime breathing interruptions and helped 18% of patients reach complete disease control, a potential option for the many people who cannot tolerate CPAP machines.",
-      "narrative": "Obstructive sleep apnea affects millions of people, causing the airway to repeatedly collapse during sleep, cutting off breathing and starving the body of oxygen dozens or hundreds of times a night. The standard treatment, a CPAP machine that uses forced air to keep the airway open, works well when people actually use it, but a large share of patients find the mask uncomfortable and stop wearing it.\n\nA new trial result, presented at the American Thoracic Society's 2026 conference and led by researchers including Dr. Patrick Strollo of the University of Pittsburgh Medical Center, offers a different approach entirely. The drug, known as AD109 and combining the compounds aroxybutynin and atomoxetine, doesn't force the airway open mechanically. Instead, it targets the underlying neuromuscular signaling that causes the airway muscles to relax and collapse in the first place.\n\nIn the trial, called SynAIRgy, 646 adults with mild to severe obstructive sleep apnea were enrolled across 69 sites in the United States and Canada. Those taking AD109 saw their breathing interruptions drop by about 44%, compared with an 18% reduction in the group taking a placebo. More than 40% of patients on the drug improved enough to be reclassified into a less severe category of the disease, and 18% achieved complete disease control, meaning their apnea was effectively resolved. Blood oxygen levels during sleep improved as well.\n\nThe drug isn't free of downsides: dry mouth, nausea, insomnia, and difficulty urinating were the most common side effects, and about 21% of participants in the trial discontinued treatment because of them. That's a meaningful trade-off that will need to be weighed by patients and doctors.\n\nStill, for the substantial number of people who simply cannot get on with a CPAP mask, a nightly pill that meaningfully reduces breathing interruptions and, for some, resolves the condition entirely represents a real and long-awaited alternative. Researchers say the results pave the way for a submission to the FDA, moving AD109 a step closer to becoming an approved treatment option.",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260831015203.htm",
-      "source": "ScienceDaily",
-      "published": "2026-09-01T00:00:00Z",
-      "category": "Health",
-      "added": "2026-09-02T20:55:00Z"
-    },
-    {
-      "headline": "Stray Cat Nursed Back to Health by Japanese Railway Staff Becomes a Station's New Stationmaster",
-      "summary": "Staff at a struggling railway line in Choshi, Japan found an ailing stray cat last October, nursed her back to health, and this July promoted her to stationmaster of Nakanocho Station. She now wears a small cap and collar medallion, following in the paw prints of Japan's famous feline stationmasters before her.",
-      "narrative": "At a quiet stop on the Choshi Electric Railway, on Japan's Pacific coast east of Tokyo, station staff came across a stray cat last October who was clearly unwell and struggling to fend for herself. Rather than leave her to it, they took her in, got her the veterinary care she needed, and spent months nursing her back to health.\n\nAs she recovered, the cat became a fixture around Nakanocho Station, greeting the small number of passengers who use the line and gradually settling into the role of unofficial mascot. Staff decided to make it official, and this July she was formally promoted to stationmaster, receiving a neat cap and a medallion for her collar in a small ceremony that drew local media attention.\n\nShe is following a well-worn track. Japan has a long tradition of appointing cats as stationmasters at small, financially struggling railways, most famously Tama, the calico who was made stationmaster of Kishi Station in Kinokawa in 2007. Tama's appointment is widely credited with saving that line from closure, drawing tens of thousands of visitors a year and inspiring a shrine and a themed train car after her death in 2015.\n\nThe Choshi Electric Railway has faced its own financial struggles for years, running on a short stretch of track with dwindling ridership. A cat stationmaster is, in part, a deliberate piece of marketing: a low-cost, high-charm way to draw curious visitors to a line that badly needs them. But it is also a genuine second chance for an animal who arrived at the station with nothing and now has a job, a home, and a title.\n\nFor now, the new stationmaster's main duties are showing up, looking dignified, and letting passengers take her photo, work she appears well suited to. Her promotion is a small story, but it is the kind Japan's rural railways have leaned on before to turn hardship into something to smile about.",
-      "url": "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/",
-      "source": "Good News Network",
-      "published": "2026-09-02T00:00:00Z",
-      "category": "Animals",
-      "added": "2026-09-02T20:55:00Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Tama-the-stationmaster-of-Kishi-Station-in-2007-CC-3.0.-Sanpei-via-jp.wikipedia-e1788340593376.jpg"
-    },
-    {
-      "headline": "School Accountant's Warning Shout Saved Over 900 Students Moments Before Nepal Floodwaters Hit",
-      "summary": "A school accountant in Bidur, Nepal got an early tip-off from a friend in a town further upstream and ran through the building shouting a warning, giving more than 900 students and 16 staff at Tribhuvan Trishuli Secondary School just enough time to evacuate before flash floods destroyed the building.",
-      "narrative": "When flash flooding swept down toward the town of Bidur, Nepal, the first alert didn't come from a siren or an official warning system. It came from a phone call between friends.\n\nAn accountant at Tribhuvan Trishuli Secondary School received word from a friend in a town further up the flood's path that the water was coming, and coming fast. Rather than wait for confirmation through official channels, the accountant immediately ran through the school building, shouting for everyone to get out, according to the school's principal.\n\nMore than 900 students and 16 members of staff were inside at the time. What followed was a scramble to organize a full evacuation on short notice, getting hundreds of children safely onto buses and moving them toward higher ground. It was close: the last bus crossed a bridge to safety just moments before floodwaters tore through and destroyed the school building.\n\nThe flooding was part of a broader flash-flood event that hit the area near the Nepal-China border, the kind of fast-moving disaster that in past years has caused significant loss of life when warnings came too late or not at all. In this case, one person's decision to act immediately on an informal tip, and to prioritize getting people moving over waiting for certainty, meant that a school full of children walked away with a destroyed building but no casualties.\n\nIt is a story about infrastructure as much as it is about heroism: a formal early-warning system might have given the same result without depending on one person's quick thinking and a friend's phone call. But it is also a reminder of how much difference a single clear-headed decision can make in the minutes before a disaster, and of the ordinary staff members, accountants, caretakers, teachers, who end up making that difference when it counts.",
-      "url": "https://www.goodnewsnetwork.org/last-minute-flood-warning-saved-over-900-nepal-students-school-principal-said/",
-      "source": "Good News Network",
-      "published": "2026-09-02T00:00:00Z",
-      "category": "Community",
-      "added": "2026-09-02T20:55:00Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Security-footage-of-the-2026-Nepal-China-Floods-hitting-the-Gyirong-border-crossing.jpg"
     }
   ]
 }
