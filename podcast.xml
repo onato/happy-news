@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 20:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 20:24:37 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 2 October 2026</title>
+      <description>Three good things: Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery; Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales; Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park</description>
+      <itunes:summary>Three good things: Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery; Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales; Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 20:24:13 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-02/happy-news-2026-10-02.mp3" length="1996268" type="audio/mpeg" />
+      <itunes:duration>0:04:09</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 1 October 2026</title>
       <description>Two good things: First Ever Olive Ridley Sea Turtle Nests Recorded on America's West Coast; Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall</description>
@@ -370,18 +382,6 @@
       <pubDate>Wed, 02 Sep 2026 20:57:58 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-02/happy-news-2026-09-02.mp3" length="7488396" type="audio/mpeg" />
       <itunes:duration>0:15:36</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 1 September 2026</title>
-      <description>Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River</description>
-      <itunes:summary>Seven good things: Uganda Declared Ebola-Free After Rapid Outbreak Containment; Pokemon Community Rallies to Replace a Boy's Rare Card After a Convention Scam; Stranger Who Saw a Displaced Mother on the News Steps In With a Lifeline; Twice-Rescued Manatee Citron Returns to Florida's Crystal River</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 20:59:16 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-01/happy-news-2026-09-01.mp3" length="6575244" type="audio/mpeg" />
-      <itunes:duration>0:13:42</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
