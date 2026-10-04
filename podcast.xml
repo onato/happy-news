@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 19:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:13:54 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 4 October 2026</title>
+      <description>Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK £5.9bn of Gas Imports</description>
+      <itunes:summary>Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK £5.9bn of Gas Imports</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 19:13:32 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-04/happy-news-2026-10-04.mp3" length="1843221" type="audio/mpeg" />
+      <itunes:duration>0:03:50</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 3 October 2026</title>
       <description>Four good things: Ancient Saint Simeon Church Complex in Syria Reopens After 14 Years; Floating Scarecrow and Kite Cut Seabird Deaths in Fishing Nets by Up to 71%; Right Livelihood 'Alternative Nobel' Honours Four Women-Led Champions of Rights and Democracy; UN Adopts First Declaration Protecting Island Nations' Statehood From Rising Seas</description>
@@ -370,18 +382,6 @@
       <pubDate>Fri, 04 Sep 2026 19:00:43 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-04/happy-news-2026-09-04.mp3" length="7600908" type="audio/mpeg" />
       <itunes:duration>0:15:50</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 3 September 2026</title>
-      <description>Ten good things: Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall; Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole; Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests; New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs</description>
-      <itunes:summary>Ten good things: Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall; Hubble Discovers a Mysterious New Ten-Sided Storm Circling Saturn's South Pole; Former Poachers Are Now the Ones Protecting Nigeria's Last Rainforests; New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 19:23:58 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-03/happy-news-2026-09-03.mp3" length="9576012" type="audio/mpeg" />
-      <itunes:duration>0:19:57</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
