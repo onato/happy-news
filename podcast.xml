@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:13:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 22:21:36 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 5 October 2026</title>
+      <description>One good things: Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour</description>
+      <itunes:summary>One good things: Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 22:21:27 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-05/happy-news-2026-10-05.mp3" length="691673" type="audio/mpeg" />
+      <itunes:duration>0:01:26</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 4 October 2026</title>
       <description>Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK £5.9bn of Gas Imports</description>
@@ -370,18 +382,6 @@
       <pubDate>Sat, 05 Sep 2026 18:10:23 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-05/happy-news-2026-09-05.mp3" length="7864524" type="audio/mpeg" />
       <itunes:duration>0:16:23</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 4 September 2026</title>
-      <description>Nine good things: Volunteers and Local Businesses Rebuild an Elderly Miami-Dade Couple's Crumbling Home; New Zealand Commits $2 Million to Restore Whangamarino Wetland and Breed Its Rarest Giant Weta; Terrier Rescued After Two Days Trapped Underground in a Badger Warren; A Man's 100-Day Pledge to Clean One NYC Block Turns Into a Neighborhood Beautification Project</description>
-      <itunes:summary>Nine good things: Volunteers and Local Businesses Rebuild an Elderly Miami-Dade Couple's Crumbling Home; New Zealand Commits $2 Million to Restore Whangamarino Wetland and Breed Its Rarest Giant Weta; Terrier Rescued After Two Days Trapped Underground in a Badger Warren; A Man's 100-Day Pledge to Clean One NYC Block Turns Into a Neighborhood Beautification Project</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 19:00:43 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-04/happy-news-2026-09-04.mp3" length="7600908" type="audio/mpeg" />
-      <itunes:duration>0:15:50</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
