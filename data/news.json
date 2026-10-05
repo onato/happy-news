@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-04T19:30:00Z",
+  "updated": "2026-10-05T12:00:00Z",
   "stories": [
+    {
+      "headline": "Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour",
+      "summary": "In a Florida Keys experiment during the second-hottest summer on record, small umbrella-like shades over brain corals minimised bleaching and let some corals recover colour. Researchers say it could offer temporary protection for small, high-value reef patches.",
+      "narrative": "Scientists in the Florida Keys have tested a surprisingly simple way to help coral survive marine heatwaves: give it some shade.\n\nIn the summer of 2024, which was the second-hottest on record in those waters, the team set up twenty custom-made shades over ten colonies of two species of brain coral. Each shade was a frame of pipes with nylon cloth stretched across it, tied to the seabed and floating about thirty centimetres above the coral. Twenty matching corals without shades were monitored as a comparison.\n\nThe shades cannot cool the water. What they do is block ultraviolet light and intense sunlight, which make heat damage far worse. The shaded corals bleached much less, and some even regained some of their colour, a sign that their health was improving.\n\nThe researchers are upfront that this is a small-scale, temporary measure, and it will not save reefs on its own. But for a few especially valuable colonies, such as ones used in restoration work, it could buy precious time through the worst weeks of a heatwave.\n\nIt is a hopeful result in a field that often delivers grim news: a cheap, low-tech tool that measurably helped living coral get through extreme heat.",
+      "url": "https://www.frontiersin.org/news/2026/10/02/underwater-umbrellas-coral-reefs-could-help-protect-against-heat-damage-frontiers-marine-science",
+      "source": "Frontiers",
+      "published": "2026-10-02T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-10-05T12:00:00Z"
+    },
     {
       "headline": "Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing",
       "summary": "New Zealand's heaviest insect has been bred in captivity and released at ten new wild sites, with around 11,000 wētā moved in 45 translocations. Its conservation status has improved from Nationally Endangered to Nationally Increasing, and several generations are now being born in the wild.",
@@ -2074,17 +2084,6 @@
       "category": "Culture",
       "added": "2026-09-03T19:20:00Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Torero-by-Picasso-credit-Milwaukee-Police-Department.jpg"
-    },
-    {
-      "headline": "New Yorkers Have Eaten 3 Million Oysters, and Their Shells Are Rebuilding the City's Reefs",
-      "summary": "The Billion Oyster Project has turned discarded shells from 75 partner NYC restaurants into 19 acres of restored oyster reef in New York Harbor, with 200 million live oysters now filtering harbor water and buffering the city against storm surge.",
-      "narrative": "New York Harbor was once ringed by hundreds of thousands of acres of oyster reefs, so vast that early European settlers described oyster beds the size of small islands. Centuries of dredging, pollution, and overharvesting wiped nearly all of it out. A nonprofit called the Billion Oyster Project has spent nearly two decades trying to bring some of it back, and a new milestone shows just how far the unusual approach, built on restaurant leftovers, has come.\n\nThe project collects discarded oyster shells from 75 partner restaurants across the city, cures them, and uses them as the base material on which baby oysters can attach and grow, since oyster larvae need a hard, calcium-rich surface to settle on. So far, that recycling effort has processed 3.2 million pounds of shell, and volunteers have used it to help raise 200 million live oysters, now covering 19 acres of restored reef around the harbor, about a fifth of the way to the project's founding goal of one billion oysters by 2035.\n\nOysters are what ecologists call a keystone species: a single adult can filter dozens of gallons of water a day, and healthy reefs tend to drag the rest of the local ecosystem's health up with them. Billion Oyster Project staff describe it plainly: get the oysters thriving, and everything else in that stretch of water tends to start thriving too. Collectively, the current reefs are already estimated to filter trillions of gallons of harbor water.\n\nThe ambition doesn't stop at cleaner water. Oyster reefs also blunt the force of waves and storm surge before it reaches the shoreline, exactly the kind of coastal buffering New York has needed since Hurricane Sandy exposed how vulnerable the city's waterfront is. Project leaders estimate that once all 100 planned reefs are in place, they could refresh the entire volume of New York Harbor roughly every three days.\n\nIt is a rare feedback loop where a city's love of throwing dinner parties becomes the literal building material for restoring the harbor those restaurants sit beside. Two decades in, and a fifth of the way to a billion oysters, that's a case of good news you can feel in the water quality, not just read about.",
-      "url": "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/",
-      "source": "Good News Network",
-      "published": "2026-09-03T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-03T19:20:00Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/credit-Billion-Oyster-Project.jpg"
     }
   ]
 }
