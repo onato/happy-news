@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-05T12:00:00Z",
+  "updated": "2026-10-07T21:10:00Z",
   "stories": [
+    {
+      "headline": "Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years",
+      "summary": "A University of Otago study of more than 17,000 children found that families helped through the Healthy Homes Initiative saw a 30% lower chance of hospital admission over the next five years. The researchers estimate about 2,800 admissions were avoided.",
+      "narrative": "Researchers at the University of Otago, working with Health New Zealand, have put a number on what warmer, drier homes do for children. Children whose families took part in the government-funded Healthy Homes Initiative were about thirty percent less likely to be admitted to hospital over the following five years.\n\nThe study followed more than seventeen thousand children aged two to eighteen whose families joined the programme between 2014 and 2023. Community providers help those families with practical things like heating, insulation, curtains and bedding, and the programme is aimed at low-income households where children are at risk of illnesses linked to cold, damp or crowded housing.\n\nBased on their modelling, the team estimates that around 2,800 hospital admissions did not happen that otherwise would have. The findings were published in the journal Social Science and Medicine.\n\nLead researcher Ellie Johnson says the programme's success owes a lot to its close community ties, including Māori and Pacific leadership, and to a supportive policy environment. She estimates that roughly 27,000 children's hospitalisations in New Zealand each year come from preventable, housing-related conditions, with Māori and Pacific children affected most.\n\nAn earlier evaluation in 2024 found the programme returned about five dollars in health savings for every dollar spent. Together, the results are a clear sign that fixing homes keeps kids out of hospital, and Johnson argues the same logic supports expanding affordable and community housing.",
+      "url": "https://phys.org/news/2026-10-children-homes-hospitalization-analysis.html",
+      "source": "Phys.org",
+      "published": "2026-10-07T00:00:00Z",
+      "category": "Health",
+      "added": "2026-10-07T21:10:00Z"
+    },
+    {
+      "headline": "Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles",
+      "summary": "A 250-megawatt solar plant inside Saudi Arabia's Prince bin Salman Nature Reserve now shelters 38 Arabian sand gazelles in a predator-proof enclosure. Conservationists hope to grow the herd past 500 and use it to restock the wider reserve.",
+      "narrative": "A solar farm on Saudi Arabia's Red Sea coast is turning out to be a haven for one of the region's rarest antelopes. The 250-megawatt installation sits inside the vast Prince bin Salman Nature Reserve and powers the Amaala tourist resort. Conservationists fenced roughly 1,200 acres of it to keep predators out, and now 38 Arabian sand gazelles live there.\n\nOnly around 3,000 of the species are believed to survive in the wild across the Arabian Peninsula and Türkiye, so every breeding herd matters. Mountain gazelles and Arabian hares were released into the park a year ago, and more male sand gazelles were added in May to help build a self-sustaining population.\n\nThe reserve's director, Andrew Zaloumis, calls the approach double-green, or rewilding voltaics, because the same land produces clean power and shelter for wildlife. The panels cast shade that is several degrees cooler than the surrounding desert, which helps the animals.\n\nThe aim is to grow the herd beyond 500 animals and then release gazelles to restock the wider reserve. It is an early success rather than a finished one, but the herd is established, and the model could be copied at other solar sites.",
+      "url": "https://goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles",
+      "source": "Good News Network",
+      "published": "2026-10-07T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-10-07T21:10:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/supplied-by-the-Prince-bin-Salman-Nature-Reserve.jpg"
+    },
+    {
+      "headline": "Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released",
+      "summary": "A bobcat admitted with burns to all four paws, kidney injury and severe emaciation more than doubled his weight over 65 days of care. San Diego Humane Society's Project Wildlife released him near where he was found on September 30.",
+      "narrative": "A bobcat caught in the Pipeline Fire at Camp Pendleton in California is back in the wild after more than two months of rehabilitation. He arrived at San Diego Humane Society's Ramona Wildlife Center on July 28 with first- to third-degree burns on all four paw pads, acute kidney injury, heavy tick infestation, and weighing just seven and a half pounds. His prognosis was guarded.\n\nThe team gave him fluids, nutrition, pain relief, wound care and repeated light therapy on his paws. As he improved they moved him to an indoor-outdoor enclosure and watched him on remote cameras so he would have as little contact with people as possible.\n\nOver 65 days he grew to more than fifteen pounds, his anemia and organ values returned to normal, and his paw pads healed fully.\n\nOn September 30, Project Wildlife staff and Camp Pendleton environmental staff released him close to where he had been found. Staff noted how important bobcats are to local ecosystems, and praised the partnership between the base and the Humane Society.",
+      "url": "https://sdhumane.org/bobcat-burned-in-camp-pendleton-fire-returns-to-wild-2/",
+      "source": "San Diego Humane Society",
+      "published": "2026-10-06T00:00:00Z",
+      "category": "Animals",
+      "added": "2026-10-07T21:10:00Z",
+      "image": "https://sdhumane.org/wp-content/uploads/2026/10/Bobcat-Screenshot-2026-10-05-at-10.49.01-AM.png"
+    },
+    {
+      "headline": "NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light",
+      "summary": "NASA's Nancy Grace Roman Space Telescope held steady to better than 1/100,000 of a degree in pointing tests, and its Coronagraph Instrument captured its first starlight on September 22. The results show the planet-imaging technology works as designed.",
+      "narrative": "NASA's Nancy Grace Roman Space Telescope has cleared two big hurdles on the way to full science operations. Engineers tested its fine-guidance system from September 15 to 21, and the telescope held its aim steady to better than one hundred-thousandth of a degree, for half an hour with the Wide Field Instrument and for eight hours with the Coronagraph.\n\nNASA compares this to holding a laser steady on a dime from about 150 miles away, with a target of about 230 miles. The system works by tracking reference stars with precisely known positions and making tiny corrections about four times a second.\n\nOn September 22 the Coronagraph Instrument received cosmic light for the first time. Its first image, of a faint star in the Large Magellanic Cloud, was noisy because the detectors were still warmer than their final operating temperature. A second observation, after cooling, captured several stars in one frame and confirmed that the pointing and sensitivity are as expected.\n\nThe coronagraph is a technology demonstration designed to block starlight so faint planets can be seen, a step toward imaging Earth-like worlds. In the coming weeks the team plans to test a new spectral guiding mode as well.",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+      "source": "ScienceDaily",
+      "published": "2026-10-02T00:00:00Z",
+      "category": "Science",
+      "added": "2026-10-07T21:10:00Z"
+    },
     {
       "headline": "Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour",
       "summary": "In a Florida Keys experiment during the second-hottest summer on record, small umbrella-like shades over brain corals minimised bleaching and let some corals recover colour. Researchers say it could offer temporary protection for small, high-value reef patches.",
@@ -2042,48 +2084,6 @@
       "published": "2026-09-01T22:20:00Z",
       "category": "Community",
       "added": "2026-09-03T19:20:00Z"
-    },
-    {
-      "headline": "New Zealand's Kakapo Population Soars to a Recovery-Era High of 325",
-      "summary": "A record 90 chicks were added to New Zealand's critically endangered kakapo population this breeding season, pushing the flightless parrot's numbers to 325, the highest count in roughly 75 years.",
-      "narrative": "The kakapo is one of conservation's most unlikely survivors: a large, flightless, nocturnal parrot found only in New Zealand, so vulnerable to introduced predators that by the mid-1990s the entire species had been reduced to just 51 birds. On September 1st, the Department of Conservation confirmed that the decades-long recovery effort has hit its best milestone yet.\n\nNinety chicks from this year's breeding season were officially added to the national kakapo count once the youngest of them passed 150 days old, the point at which a chick is considered independent enough to be tallied. That single season produced more new birds than the programme's entire first 16 years combined, according to DOC Recovery Operations Manager Deidre Vercoe, who noted that in the early years of recovery it took 16 years to produce that many chicks. The total population now stands at 325, a number New Zealand's kakapo likely haven't reached in about 75 years.\n\nGetting there has taken an unusual level of hands-on care. Every kakapo is individually known and tracked, and in many cases fitted with a small radio transmitter, because the species breeds only rarely, tied to the mass fruiting of the rimu tree roughly every two to four years, and every chick matters. The programme is run jointly with Ngai Tahu, the South Island's largest iwi, and has had long-term backing from Meridian Energy, whose chief executive Mike Roan noted that the population has more than tripled since the company partnered with Kakapo Recovery in 2016.\n\nWith numbers climbing, the recovery team is now shifting its focus, according to Ngai Tahu representative Tane Davis, toward figuring out where such intensive, one-bird-at-a-time management is still needed and where the population might be trusted to look after more of itself. Modelling suggests the next breeding boom could arrive in as little as two years, rather than the usual four, a sign of just how much healthier the population has become.\n\nIt's a slow, patient kind of success story, thirty years in the making, but the trajectory is now unmistakable: a bird that came within a hair's breadth of extinction is not just surviving, it's multiplying faster than its own recovery programme's most optimistic early years.",
-      "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone",
-      "source": "NZ Department of Conservation",
-      "published": "2026-09-01T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-03T19:20:00Z"
-    },
-    {
-      "headline": "Great Horned Owl Hootie Flies Free After Months of Rehab From a Nest Fall",
-      "summary": "A great horned owl chick that survived a violent windstorm and a fall from her nest was released back into the wild in New Mexico after months of care from a chain of wildlife rehabilitators, following treatment for an ear infection at a zoo's raptor center.",
-      "narrative": "When Cressie Drummond found a tiny, fluffed-up owl chick under a pine tree near Tularosa, New Mexico, the bird had nowhere left to go. A violent windstorm had knocked her and a sibling out of their nest; only she survived the fall. Lisa Shydlower, who took her in and arranged transportation, remembers seeing her for the first time as just a little bitty ball of fluff.\n\nWhat followed was months of care passed between several different organizations, each stepping in where the last left off. The chick, later named Hootie, developed an ear infection and was treated at the El Paso Zoo's Raptor Rehab Center under veterinarian Dr. Vikki Milne. From there she moved to Gila Wildlife Rescue in Silver City, where Dennis and Denise Miller have spent years caring for injured and orphaned wildlife, with Hillary and Tom Floren handling the drive to get her there.\n\nThat chain of volunteers and specialists gave Hootie the time she needed to grow into a fully capable adult great horned owl, one of the largest and most powerful raptors in North America. On September 3rd, she was finally released back into the wild at Floren Family Farms, not far from where she was first found. Witnesses described the moment she took flight, her wings fully grown in and powerful, as genuinely moving, with some in the small crowd crying and others cheering.\n\nIt's a story that only works because of how many separate people were willing to pass a stranded chick along a relay of care, from a woman who happened to be walking by, to a zoo veterinarian, to a rural wildlife rescue three hours away, none of them related, none of them required to help. Hootie's flight into the New Mexico sky was the payoff for every link in that chain.",
-      "url": "https://kvia.com/news/2026/09/03/great-horned-owl-flies-free-at-last-after-months-of-rehabilitation/",
-      "source": "KVIA",
-      "published": "2026-09-03T17:27:00Z",
-      "category": "Animals",
-      "added": "2026-09-03T19:20:00Z",
-      "image": "https://kvia.com/wp-content/uploads/2026/08/IMG_7256.jpeg"
-    },
-    {
-      "headline": "Gael Monfils Becomes Oldest Man to Win a US Open Match Since Jimmy Connors, on His 40th Birthday",
-      "summary": "French tennis veteran Gael Monfils, in the final months before his announced retirement, beat Adolfo Daniel Vallejo at the US Open on his 40th birthday, becoming the oldest man to win a match at the tournament since Jimmy Connors in 1992.",
-      "narrative": "Gael Monfils has spent nearly two decades as one of tennis's most entertaining showmen, known as much for his acrobatic, crowd-pleasing shots as for his results. With his retirement announced for the end of this season, his run at the US Open was expected to be a farewell lap rather than a serious title bid. Instead, on the very day he turned 40, he gave the crowd something to remember.\n\nMonfils dropped the first set to Adolfo Daniel Vallejo 2-6, then reeled off three straight sets, 6-1, 6-2, 6-0, to close out the match at Louis Armstrong Stadium. Along the way he produced one of his signature moves, a leaping mid-air forehand winner, that had the crowd roaring. By the time the match ended, spectators had broken into a chorus of Happy Birthday.\n\nThe win made Monfils the oldest man to win a match at the US Open since Jimmy Connors did the same thing on his own 40th birthday, back in 1992. It was also his first Grand Slam match win since Wimbledon 2025, a reminder that even in what he's called his farewell season, he can still turn back the clock when the moment calls for it. He'd started the day playing mixed doubles alongside his wife, Elina Svitolina, with the pair advancing to the semifinals together, before returning later for his singles win.\n\nMonfils said afterward that playing on the day of his 40th birthday was very special, and that the crowd had made it feel incredible.\n\nFor a player whose career has always been about joy as much as results, a birthday win that lines him up next to a legend like Connors, on a stage he's played for 18 editions of this tournament, is as good a note as any to be striking on his way out.",
-      "url": "https://www.nbcsports.com/tennis/news/gael-monfils-wins-on-his-40th-birthday-at-the-u-s-open-to-extend-his-grand-slam-career",
-      "source": "NBC Sports",
-      "published": "2026-09-02T16:00:00Z",
-      "category": "Culture",
-      "added": "2026-09-03T19:20:00Z"
-    },
-    {
-      "headline": "Stolen Picasso Etching, Missing for 8 Years, Found Hanging in a Vacated Milwaukee Apartment",
-      "summary": "A Milwaukee landlord cleaning out an empty apartment stumbled on an original 1949 Picasso etching stolen from a local gallery in 2018, and quickly returned it to its stunned original owner.",
-      "narrative": "When Milwaukee landlord Timothy Dertz let himself into a vacant apartment to clear it out after a tenant moved on, he wasn't expecting to find anything more interesting than furniture and old boxes. Instead, hanging on the wall, was a small, unassuming print that turned out to be an original Pablo Picasso etching.\n\nDertz brought the piece to a local antique dealer for a second opinion, and the dealer spotted something telling: a signature in green crayon, a detail Picasso was known to use. Further digging matched the piece to Torero, a 1949 etching that had vanished from a Milwaukee art gallery back in 2018, valued at somewhere between $35,000 and $50,000.\n\nDertz called the police, who confirmed the match with gallery owner Bill DeLind, the man who had spent eight years assuming the piece was gone for good. His reaction says it all: he never expected to see it again, and the fact that it turned up eight years later in perfect condition was, in his words, jaw-dropping.\n\nIt's an oddly fitting ending for a piece by an artist famous for reinventing recognizable images into something almost unrecognizable: a work that disappeared into the ordinary churn of apartment turnover for the better part of a decade, only to be spotted by someone paying just enough attention, and returned exactly where it started.",
-      "url": "https://www.goodnewsnetwork.org/original-picasso-stolen-8-years-ago-found-hanging-in-relinquished-apartment-by-milwaukee-landlord/",
-      "source": "Good News Network",
-      "published": "2026-09-02T00:00:00Z",
-      "category": "Culture",
-      "added": "2026-09-03T19:20:00Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Torero-by-Picasso-credit-Milwaukee-Police-Department.jpg"
     }
   ]
 }
