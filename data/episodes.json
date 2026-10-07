@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-10-07",
+      "title": "Happy News \u2014 7 October 2026",
+      "runKey": "2026-10-07T21:10:00Z",
+      "published": "2026-10-07T21:23:53Z",
+      "duration": 337.82,
+      "bytes": 2703497,
+      "storyCount": 4,
+      "guid": "happy-news-2026-10-07",
+      "summary": "Four good things: Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years; Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles; Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released; NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light",
+      "chapters": [
+        {
+          "url": "https://phys.org/news/2026-10-children-homes-hospitalization-analysis.html",
+          "headline": "Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years",
+          "start": 7.18,
+          "duration": 99.32
+        },
+        {
+          "url": "https://goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles",
+          "headline": "Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles",
+          "start": 106.5,
+          "duration": 78.36
+        },
+        {
+          "url": "https://sdhumane.org/bobcat-burned-in-camp-pendleton-fire-returns-to-wild-2/",
+          "headline": "Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released",
+          "start": 184.86,
+          "duration": 72.1
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+          "headline": "NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light",
+          "start": 256.96,
+          "duration": 78.26
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-07/happy-news-2026-10-07.mp3"
+    },
+    {
       "date": "2026-10-05",
       "title": "Happy News \u2014 5 October 2026",
       "runKey": "2026-10-05T12:00:00Z",
@@ -1339,95 +1377,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-07/happy-news-2026-09-07.mp3"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Happy News \u2014 6 September 2026",
-      "runKey": "2026-09-06T18:13:04Z",
-      "published": "2026-09-06T18:14:45Z",
-      "duration": 460.99,
-      "bytes": 3688739,
-      "storyCount": 3,
-      "guid": "happy-news-2026-09-06",
-      "summary": "Three good things: The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto; A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids; Republicans and Democrats in a NY City United to Save Its Last Birthing Center",
-      "chapters": [
-        {
-          "url": "https://www.rugbypass.com/news/springboks-women-prove-power-but-fall-to-electric-black-ferns/",
-          "headline": "The Black Ferns Ran in Eight Tries to Beat the Springboks 52-20 in Soweto",
-          "start": 7.26,
-          "duration": 154.3
-        },
-        {
-          "url": "https://reasonstobecheerful.world/the-spark-laundromat-libraries/",
-          "headline": "A Laundromat Library Network Has Put Free Books in the Hands of 400,000 Kids",
-          "start": 161.56,
-          "duration": 147.16
-        },
-        {
-          "url": "https://www.npr.org/2026/09/01/nx-s1-5945612/baby-new-york-hospital-birth",
-          "headline": "Republicans and Democrats in a NY City United to Save Its Last Birthing Center",
-          "start": 308.72,
-          "duration": 149.66
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-06/happy-news-2026-09-06.mp3"
-    },
-    {
-      "date": "2026-09-05",
-      "title": "Happy News \u2014 5 September 2026",
-      "runKey": "2026-09-05T00:00:00Z",
-      "published": "2026-09-05T18:10:23Z",
-      "duration": 982.94,
-      "bytes": 7864524,
-      "storyCount": 7,
-      "guid": "happy-news-2026-09-05",
-      "summary": "Seven good things: Endangered Coho Salmon Return to Northern California Rivers in Record Numbers; Compound Found in Sea Squirts Reverses Signs of Aging in Mice; New Program Gives Rapid City Students a Free Book to Keep Every Month; New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/",
-          "headline": "Endangered Coho Salmon Return to Northern California Rivers in Record Numbers",
-          "start": 7.26,
-          "duration": 138.32
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
-          "headline": "Compound Found in Sea Squirts Reverses Signs of Aging in Mice",
-          "start": 145.58,
-          "duration": 143.98
-        },
-        {
-          "url": "https://www.kotatv.com/2026/09/03/new-book-program-aims-boost-literacy-curb-screen-time-rapid-city-students/",
-          "headline": "New Program Gives Rapid City Students a Free Book to Keep Every Month",
-          "start": 289.56,
-          "duration": 123.0
-        },
-        {
-          "url": "https://www.scoop.co.nz/stories/AK2609/S00063/plants-with-superpowers-and-how-they-can-save-us.htm",
-          "headline": "New Zealand's Only Government Native Plant Nursery Is Rewilding Canterbury One Order at a Time",
-          "start": 412.56,
-          "duration": 147.9
-        },
-        {
-          "url": "https://talker.news/2026/09/02/three-rescued-loggerhead-turtles-to-be-released-back-into-wild/",
-          "headline": "Three Rescued Loggerhead Turtles Fly 1,600 Miles Home to Warmer Seas",
-          "start": 560.46,
-          "duration": 142.7
-        },
-        {
-          "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/",
-          "headline": "Underground Dark Matter Detector Records Its Most Intriguing Signal Yet",
-          "start": 703.16,
-          "duration": 136.78
-        },
-        {
-          "url": "https://www.guinnessworldrecords.com/news/2026/8/discover-all-the-records-broken-at-the-sydney-marathon-2026",
-          "headline": "Runner Living With Incurable Cancer Sets World Record at the Sydney Marathon",
-          "start": 839.94,
-          "duration": 140.56
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-05/happy-news-2026-09-05.mp3"
     }
   ],
-  "updated": "2026-10-05T22:21:36Z"
+  "updated": "2026-10-07T21:24:21Z"
 }
