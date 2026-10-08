@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:24:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 21:05:03 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 8 October 2026</title>
+      <description>One good things: Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra</description>
+      <itunes:summary>One good things: Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 21:04:47 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-08/happy-news-2026-10-08.mp3" length="873674" type="audio/mpeg" />
+      <itunes:duration>0:01:49</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 7 October 2026</title>
       <description>Four good things: Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years; Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles; Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released; NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light</description>
@@ -358,18 +370,6 @@
       <pubDate>Tue, 08 Sep 2026 19:26:25 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-08/happy-news-2026-09-08.mp3" length="5481036" type="audio/mpeg" />
       <itunes:duration>0:11:25</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 7 September 2026</title>
-      <description>Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial</description>
-      <itunes:summary>Nine good things: Chance Sighting of an IU Backpack Rescues a Former Football Star From Homelessness; Volunteer Patrol Network Is Helping DOC Protect Two of Nelson's Marine Reserves; Utah Woman With Down Syndrome Becomes a Certified Fitness Instructor and Leads a Class of 60; Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 19:47:58 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-07/happy-news-2026-09-07.mp3" length="10628172" type="audio/mpeg" />
-      <itunes:duration>0:22:08</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
