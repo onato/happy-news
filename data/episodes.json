@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-10-11",
+      "title": "Happy News \u2014 11 October 2026",
+      "runKey": "2026-10-11T19:55:00Z",
+      "published": "2026-10-11T19:57:28Z",
+      "duration": 149.95,
+      "bytes": 1200334,
+      "storyCount": 2,
+      "guid": "happy-news-2026-10-11",
+      "summary": "Two good things: Sloth Bear Rescued From the Dancing Trade Is Thriving at 26; Victoria Creates Three New National Parks Covering More Than 250 Square Miles of Forest",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/sloth-bear-given-a-name-by-julia-roberts-is-flourishing/",
+          "headline": "Sloth Bear Rescued From the Dancing Trade Is Thriving at 26",
+          "start": 7.2,
+          "duration": 55.98
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/australia-announces-3-new-national-parks-to-protect-gliders-owls-and-other-victoria-wildlife/",
+          "headline": "Victoria Creates Three New National Parks Covering More Than 250 Square Miles of Forest",
+          "start": 63.18,
+          "duration": 84.18
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-11/happy-news-2026-10-11.mp3"
+    },
+    {
       "date": "2026-10-10",
       "title": "Happy News \u2014 10 October 2026",
       "runKey": "2026-10-10T19:55:00Z",
@@ -1187,63 +1213,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-11/happy-news-2026-09-11.mp3"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Happy News \u2014 10 September 2026",
-      "runKey": "2026-09-10T19:05:54Z",
-      "published": "2026-09-10T19:10:19Z",
-      "duration": 916.2,
-      "bytes": 7330574,
-      "storyCount": 7,
-      "guid": "happy-news-2026-09-10",
-      "summary": "Seven good things: Nine Rehabilitated Sea Turtles, Named for Desserts, Are Released Back Into the Atlantic; At 91, 'Grey Beard' Becomes the Oldest Person to Hike the Entire Appalachian Trail; Australia's Giant Grid Battery Hits Full Power Again, Repaired Without Waiting on Overseas Parts; Scientists Design a One-Shot DNA Treatment That Slashes Cholesterol Without Statins",
-      "chapters": [
-        {
-          "url": "https://wcti12.com/news/local/turtle-time-nine-rescued-shelled-sweethearts-set-for-a-10-am-ocean-sendoff",
-          "headline": "Nine Rehabilitated Sea Turtles, Named for Desserts, Are Released Back Into the Atlantic",
-          "start": 7.32,
-          "duration": 115.34
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/91-yo-greybeard-becomes-oldest-person-to-hike-the-appalachian-trial-after-359-days-and-71-falls/",
-          "headline": "At 91, 'Grey Beard' Becomes the Oldest Person to Hike the Entire Appalachian Trail",
-          "start": 122.66,
-          "duration": 118.36
-        },
-        {
-          "url": "https://www.energy-storage.news/australia-akaysha-energys-waratah-super-battery-tests-full-sips-obligation-as-850mw-output-recorded/",
-          "headline": "Australia's Giant Grid Battery Hits Full Power Again, Repaired Without Waiting on Overseas Parts",
-          "start": 241.02,
-          "duration": 140.0
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260909225602.htm",
-          "headline": "Scientists Design a One-Shot DNA Treatment That Slashes Cholesterol Without Statins",
-          "start": 381.02,
-          "duration": 134.36
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/fda-immediately-approves-drug-thats-doubling-lifespan-for-late-pancreatic-cancer-patients/",
-          "headline": "FDA Approves a Pill That Doubles Survival Time for Advanced Pancreatic Cancer",
-          "start": 515.38,
-          "duration": 140.84
-        },
-        {
-          "url": "https://www.nzherald.co.nz/gisborne-herald/news/dream-of-rebuilding-flood-damaged-tairawhiti-marae-becomes-reality/RPP7CJ3GEBBDDBZCD3KTI6P2PE/",
-          "headline": "Framing Goes Up on a Tair\u0101whiti Marae Rebuilt After Cyclone Gabrielle Flooded It",
-          "start": 656.22,
-          "duration": 135.04
-        },
-        {
-          "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/young-nz-fur-seal-found-at-rangitikei-college-more-than-20km-inland/B46443W5LFGY3EIPGHVQAMRC5Q/",
-          "headline": "A Lost Fur Seal Pup Wanders 20km Inland to a NZ School \u2014 and Gets a Safe Ride Home",
-          "start": 791.26,
-          "duration": 122.36
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-10/happy-news-2026-09-10.mp3"
     }
   ],
-  "updated": "2026-10-10T19:49:07Z"
+  "updated": "2026-10-11T19:57:40Z"
 }
