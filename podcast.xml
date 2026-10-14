@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 21:02:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 20:02:01 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 14 October 2026</title>
+      <description>Three good things: Eight Orangutans Rescued From Borneo Wildfires Are Released Back Into the Forest; UK Doctors Transplant Frozen Testicular Tissue in First Attempt to Restore a Cancer Survivor's Fertility; Australia's High Court Blocks Mount Pleasant Coal Mine Expansion in First Climate Case to Reach It</description>
+      <itunes:summary>Three good things: Eight Orangutans Rescued From Borneo Wildfires Are Released Back Into the Forest; UK Doctors Transplant Frozen Testicular Tissue in First Attempt to Restore a Cancer Survivor's Fertility; Australia's High Court Blocks Mount Pleasant Coal Mine Expansion in First Climate Case to Reach It</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 20:01:34 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-14/happy-news-2026-10-14.mp3" length="2332504" type="audio/mpeg" />
+      <itunes:duration>0:04:51</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 13 October 2026</title>
       <description>Two good things: FDA Approves the First Drug for Alexander Disease, a Deadly Rare Brain Disorder; Family Sells 650 Acres of Lake Palestine Shoreline So It Can Become a Texas State Park</description>
@@ -346,18 +358,6 @@
       <pubDate>Mon, 14 Sep 2026 20:19:34 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-14/happy-news-2026-09-14.mp3" length="6825451" type="audio/mpeg" />
       <itunes:duration>0:14:13</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 13 September 2026</title>
-      <description>Seven good things: Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness; Cat Missing for Six Years Is Reunited With Her Family After a Viral Shelter Post; Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation; Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together</description>
-      <itunes:summary>Seven good things: Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness; Cat Missing for Six Years Is Reunited With Her Family After a Viral Shelter Post; Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation; Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-13</guid>
-      <pubDate>Sun, 13 Sep 2026 18:43:41 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-13/happy-news-2026-09-13.mp3" length="6925646" type="audio/mpeg" />
-      <itunes:duration>0:14:26</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
