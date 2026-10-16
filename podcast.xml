@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 19:46:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:21:36 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 16 October 2026</title>
+      <description>Two good things: Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000; North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%</description>
+      <itunes:summary>Two good things: Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000; North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 19:21:18 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-16/happy-news-2026-10-16.mp3" length="1505242" type="audio/mpeg" />
+      <itunes:duration>0:03:08</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 15 October 2026</title>
       <description>Four good things: A Samoan-Language Love Song Becomes the First to Win New Zealand's Silver Scroll Songwriting Award; Pittsburgh Water Begins Forgiving Overdue Bills for About 4,300 Low-Income Households; Teen Triathlete Raises More Than $30,000 to Give Bikes and Riding Lessons to Low-Income Families; Oxford Museum Returns a 125-Year-Old Kiwi-Feather Cloak to Marlborough Iwi</description>
@@ -346,18 +358,6 @@
       <pubDate>Wed, 16 Sep 2026 19:35:27 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-16/happy-news-2026-09-16.mp3" length="7407758" type="audio/mpeg" />
       <itunes:duration>0:15:26</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 15 September 2026</title>
-      <description>Nine good things: Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House; Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary; Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades; British Runner Completes the Mountain Challenge That Once Stopped His Heart</description>
-      <itunes:summary>Nine good things: Firefighter Reunites With the Dog She Pulled Unconscious From a Smoke-Filled House; Casino Company Surprises 10,000 Employees With $70 Million in Stock for Its 50th Anniversary; Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades; British Runner Completes the Mountain Challenge That Once Stopped His Heart</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 19:40:53 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-15/happy-news-2026-09-15.mp3" length="9255566" type="audio/mpeg" />
-      <itunes:duration>0:19:17</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
