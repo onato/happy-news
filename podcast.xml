@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 18:12:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:29:59 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 18 October 2026</title>
+      <description>One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand</description>
+      <itunes:summary>One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 18:29:46 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3" length="889042" type="audio/mpeg" />
+      <itunes:duration>0:01:51</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 17 October 2026</title>
       <description>One good things: Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family</description>
@@ -346,18 +358,6 @@
       <pubDate>Fri, 18 Sep 2026 19:02:49 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-18/happy-news-2026-09-18.mp3" length="8384846" type="audio/mpeg" />
       <itunes:duration>0:17:28</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 17 September 2026</title>
-      <description>One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat</description>
-      <itunes:summary>One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 19:46:31 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-17/happy-news-2026-09-17.mp3" length="1391312" type="audio/mpeg" />
-      <itunes:duration>0:02:54</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

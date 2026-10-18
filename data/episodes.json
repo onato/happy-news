@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-10-18",
+      "title": "Happy News \u2014 18 October 2026",
+      "runKey": "2026-10-18T18:45:00Z",
+      "published": "2026-10-18T18:29:46Z",
+      "duration": 111.05,
+      "bytes": 889042,
+      "storyCount": 1,
+      "guid": "happy-news-2026-10-18",
+      "summary": "One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
+      "chapters": [
+        {
+          "url": "https://www.pv-magazine-australia.com/2026/10/12/rooftop-solar-reaches-new-highs-across-nem/",
+          "headline": "Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
+          "start": 7.08,
+          "duration": 101.14
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3"
+    },
+    {
       "date": "2026-10-17",
       "title": "Happy News \u2014 17 October 2026",
       "runKey": "2026-10-17T18:30:00Z",
@@ -1007,27 +1027,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-18/happy-news-2026-09-18.mp3"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Happy News \u2014 17 September 2026",
-      "runKey": "2026-09-17T20:45:00Z",
-      "published": "2026-09-17T19:46:31Z",
-      "duration": 173.83,
-      "bytes": 1391312,
-      "storyCount": 1,
-      "guid": "happy-news-2026-09-17",
-      "summary": "One good things: Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat",
-      "chapters": [
-        {
-          "url": "https://www.vermontpublic.org/local-news/2026-09-11/historic-dams-removed-smugglers-notch-trout-habitat",
-          "headline": "Vermont Crews Tore Out Two Century-Old Dams to Reconnect 10 Miles of Trout Habitat",
-          "start": 7.66,
-          "duration": 163.5
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-17/happy-news-2026-09-17.mp3"
     }
   ],
-  "updated": "2026-10-17T18:12:15Z"
+  "updated": "2026-10-18T18:29:59Z"
 }
