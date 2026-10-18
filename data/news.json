@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-17T18:30:00Z",
+  "updated": "2026-10-18T18:45:00Z",
   "stories": [
+    {
+      "headline": "Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
+      "summary": "Rooftop solar on Australia's main electricity grid hit an all-time peak of 17,488 megawatts on 11 October, and solar overall supplied a record 72% of consumption at that moment. New output records were also set in Victoria, South Australia and New South Wales.",
+      "narrative": "Australia's rooftop solar panels have set a new national output record. At noon on Sunday the eleventh of October, the panels on homes and small businesses across the country's main electricity grid together produced 17,488 megawatts, the highest figure ever recorded.\n\nThat is about 495 megawatts above the previous record, and roughly 16 percent more than the peak reached at the same time last year. At that moment, rooftop and large-scale solar combined met a record share of just over 72 percent of all the electricity being consumed on the grid.\n\nThe records were not limited to one day or one place. Victoria, South Australia and New South Wales each set new state peaks in the same week. In South Australia, renewables covered more than 96 percent of state demand at the peak, while in Victoria they supplied around two thirds of generation.\n\nBehind the numbers are around four million Australian homes and small businesses, which now have an estimated 22 gigawatts of rooftop solar installed between them. This year is on track to be a record one for new installations, and the market operator says renewables have averaged 44 percent of grid generation so far in 2026.\n\nThe analyst who tracked the figures points out that these are instantaneous peaks rather than daily energy totals, and that a lot of large-scale renewable output was curtailed during the midday surge. Even so, it is a clear sign of how quickly ordinary households have changed the way the grid is powered.",
+      "url": "https://www.pv-magazine-australia.com/2026/10/12/rooftop-solar-reaches-new-highs-across-nem/",
+      "source": "pv magazine Australia",
+      "published": "2026-10-12T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-10-18T18:45:00Z"
+    },
     {
       "headline": "Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family",
       "summary": "Luna, a 10-year-old Jack Russell terrier, slipped out of a Yellowstone cabin on September 10 and survived more than a month in the wild. Volunteers lured her into a trap with scented items from her family, and she was reunited with them on October 14.",
@@ -2080,16 +2090,6 @@
       "category": "Community",
       "added": "2026-09-06T18:08:12Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Wilfried-enjoying-The-Shelter-Gym-in-Paris-RELEASED-BY-Omnigym.jpeg"
-    },
-    {
-      "headline": "Scientists Show a Natural Enzyme Can Read an Expanded Eight-Letter Genetic Code",
-      "summary": "UC San Diego researchers demonstrated that RNA polymerase, the cellular machinery that transcribes DNA, can accurately read synthetic DNA built from eight genetic letters instead of the four found in every known living thing. The discovery, made using high-resolution imaging of the enzyme in action, is a step toward engineering biology with an expanded genetic vocabulary.",
-      "narrative": "Every living organism on Earth, from bacteria to blue whales, writes its genetic information using the same four-letter alphabet: the familiar A, T, C and G of DNA. For decades, synthetic biologists have wondered whether cells could be taught to read a bigger alphabet, one with entirely new letters that don't exist in nature, opening room for genetic information no organism has ever carried before. A new study from the University of California San Diego suggests the answer is yes, and that natural cellular machinery is more capable of it than expected.\n\nThe research team, led by professor Dong Wang at the Skaggs School of Pharmacy and Pharmaceutical Sciences, focused on RNA polymerase, the enzyme responsible for transcribing DNA into RNA, the essential first step in turning genetic code into working proteins. Using high-resolution cryo-electron microscopy, capable of visualizing molecular structures at near-atomic detail, the team watched the enzyme encounter synthetic DNA built with two extra artificial letter pairs beyond nature's usual four.\n\nWhat they found was that RNA polymerase did not stumble over the unfamiliar letters. It recognized and transcribed them using essentially the same biochemical and structural mechanisms it uses for natural DNA, despite these synthetic base pairs never having existed anywhere in three and a half billion years of life on Earth. A related study from the same group, published in the Proceedings of the National Academy of Sciences, found the enzyme could even handle synthetic pairs that lack the hydrogen bonds normally holding natural DNA together.\n\nThe practical implications reach beyond a laboratory curiosity. An organism able to store and use information in an eight-letter code could, in principle, encode entirely new categories of proteins and molecules that four-letter DNA cannot express. Wang's team has previously used synthetic DNA to build diagnostic tools capable of detecting liver cancer cells, and an expanded genetic alphabet could support similarly novel diagnostics or therapeutics that current biology simply has no vocabulary for.\n\nThis work does not itself create a new organism or expand any cell's genome. What it demonstrates is that the barrier many assumed would block such an expansion, the specialized enzymes cells use to read and copy DNA, may not be nearly as restrictive as expected. If RNA polymerase can already handle synthetic letters using its ordinary toolkit, the path toward engineered organisms running on an expanded code looks considerably shorter than it did before.",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
-      "source": "ScienceDaily",
-      "published": "2026-09-05T00:00:00Z",
-      "category": "Science",
-      "added": "2026-09-06T18:08:12Z"
     }
   ]
 }
