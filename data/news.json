@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-18T18:45:00Z",
+  "updated": "2026-10-20T20:00:00Z",
   "stories": [
+    {
+      "headline": "Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag",
+      "summary": "A four-year-old huskydoodle named LouLou was left on a mountain north of Anchorage when her owner's partner and his climbing partner were airlifted out after an avalanche. Two days later, two pilots used her collar AirTag and fresh paw prints to find her waiting, and she was reunited with her family.",
+      "narrative": "On October 10, a pocket of wind-loaded snow broke loose on Shaker Peak, north of Anchorage, and swept two climbers about five hundred feet down rocky ground. One of them, Brian Shum, was out with his girlfriend's dog, a four-year-old huskydoodle called LouLou.\n\nBoth men were hurt. Shum broke his jaw and later needed hand surgery, and his climbing partner Rachad Rayees broke three ribs and damaged a vertebra. An Alaska National Guard helicopter reached them in under two hours, but the crew could not see LouLou, so she was left behind on the mountain.\n\nThe dog's owner, Lauren Padawer, had one useful clue: LouLou wore an AirTag. That helped narrow the search area, and plenty of people offered help, with scent-detection teams and drones being lined up.\n\nTwo days after the slide, pilots Dave Beckett and Amanda Barker flew up in a small red helicopter. Using the tracking data and fresh paw prints in the snow, they spotted LouLou, who stayed put and waited for them. They landed, hiked up to her, put a coat on her and took her to a vet. She had only a chipped tooth and a broken toenail.\n\nPadawer was reunited with her on October 14. She said LouLou seemed a little more affectionate but otherwise unchanged, and she called the pilots angels. Everyone involved is recovering, and the dog is home.",
+      "url": "https://alaskapublic.org/news/outdoors/2026-10-20/oh-my-god-there-she-is-alaska-pilot-describes-finding-dog-lost-after-avalanche",
+      "source": "Alaska Public Media",
+      "published": "2026-10-20T19:15:00Z",
+      "category": "Animals",
+      "added": "2026-10-20T20:00:00Z",
+      "image": "https://npr.brightspotcdn.com/dims4/default/24e6d52/2147483647/strip/true/crop/2176x1554+0+0/resize/880x628!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fba%2F32%2F7a359b3f414ab4dd6d1e359eecb6%2Fimg-5192.jpeg"
+    },
     {
       "headline": "Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
       "summary": "Rooftop solar on Australia's main electricity grid hit an all-time peak of 17,488 megawatts on 11 October, and solar overall supplied a record 72% of consumption at that moment. New output records were also set in Victoria, South Australia and New South Wales.",
@@ -2079,17 +2090,6 @@
       "category": "Environment",
       "added": "2026-09-06T18:08:12Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Red-Sea-coral-get-probiotic-treatment-Marine-Microbiomes-Lab-by-Morgan-Bennett-Smith-via-SWNS.jpg"
-    },
-    {
-      "headline": "A Finnish Gym Company Built an Outdoor Fitness Center at a Paris Homeless Shelter",
-      "summary": "Fitness equipment maker Omnigym partnered with the French nonprofit Emmaus Solidarite to install a free outdoor gym at a Paris homeless shelter. A month in, most residents reported better physical health and stronger connections with each other, and some said it helped them cut back on smoking.",
-      "narrative": "Access to a gym is something many people take for granted, but for someone living in a shelter, it is usually out of reach entirely. A Finnish company called Omnigym, led by chief executive Kirsti Laasio, decided to test whether that gap mattered by building an outdoor fitness facility at a homeless shelter in Paris run by the nonprofit Emmaus Solidarite.\n\nThe idea was simple: install accessible, weatherproof exercise equipment where residents could use it whenever they wanted, without membership fees, staff supervision requirements, or the social friction of walking into a commercial gym. After a month of residents using the equipment, the shelter surveyed them on what had changed.\n\nThe results were striking for such a short trial. Eighty percent of residents reported improvements in their physical health, and ninety percent said the gym had helped them connect with other people at the shelter, turning a solitary space into something more like a common room. Several residents described smaller but meaningful shifts in behavior. One resident, Wilfried, said plainly that he now smokes less. Others described the gym as bringing a bit of change into lives that often feel static while waiting for housing or employment to come through.\n\nLaasio framed the project as part of a broader goal for her company: making physical training accessible to people who are normally locked out of it, not just by cost but by the assumption that fitness is something you pursue once your other problems are solved. The Paris installation reverses that logic, treating movement and physical health as something that can support recovery and stability rather than waiting for the end of it.\n\nHomelessness researchers have long pointed to physical inactivity as a compounding problem for people living in shelters, worsening both physical and mental health over time in ways that are rarely addressed by emergency housing services alone. A gym will not solve housing insecurity, but this small experiment suggests that giving people a way to move their bodies and spend time together can make daily life at a shelter meaningfully better while bigger problems get sorted out.",
-      "url": "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/",
-      "source": "Good News Network",
-      "published": "2026-09-05T00:00:00Z",
-      "category": "Community",
-      "added": "2026-09-06T18:08:12Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Wilfried-enjoying-The-Shelter-Gym-in-Paris-RELEASED-BY-Omnigym.jpeg"
     }
   ]
 }
