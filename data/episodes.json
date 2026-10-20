@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-10-20",
+      "title": "Happy News \u2014 20 October 2026",
+      "runKey": "2026-10-20T20:00:00Z",
+      "published": "2026-10-20T19:52:13Z",
+      "duration": 99.38,
+      "bytes": 795737,
+      "storyCount": 1,
+      "guid": "happy-news-2026-10-20",
+      "summary": "One good things: Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag",
+      "chapters": [
+        {
+          "url": "https://alaskapublic.org/news/outdoors/2026-10-20/oh-my-god-there-she-is-alaska-pilot-describes-finding-dog-lost-after-avalanche",
+          "headline": "Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag",
+          "start": 7.2,
+          "duration": 89.54
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-20/happy-news-2026-10-20.mp3"
+    },
+    {
       "date": "2026-10-18",
       "title": "Happy News \u2014 18 October 2026",
       "runKey": "2026-10-18T18:45:00Z",
@@ -909,125 +929,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-20/happy-news-2026-09-20.mp3"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Happy News \u2014 19 September 2026",
-      "runKey": "2026-09-19T18:30:00Z",
-      "published": "2026-09-19T18:42:59Z",
-      "duration": 883.49,
-      "bytes": 7068878,
-      "storyCount": 7,
-      "guid": "happy-news-2026-09-19",
-      "summary": "Seven good things: A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission; Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected; A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop; FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients",
-      "chapters": [
-        {
-          "url": "https://www.odt.co.nz/news/dunedin/the-star/never-had-a-haircut-indi-celebrates-being-in-remission-vkley5qq",
-          "headline": "A Christchurch Girl Diagnosed With Cancer at Two Is Now in Her Fourth Year of Remission",
-          "start": 7.4,
-          "duration": 122.0
-        },
-        {
-          "url": "https://phys.org/news/2026-09-florida-jays-unusually-young-age.html",
-          "headline": "Translocated Florida Scrub-Jays Are Breeding Far Earlier Than Anyone Expected",
-          "start": 129.4,
-          "duration": 135.32
-        },
-        {
-          "url": "https://www.kfvs12.com/2026/09/18/farming-town-pulls-together-harvest-crop-neighbor-with-stage-4-brain-cancer/",
-          "headline": "A North Dakota Farming Town Brought Its Trucks and Harvesters to Finish a Cancer Patient's Beet Crop",
-          "start": 264.72,
-          "duration": 110.94
-        },
-        {
-          "url": "https://www.fiercepharma.com/pharma/bayers-kerendia-secures-fda-nod-3rd-indication-now-first-drug-30-years-ckd-t1d-patients",
-          "headline": "FDA Approves the First New Kidney Drug in 30 Years for Type 1 Diabetes Patients",
-          "start": 375.66,
-          "duration": 139.7
-        },
-        {
-          "url": "https://scienceblog.com/j-2026-capital-kiwi-250-transmitters-removed/",
-          "headline": "Wellington's Wild Kiwi Population Just Shed Its Last Tracking Collar",
-          "start": 515.36,
-          "duration": 133.18
-        },
-        {
-          "url": "https://www.220triathlon.com/news/hayden-wilde-wins-maiden-ironman-70-3-world-title",
-          "headline": "Hayden Wilde Wins His First Ironman 70.3 World Title After a Season Battling a Lung Condition",
-          "start": 648.54,
-          "duration": 133.72
-        },
-        {
-          "url": "https://www.ktre.com/2026/09/12/missing-dog-reunited-with-family-after-nearly-3-years/",
-          "headline": "A Missing Maltipoo Is Reunited With His San Diego Family Almost Three Years After Vanishing",
-          "start": 782.26,
-          "duration": 98.64
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-19/happy-news-2026-09-19.mp3"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Happy News \u2014 18 September 2026",
-      "runKey": "2026-09-18T19:00:09Z",
-      "published": "2026-09-18T19:02:49Z",
-      "duration": 1047.98,
-      "bytes": 8384846,
-      "storyCount": 8,
-      "guid": "happy-news-2026-09-18",
-      "summary": "Eight good things: Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years; Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery; Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration; FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'",
-      "chapters": [
-        {
-          "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
-          "headline": "Bolivian Biologist's Decade-Long Hunch Confirmed as the First New Wild Cat Species in Over 100 Years",
-          "start": 7.32,
-          "duration": 136.64
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/cataract-surgery-restores-sight-for-54-year-old-chimpanzee-the-first-such-procedure-at-chimp-haven/",
-          "headline": "Blind for Years, a 54-Year-Old Chimpanzee Sees Again After Sanctuary's First Cataract Surgery",
-          "start": 143.96,
-          "duration": 136.1
-        },
-        {
-          "url": "https://www.cleveland19.com/2026/09/18/cleveland-state-university-reopens-historic-fenn-tower-following-18m-renovation/",
-          "headline": "Cleveland State Reopens Its 1930s Fenn Tower to Students After an $18 Million Restoration",
-          "start": 280.06,
-          "duration": 121.38
-        },
-        {
-          "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/",
-          "headline": "FDA Approves First Gene Therapy for a Disease Once Called 'Childhood Alzheimer's'",
-          "start": 401.44,
-          "duration": 123.66
-        },
-        {
-          "url": "https://abcnews.com/Health/wireStory/validates-chile-south-american-country-eliminate-dog-transmitted-136436947",
-          "headline": "Chile Becomes the First Country in South America to Wipe Out Dog-Transmitted Rabies",
-          "start": 525.1,
-          "duration": 135.14
-        },
-        {
-          "url": "https://www.bristol247.com/climate/news-climate/council-bans-advertising-of-fast-fashion-flights-and-cars/",
-          "headline": "Bristol Becomes First UK City to Ban Fossil Fuel and Ultra-Fast Fashion Adverts on Council Property",
-          "start": 660.24,
-          "duration": 123.64
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/homeless-guy-famous-for-playing-piano-in-church-raising-50k/",
-          "headline": "A Decade Homeless, He Played Piano in a Cornwall Church \u2014 Now He's Raised $54,000 for Charity",
-          "start": 783.88,
-          "duration": 125.08
-        },
-        {
-          "url": "https://www.taipeitimes.com/News/world/archives/2026/09/10/2003864029",
-          "headline": "Kenyan Startup's 3D-Printed Robotic Hands Let Deaf Students Learn Alongside Hearing Classmates",
-          "start": 908.96,
-          "duration": 136.32
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-18/happy-news-2026-09-18.mp3"
     }
   ],
-  "updated": "2026-10-18T18:29:59Z"
+  "updated": "2026-10-20T19:52:26Z"
 }
