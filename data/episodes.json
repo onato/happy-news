@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-10-21",
+      "title": "Happy News \u2014 21 October 2026",
+      "runKey": "2026-10-21T20:05:00Z",
+      "published": "2026-10-21T19:58:55Z",
+      "duration": 394.58,
+      "bytes": 3157596,
+      "storyCount": 4,
+      "guid": "happy-news-2026-10-21",
+      "summary": "Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards",
+      "chapters": [
+        {
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+          "headline": "FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients",
+          "start": 8.04,
+          "duration": 110.04
+        },
+        {
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos",
+          "headline": "Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon",
+          "start": 118.08,
+          "duration": 80.06
+        },
+        {
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/new-method-makes-acrylic-glass-recycling-economically-viable.html",
+          "headline": "Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic",
+          "start": 198.14,
+          "duration": 97.98
+        },
+        {
+          "url": "https://www.scoop.co.nz/stories/AK2610/S00509/winners-of-the-nz-volunteering-awards-2026-announced.htm",
+          "headline": "Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards",
+          "start": 296.12,
+          "duration": 95.92
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3"
+    },
+    {
       "date": "2026-10-20",
       "title": "Happy News \u2014 20 October 2026",
       "runKey": "2026-10-20T20:00:00Z",
@@ -861,75 +899,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-21/happy-news-2026-09-21.mp3"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Happy News \u2014 20 September 2026",
-      "runKey": "2026-09-20T18:37:22Z",
-      "published": "2026-09-20T18:41:24Z",
-      "duration": 1093.61,
-      "bytes": 8749838,
-      "storyCount": 9,
-      "guid": "happy-news-2026-09-20",
-      "summary": "Nine good things: New Zealand's Bird of the Year Vote Just Set an All-Time Record; A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years; A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool; Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019",
-      "chapters": [
-        {
-          "url": "https://www.rnz.co.nz/news/environment/1479437/record-number-of-votes-cast-in-2026-bird-of-the-year-competition",
-          "headline": "New Zealand's Bird of the Year Vote Just Set an All-Time Record",
-          "start": 7.36,
-          "duration": 111.64
-        },
-        {
-          "url": "https://www.farmersweekly.co.nz/farm-management/sheep-and-beef-farm-management/maori-farm-trust-shares-secrets-of-16-profitable-years/",
-          "headline": "A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years",
-          "start": 119.0,
-          "duration": 126.94
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/fox-left-for-dead-on-road-is-recovering-thanks-to-swim-lessons/",
-          "headline": "A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool",
-          "start": 245.94,
-          "duration": 113.9
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/chesapeake-bay-blue-crab-numbers-see-encouraging-bounceback-in-new-survey/",
-          "headline": "Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019",
-          "start": 359.84,
-          "duration": 113.82
-        },
-        {
-          "url": "https://www.thecooldown.com/green-business/rockford-solar-project-saves-households-healthcare/",
-          "headline": "An Illinois Community Solar Farm Saved Neighbors and a Hospital System $163,000 in Its First Year",
-          "start": 473.66,
-          "duration": 131.22
-        },
-        {
-          "url": "https://www.wistv.com/2026/09/18/gene-therapy-offers-new-hope-sickle-cell-patients/",
-          "headline": "A 20-Year-Old's Sickle Cell Disease Has Been Wiped Out by Gene Therapy",
-          "start": 604.88,
-          "duration": 109.6
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/",
-          "headline": "Archaeologists Call an Untouched 600-Year-Old Tomb in Peru the 'Discovery of the Decade'",
-          "start": 714.48,
-          "duration": 123.58
-        },
-        {
-          "url": "https://www.mprnews.org/story/2026/09/15/mesabi-trail-minnesotas-longest-paved-bike-path-completed",
-          "headline": "Minnesota Finally Completes a 165-Mile Bike Trail Three Decades in the Making",
-          "start": 838.06,
-          "duration": 131.66
-        },
-        {
-          "url": "https://reasonstobecheerful.world/adapted-sailing-school/",
-          "headline": "Spain's Free Adapted Sailing School Is Putting Wheelchair Users at the Helm",
-          "start": 969.72,
-          "duration": 121.36
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-20/happy-news-2026-09-20.mp3"
     }
   ],
-  "updated": "2026-10-20T19:52:26Z"
+  "updated": "2026-10-21T19:59:20Z"
 }

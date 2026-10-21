@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 19:52:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:59:20 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 21 October 2026</title>
+      <description>Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards</description>
+      <itunes:summary>Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 19:58:55 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3" length="3157596" type="audio/mpeg" />
+      <itunes:duration>0:06:35</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 20 October 2026</title>
       <description>One good things: Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag</description>
@@ -334,18 +346,6 @@
       <pubDate>Mon, 21 Sep 2026 20:22:11 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-21/happy-news-2026-09-21.mp3" length="7253006" type="audio/mpeg" />
       <itunes:duration>0:15:06</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 20 September 2026</title>
-      <description>Nine good things: New Zealand's Bird of the Year Vote Just Set an All-Time Record; A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years; A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool; Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019</description>
-      <itunes:summary>Nine good things: New Zealand's Bird of the Year Vote Just Set an All-Time Record; A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years; A Fox Cub Left for Dead by the Road Is Learning to Walk Again in a Dog Swimming Pool; Chesapeake Bay's Blue Crabs Rebound to Their Highest Numbers Since 2019</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 18:41:24 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-20/happy-news-2026-09-20.mp3" length="8749838" type="audio/mpeg" />
-      <itunes:duration>0:18:14</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
