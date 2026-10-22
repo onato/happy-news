@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-10-22",
+      "title": "Happy News \u2014 22 October 2026",
+      "runKey": "2026-10-22T19:55:00Z",
+      "published": "2026-10-22T19:47:04Z",
+      "duration": 361.49,
+      "bytes": 2893171,
+      "storyCount": 4,
+      "guid": "happy-news-2026-10-22",
+      "summary": "Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New K\u0101k\u0101p\u014d and Giant W\u0113t\u0101; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/samoan-island-witnesses-explosion-of-native-wildlife-following-removal-of-invasive-rats-and-pigs/",
+          "headline": "Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed",
+          "start": 7.78,
+          "duration": 94.08
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/indonesia-calls-an-early-halt-to-worlds-largest-deforestation-project-saving-potentially-4-million-acres/",
+          "headline": "Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland",
+          "start": 101.86,
+          "duration": 92.66
+        },
+        {
+          "url": "https://www.nzherald.co.nz/waikato-news/news/sanctuary-mountain-maungatautari-marks-25-years-of-conservation-work/XTAKN52XWNAKDPAPX2FGFWIRCM/",
+          "headline": "Sanctuary Mountain Maungatautari Marks 25 Years With New K\u0101k\u0101p\u014d and Giant W\u0113t\u0101",
+          "start": 194.52,
+          "duration": 89.3
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/total-strangers-help-86-year-old-man-make-40-year-dream-reality/",
+          "headline": "Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987",
+          "start": 283.82,
+          "duration": 74.92
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-22/happy-news-2026-10-22.mp3"
+    },
+    {
       "date": "2026-10-21",
       "title": "Happy News \u2014 21 October 2026",
       "runKey": "2026-10-21T20:05:00Z",
@@ -843,63 +881,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-22/happy-news-2026-09-22.mp3"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Happy News \u2014 21 September 2026",
-      "runKey": "2026-09-21T00:00:00Z",
-      "published": "2026-09-21T20:22:11Z",
-      "duration": 906.5,
-      "bytes": 7253006,
-      "storyCount": 7,
-      "guid": "happy-news-2026-09-21",
-      "summary": "Seven good things: Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save; A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading; A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal; Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/",
-          "headline": "Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save",
-          "start": 7.44,
-          "duration": 143.3
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/",
-          "headline": "A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading",
-          "start": 150.74,
-          "duration": 144.86
-        },
-        {
-          "url": "https://www.newsgram.com/sports/2026/09/21/suchika-tariyal-india-first-mma-medal-asian-games-2026",
-          "headline": "A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal",
-          "start": 295.6,
-          "duration": 131.26
-        },
-        {
-          "url": "https://www.rnz.co.nz/news/health/1497891/my-whole-world-stopped-nelson-donors-raise-30-000-for-nepalese-woman-s-cancer-surgery",
-          "headline": "Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery",
-          "start": 426.86,
-          "duration": 122.48
-        },
-        {
-          "url": "https://www.rnz.co.nz/news/environment/1485423/black-robin-bucks-shy-tag-to-take-bird-of-the-year-2026",
-          "headline": "New Zealand's Bird of the Year Crown Goes to the Once Five-Strong Black Robin",
-          "start": 549.34,
-          "duration": 136.28
-        },
-        {
-          "url": "https://kvia.com/news/2026/09/20/stray-dog-assists-in-its-own-rescue-by-jumping-in-a-police-car-reunited-with-owner/",
-          "headline": "A Stray Dog Helped Rescue Himself by Jumping Into the Police Car Sent to Save Him",
-          "start": 685.62,
-          "duration": 82.16
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260920222352.htm",
-          "headline": "Stanford Scientists Find the Human Brain Is Actually Built From Two Separate Systems",
-          "start": 767.78,
-          "duration": 136.14
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-21/happy-news-2026-09-21.mp3"
     }
   ],
-  "updated": "2026-10-21T19:59:20Z"
+  "updated": "2026-10-22T19:47:33Z"
 }

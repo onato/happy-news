@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:59:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 19:47:33 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 22 October 2026</title>
+      <description>Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New Kākāpō and Giant Wētā; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987</description>
+      <itunes:summary>Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New Kākāpō and Giant Wētā; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 19:47:04 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-22/happy-news-2026-10-22.mp3" length="2893171" type="audio/mpeg" />
+      <itunes:duration>0:06:01</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 21 October 2026</title>
       <description>Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards</description>
@@ -334,18 +346,6 @@
       <pubDate>Tue, 22 Sep 2026 19:42:40 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-22/happy-news-2026-09-22.mp3" length="1206601" type="audio/mpeg" />
       <itunes:duration>0:02:31</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 21 September 2026</title>
-      <description>Seven good things: Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save; A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading; A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal; Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery</description>
-      <itunes:summary>Seven good things: Rural French Mayors Are Buying Back the Village Cafes Nobody Else Would Save; A New AI Tool Can Spot Hidden Heart Disease From an Ordinary ECG Reading; A Judo Champion Who Once Faced Harassment Wins India's First-Ever Asian Games MMA Medal; Nelson Donors Raise $30,000 in Four Days for a Nepalese Student's Cancer Surgery</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 20:22:11 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-21/happy-news-2026-09-21.mp3" length="7253006" type="audio/mpeg" />
-      <itunes:duration>0:15:06</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
