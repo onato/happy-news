@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-10-23",
+      "title": "Happy News \u2014 23 October 2026",
+      "runKey": "2026-10-23T20:00:00Z",
+      "published": "2026-10-23T19:49:04Z",
+      "duration": 102.7,
+      "bytes": 822203,
+      "storyCount": 1,
+      "guid": "happy-news-2026-10-23",
+      "summary": "One good things: Chiricahua National Monument Becomes America's 64th National Park",
+      "chapters": [
+        {
+          "url": "https://www.azfamily.com/2026/10/20/chiricahuas-towering-spires-now-stand-arizonas-newest-national-park/",
+          "headline": "Chiricahua National Monument Becomes America's 64th National Park",
+          "start": 7.44,
+          "duration": 92.64
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-23/happy-news-2026-10-23.mp3"
+    },
+    {
       "date": "2026-10-22",
       "title": "Happy News \u2014 22 October 2026",
       "runKey": "2026-10-22T19:55:00Z",
@@ -861,27 +881,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-23/happy-news-2026-09-23.mp3"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Happy News \u2014 22 September 2026",
-      "runKey": "2026-09-22T19:41:24Z",
-      "published": "2026-09-22T19:42:40Z",
-      "duration": 150.74,
-      "bytes": 1206601,
-      "storyCount": 1,
-      "guid": "happy-news-2026-09-22",
-      "summary": "One good things: Plastic Bags on UK Beaches Have Dropped 80% Since Carrier Bag Charges Began",
-      "chapters": [
-        {
-          "url": "https://www.lbc.co.uk/article/beach-charity-calls-volunteers-plastic-5Hjdhd4_2/",
-          "headline": "Plastic Bags on UK Beaches Have Dropped 80% Since Carrier Bag Charges Began",
-          "start": 7.3,
-          "duration": 140.84
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-22/happy-news-2026-09-22.mp3"
     }
   ],
-  "updated": "2026-10-22T19:47:33Z"
+  "updated": "2026-10-23T19:49:16Z"
 }
