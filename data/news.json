@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-23T20:00:00Z",
+  "updated": "2026-10-24T18:50:00Z",
   "stories": [
+    {
+      "headline": "Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began",
+      "summary": "Brazil's space agency reports 3,335 square kilometres of Amazon forest cleared in the year to July, 42% less than the year before and the lowest since records began in 1988. Clearing in the Cerrado savanna also hit a record low.",
+      "narrative": "Brazil has recorded the smallest amount of Amazon deforestation since satellite monitoring began in 1988. The national space agency, Inpe, says about 3,335 square kilometres of forest were cleared in the twelve months to July, roughly 42 percent less than the year before.\n\nThe previous record low was set back in 2011 and 2012, at about 4,571 square kilometres. Annual losses once peaked near 30,000 square kilometres in the mid-1990s, so the latest figure is a fraction of that. Clearing has now fallen every year since 2022 and is down more than 70 percent over four years.\n\nThe Cerrado, Brazil's vast tropical savanna and another biodiversity hotspot, also improved. Clearing there dropped about 24 percent to around 5,500 square kilometres, the lowest since records started in 2001.\n\nReporting attributes the decline largely to stronger satellite monitoring and tougher penalties for illegal logging, under a government pledge to end illegal deforestation by 2030. Brazil's environment minister called the drop stratospheric, and a leading climate observatory described it as a historic achievement.\n\nThere are caveats: the data cover a twelve-month period, and the release came days before a tightly contested presidential run-off, so the future path depends on politics. Even so, it is a concrete, measured result: far more of the world's largest rainforest was left standing this year.",
+      "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record",
+      "source": "Al Jazeera",
+      "published": "2026-10-17T12:00:00Z",
+      "category": "Environment",
+      "added": "2026-10-24T18:50:00Z"
+    },
+    {
+      "headline": "Experimental Drug Combination Shrinks Tumours in 82% of Patients With a Type of Advanced Pancreatic Cancer",
+      "summary": "Early trial data presented at ESMO show Tango Therapeutics' drug combined with Revolution Medicines' Rasonque produced tumour responses in 82% of patients with a certain advanced pancreatic cancer. 88% were alive without progression at nine months, in a cancer where options have long been limited.",
+      "narrative": "Pancreatic cancer is among the hardest cancers to treat, so results presented this week at the European cancer congress in Madrid have drawn attention.\n\nTango Therapeutics reported that its experimental drug, taken together with Revolution Medicines' drug Rasonque, shrank tumours in 82 percent of patients with a particular type of advanced pancreatic cancer. At nine months, 88 percent of those patients were still alive and their disease had not progressed.\n\nThe regimen did not include chemotherapy, which has long been the standard backbone of treatment for this disease. Specialists say the data support the idea that combining targeted drugs can do more for patients than single drugs on their own.\n\nThese are early conference results rather than a peer-reviewed publication, and larger trials will be needed. Still, a response rate this high in advanced pancreatic cancer is a genuinely encouraging step.",
+      "url": "https://statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque",
+      "source": "STAT News",
+      "published": "2026-10-23T12:00:00Z",
+      "category": "Health",
+      "added": "2026-10-24T18:50:00Z"
+    },
     {
       "headline": "Chiricahua National Monument Becomes America's 64th National Park",
       "summary": "A bipartisan law signed on Tuesday upgrades Arizona's Chiricahua National Monument to a national park. The 19-square-mile landscape of volcanic rock spires has been protected for a century and now gains the nation's highest park status.",
@@ -2071,27 +2091,6 @@
       "source": "ScienceDaily",
       "published": "2026-09-06T00:00:00Z",
       "category": "Health",
-      "added": "2026-09-07T19:44:17Z"
-    },
-    {
-      "headline": "Hawaii Teen's Discovery That Coconut Fungi Can Filter Plastic and Sunscreen From the Sea Wins Top Science Fair Prize",
-      "summary": "Vera Wang, a senior at a Honolulu high school, found that fungi naturally living on coconut husks can break down microplastics and sunscreen chemicals in seawater, some of them possibly never-before-characterized species. The discovery, inspired by traditional Polynesian weaving, won her first place at the Hawaii State Science and Engineering Fair.",
-      "narrative": "Vera Wang, a senior at Kaiser High School in East Honolulu, set out to design an ocean filter inspired by traditional Polynesian weaving techniques, using coconut fiber as her raw material. While studying how the material behaved, she noticed something she had not expected: the pore structure of coconut fiber seemed to support the movement of air and water in ways that invited microbial life. That observation sent her research at the University of Hawaii at Manoa's Amend Lab in a different direction entirely.\n\nWorking with the fungi that naturally colonize coconut husks, Wang found that these organisms could biodegrade both microplastics and the chemical compounds found in sunscreen, two of the more stubborn forms of pollution accumulating in coastal waters worldwide. Sunscreen chemicals in particular have drawn growing concern from marine scientists because they can damage coral reefs even at low concentrations, and they are notoriously difficult to filter out with conventional methods. Genetic testing on the fungal samples suggested that some of the species involved may not have been formally characterized before, meaning Wang may have stumbled onto organisms new to science in the course of a high school research project.\n\nThe work paid off at the Hawaii State Science and Engineering Fair, where Wang took first place in the Microbiology category and received a scholarship award from the McInerny Foundation. Her results were strong enough to qualify her for the International Science and Engineering Fair, the world's largest pre-college science competition, set to take place in Arizona in May 2027.\n\nWhat stands out about Wang's project is how it turned a practical, low-tech idea, a coconut-fiber filter rooted in indigenous Pacific craft traditions, into a genuine scientific finding about fungal biodegradation. Rather than starting from an expensive lab-engineered solution, she looked at a material with deep cultural roots in Hawaii and asked what it could reveal about the natural world's own capacity to break down pollution.\n\nHer next steps involve further characterizing the fungal species she identified and understanding exactly how they metabolize plastic and sunscreen compounds, work that could eventually inform low-cost filtration approaches for coastal communities dealing with the same pollution she set out to address in the first place.",
-      "url": "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/",
-      "source": "Good News Network",
-      "published": "2026-09-06T00:00:00Z",
-      "category": "Science",
-      "added": "2026-09-07T19:44:17Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Coconut-fungi-experiment-by-Vera-Wang-wins-awards-at-2026-Hawaii-State-Science-and-Engineering-Fair.jpeg"
-    },
-    {
-      "headline": "First Genome Map of the Endangered Visayan Spotted Deer Gives Conservationists a New Tool to Save It",
-      "summary": "Filipino researchers have sequenced the first draft genome of the critically endangered Visayan spotted deer, down to roughly 700 individuals in the wild. The genetic map reveals low diversity from decades of inbreeding but also points to a rare beneficial variant that could guide smarter captive breeding.",
-      "narrative": "The Visayan spotted deer once roamed six islands in the central Philippines, but decades of deforestation and hunting reduced it to a fraction of its former range. Today the species survives only on Negros and Panay, with an estimated 700 mature individuals left in the wild, a decline severe enough that the IUCN listed it as endangered back in 1988. Now, for the first time, scientists have mapped its genetic code, giving conservationists a tool they have never had before.\n\nResearchers from Silliman University and the Philippine Genome Center Visayas produced the draft genome using a tissue sample from Abraham, a captive deer that lived and died at Silliman's Center for Tropical Conservation. The resulting map spans 2.5 billion DNA letters and roughly 24,531 genes, a count strikingly close to the human genome's, and the sequence was assessed as 95.5% complete.\n\nThe findings were sobering in one respect. The genome revealed a heterozygosity score, a measure of genetic diversity, of just 0.17, well below the 0.3 considered healthy for a population. That low number confirms what conservationists had feared: decades of breeding among a shrinking, isolated captive population have left the species vulnerable to inbreeding, which can weaken immune function and reduce fertility over generations.\n\nBut the genome also delivered a genuinely hopeful result. Within one sexually active individual, researchers identified a rare genetic variant that could improve breeding outcomes if worked into future pairings. Armed with that kind of detail, the team plans to replace the old breeding approach, which relied on tracking pedigrees by hand, with genome-based breeding protocols that can match individuals more precisely to preserve and even boost genetic diversity.\n\nThe research team also wants to resume exchanging deer between captive facilities, a practice halted since 2007, and to test cross-breeding between the captive population and wild deer at the Bayawan Nature Reserve. For a species this close to the edge, having an actual genetic map to work from, rather than guesswork, could be the difference between a slow decline and a population capable of rebuilding itself.",
-      "url": "https://news.mongabay.com/short-article/2026/09/genetic-road-map-offers-hope-for-threatened-visayan-spotted-deer/",
-      "source": "Mongabay",
-      "published": "2026-09-04T00:00:00Z",
-      "category": "Environment",
       "added": "2026-09-07T19:44:17Z"
     }
   ]
