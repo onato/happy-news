@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-10-25",
+      "title": "Happy News \u2014 25 October 2026",
+      "runKey": "2026-10-25T18:50:00Z",
+      "published": "2026-10-25T18:46:26Z",
+      "duration": 79.7,
+      "bytes": 638278,
+      "storyCount": 1,
+      "guid": "happy-news-2026-10-25",
+      "summary": "One good things: Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First",
+      "chapters": [
+        {
+          "url": "https://www.goodgoodgood.co/articles/endangered-species-world-first-prosthetic-beak",
+          "headline": "Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First",
+          "start": 7.3,
+          "duration": 69.84
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-25/happy-news-2026-10-25.mp3"
+    },
+    {
       "date": "2026-10-24",
       "title": "Happy News \u2014 24 October 2026",
       "runKey": "2026-10-24T18:50:00Z",
@@ -789,69 +809,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-25/happy-news-2026-09-25.mp3"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Happy News \u2014 24 September 2026",
-      "runKey": "2026-09-24T00:00:00Z",
-      "published": "2026-09-24T19:59:08Z",
-      "duration": 931.97,
-      "bytes": 7456718,
-      "storyCount": 8,
-      "guid": "happy-news-2026-09-24",
-      "summary": "Eight good things: Dunedin Iwi and Scientists Plant 2,000 Kauri Seedlings Bred to Resist a Killer Disease; A Cat Missing Since a Car Crash Six Years Ago Has Finally Come Home; Cornell Scientists Find a Chemical Bath That Restores Aging EV Batteries to Near-Factory Condition; A Sacred Stone Figure Returns to Tsawwassen First Nation After a Century in a Quebec Museum",
-      "chapters": [
-        {
-          "url": "https://www.rnz.co.nz/news/environment/1558052/glimmer-of-hope-in-fight-against-kauri-dieback",
-          "headline": "Dunedin Iwi and Scientists Plant 2,000 Kauri Seedlings Bred to Resist a Killer Disease",
-          "start": 7.68,
-          "duration": 102.56
-        },
-        {
-          "url": "https://greatergood.com/blogs/news/cw-miracle-reunion-cat-reunited-with-her-owners-after-six-years",
-          "headline": "A Cat Missing Since a Car Crash Six Years Ago Has Finally Come Home",
-          "start": 110.24,
-          "duration": 102.78
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/",
-          "headline": "Cornell Scientists Find a Chemical Bath That Restores Aging EV Batteries to Near-Factory Condition",
-          "start": 213.02,
-          "duration": 123.06
-        },
-        {
-          "url": "https://theturtleislandnews.com/index.php/2026/09/23/historic-repatriation-tsawwassens-ancestral-artifact-returns-home-after-a-century-in-quebecs-museum/",
-          "headline": "A Sacred Stone Figure Returns to Tsawwassen First Nation After a Century in a Quebec Museum",
-          "start": 336.08,
-          "duration": 105.3
-        },
-        {
-          "url": "https://www.denvergazette.com/outtherecolorado/2026/09/22/massive-wildlife-overpass-has-helped-reduce-wildlife-vehicle-collisions-by-91-in-colorado/",
-          "headline": "Colorado's Giant Wildlife Overpass Has Cut Animal-Vehicle Crashes by 91%",
-          "start": 441.38,
-          "duration": 121.38
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/",
-          "headline": "A Simple Urine Test Caught 92% of Bladder Cancers in a New UK Study",
-          "start": 562.76,
-          "duration": 118.26
-        },
-        {
-          "url": "https://wtop.com/news/2026/09/a-raccoon-boot-camp-in-mississippi-teaches-abandoned-kits-survival-skills",
-          "headline": "A Mississippi 'Raccoon Boot Camp' Is Teaching Orphaned Kits to Survive in the Wild",
-          "start": 681.02,
-          "duration": 125.98
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/korean-drone-rescue-program-helps-mozambique-achieve-zero-fatalities-during-worst-flood-in-decades/",
-          "headline": "Newly Trained Drone Pilots Helped Mozambique Survive Its Worst Flood in Decades With Zero Deaths",
-          "start": 807.0,
-          "duration": 122.48
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-24/happy-news-2026-09-24.mp3"
     }
   ],
-  "updated": "2026-10-24T18:37:41Z"
+  "updated": "2026-10-25T18:46:35Z"
 }
