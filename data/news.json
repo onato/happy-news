@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-24T18:50:00Z",
+  "updated": "2026-10-25T18:50:00Z",
   "stories": [
+    {
+      "headline": "Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First",
+      "summary": "A southern ground hornbill at ARTIS Royal Zoo broke both halves of its beak, and vets fitted it with two 3D-printed prostheses. The bird was using the new beak within hours and eating on its own the same day.",
+      "narrative": "At ARTIS Royal Zoo in Amsterdam, a male southern ground hornbill suffered a serious injury: both the upper and lower parts of his beak broke, leaving two misshapen stumps. For a bird that relies on its beak to pick up food, that could have been a life-threatening problem.\n\nZoo veterinarian Martine van Zijll Langhout teamed up with the veterinary faculty at Utrecht University to find a fix. CT scans of the bird's skull guided the design of two custom prostheses, which were 3D-printed in plastic.\n\nThe new beak parts were attached using titanium components and screws. Within hours of the operation, the hornbill was already using his new beak. The next morning he picked a mouse up off the ground, and later that day he was eating by himself.\n\nThe team says that, as far as they could find in the scientific literature, nobody has previously replaced both the upper and lower parts of a bird's beak this way. Long-term results are still unknown, but the early signs are encouraging, and the technique could help other birds with similar injuries.",
+      "url": "https://www.goodgoodgood.co/articles/endangered-species-world-first-prosthetic-beak",
+      "source": "Good Good Good",
+      "published": "2026-10-19T19:27:00Z",
+      "category": "Animals",
+      "added": "2026-10-25T18:50:00Z",
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6ad66d60c381f3e073c2a075_6ad66d5eff41f5b16ac7dc77_endangered-species-world-first-prosthetic-beak-featured.webp"
+    },
     {
       "headline": "Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began",
       "summary": "Brazil's space agency reports 3,335 square kilometres of Amazon forest cleared in the year to July, 42% less than the year before and the lowest since records began in 1988. Clearing in the Cerrado savanna also hit a record low.",
@@ -2082,16 +2093,6 @@
       "category": "Community",
       "added": "2026-09-07T19:44:17Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Sampson-James-by-Jasper-Steinmetz-Gofundme.jpeg"
-    },
-    {
-      "headline": "Structured Lifestyle Program Delivers Far Bigger Cognitive Gains Than Standard Health Advice in Major Trial",
-      "summary": "A two-year trial across 11 Latin American countries found that older adults at risk of dementia who followed a structured program of exercise, nutrition coaching, cognitive training, and social engagement showed 55% greater improvement in overall cognition than those given only basic health education.",
-      "narrative": "Dementia prevention research has spent years searching for something beyond medication, and a large trial presented at the Alzheimer's Association International Conference in London has produced one of the clearest answers yet: structured lifestyle support works, and it works substantially better than simply telling people to eat well and stay active.\n\nThe study, known as LatAm-FINGERS, enrolled 1,065 older adults considered at risk of cognitive decline across 12 sites in 11 Latin American countries, from Mexico and Brazil to Chile and the Dominican Republic. Researchers split participants into two groups. One received a systematic lifestyle intervention: continuous coaching, supervised exercise sessions, nutrition counseling, cognitive training exercises, and 38 group meetings over the course of the study. The other received a lighter-touch flexible program, with periodic health education sessions and just four group meetings.\n\nAfter two years, the difference was striking. Participants in the intensive, coached program showed 55% greater improvement on a composite measure of global cognition than those in the lighter program, along with larger gains specifically in memory, executive function, and processing speed. Both groups improved to some degree, which itself is encouraging, but the structured coaching produced meaningfully better results.\n\nWhat makes this trial notable is where it happened and how it was built. Rather than importing a program designed for wealthier countries, researchers adapted the intervention to local contexts across a dozen sites spanning very different cultures, economies, and health systems. The fact that the approach worked across that range suggests it is not dependent on resources only available in high-income settings, which matters enormously given that dementia risk is rising fastest in low- and middle-income countries as populations age.\n\nThe practical implication is significant for public health planners: this is not a drug requiring years of regulatory approval, but a combination of exercise, diet, mental stimulation, and social contact delivered through regular coaching, something health systems can plausibly scale up. For families and individuals watching a parent or grandparent's memory start to slip, the trial offers something concrete rather than fatalistic: a program that measurably slowed the kind of decline that so often feels inevitable, built and tested in the kinds of communities that need it most.",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260903064246.htm",
-      "source": "ScienceDaily",
-      "published": "2026-09-06T00:00:00Z",
-      "category": "Health",
-      "added": "2026-09-07T19:44:17Z"
     }
   ]
 }
