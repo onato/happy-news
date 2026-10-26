@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-10-26",
+      "title": "Happy News \u2014 26 October 2026",
+      "runKey": "2026-10-26T20:56:21Z",
+      "published": "2026-10-26T20:56:59Z",
+      "duration": 262.13,
+      "bytes": 2097958,
+      "storyCount": 4,
+      "guid": "happy-news-2026-10-26",
+      "summary": "Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure",
+      "chapters": [
+        {
+          "url": "https://kiro7.com/news/local/new-male-calf-born-southern-resident-orca-j35/X2J6WVIM7VFQFAMEOXZBON5ZXA",
+          "headline": "Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf",
+          "start": 7.92,
+          "duration": 57.74
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/live-smithsonian-webcam-for-cheetah-den-and-5-cubs/",
+          "headline": "Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam",
+          "start": 65.66,
+          "duration": 50.72
+        },
+        {
+          "url": "https://www.mskcc.org/news/rectal-cancer-disappears-after-experimental-use-immunotherapy",
+          "headline": "FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo",
+          "start": 116.38,
+          "duration": 79.68
+        },
+        {
+          "url": "https://goodnewsnetwork.org/st-paul-man-jumps-onto-runaway-school-bus-saves-18-children",
+          "headline": "Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure",
+          "start": 196.06,
+          "duration": 63.52
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3"
+    },
+    {
       "date": "2026-10-25",
       "title": "Happy News \u2014 25 October 2026",
       "runKey": "2026-10-25T18:50:00Z",
@@ -753,63 +791,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-27/happy-news-2026-09-27.mp3"
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Happy News \u2014 25 September 2026",
-      "runKey": "2026-09-25T19:54:34Z",
-      "published": "2026-09-25T20:01:07Z",
-      "duration": 1060.92,
-      "bytes": 8488334,
-      "storyCount": 7,
-      "guid": "happy-news-2026-09-25",
-      "summary": "Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/nonprofit-puts-ex-cons-to-work-with-paid-apprenticeships-as-machinists/",
-          "headline": "Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average",
-          "start": 7.5,
-          "duration": 152.3
-        },
-        {
-          "url": "https://phys.org/news/2026-09-tool-gap-harnessing-untapped-potential.html",
-          "headline": "Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses",
-          "start": 159.8,
-          "duration": 153.58
-        },
-        {
-          "url": "https://www.rnz.co.nz/news/environment/1549658/bringing-aotea-back-to-life-through-a-te-ao-maori-lens",
-          "headline": "An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest",
-          "start": 313.38,
-          "duration": 159.72
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/teens-set-world-record-for-most-sports-balls-recycled-in-one-day-diverting-2675-pounds-from-landfills/",
-          "headline": "Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record",
-          "start": 473.1,
-          "duration": 142.84
-        },
-        {
-          "url": "https://www.click2houston.com/news/world/2026/09/24/ugandans-plant-trees-near-national-park-to-keep-people-out-of-gorillas-habitat/",
-          "headline": "Ugandan Communities Plant Trees to Give Mountain Gorillas More Room to Roam",
-          "start": 615.94,
-          "duration": 157.14
-        },
-        {
-          "url": "https://www.opb.org/article/2026/09/23/phil-penny-knight-donation-oregon/",
-          "headline": "Phil and Penny Knight Give $1 Billion to Create a New Engineering College at Oregon",
-          "start": 773.08,
-          "duration": 142.58
-        },
-        {
-          "url": "https://pmn.co.nz/read/sports/seven-year-old-fijian-tongan-star-wins-fourth-world-jiu-jutsu-title",
-          "headline": "A Seven-Year-Old Aucklander Wins Her Fourth World Jiu-Jitsu Title",
-          "start": 915.66,
-          "duration": 142.66
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-25/happy-news-2026-09-25.mp3"
     }
   ],
-  "updated": "2026-10-25T18:46:35Z"
+  "updated": "2026-10-26T20:57:21Z"
 }

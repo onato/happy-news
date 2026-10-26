@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 18:46:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 20:57:21 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 26 October 2026</title>
+      <description>Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure</description>
+      <itunes:summary>Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 20:56:59 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3" length="2097958" type="audio/mpeg" />
+      <itunes:duration>0:04:22</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 25 October 2026</title>
       <description>One good things: Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First</description>
@@ -334,18 +346,6 @@
       <pubDate>Sun, 27 Sep 2026 19:43:23 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-27/happy-news-2026-09-27.mp3" length="9374030" type="audio/mpeg" />
       <itunes:duration>0:19:32</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 25 September 2026</title>
-      <description>Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record</description>
-      <itunes:summary>Seven good things: Formerly Incarcerated Machinists Graduate at a 3% Reoffending Rate, a Fraction of the National Average; Otago Scientists Build a Tool to Unlock the Hidden Genes of Bacteria-Killing Viruses; An Iwi-Led Team Is Clearing Feral Cats From Great Barrier Island, Forest by Forest; Teens Recycle 22,000 Sports Balls in a Day, Setting a Guinness World Record</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 20:01:07 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-25/happy-news-2026-09-25.mp3" length="8488334" type="audio/mpeg" />
-      <itunes:duration>0:17:41</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
