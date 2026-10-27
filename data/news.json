@@ -1,6 +1,37 @@
 {
-  "updated": "2026-10-26T20:56:21Z",
+  "updated": "2026-10-27T20:50:00Z",
   "stories": [
+    {
+      "headline": "Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer",
+      "summary": "A phase 3 trial of 776 women whose endometrial cancer had returned after immunotherapy found the antibody-drug conjugate sacituzumab tirumotecan lowered the risk of progression by 41% and of death by 32% compared with standard chemotherapy. Tumours shrank in 35% of patients on the new drug versus 17% on chemotherapy. Results were presented at ESMO and published in The Lancet.",
+      "narrative": "Women whose womb cancer comes back after immunotherapy have had few good options, and chemotherapy has long been the fallback. A large international trial presented this week suggests there may now be something better.\n\nThe study, led from NYU Langone's Perlmutter Cancer Center and run at more than two hundred cancer centres in twenty-nine countries, compared a newer drug called sacituzumab tirumotecan with chemotherapy chosen by each patient's doctor. The drug is an antibody-drug conjugate: it homes in on a protein found on many tumour cells and delivers a toxic payload directly to them. Everyone enrolled had advanced or recurrent endometrial cancer and had already been treated with pembrolizumab.\n\nIn total, 386 women received the new drug and 390 received chemotherapy. Those on the new drug had a 41 percent lower risk of their disease progressing, and a 32 percent lower risk of dying. Tumours shrank in just over a third of women on the new treatment, roughly double the rate seen with chemotherapy. The side effects, including low blood counts, mouth sores and dry or itchy eyes, were described by the researchers as manageable.\n\nThe lead investigator said the results point to a new standard of care for this group of patients. The findings were presented at the European Society for Medical Oncology congress and published at the same time in The Lancet.\n\nThere are caveats worth hearing. The trial was open-label, it was funded by the drug's manufacturer, and the drug is not yet approved. But a randomised trial this large showing both slower progression and longer survival is exactly the kind of result that changes treatment, and it gives women facing a returning cancer a real prospect of more time.",
+      "url": "https://news-medical.net/news/20261026/New-drug-effectively-decreases-recurrence-of-and-death-from-endometrial-cancer.aspx",
+      "source": "News-Medical",
+      "published": "2026-10-26T12:00:00Z",
+      "category": "Health",
+      "added": "2026-10-27T20:50:00Z"
+    },
+    {
+      "headline": "Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf",
+      "summary": "A mother elephant and her calf fell into a water tank in Kurseong, West Bengal, and forest staff pulled both out, but the calf was separated from the herd in the process. The team followed the mother through the forest for seven hours until they could bring the pair back together.",
+      "narrative": "In Kurseong, in the hills of West Bengal, a mother elephant and her calf tumbled into a water tank. Forest department staff got both animals out safely, but in the confusion of the rescue the calf ended up separated from its mother, which can be a death sentence for a young elephant.\n\nInstead of leaving the calf to fend for itself, the Kurseong forest team set out to find the mother. For about seven hours they tracked her through the surrounding forest, while the calf waited under their care.\n\nWhen they finally located her, the staff released the calf. Video shared by Indian Forest Service officer Parveen Kaswan on 25 October shows the mother coming back, rejoining her herd and leading her calf away with her. Kaswan praised the team's persistence.\n\nIt is a small story, but a satisfying one: two animals saved from a water tank, and a family put back together because a group of people refused to give up halfway through the job.",
+      "url": "https://kalingatv.com/offbeat/seven-hours-apart-forest-staff-reunite-elephant-calf-with-mother-in-heartwarming-rescue/",
+      "source": "Kalinga TV",
+      "published": "2026-10-26T12:00:00Z",
+      "category": "Animals",
+      "added": "2026-10-27T20:50:00Z",
+      "image": "https://kalingatv.com/wp-content/uploads/2026/10/ele.jpg"
+    },
+    {
+      "headline": "Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold",
+      "summary": "Dr Jean Uasike Allen, a University of Auckland senior lecturer, won her division at the ITF Taekwon-Do World Cup in Spain just four years after starting the sport with her shy teenage daughter. She had taken silver at the previous World Cup in Argentina.",
+      "narrative": "Dr Jean Uasike Allen had never done any martial arts when her teenage daughter Layla asked to join a Taekwon-Do club in 2022 but felt too shy to go alone. So Jean joined too, and she has not looked back.\n\nThis month, the University of Auckland senior lecturer, who researches and teaches sport and physical education, won gold in the women's 36 to 45 patterns division at the ITF Taekwon-Do World Cup in Benidorm, Spain, representing New Zealand. At the previous World Cup in Argentina she had come second, so the gold was a step up.\n\nShe described the win as surreal, and said she could hear the whole New Zealand team and supporters cheering for her. She also enjoys being an unconventional competitor, older and larger than the typical martial artist, and says there is something a little disruptive in that.\n\nBeyond the medal, she says the best part has been the friendships made at home and overseas. It is a heartening story of a parent supporting a child's first step and ending up a world champion herself.",
+      "url": "https://www.auckland.ac.nz/en/news/2026/10/20/from-research-to-the-world-stage-pacific-scholar-claims-gold.html",
+      "source": "University of Auckland",
+      "published": "2026-10-20T00:00:00Z",
+      "category": "Culture",
+      "added": "2026-10-27T20:50:00Z"
+    },
     {
       "headline": "Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure",
       "summary": "A 27-year-old man outside a St. Paul shop saw a school bus rolling after its driver appeared to have a seizure. He jumped aboard, pulled the parking brake and stayed with the driver until paramedics arrived. All 18 students on board were safe.",
@@ -2065,36 +2096,6 @@
       "category": "Community",
       "added": "2026-09-09T19:11:13Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Will-Soper-an-EMT-and-technical-rescuer-with-Burke-Rescue-Inc.-and-SAR-photo-supplied-to-Outside-as-a-courtesy-of-Mr.-Soper.jpg"
-    },
-    {
-      "headline": "The FDA Approves the First Ever Treatment for Alexander Disease",
-      "summary": "The FDA has approved Zanvastro, the first drug ever authorized to treat Alexander disease, a rare and severe neurological disorder that causes seizures, developmental delays and progressive loss of mobility. Trials showed the drug measurably slowed the disease's progression in children and adults, rather than just managing symptoms.",
-      "narrative": "Alexander disease is one of the cruelest kinds of rare disorder: it affects fewer than one in a million people, strikes at any age from infancy to adulthood, and until now had no treatment that touched its underlying cause. The disease is driven by mutations that cause a protein called GFAP to build up abnormally in the brain's supportive cells, leading to seizures, developmental delays, difficulty walking, muscle weakness and dangerous increases in brain pressure.\n\nThat changed on September 3, when the FDA approved Zanvastro, known chemically as zilganersen, as the first ever therapy for the disease. Made by Ionis Pharmaceuticals, the drug is what's called an antisense oligonucleotide, a small, lab-made strand of genetic material injected into the spinal canal every three months. Rather than trying to clear the damaging GFAP protein after it accumulates, it works upstream, reducing how much of the abnormal protein the body produces in the first place.\n\nThe trial results were the kind that rare-disease researchers rarely get to report. Patients aged five and older who already had trouble walking showed significantly improved walking speed after 61 weeks on the drug compared with those on placebo. Younger children, aged two to four, continued gaining basic motor skills, standing, walking, running, jumping, while children in the control group were losing those abilities as the disease progressed. Data on infants under two was more limited, but modelling of how the drug behaves in the body supported extending the approval to that youngest and most vulnerable group as well.\n\nDr Emily Freilich, who worked on the approval, called it \"a landmark moment for this community, offering the first therapy that addresses the underlying cause of this rare and serious disease.\" For families who have had nothing to offer their children but supportive care, it's the first treatment that promises to change the disease's course rather than simply ease its symptoms.",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
-      "source": "U.S. Food and Drug Administration",
-      "published": "2026-09-03T00:00:00Z",
-      "category": "Health",
-      "added": "2026-09-08T19:22:25Z"
-    },
-    {
-      "headline": "Physicists Directly Observe a Falling Quantum Object Obey Einstein's Gravity for the First Time",
-      "summary": "An international team measured, for the first time, the exact quantum phase shift predicted when Einstein's equivalence principle is applied to a falling quantum object. The result shows Einstein's century-old theory of gravity still holds at the quantum scale, a step toward reconciling gravity with quantum mechanics.",
-      "narrative": "A team of physicists led by researchers at Ben-Gurion University of the Negev, the University of Ulm and the University of Oxford has, for the first time, watched a single falling atom behave exactly as Einstein's century-old theory of gravity says it should, even though the atom was behaving as a quantum object at the time.\n\nThe experiment used a device the team calls a Quantum Galileo Interferometer. It takes an ultracold rubidium atom and splits its quantum wave function into two paths: one is held in place, the other is allowed to fall freely under gravity for a fraction of a second. When the two paths are brought back together, they interfere with each other, and the pattern of that interference reveals a tiny phase shift that built up while one part of the atom was falling.\n\nThat phase shift is exactly what Einstein's equivalence principle predicts should happen when gravity acts on a quantum system, a prediction that had never been directly measured before. Confirming it matters because gravity and quantum mechanics are the two great pillars of modern physics, and nobody has managed to reconcile them into one theory. Every test that shows Einstein's principle survives contact with the quantum world narrows down how any future unified theory has to behave.\n\nAmong the co-authors is Sir Roger Penrose, the Nobel laureate whose decades of work on gravity and quantum theory helped inspire experiments exactly like this one. Physicist Vlatko Vedral, another member of the team, said the experiment \"pushes quantum mechanics into one of its most intriguing frontiers, gravity, and shows that, once again, its predictions hold.\"\n\nThe researchers are careful to note the experiment doesn't prove gravity itself is quantum, or unite the two theories. But it does prove the technique works, and the team says heavier test objects, such as nanodiamonds, could push the same method even further, probing gravity's quantum behaviour in ever more demanding conditions.",
-      "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
-      "source": "University of Oxford",
-      "published": "2026-09-02T18:00:00Z",
-      "category": "Science",
-      "added": "2026-09-08T19:22:25Z"
-    },
-    {
-      "headline": "Native Birds Are Flooding Back to Otago Peninsula After 15 Years of Possum Removal",
-      "summary": "Otago Peninsula has been declared free of possums after more than fifteen years of community-led trapping and monitoring, and native birds are returning in numbers locals haven't seen in decades. More than 25,000 possums were removed by volunteers, restoring the flowers and fruit that birds depend on.",
-      "narrative": "Otago Peninsula, the finger of hilly land that curls out from Dunedin into the Pacific, has just been declared free of possums, the end point of more than fifteen years of trapping, poisoning and monitoring led by the volunteer-run Otago Peninsula Biodiversity Group, working alongside Predator Free Dunedin.\n\nSince the campaign began, more than 25,000 possums have been removed from the peninsula. Possums strip native trees of flowers and leaves, competing directly with birds for the nectar, fruit and seed they depend on, so their removal has let the peninsula's forest canopy recover its natural abundance of blossom.\n\nWith that food source restored, birds are returning in numbers locals say they haven't seen in decades. Tui and korimako (bellbird) are now common across the peninsula, kereru are turning up in gardens they'd abandoned, and quieter bush birds including piwakawaka, riroriro, titipounamu and matata are being heard again in patches of forest that had gone largely silent. Kaka and tauhou have also been spotted more often.\n\nDunedin mayor Sophie Barker, who grew up on the peninsula, has spoken about the contrast between the \"pesky possums\" of her childhood and the birdlife filling the same gullies today. It's a change visible enough that the peninsula is increasingly promoted as a birdwatching destination in its own right.\n\nThe achievement is being held up as a working model for predator-free efforts elsewhere in New Zealand: a sustained, community-led campaign, run mostly by volunteers, that has measurably changed what the local ecosystem sounds like.",
-      "url": "https://www.rnz.co.nz/news/environment/1304990/birds-flocking-back-after-possums-eliminated-from-otago-peninsula",
-      "source": "RNZ",
-      "published": "2026-09-08T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-08T19:22:25Z"
     }
   ]
 }
