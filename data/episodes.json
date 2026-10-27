@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-10-27",
+      "title": "Happy News \u2014 27 October 2026",
+      "runKey": "2026-10-27T20:50:00Z",
+      "published": "2026-10-27T20:29:38Z",
+      "duration": 253.99,
+      "bytes": 2033156,
+      "storyCount": 3,
+      "guid": "happy-news-2026-10-27",
+      "summary": "Three good things: Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer; Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf; Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold",
+      "chapters": [
+        {
+          "url": "https://news-medical.net/news/20261026/New-drug-effectively-decreases-recurrence-of-and-death-from-endometrial-cancer.aspx",
+          "headline": "Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer",
+          "start": 7.42,
+          "duration": 112.36
+        },
+        {
+          "url": "https://kalingatv.com/offbeat/seven-hours-apart-forest-staff-reunite-elephant-calf-with-mother-in-heartwarming-rescue/",
+          "headline": "Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf",
+          "start": 119.78,
+          "duration": 62.44
+        },
+        {
+          "url": "https://www.auckland.ac.nz/en/news/2026/10/20/from-research-to-the-world-stage-pacific-scholar-claims-gold.html",
+          "headline": "Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold",
+          "start": 182.22,
+          "duration": 69.22
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-27/happy-news-2026-10-27.mp3"
+    },
+    {
       "date": "2026-10-26",
       "title": "Happy News \u2014 26 October 2026",
       "runKey": "2026-10-26T20:56:21Z",
@@ -793,5 +825,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-27/happy-news-2026-09-27.mp3"
     }
   ],
-  "updated": "2026-10-26T20:57:21Z"
+  "updated": "2026-10-27T20:29:57Z"
 }

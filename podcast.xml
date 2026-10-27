@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 20:57:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:29:58 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 27 October 2026</title>
+      <description>Three good things: Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer; Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf; Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold</description>
+      <itunes:summary>Three good things: Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer; Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf; Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 20:29:38 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-27/happy-news-2026-10-27.mp3" length="2033156" type="audio/mpeg" />
+      <itunes:duration>0:04:14</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 26 October 2026</title>
       <description>Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure</description>
