@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 20:29:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:50:30 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 28 October 2026</title>
+      <description>Four good things: Boat Crew Rescues Exhausted Kangaroo Found Swimming Two Miles Off South Australia; Daily Fibre Supplement Eased Knee Arthritis Pain and Boosted Grip Strength in Trial; Six New Calves Lift a Sacred Mekong Irrawaddy Dolphin Population to 118; New Certification Scheme Rewards Solar Farms That Become Havens for Wildlife</description>
+      <itunes:summary>Four good things: Boat Crew Rescues Exhausted Kangaroo Found Swimming Two Miles Off South Australia; Daily Fibre Supplement Eased Knee Arthritis Pain and Boosted Grip Strength in Trial; Six New Calves Lift a Sacred Mekong Irrawaddy Dolphin Population to 118; New Certification Scheme Rewards Solar Farms That Become Havens for Wildlife</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 20:50:08 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-28/happy-news-2026-10-28.mp3" length="2550262" type="audio/mpeg" />
+      <itunes:duration>0:05:19</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 27 October 2026</title>
       <description>Three good things: Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer; Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf; Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold</description>
@@ -346,18 +358,6 @@
       <pubDate>Mon, 28 Sep 2026 21:38:27 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-28/happy-news-2026-09-28.mp3" length="1954189" type="audio/mpeg" />
       <itunes:duration>0:04:04</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 27 September 2026</title>
-      <description>Eight good things: After Decades of Meth Addiction, a Northland Grandmother Is 11 Years Sober and Raising Her Grandkids; An Iwi-Led Floating Solar Farm on a Wastewater Pond Will Fund Power Bills for 50 NZ Families; A One-Time CRISPR Treatment Kept Cholesterol Half Its Normal Level for a Full Year; Eight Pacific Artists Honoured at New Zealand's 30th Arts Pasifika Awards</description>
-      <itunes:summary>Eight good things: After Decades of Meth Addiction, a Northland Grandmother Is 11 Years Sober and Raising Her Grandkids; An Iwi-Led Floating Solar Farm on a Wastewater Pond Will Fund Power Bills for 50 NZ Families; A One-Time CRISPR Treatment Kept Cholesterol Half Its Normal Level for a Full Year; Eight Pacific Artists Honoured at New Zealand's 30th Arts Pasifika Awards</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 19:43:23 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-27/happy-news-2026-09-27.mp3" length="9374030" type="audio/mpeg" />
-      <itunes:duration>0:19:32</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
