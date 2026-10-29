@@ -1,6 +1,56 @@
 {
   "episodes": [
     {
+      "date": "2026-10-29",
+      "title": "Happy News \u2014 29 October 2026",
+      "runKey": "2026-10-29T21:05:00Z",
+      "published": "2026-10-29T20:56:21Z",
+      "duration": 461.22,
+      "bytes": 3691622,
+      "storyCount": 6,
+      "guid": "happy-news-2026-10-29",
+      "summary": "Six good things: Russell Nears Becoming the First Pest-Free Town on Mainland New Zealand; Namibia's Lion Rangers Use Smartphones and Ancient Tracking Skills to Protect Desert Lions; Scientists Recreate the Colour-Changing Glass of the Roman Lycurgus Cup; Fernbird Returns to Wellington Region for the First Time in About 70 Years",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2211834/russell-on-the-cusp-of-becoming-first-mainland-town-to-achieve-pest-free-status",
+          "headline": "Russell Nears Becoming the First Pest-Free Town on Mainland New Zealand",
+          "start": 7.62,
+          "duration": 102.1
+        },
+        {
+          "url": "https://www.positive.news/society/smartphones-ancient-tracking-skills-and-a-future-for-desert-lions/",
+          "headline": "Namibia's Lion Rangers Use Smartphones and Ancient Tracking Skills to Protect Desert Lions",
+          "start": 109.72,
+          "duration": 79.04
+        },
+        {
+          "url": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+          "headline": "Scientists Recreate the Colour-Changing Glass of the Roman Lycurgus Cup",
+          "start": 188.76,
+          "duration": 65.38
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2102490/native-bird-spotted-in-wellington-for-first-time-in-about-70-years",
+          "headline": "Fernbird Returns to Wellington Region for the First Time in About 70 Years",
+          "start": 254.14,
+          "duration": 75.12
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2070708/no-traces-of-rats-found-in-part-of-raukumara-forest-where-population-of-kiwi-live",
+          "headline": "No Rats Found in Rauk\u016bmara Forest Block Where Kiwi Live After Iwi-Led Pest Control",
+          "start": 329.26,
+          "duration": 76.62
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2059882/hundreds-of-critically-endangered-nz-weevils-released-back-into-the-wild",
+          "headline": "Hundreds of Critically Endangered Canterbury Knobbled Weevils Released After Lab Breeding",
+          "start": 405.88,
+          "duration": 52.8
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-29/happy-news-2026-10-29.mp3"
+    },
+    {
       "date": "2026-10-28",
       "title": "Happy News \u2014 28 October 2026",
       "runKey": "2026-10-28T20:55:00Z",
@@ -767,39 +817,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-29/happy-news-2026-09-29.mp3"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Happy News \u2014 28 September 2026",
-      "runKey": "2026-09-28T21:45:00Z",
-      "published": "2026-09-28T21:38:27Z",
-      "duration": 244.18,
-      "bytes": 1954189,
-      "storyCount": 3,
-      "guid": "happy-news-2026-09-28",
-      "summary": "Three good things: Rescued Alaska Harbor Seals Return to the Wild as Hundreds Cheer; Kosovo Finishes Clearing Landmines, 27 Years After the War Ended; A Urine and Vaginal Test Could Spare Many Women Invasive Womb Cancer Checks",
-      "chapters": [
-        {
-          "url": "https://www.alaskasnewssource.com/2026/09/26/hundreds-cheer-rescued-alaska-seals-return-wild/",
-          "headline": "Rescued Alaska Harbor Seals Return to the Wild as Hundreds Cheer",
-          "start": 7.6,
-          "duration": 60.74
-        },
-        {
-          "url": "https://squirrel-news.net/stories/kosovo-concludes-27-years-of-landmine-clearance",
-          "headline": "Kosovo Finishes Clearing Landmines, 27 Years After the War Ended",
-          "start": 68.34,
-          "duration": 85.32
-        },
-        {
-          "url": "https://www.manchester.ac.uk/about/news/simple-test-could-take-the-pain-out-of-womb-cancer-check",
-          "headline": "A Urine and Vaginal Test Could Spare Many Women Invasive Womb Cancer Checks",
-          "start": 153.66,
-          "duration": 87.96
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-28/happy-news-2026-09-28.mp3"
     }
   ],
-  "updated": "2026-10-28T20:50:30Z"
+  "updated": "2026-10-29T20:56:51Z"
 }

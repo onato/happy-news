@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 20:50:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 20:56:51 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 29 October 2026</title>
+      <description>Six good things: Russell Nears Becoming the First Pest-Free Town on Mainland New Zealand; Namibia's Lion Rangers Use Smartphones and Ancient Tracking Skills to Protect Desert Lions; Scientists Recreate the Colour-Changing Glass of the Roman Lycurgus Cup; Fernbird Returns to Wellington Region for the First Time in About 70 Years</description>
+      <itunes:summary>Six good things: Russell Nears Becoming the First Pest-Free Town on Mainland New Zealand; Namibia's Lion Rangers Use Smartphones and Ancient Tracking Skills to Protect Desert Lions; Scientists Recreate the Colour-Changing Glass of the Roman Lycurgus Cup; Fernbird Returns to Wellington Region for the First Time in About 70 Years</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 20:56:21 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-29/happy-news-2026-10-29.mp3" length="3691622" type="audio/mpeg" />
+      <itunes:duration>0:07:41</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 28 October 2026</title>
       <description>Four good things: Boat Crew Rescues Exhausted Kangaroo Found Swimming Two Miles Off South Australia; Daily Fibre Supplement Eased Knee Arthritis Pain and Boosted Grip Strength in Trial; Six New Calves Lift a Sacred Mekong Irrawaddy Dolphin Population to 118; New Certification Scheme Rewards Solar Farms That Become Havens for Wildlife</description>
@@ -346,18 +358,6 @@
       <pubDate>Tue, 29 Sep 2026 20:29:06 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-29/happy-news-2026-09-29.mp3" length="1512691" type="audio/mpeg" />
       <itunes:duration>0:03:09</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 28 September 2026</title>
-      <description>Three good things: Rescued Alaska Harbor Seals Return to the Wild as Hundreds Cheer; Kosovo Finishes Clearing Landmines, 27 Years After the War Ended; A Urine and Vaginal Test Could Spare Many Women Invasive Womb Cancer Checks</description>
-      <itunes:summary>Three good things: Rescued Alaska Harbor Seals Return to the Wild as Hundreds Cheer; Kosovo Finishes Clearing Landmines, 27 Years After the War Ended; A Urine and Vaginal Test Could Spare Many Women Invasive Womb Cancer Checks</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 21:38:27 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-28/happy-news-2026-09-28.mp3" length="1954189" type="audio/mpeg" />
-      <itunes:duration>0:04:04</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
