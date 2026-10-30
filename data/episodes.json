@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-10-30",
+      "title": "Happy News \u2014 30 October 2026",
+      "runKey": "2026-10-30T09:00:00Z",
+      "published": "2026-10-30T20:28:13Z",
+      "duration": 299.79,
+      "bytes": 2399716,
+      "storyCount": 4,
+      "guid": "happy-news-2026-10-30",
+      "summary": "Four good things: Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature; Texas School District Names New Elementary After Beloved Custodian 'Miss Marilyn'; London's Oxford Street Goes Car-Free Along Nearly a Kilometre; Shell by Shell, Volunteers Help Tara-iti Fairy Terns Recover Toward 50 Birds",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/world/2239116/charity-crowdfunds-millions-to-buy-historic-english-estate",
+          "headline": "Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature",
+          "start": 7.76,
+          "duration": 91.9
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/new-texas-school-is-named-for-longtime-janitor-miss-marilyn-watch-her-reaction/",
+          "headline": "Texas School District Names New Elementary After Beloved Custodian 'Miss Marilyn'",
+          "start": 99.66,
+          "duration": 66.68
+        },
+        {
+          "url": "https://www.euronews.com/2026/10/27/londons-most-famous-shopping-street-is-now-pedestrianised",
+          "headline": "London's Oxford Street Goes Car-Free Along Nearly a Kilometre",
+          "start": 166.34,
+          "duration": 58.18
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2174090/our-changing-world-saving-tara-iti-shell-by-shell",
+          "headline": "Shell by Shell, Volunteers Help Tara-iti Fairy Terns Recover Toward 50 Birds",
+          "start": 224.52,
+          "duration": 72.6
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-30/happy-news-2026-10-30.mp3"
+    },
+    {
       "date": "2026-10-29",
       "title": "Happy News \u2014 29 October 2026",
       "runKey": "2026-10-29T21:05:00Z",
@@ -791,33 +829,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-30/happy-news-2026-09-30.mp3"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Happy News \u2014 29 September 2026",
-      "runKey": "2026-09-29T20:40:00Z",
-      "published": "2026-09-29T20:29:06Z",
-      "duration": 189.0,
-      "bytes": 1512691,
-      "storyCount": 2,
-      "guid": "happy-news-2026-09-29",
-      "summary": "Two good things: The High Seas Treaty Reaches 100 Member Countries; Martha's Rule Is Being Extended to Every A&E Department in England",
-      "chapters": [
-        {
-          "url": "https://highseasalliance.org/2026/09/23/the-high-seas-treaty-reaches-100-parties-cementing-momentum-ahead-of-its-first-conference/",
-          "headline": "The High Seas Treaty Reaches 100 Member Countries",
-          "start": 7.98,
-          "duration": 94.12
-        },
-        {
-          "url": "https://www.nursingtimes.net/emergency-and-critical-care/marthas-rule-set-to-be-expanded-to-all-ae-departments-22-09-2026/",
-          "headline": "Martha's Rule Is Being Extended to Every A&E Department in England",
-          "start": 102.1,
-          "duration": 84.3
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-29/happy-news-2026-09-29.mp3"
     }
   ],
-  "updated": "2026-10-29T20:56:51Z"
+  "updated": "2026-10-30T20:28:32Z"
 }

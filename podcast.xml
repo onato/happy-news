@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 20:56:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 20:28:32 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 30 October 2026</title>
+      <description>Four good things: Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature; Texas School District Names New Elementary After Beloved Custodian 'Miss Marilyn'; London's Oxford Street Goes Car-Free Along Nearly a Kilometre; Shell by Shell, Volunteers Help Tara-iti Fairy Terns Recover Toward 50 Birds</description>
+      <itunes:summary>Four good things: Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature; Texas School District Names New Elementary After Beloved Custodian 'Miss Marilyn'; London's Oxford Street Goes Car-Free Along Nearly a Kilometre; Shell by Shell, Volunteers Help Tara-iti Fairy Terns Recover Toward 50 Birds</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 20:28:13 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-30/happy-news-2026-10-30.mp3" length="2399716" type="audio/mpeg" />
+      <itunes:duration>0:05:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 29 October 2026</title>
       <description>Six good things: Russell Nears Becoming the First Pest-Free Town on Mainland New Zealand; Namibia's Lion Rangers Use Smartphones and Ancient Tracking Skills to Protect Desert Lions; Scientists Recreate the Colour-Changing Glass of the Roman Lycurgus Cup; Fernbird Returns to Wellington Region for the First Time in About 70 Years</description>
@@ -346,18 +358,6 @@
       <pubDate>Wed, 30 Sep 2026 20:34:59 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-30/happy-news-2026-09-30.mp3" length="1474883" type="audio/mpeg" />
       <itunes:duration>0:03:04</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 29 September 2026</title>
-      <description>Two good things: The High Seas Treaty Reaches 100 Member Countries; Martha's Rule Is Being Extended to Every A&amp;E Department in England</description>
-      <itunes:summary>Two good things: The High Seas Treaty Reaches 100 Member Countries; Martha's Rule Is Being Extended to Every A&amp;E Department in England</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 20:29:06 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-29/happy-news-2026-09-29.mp3" length="1512691" type="audio/mpeg" />
-      <itunes:duration>0:03:09</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
