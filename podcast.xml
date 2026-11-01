@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 20:28:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 20:13:20 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 1 November 2026</title>
+      <description>Three good things: Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed; High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks; Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial</description>
+      <itunes:summary>Three good things: Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed; High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks; Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 20:13:00 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-01/happy-news-2026-11-01.mp3" length="1904500" type="audio/mpeg" />
+      <itunes:duration>0:03:58</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 30 October 2026</title>
       <description>Four good things: Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature; Texas School District Names New Elementary After Beloved Custodian 'Miss Marilyn'; London's Oxford Street Goes Car-Free Along Nearly a Kilometre; Shell by Shell, Volunteers Help Tara-iti Fairy Terns Recover Toward 50 Birds</description>
@@ -334,30 +346,6 @@
       <pubDate>Fri, 02 Oct 2026 20:24:13 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-02/happy-news-2026-10-02.mp3" length="1996268" type="audio/mpeg" />
       <itunes:duration>0:04:09</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 1 October 2026</title>
-      <description>Two good things: First Ever Olive Ridley Sea Turtle Nests Recorded on America's West Coast; Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall</description>
-      <itunes:summary>Two good things: First Ever Olive Ridley Sea Turtle Nests Recorded on America's West Coast; Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 20:50:10 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-01/happy-news-2026-10-01.mp3" length="857796" type="audio/mpeg" />
-      <itunes:duration>0:01:47</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 30 September 2026</title>
-      <description>Two good things: Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline; Indigenous Asháninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero</description>
-      <itunes:summary>Two good things: Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline; Indigenous Asháninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 20:34:59 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-09-30/happy-news-2026-09-30.mp3" length="1474883" type="audio/mpeg" />
-      <itunes:duration>0:03:04</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

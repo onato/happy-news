@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-11-01",
+      "title": "Happy News \u2014 1 November 2026",
+      "runKey": "2026-11-01T20:30:00Z",
+      "published": "2026-11-01T20:13:00Z",
+      "duration": 237.9,
+      "bytes": 1904500,
+      "storyCount": 3,
+      "guid": "happy-news-2026-11-01",
+      "summary": "Three good things: Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed; High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks; Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2273474/sea-turtles-favourite-kiwi-hangouts-revealed",
+          "headline": "Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed",
+          "start": 7.08,
+          "duration": 92.28
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/high-school-fills-football-field-with-groceries-for-nj-food-banks/",
+          "headline": "High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks",
+          "start": 99.36,
+          "duration": 67.32
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/b-vitamin-supplement-can-treat-psoriasis/",
+          "headline": "Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial",
+          "start": 166.68,
+          "duration": 68.68
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-01/happy-news-2026-11-01.mp3"
+    },
+    {
       "date": "2026-10-30",
       "title": "Happy News \u2014 30 October 2026",
       "runKey": "2026-10-30T09:00:00Z",
@@ -777,59 +809,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-02/happy-news-2026-10-02.mp3"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Happy News \u2014 1 October 2026",
-      "runKey": "2026-10-01T20:55:00Z",
-      "published": "2026-10-01T20:50:10Z",
-      "duration": 107.14,
-      "bytes": 857796,
-      "storyCount": 2,
-      "guid": "happy-news-2026-10-01",
-      "summary": "Two good things: First Ever Olive Ridley Sea Turtle Nests Recorded on America's West Coast; Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/first-ever-recorded-sea-turtle-nests-on-americas-west-coast/",
-          "headline": "First Ever Olive Ridley Sea Turtle Nests Recorded on America's West Coast",
-          "start": 7.32,
-          "duration": 46.08
-        },
-        {
-          "url": "https://www.itv.com/news/tyne-tees/2026-09-28/sycamore-gap-stump-shows-ring-of-shoots-three-years-on-from-felling",
-          "headline": "Sycamore Gap Stump Sprouts a Ring of Shoots Up to Three Feet Tall",
-          "start": 53.4,
-          "duration": 51.04
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-01/happy-news-2026-10-01.mp3"
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Happy News \u2014 30 September 2026",
-      "runKey": "2026-09-30T20:45:00Z",
-      "published": "2026-09-30T20:34:59Z",
-      "duration": 184.25,
-      "bytes": 1474883,
-      "storyCount": 2,
-      "guid": "happy-news-2026-09-30",
-      "summary": "Two good things: Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline; Indigenous Ash\u00e1ninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero",
-      "chapters": [
-        {
-          "url": "https://english.news.cn/20260930/ac1a5f0f7b144be9aab47b3d71f9730d/c.html",
-          "headline": "Malaysia Says Its Malayan Tiger Numbers Are Rising After Years of Decline",
-          "start": 7.42,
-          "duration": 61.92
-        },
-        {
-          "url": "https://positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires",
-          "headline": "Indigenous Ash\u00e1ninka Fire Brigades Cut Wildfires in Their Peruvian Forest to Zero",
-          "start": 69.34,
-          "duration": 112.36
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-09-30/happy-news-2026-09-30.mp3"
     }
   ],
-  "updated": "2026-10-30T20:28:32Z"
+  "updated": "2026-11-01T20:13:20Z"
 }
