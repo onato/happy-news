@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-30T09:00:00Z",
+  "updated": "2026-11-01T20:30:00Z",
   "stories": [
+    {
+      "headline": "Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed",
+      "summary": "Satellite tracking has shown which New Zealand harbours green sea turtles favour, from Rangaunu Bay to the Manukau. The DOC-led Team Turtle project can now follow the animals without disturbing them, and the data will help protect their habitat.",
+      "narrative": "New Zealand scientists have been using satellite tags to find out where green sea turtles spend their time in local waters, and the first results are in.\n\nThe work is led by Dr Karen Middlemiss, a marine science advisor at the Department of Conservation, as part of a project called Team Turtle. The tags send location data to a constellation of satellites, so researchers can follow each turtle from a distance without disturbing its routine.\n\nThe turtles do not breed in New Zealand. Instead they treat our harbours as feeding grounds, a bit like a babysitting service for teenagers, as Middlemiss put it, before heading across the Pacific to breed. The favourite spots turn out to be Rangaunu Bay and Harbour, Pārengarenga Harbour, Whangārei Harbour and the Bay of Islands in Northland, plus the Manukau Harbour in Auckland.\n\nSome individual stories stand out. One turtle swam from Northland down to Wellington and back, and another stayed a month in the Manukau. Many stay put in one harbour for long stretches.\n\nKelly Tarlton's, which has rehabilitated eleven rescued turtles, and Auckland Zoo's vets, who have treated eight sick ones since June, are partners in the effort. Knowing where the turtles gather helps target protection, and DOC is asking boaties to keep a lookout, fit propeller guards and slow down where turtles are common. Good information about where these animals live is the first step to keeping them safe.",
+      "url": "https://www.rnz.co.nz/news/environment/2273474/sea-turtles-favourite-kiwi-hangouts-revealed",
+      "source": "RNZ",
+      "published": "2026-11-01T06:41:00+13:00",
+      "category": "Animals",
+      "added": "2026-11-01T20:30:00Z",
+      "image": "https://media.rnztools.nz/rnz/image/upload/s--_iIfFVZP--/t_kt-crop-16x10/w_800/f_auto/q_auto:eco/4JFYAFY_green_turtle_1920_webp"
+    },
+    {
+      "headline": "High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks",
+      "summary": "Students at Howell High School in New Jersey collected over a quarter of a million pounds of food in the second 100-Yard Food Drive Challenge. It was delivered to 30 food banks, the largest drive in the organiser's history.",
+      "narrative": "Thousands of yellow donation bags covered the football field at Howell High School in New Jersey this autumn, stretching from one end zone to the other.\n\nThe bags were the result of the second annual 100-Yard Food Drive Challenge, run by a nonprofit called Dermer Dreams. Hundreds of students collected groceries in their neighbourhoods, and the football team and volunteers then loaded everything onto rented trucks.\n\nIn total, more than a quarter of a million pounds of food was gathered, the biggest drive the group has ever run. It was shared among about thirty food banks, including Lunch Break, Fulfill, the Howell Food Bank and Open Door in Freehold.\n\nDermer Dreams was founded in 2019 by Dan and Alyse Dermer, and its neighbourhood captain programme gives students a way to earn community service hours while tackling hunger. The first challenge took place last year at another high school, and this second edition was far larger. As Dan Dermer said, the students did more than collect food, they brought their communities together.",
+      "url": "https://www.goodnewsnetwork.org/high-school-fills-football-field-with-groceries-for-nj-food-banks/",
+      "source": "Good News Network",
+      "published": "2026-11-01T00:00:00Z",
+      "category": "Community",
+      "added": "2026-11-01T20:30:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Football-field-full-of-food-bank-donations-in-NY-Credit-Tommy-Pantaleo-for-Dermer-Dreams-submitted.jpg"
+    },
+    {
+      "headline": "Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial",
+      "summary": "Chinese researchers found that pantethine, a vitamin B5 derivative, prevented psoriasis in mice and improved symptoms in a 12-week trial of 24 patients. It is early, proof-of-concept work, but it points to a cheap, widely available add-on treatment.",
+      "narrative": "Researchers at the State Key Laboratory of Biomedical Analysis in Beijing have found a promising lead for treating psoriasis, a long-term skin condition with no cure.\n\nThe team, publishing in the Journal of Experimental Medicine, looked at pantethine, a form of vitamin B5 that is sold as a cholesterol supplement. They found that in people with psoriasis, enzymes called Vanins are unusually active in immune cells, using up pantethine and tipping the cells into overdrive. Topping pantethine back up reversed that effect.\n\nIn mice, pantethine prevented psoriasis from developing. In a small trial, 24 patients all used an ointment and half also took pantethine tablets. After twelve weeks the pantethine group had improved symptoms, especially those who began with higher cholesterol.\n\nThe authors call the results encouraging but preliminary. Larger trials are needed, but because pantethine is already widely available, the idea could move quickly if it holds up.",
+      "url": "https://www.goodnewsnetwork.org/b-vitamin-supplement-can-treat-psoriasis/",
+      "source": "Good News Network",
+      "published": "2026-10-31T00:00:00Z",
+      "category": "Health",
+      "added": "2026-11-01T20:30:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Skin-psoriasis-before-after-by-2026-Cao-at-State-Key-Laboratory-of-Biomedical-Analysis-via-SWNS.jpeg"
+    },
     {
       "headline": "Charity Crowdfunds Millions to Buy 3,800-Hectare Rothbury Estate for Nature",
       "summary": "The Wildlife Trusts raised about £30 million, including from 25,000 individual donors, to buy England's largest land purchase in three decades. The Northumberland moorland and forest will become a wildlife sanctuary and corridor.",
@@ -2070,38 +2103,6 @@
       "published": "2026-09-05T00:00:00Z",
       "category": "Culture",
       "added": "2026-09-11T19:07:34Z"
-    },
-    {
-      "headline": "Volunteers Plant Over 1,000 Native Trees Along an Auckland Stream in a Single Morning",
-      "summary": "Conservation Volunteers New Zealand and a new community partner planted 1,005 native trees, shrubs and grasses along South Auckland's Papakura Stream in just two and a half hours, part of a restoration effort that has now put more than 200,000 native plants along the waterway.",
-      "narrative": "Papakura Stream winds through South Auckland, an unglamorous but ecologically important waterway that, like many urban streams in New Zealand, spent decades stripped of the native vegetation that once kept its banks stable and its water clean.\n\nConservation Volunteers New Zealand has been chipping away at that problem for years, working with landowners and local communities to replant the stream's margins. This month, volunteers from a newly signed community partner joined CVNZ crews on site, and together the group planted 1,005 native rākau, trees, shrubs and grasses, along the stream's banks in just two and a half hours.\n\nIt is a single day's work, but it adds to a much bigger total: more than 200,000 native plants now line Papakura Stream as a result of CVNZ's ongoing restoration project, each one helping filter runoff, stabilise the banks against erosion, and rebuild habitat for native fish and birds that depend on healthy freshwater systems.\n\nThe planting day also marked the start of a three-year partnership committing further volunteer hours and support to the project, meaning this stretch of stream should keep gaining ground rather than just holding steady.\n\nIt is the kind of restoration work that rarely makes headlines on its own, no single dramatic rescue, no rare species saved from the brink, but multiplied across thousands of volunteer hours and hundreds of thousands of plants, it is exactly how degraded urban waterways slowly turn back into living ecosystems.",
-      "url": "https://conservationvolunteers.co.nz/2026/09/09/cvnz-and-asahi-partner-to-help-restore-papakura-stream/",
-      "source": "Conservation Volunteers New Zealand",
-      "published": "2026-09-09T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-11T19:07:34Z"
-    },
-    {
-      "headline": "FDA Approves a Pill That Doubles Survival Time for Advanced Pancreatic Cancer",
-      "summary": "The FDA approved daraxonrasib, a twice-daily pill for metastatic pancreatic cancer patients who've already had chemotherapy, after trials showed it nearly doubled median survival from about 7 months to over 13. Regulators fast-tracked the approval in just 35 days, and in rare cases the drug shrank tumors to undetectable levels.",
-      "narrative": "Pancreatic cancer has one of the bleakest survival outlooks of any cancer — only about 3 in 100 patients are still alive five years after an advanced diagnosis. That grim math is why oncologists are calling this week's FDA approval of daraxonrasib a genuine turning point.\n\nThe drug, developed by Revolution Medicines, is a twice-daily pill for patients with metastatic pancreatic cancer who've already been through chemotherapy and have nowhere else to turn. In Phase 3 trials, patients taking it lived a median of over 13 months, nearly double the roughly seven months typical with standard care. In a handful of cases, tumors shrank until they could no longer be detected at all.\n\nDaraxonrasib works by targeting KRAS, a protein that the vast majority of pancreatic tumors depend on to survive and grow. KRAS has been called \"undruggable\" for decades because of its slippery molecular shape, so a therapy that reliably blocks it represents a real breakthrough in cancer biology, not just an incremental gain.\n\nDr. Brian Wolpin of the Dana-Farber Cancer Institute, who helped run the trials, said he'd never seen results like this before in pancreatic cancer research — a striking statement from someone who has spent a career watching this disease outrun every new treatment.\n\nThe FDA fast-tracked the decision, wrapping up its review in just 35 days rather than the usual many months, a sign of how urgently regulators viewed the need. The drug is expected to be largely covered by insurance, which matters enormously for a disease that often devastates patients financially as well as physically.\n\nPerhaps just as encouraging is what comes next: daraxonrasib is one of dozens of KRAS-targeting drugs now in the pipeline for other hard-to-treat cancers, including colon and lung cancer. Researchers see this approval as proof that a whole new class of medicine, built around this once-untouchable protein, actually works in patients.\n\nFor families who've watched a pancreatic cancer diagnosis play out as a matter of months, not years, an extra half-year or more of life — and the real possibility of a much longer response — is enormous. It won't cure everyone, and it isn't a miracle. But for a cancer this unforgiving, doubling survival time is about as good as news gets.",
-      "url": "https://www.goodnewsnetwork.org/fda-immediately-approves-drug-thats-doubling-lifespan-for-late-pancreatic-cancer-patients/",
-      "source": "Good News Network",
-      "published": "2026-09-08T00:00:00Z",
-      "category": "Health",
-      "added": "2026-09-10T19:05:54Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Dana–Farber-Cancer-Institute-building-Credit-ajay_suresh-CC-BY-4-Wikimedia.jpeg"
-    },
-    {
-      "headline": "At 91, 'Grey Beard' Becomes the Oldest Person to Hike the Entire Appalachian Trail",
-      "summary": "Dale Sanders, a 91-year-old from Kentucky, completed a 359-day thru-hike of the 2,190-mile Appalachian Trail, breaking his own record as the oldest person ever to do so — nine years after he first set it at age 82.",
-      "narrative": "Dale Sanders first became the oldest person to hike the entire Appalachian Trail back in 2017, when he was 82. Most people would have left the record there. Instead, at 91, he decided to go back out and beat his own mark.\n\nSanders, known on the trail by his nickname \"Grey Beard,\" set off from Harpers Ferry, Virginia last September. His route wasn't a straight shot north or south — he started by heading toward Georgia to chase warmer weather, then paused through the winter before picking the trail back up. Along the way he fell 71 times, was hospitalized in June for a pinched nerve, and lost his mother-in-law, any one of which might have ended the attempt for someone half his age.\n\nWhat kept him going, by his own account, was stubbornness, a love of being outdoors, and his wife's encouragement. When gaps opened up in his route — sections he'd had to skip during setbacks — he went back and filled them in, including a stretch through the Great Smoky Mountains he'd missed. He finished the full 2,190-mile trail late on the night of August 31st, atop Mount Katahdin in Maine, 359 days after he started.\n\nSanders is refreshingly unsentimental about what it took. Asked about the hardship, he brushed it off: when people are looking out for you and bringing you a caramel frappe partway up a climb, he said, the rocks underfoot stop mattering so much. He's just as relaxed about diet as about difficulty, figuring it's fine to eat doughnuts as long as you're also getting the exercise to match.\n\nAt the heart of it is something simpler than any record: Sanders says he's happiest in the woods with the sun out. That love of the outdoors is what pulled a man in his nineties through a hike that would challenge someone a third his age, and it's what let him not just match his own record from 2017, but beat it outright nine years later.",
-      "url": "https://www.goodnewsnetwork.org/91-yo-greybeard-becomes-oldest-person-to-hike-the-appalachian-trial-after-359-days-and-71-falls/",
-      "source": "Good News Network",
-      "published": "2026-09-10T00:00:00Z",
-      "category": "Culture",
-      "added": "2026-09-10T19:05:54Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/788816681_122183674448886719_7715012929781245892_n-1.jpg"
     }
   ]
 }
