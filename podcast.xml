@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 20:13:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:22:28 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 2 November 2026</title>
+      <description>Six good things: Southland's Tulip Open Day Draws Thousands and Raises Money for Local Groups; DOC Whale Rescue Teams Free Humpback and First-Ever Southern Right Whale From Fishing Gear; Azores Island Switches Off Streetlights Each October to Guide Young Seabirds to Sea; Rare Arnhem Sheath-Tailed Bat Detected 400 Miles From Its Last Known Home</description>
+      <itunes:summary>Six good things: Southland's Tulip Open Day Draws Thousands and Raises Money for Local Groups; DOC Whale Rescue Teams Free Humpback and First-Ever Southern Right Whale From Fishing Gear; Azores Island Switches Off Streetlights Each October to Guide Young Seabirds to Sea; Rare Arnhem Sheath-Tailed Bat Detected 400 Miles From Its Last Known Home</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 23:21:58 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-02/happy-news-2026-11-02.mp3" length="3762441" type="audio/mpeg" />
+      <itunes:duration>0:07:50</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 1 November 2026</title>
       <description>Three good things: Satellite Tags Reveal the Northland and Auckland Harbours Where Green Sea Turtles Feed; High School Fills Entire Football Field With Groceries to Replenish New Jersey Food Banks; Vitamin B5 Supplement Pantethine Eases Psoriasis Symptoms in Early Trial</description>
@@ -334,18 +346,6 @@
       <pubDate>Sat, 03 Oct 2026 19:03:19 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-03/happy-news-2026-10-03.mp3" length="2688122" type="audio/mpeg" />
       <itunes:duration>0:05:36</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 2 October 2026</title>
-      <description>Three good things: Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery; Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales; Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park</description>
-      <itunes:summary>Three good things: Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery; Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales; Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 20:24:13 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-02/happy-news-2026-10-02.mp3" length="1996268" type="audio/mpeg" />
-      <itunes:duration>0:04:09</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

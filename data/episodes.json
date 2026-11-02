@@ -1,6 +1,56 @@
 {
   "episodes": [
     {
+      "date": "2026-11-02",
+      "title": "Happy News \u2014 2 November 2026",
+      "runKey": "2026-11-02T23:30:00Z",
+      "published": "2026-11-02T23:21:58Z",
+      "duration": 470.13,
+      "bytes": 3762441,
+      "storyCount": 6,
+      "guid": "happy-news-2026-11-02",
+      "summary": "Six good things: Southland's Tulip Open Day Draws Thousands and Raises Money for Local Groups; DOC Whale Rescue Teams Free Humpback and First-Ever Southern Right Whale From Fishing Gear; Azores Island Switches Off Streetlights Each October to Guide Young Seabirds to Sea; Rare Arnhem Sheath-Tailed Bat Detected 400 Miles From Its Last Known Home",
+      "chapters": [
+        {
+          "url": "https://dailyencourager.co.nz/multicultural-community-blooms/",
+          "headline": "Southland's Tulip Open Day Draws Thousands and Raises Money for Local Groups",
+          "start": 7.1,
+          "duration": 82.6
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2305617/our-changing-world-the-tricky-work-of-disentangling-whales",
+          "headline": "DOC Whale Rescue Teams Free Humpback and First-Ever Southern Right Whale From Fishing Gear",
+          "start": 89.7,
+          "duration": 100.52
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/islands-near-portugal-turn-off-lights-to-protect-seabird-fledglings-every-oct/",
+          "headline": "Azores Island Switches Off Streetlights Each October to Guide Young Seabirds to Sea",
+          "start": 190.22,
+          "duration": 62.48
+        },
+        {
+          "url": "https://www.goodgoodgood.co/articles/endangered-species-microbat-australia",
+          "headline": "Rare Arnhem Sheath-Tailed Bat Detected 400 Miles From Its Last Known Home",
+          "start": 252.7,
+          "duration": 62.66
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+          "headline": "Over Half of Young Adults With Type 2 Diabetes Reach Remission in Diet and Exercise Trial",
+          "start": 315.36,
+          "duration": 80.04
+        },
+        {
+          "url": "https://www.goodgoodgood.co/articles/buoy-kite-seabirds-fishing-nets",
+          "headline": "Kites and Looming-Eye Buoys Cut Seabird Deaths in Cornish Fishing Nets",
+          "start": 395.4,
+          "duration": 72.18
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-02/happy-news-2026-11-02.mp3"
+    },
+    {
       "date": "2026-11-01",
       "title": "Happy News \u2014 1 November 2026",
       "runKey": "2026-11-01T20:30:00Z",
@@ -777,39 +827,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-03/happy-news-2026-10-03.mp3"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Happy News \u2014 2 October 2026",
-      "runKey": "2026-10-02T12:00:00Z",
-      "published": "2026-10-02T20:24:13Z",
-      "duration": 249.43,
-      "bytes": 1996268,
-      "storyCount": 3,
-      "guid": "happy-news-2026-10-02",
-      "summary": "Three good things: Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery; Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales; Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park",
-      "chapters": [
-        {
-          "url": "https://www.aol.co.uk/articles/tern-turnaround-colonies-england-show-040010000.html",
-          "headline": "Record Year for Little Terns as England's Seabird Colonies Show Signs of Recovery",
-          "start": 7.3,
-          "duration": 74.2
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/norways-newest-marine-protected-area-shelters-rich-marine-habitat-whales-and-seabirds/",
-          "headline": "Norway Creates Its Largest Marine Protected Area to Shelter Coral Reefs and Whales",
-          "start": 81.5,
-          "duration": 80.58
-        },
-        {
-          "url": "https://news.mongabay.com/short-article/2026/09/reintroduced-grauers-gorilla-gives-birth-in-drc-national-park-makes-us-happy/",
-          "headline": "Reintroduced Gorilla Lulingu Gives Birth in the Wild in Virunga National Park",
-          "start": 162.08,
-          "duration": 84.82
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-02/happy-news-2026-10-02.mp3"
     }
   ],
-  "updated": "2026-11-01T20:13:20Z"
+  "updated": "2026-11-02T23:22:28Z"
 }
