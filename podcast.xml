@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:22:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:34:47 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 3 November 2026</title>
+      <description>Two good things: Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside; Pemba Fishers Help Create Two Community-Managed Marine Protected Areas Covering 1,300 km²</description>
+      <itunes:summary>Two good things: Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside; Pemba Fishers Help Create Two Community-Managed Marine Protected Areas Covering 1,300 km²</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 21:34:27 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-03/happy-news-2026-11-03.mp3" length="1658092" type="audio/mpeg" />
+      <itunes:duration>0:03:27</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 2 November 2026</title>
       <description>Six good things: Southland's Tulip Open Day Draws Thousands and Raises Money for Local Groups; DOC Whale Rescue Teams Free Humpback and First-Ever Southern Right Whale From Fishing Gear; Azores Island Switches Off Streetlights Each October to Guide Young Seabirds to Sea; Rare Arnhem Sheath-Tailed Bat Detected 400 Miles From Its Last Known Home</description>
@@ -334,18 +346,6 @@
       <pubDate>Sun, 04 Oct 2026 19:13:32 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-04/happy-news-2026-10-04.mp3" length="1843221" type="audio/mpeg" />
       <itunes:duration>0:03:50</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 3 October 2026</title>
-      <description>Four good things: Ancient Saint Simeon Church Complex in Syria Reopens After 14 Years; Floating Scarecrow and Kite Cut Seabird Deaths in Fishing Nets by Up to 71%; Right Livelihood 'Alternative Nobel' Honours Four Women-Led Champions of Rights and Democracy; UN Adopts First Declaration Protecting Island Nations' Statehood From Rising Seas</description>
-      <itunes:summary>Four good things: Ancient Saint Simeon Church Complex in Syria Reopens After 14 Years; Floating Scarecrow and Kite Cut Seabird Deaths in Fishing Nets by Up to 71%; Right Livelihood 'Alternative Nobel' Honours Four Women-Led Champions of Rights and Democracy; UN Adopts First Declaration Protecting Island Nations' Statehood From Rising Seas</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 19:03:19 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-03/happy-news-2026-10-03.mp3" length="2688122" type="audio/mpeg" />
-      <itunes:duration>0:05:36</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

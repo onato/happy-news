@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-11-03",
+      "title": "Happy News \u2014 3 November 2026",
+      "runKey": "2026-11-03T22:15:00Z",
+      "published": "2026-11-03T21:34:27Z",
+      "duration": 207.08,
+      "bytes": 1658092,
+      "storyCount": 2,
+      "guid": "happy-news-2026-11-03",
+      "summary": "Two good things: Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside; Pemba Fishers Help Create Two Community-Managed Marine Protected Areas Covering 1,300 km\u00b2",
+      "chapters": [
+        {
+          "url": "https://news.mongabay.com/short-article/2026/11/payment-scheme-in-botswana-pays-communities-to-coexist-with-wildlife/",
+          "headline": "Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside",
+          "start": 6.9,
+          "duration": 96.76
+        },
+        {
+          "url": "https://news.mongabay.com/2026/10/pembas-new-marine-protected-areas-show-the-power-of-collaboration-to-meet-30x30-goal/",
+          "headline": "Pemba Fishers Help Create Two Community-Managed Marine Protected Areas Covering 1,300 km\u00b2",
+          "start": 103.66,
+          "duration": 100.88
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-03/happy-news-2026-11-03.mp3"
+    },
+    {
       "date": "2026-11-02",
       "title": "Happy News \u2014 2 November 2026",
       "runKey": "2026-11-02T23:30:00Z",
@@ -789,45 +815,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-04/happy-news-2026-10-04.mp3"
-    },
-    {
-      "date": "2026-10-03",
-      "title": "Happy News \u2014 3 October 2026",
-      "runKey": "2026-10-03T19:30:00Z",
-      "published": "2026-10-03T19:03:19Z",
-      "duration": 335.9,
-      "bytes": 2688122,
-      "storyCount": 4,
-      "guid": "happy-news-2026-10-03",
-      "summary": "Four good things: Ancient Saint Simeon Church Complex in Syria Reopens After 14 Years; Floating Scarecrow and Kite Cut Seabird Deaths in Fishing Nets by Up to 71%; Right Livelihood 'Alternative Nobel' Honours Four Women-Led Champions of Rights and Democracy; UN Adopts First Declaration Protecting Island Nations' Statehood From Rising Seas",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/ancient-christian-site-reopens-in-syria-after-14-years-a-war-and-an-earthquake/",
-          "headline": "Ancient Saint Simeon Church Complex in Syria Reopens After 14 Years",
-          "start": 6.9,
-          "duration": 84.14
-        },
-        {
-          "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-develop-floating-scarecrow-to-protect-threatened-seabirds/",
-          "headline": "Floating Scarecrow and Kite Cut Seabird Deaths in Fishing Nets by Up to 71%",
-          "start": 91.04,
-          "duration": 80.04
-        },
-        {
-          "url": "https://rightlivelihood.org/news/2026-laureates-challenge-autocracy-patriarchy-and-ai-bias/",
-          "headline": "Right Livelihood 'Alternative Nobel' Honours Four Women-Led Champions of Rights and Democracy",
-          "start": 171.08,
-          "duration": 77.72
-        },
-        {
-          "url": "https://www.climatechangenews.com/2026/09/24/submerged-rising-seas-small-islands-statehood-new-york-unga/",
-          "headline": "UN Adopts First Declaration Protecting Island Nations' Statehood From Rising Seas",
-          "start": 248.8,
-          "duration": 84.18
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-03/happy-news-2026-10-03.mp3"
     }
   ],
-  "updated": "2026-11-02T23:22:28Z"
+  "updated": "2026-11-03T21:34:47Z"
 }
