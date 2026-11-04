@@ -1,6 +1,39 @@
 {
-  "updated": "2026-11-03T22:15:00Z",
+  "updated": "2026-11-04T22:00:00Z",
   "stories": [
+    {
+      "headline": "Woman Becomes First Person to Swim the Entire California Coastline",
+      "summary": "Long-distance swimmer Catherine Breed covered about 900 miles of California's coast in 111 days, from the Oregon border to the Mexican border. She says no one had attempted the route before, and she did it through storms, big waves and a hostile current.",
+      "narrative": "A long-distance swimmer named Catherine Breed has finished a swim that, by her account, nobody had tried before: the whole length of the California coastline, roughly 900 miles, completed in 111 days.\n\nShe set off on the first of July from the Oregon-California border and came ashore on a pier on the nineteenth of October, escorted throughout by a support boat. At the southern end she swam more than three miles offshore as she crossed the Mexican border, so she could stay clear of pollution coming out of the Tijuana River.\n\nThe plan had taken three years of preparation and aimed for about ten miles a day over ninety days. The sea had other ideas. A strong El Niño season brought tropical storms, waves as high as seven feet, and a warm current running north against her. She had eight encounters with sharks, and also swam alongside sea lions, dolphins and whales.\n\nBreed already had a serious open-water record, including the English Channel, the North Channel, and swims from San Francisco's Golden Gate Bridge to Half Moon Bay and out to the Farallon Islands. This was a far longer undertaking than any of those.\n\nShe says she wants the swim to encourage other people, especially women and girls, to chase goals that look impossibly big. It is a feat of patience and stubbornness, and a reminder of what steady daily effort can add up to.",
+      "url": "https://www.goodnewsnetwork.org/woman-becomes-first-person-to-swim-the-entire-california-coastline/",
+      "source": "Good News Network",
+      "published": "2026-11-04T08:00:00Z",
+      "category": "Culture",
+      "added": "2026-11-04T22:00:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Catherine-Breed-swins-in-the-open-ocean-south-of-the-Golden-Gate-Bridge-credit-Catherine-Breed-press-photo.jpg"
+    },
+    {
+      "headline": "Brazil Expands Pantanal Matogrossense National Park by More Than a Quarter",
+      "summary": "Brazilian authorities have enlarged Pantanal Matogrossense National Park by about 185 square miles. The addition protects wildlife corridors in the world's largest flooded grassland, home to the densest concentration of jaguars on Earth.",
+      "narrative": "Brazil has made one of its most important wetland parks bigger. Pantanal Matogrossense National Park, which covered about 523 square miles, has been expanded by roughly 185 square miles, an area comparable to Redwood National Park in the United States.\n\nThe Pantanal is the largest flooded grassland in the world, and it is extraordinarily rich in life. It supports hundreds of bird and fish species, well over a hundred kinds of reptiles and amphibians, and mammals such as giant otters, giant anteaters, giant armadillos, tapirs and the highest concentration of jaguars anywhere.\n\nThe conservation agency that manages the park identified biological corridors that animals use to move in and out of it, and the expansion helps secure them. Those corridors matter because they keep populations connected and genetically healthy, which is especially important for endangered species. Keeping them open will depend on cooperation with local landowners.\n\nThe wetland has faced serious fires and droughts in recent years, and protecting the rivers that feed it helps the land hold on to water. Local reporting described the expansion as meeting a long-standing demand from scientists and environmentalists, which makes this a concrete gain rather than a promise.",
+      "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
+      "source": "Good News Network",
+      "published": "2026-11-04T08:00:00Z",
+      "category": "Environment",
+      "added": "2026-11-04T22:00:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Pantanal-landscape-credit-Filipe-Frazao-CC-3.0-BY-SA-1.jpg"
+    },
+    {
+      "headline": "Philippine Village Uses Bamboo, Oyster Shells and Coconut Husks to Hold Back Floods",
+      "summary": "In Pamarawan, a fishing village on Manila Bay, a nature-based sea defence built mostly by villagers has reportedly kept floods away for almost two years. It cost about $2 million and is trapping sediment where mangroves can be replanted.",
+      "narrative": "In the low-lying fishing village of Pamarawan, in Bulacan province north of Manila, residents have been protected from flooding by something unusual: bamboo, oyster shells and coconut husks rather than concrete.\n\nThe project, the first of its kind in the Philippines, was designed by a Dutch engineering firm and approved in 2023, with work starting in 2024. Bamboo cribs cover about 14 hectares of shoreline, and oyster shells packed into coconut-husk nets help slow waves and trap sediment. The whole thing cost around 130 million pesos, reportedly less than a conventional sea wall.\n\nVillagers did most of the work. The firm says between 80 and 90 percent of the construction labour came from the community of about 3,000 people.\n\nResidents report no flooding for almost two years, and a local councilor said the village escaped this year's floods that hit neighbouring areas. Those are local accounts rather than independent measurements. Mud has already built up by about a foot in places, and mangroves could be planted there within a couple of years, restoring habitat that Bulacan lost heavily in past decades.\n\nThere are caveats: some fish-corral operators lost income, and not all were compensated. Still, the public works department has praised the pilot as something that could be replicated elsewhere, though the engineers say each site needs its own design.",
+      "url": "https://news.mongabay.com/2026/10/philippine-village-uses-nature-to-defend-against-floods-with-bamboo-shells-and-husks/",
+      "source": "Mongabay",
+      "published": "2026-10-30T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-11-04T22:00:00Z",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/31133727/Oliver-Samson.jpg"
+    },
     {
       "headline": "Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside",
       "summary": "In two remote villages on the edge of the Okavango Delta, residents are paid for each species their camera traps capture, with elephants earning the most. The Harmony with Wildlife scheme gives communities a tangible reward for tolerating crop-raiding and livestock-killing animals.",
@@ -2079,37 +2112,6 @@
       "source": "ABC7 Los Angeles",
       "published": "2026-09-11T00:00:00Z",
       "category": "Community",
-      "added": "2026-09-13T00:00:00Z"
-    },
-    {
-      "headline": "Wellington's Wild Kiwi Population Goes 'Free Range' After a Decade of Community Conservation",
-      "summary": "Capital Kiwi has removed the last monitoring transmitters from the 250 kiwi it has released into the hills around Wellington, marking the birds' final transition to a fully wild, self-sustaining population a century after kiwi vanished from the capital.",
-      "narrative": "Ten years ago, Paul Ward started mapping privately owned land in the hills south and west of Wellington with a plan that sounded almost fanciful: bring kiwi back to New Zealand's capital city, a place they had not lived wild in for roughly a hundred years. This month, that plan reached its quiet, symbolic conclusion, as the Capital Kiwi project removed the last radio transmitters from the final birds in its 250-strong released population, officially letting them go fully wild.\n\nGetting to this point took years of unglamorous groundwork before a single kiwi was ever released. Starting in 2018, the project worked with landowners, and with mana whenua Ngāti Toa and Taranaki Whānui, to deploy more than 5,300 predator traps across over 5,000 hectares of land stretching from Pariwhero Red Rocks to Porirua. Three full years of predator monitoring followed, to prove the area could actually support kiwi, before the first birds were finally released in November 2022.\n\nThe results since then have exceeded the project's own targets by a wide margin. Chick survival in the Wellington population has topped 90 percent, against an original goal of just 30 percent, and chicks have been reaching fighting weight, the size at which they can defend themselves against stoats, in around four months rather than the usual six to eight. Ongoing predator control now leans on tracking tunnels, trail cameras, DNA analysis of captured stoats and even acoustic monitors that use AI to pick out kiwi calls in the bush.\n\nFor Ward, removing the last transmitters was less a bureaucratic milestone than an emotional one. It was, he said, ten years of work arriving all in one moment. The project's success is being read as proof that kiwi can thrive not just in fenced sanctuaries but in ordinary, modified landscapes where a community commits to sustained predator control, a shift that could reshape how conservation groups elsewhere in New Zealand approach bringing native species back to populated areas.",
-      "url": "https://thespinoff.co.nz/society/07-09-2026/it-was-10-years-of-work-all-in-one-moment-wellingtons-kiwi-are-now-truly-free-range",
-      "source": "The Spinoff",
-      "published": "2026-09-07T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-13T00:00:00Z",
-      "image": "https://images.thespinoff.co.nz/1/2026/09/Free-Kiwis.png"
-    },
-    {
-      "headline": "Kiwi Triathlete Hayden Wilde Wins Ironman 70.3 World Championship After Season Battling Lung Illness",
-      "summary": "Hayden Wilde overcame a lung inflammation diagnosis that derailed much of his 2026 season to win the Ironman 70.3 World Championship in Nice, France, ending New Zealand's 18-year wait for a champion at the event. He ran the fastest half-marathon of the day to hold off Norway's Kristian Blummenfelt.",
-      "narrative": "Hayden Wilde crossed the line in Nice, France in 3 hours, 50 minutes and 51 seconds to become Ironman 70.3 world champion, a result that looked unlikely just weeks earlier. The 28-year-old from Whakatāne spent much of 2026 chasing an ambitious double: contesting both the short-course World Triathlon Championship Series and the middle-distance Ironman circuit. That plan unravelled in July, when a laboured 27th-place finish at WTCS Hamburg was followed by scans that revealed inflammation in his lungs, forcing him out of the London leg of the series entirely.\n\nRather than end his season, Wilde spent the following weeks rebuilding quietly, with his team describing the last six or seven weeks before Nice as steadily consistent training after the setback. Few outside his camp expected him to arrive at the world championship as a serious contender, given he had raced sparingly all year.\n\nOn race day, Wilde came off the bike within touching distance of the lead group and then produced a 67-minute half-marathon split, the fastest run of the entire field, to reel in and pass the leaders during the closing kilometres. Norway's Kristian Blummenfelt, a two-time Olympic medallist, mounted a late surge but ran out of road, finishing 18 seconds back. Defending champion Jelle Geens of Belgium rounded out the podium.\n\nThe win is a landmark one for New Zealand triathlon: Wilde is the first Kiwi to win the Ironman 70.3 world title since Terenzo Bozzone claimed it in Clearwater, Florida, back in 2008. It also caps a turbulent year in which Wilde had to abandon his short-course world championship ambitions altogether because of the illness, making the Nice victory a genuine comeback rather than an expected result.\n\nFor a country that has long produced strong endurance athletes but had gone nearly two decades without a champion at this particular event, Wilde's win is being celebrated as both an individual triumph over a health scare and a statement that New Zealand triathlon is back on top of the podium.",
-      "url": "https://www.stuff.co.nz/sport/361032910/hayden-wilde-wins-ironman-703-world-championship-france",
-      "source": "Stuff",
-      "published": "2026-09-13T00:00:00Z",
-      "category": "Culture",
-      "added": "2026-09-13T00:00:00Z"
-    },
-    {
-      "headline": "Scientists Discover a Natural 'Brake' That Can Shut Down Harmful Inflammation",
-      "summary": "Researchers at UCL and collaborating universities have identified epoxy-oxylipins, fat-derived molecules that act as the body's own brake on runaway inflammation. Boosting the pathway in early human trials reduced harmful immune cell activity and sped up pain relief, opening a path to gentler treatments for arthritis and heart disease.",
-      "narrative": "A team led by researchers at University College London, working with King's College London, Oxford, Queen Mary University of London and the US National Institute of Environmental Health Sciences, has mapped for the first time how the human body naturally puts the brakes on chronic inflammation.\n\nThe molecules responsible are called epoxy-oxylipins, tiny fat-derived compounds that suppress a class of white blood cells known as intermediate monocytes. Those cells, when left unchecked, are a major driver of the kind of persistent, low-grade inflammation implicated in conditions like rheumatoid arthritis and cardiovascular disease.\n\nWhat makes the discovery particularly promising is how the researchers were able to act on it. By blocking an enzyme called soluble epoxide hydrolase, which normally breaks down epoxy-oxylipins, the team allowed the protective molecules to build up in the body. In human studies, this accumulation was linked to fewer harmful immune cells circulating and to noticeably faster relief from pain.\n\nLead researcher Dr Olivia Bracken said the findings reveal a natural pathway that limits harmful immune cell expansion and helps calm inflammation more quickly, rather than suppressing the immune system wholesale the way many current anti-inflammatory drugs do. That distinction matters clinically: broad immune suppression carries a real cost in increased infection risk, while a treatment that simply strengthens the body's own shut-off switch could offer relief without leaving patients as vulnerable.\n\nThe study, funded by Arthritis UK and published in Nature Communications, is the first to trace this mechanism in people rather than in animal models alone. Researchers say it opens the door to clinical trials of drugs that inhibit the soluble epoxide hydrolase enzyme as a new class of therapy for arthritis and related inflammatory diseases, potentially giving patients an option that works with the body's own regulatory systems instead of overriding them.",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm",
-      "source": "ScienceDaily",
-      "published": "2026-09-12T00:00:00Z",
-      "category": "Science",
       "added": "2026-09-13T00:00:00Z"
     }
   ]
