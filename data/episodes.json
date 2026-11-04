@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-11-04",
+      "title": "Happy News \u2014 4 November 2026",
+      "runKey": "2026-11-04T22:00:00Z",
+      "published": "2026-11-04T21:45:56Z",
+      "duration": 272.22,
+      "bytes": 2179036,
+      "storyCount": 3,
+      "guid": "happy-news-2026-11-04",
+      "summary": "Three good things: Woman Becomes First Person to Swim the Entire California Coastline; Brazil Expands Pantanal Matogrossense National Park by More Than a Quarter; Philippine Village Uses Bamboo, Oyster Shells and Coconut Husks to Hold Back Floods",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/woman-becomes-first-person-to-swim-the-entire-california-coastline/",
+          "headline": "Woman Becomes First Person to Swim the Entire California Coastline",
+          "start": 7.18,
+          "duration": 89.26
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
+          "headline": "Brazil Expands Pantanal Matogrossense National Park by More Than a Quarter",
+          "start": 96.44,
+          "duration": 83.74
+        },
+        {
+          "url": "https://news.mongabay.com/2026/10/philippine-village-uses-nature-to-defend-against-floods-with-bamboo-shells-and-husks/",
+          "headline": "Philippine Village Uses Bamboo, Oyster Shells and Coconut Husks to Hold Back Floods",
+          "start": 180.18,
+          "duration": 89.5
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-04/happy-news-2026-11-04.mp3"
+    },
+    {
       "date": "2026-11-03",
       "title": "Happy News \u2014 3 November 2026",
       "runKey": "2026-11-03T22:15:00Z",
@@ -783,39 +815,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-05/happy-news-2026-10-05.mp3"
-    },
-    {
-      "date": "2026-10-04",
-      "title": "Happy News \u2014 4 October 2026",
-      "runKey": "2026-10-04T19:30:00Z",
-      "published": "2026-10-04T19:13:32Z",
-      "duration": 230.28,
-      "bytes": 1843221,
-      "storyCount": 3,
-      "guid": "happy-news-2026-10-04",
-      "summary": "Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant W\u0113t\u0101punga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK \u00a35.9bn of Gas Imports",
-      "chapters": [
-        {
-          "url": "https://wmbdradio.com/2026/10/03/swarms-of-moths-in-australia-lift-hopes-of-recovery-for-endangered-species/",
-          "headline": "Swarms of Endangered Bogong Moths Return Across Southeast Australia",
-          "start": 7.18,
-          "duration": 64.74
-        },
-        {
-          "url": "https://phys.org/news/2026-10-success-story-zealand-heaviest-insect.html",
-          "headline": "Giant W\u0113t\u0101punga Bred for 15 Years Has Gone From Endangered to Increasing",
-          "start": 71.92,
-          "duration": 94.66
-        },
-        {
-          "url": "https://www.carbonbrief.org/analysis-wind-and-solar-save-uk-from-gas-imports-worth-5-9bn-during-hormuz-crisis",
-          "headline": "Record Wind and Solar Spared the UK \u00a35.9bn of Gas Imports",
-          "start": 166.58,
-          "duration": 61.08
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-04/happy-news-2026-10-04.mp3"
     }
   ],
-  "updated": "2026-11-03T21:34:47Z"
+  "updated": "2026-11-04T21:46:27Z"
 }

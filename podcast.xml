@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 21:34:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 21:46:27 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 4 November 2026</title>
+      <description>Three good things: Woman Becomes First Person to Swim the Entire California Coastline; Brazil Expands Pantanal Matogrossense National Park by More Than a Quarter; Philippine Village Uses Bamboo, Oyster Shells and Coconut Husks to Hold Back Floods</description>
+      <itunes:summary>Three good things: Woman Becomes First Person to Swim the Entire California Coastline; Brazil Expands Pantanal Matogrossense National Park by More Than a Quarter; Philippine Village Uses Bamboo, Oyster Shells and Coconut Husks to Hold Back Floods</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 21:45:56 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-04/happy-news-2026-11-04.mp3" length="2179036" type="audio/mpeg" />
+      <itunes:duration>0:04:32</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 3 November 2026</title>
       <description>Two good things: Botswana Villages Earn Money From Camera-Trap Photos of the Wildlife They Live Alongside; Pemba Fishers Help Create Two Community-Managed Marine Protected Areas Covering 1,300 km²</description>
@@ -334,18 +346,6 @@
       <pubDate>Mon, 05 Oct 2026 22:21:27 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-05/happy-news-2026-10-05.mp3" length="691673" type="audio/mpeg" />
       <itunes:duration>0:01:26</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 4 October 2026</title>
-      <description>Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK £5.9bn of Gas Imports</description>
-      <itunes:summary>Three good things: Swarms of Endangered Bogong Moths Return Across Southeast Australia; Giant Wētāpunga Bred for 15 Years Has Gone From Endangered to Increasing; Record Wind and Solar Spared the UK £5.9bn of Gas Imports</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-04</guid>
-      <pubDate>Sun, 04 Oct 2026 19:13:32 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-04/happy-news-2026-10-04.mp3" length="1843221" type="audio/mpeg" />
-      <itunes:duration>0:03:50</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
