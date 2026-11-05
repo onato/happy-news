@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-04T22:00:00Z",
+  "updated": "2026-11-05T22:00:00Z",
   "stories": [
+    {
+      "headline": "Study Finds Species Down to Fewer Than 50 Individuals Can Recover When Conservationists Step In",
+      "summary": "A review of 141 bird and mammal species that fell below 50 wild individuals found that 61% of those given direct conservation help recovered to at least 100. The finding challenges the idea that tiny populations are doomed.",
+      "narrative": "A new study from Monash University and the Zoological Society of London offers some of the most encouraging evidence yet that species on the very edge of extinction can come back.\n\nThe researchers looked at every bird and mammal known to have dropped below fifty wild individuals since 1950. Of those, 141 had histories documented well enough to analyse. Then they asked a simple question: what happened to the ones that got help, and what happened to the ones that didn't?\n\nThe answer was stark. Among fifty-one species that received direct conservation action, about sixty-one percent climbed back to at least a hundred individuals. Among species with no direct support, thirty-seven percent went extinct, and only two percent reached a hundred.\n\nThe most successful approach combined tackling the threat, such as controlling invasive predators or restoring habitat, with hands-on management of the population itself, through captive breeding or moving animals to new sites. One example is the Lord Howe woodhen, an Australian bird that dwindled to just twenty-three individuals in the late 1970s and now numbers more than sixteen hundred.\n\nLead author Dr Donal Smith argues the results show that being small isn't itself a death sentence. For anyone following efforts like New Zealand's predator control and species translocations, it is a hopeful, data-backed sign that the work pays off, even for the most precarious species.",
+      "url": "https://phys.org/news/2026-11-tiny-animal-populations-recover-assumptions.html",
+      "source": "Phys.org",
+      "published": "2026-11-05T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-11-05T22:00:00Z",
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/echo-parakeet.jpg"
+    },
     {
       "headline": "Woman Becomes First Person to Swim the Entire California Coastline",
       "summary": "Long-distance swimmer Catherine Breed covered about 900 miles of California's coast in 111 days, from the Oregon border to the Mexican border. She says no one had attempted the route before, and she did it through storms, big waves and a hostile current.",
@@ -2103,16 +2114,6 @@
       "category": "Animals",
       "added": "2026-09-14T00:00:00Z",
       "image": "https://www.thecooldown.com/wp-content/uploads/2026/09/phoenix-fire-dept-11926.jpg?w=1920&h=800"
-    },
-    {
-      "headline": "Christian Bale Opens a California 'Foster Village' Built to Keep Sibling Groups Together",
-      "summary": "After nearly two decades of work, actor Christian Bale opened Together California, an 11,000-square-foot village of 12 homes in Palmdale purpose-built so brothers and sisters in foster care no longer have to be split up. Nearly $9 million in donations funded the project.",
-      "narrative": "For almost 20 years, ever since he began volunteering with the foster care system in 2008, Christian Bale has been trying to solve a specific, painful problem: siblings who enter foster care are routinely separated from one another, placed with different families simply because no single home has room or resources for them all. This week, that long project finally opened its doors in Palmdale, California, as Together California, the state's first purpose-built village designed around keeping brothers and sisters together.\n\nThe village itself is a genuinely new kind of foster facility: 11,000 square feet across 12 furnished homes, funded by nearly $9 million in donations with major support from the Austrian American Council West. Rather than a single institutional building, it is designed as a small neighborhood, meant to feel like a community rather than a placement.\n\nAt the opening ceremony, Bale explained the philosophy behind it plainly, saying it was the team's job to turn children's heartbreak and pain into love, hope and a sense of future. Executive director Tim McCormick echoed that the goal was to build a place where everyone is welcomed, a place that keeps families together, while Los Angeles County Supervisor Kathryn Barger said the project would change the trajectory of each child who comes through it.\n\nKeeping siblings together is not a small technical detail of foster care policy, it is one of the strongest predictors of stability and wellbeing for children who have already lost their parents to the system, and yet it is routinely the first thing sacrificed to the practical shortage of foster placements. By building homes specifically designed to solve that problem at scale, Together California is offering a concrete, physical answer to a problem usually treated as unsolvable.\n\nResidents are expected to begin moving into the village next month, turning almost two decades of planning, fundraising and advocacy into an actual home for the first families who will live there.",
-      "url": "https://abc7.com/post/actor-christian-bale-opens-together-california-foster-care-village-palmdale-aimed-keeping-siblings/19816433/",
-      "source": "ABC7 Los Angeles",
-      "published": "2026-09-11T00:00:00Z",
-      "category": "Community",
-      "added": "2026-09-13T00:00:00Z"
     }
   ]
 }
