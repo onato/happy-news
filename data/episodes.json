@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-11-05",
+      "title": "Happy News \u2014 5 November 2026",
+      "runKey": "2026-11-05T22:00:00Z",
+      "published": "2026-11-05T22:11:56Z",
+      "duration": 106.15,
+      "bytes": 850264,
+      "storyCount": 1,
+      "guid": "happy-news-2026-11-05",
+      "summary": "One good things: Study Finds Species Down to Fewer Than 50 Individuals Can Recover When Conservationists Step In",
+      "chapters": [
+        {
+          "url": "https://phys.org/news/2026-11-tiny-animal-populations-recover-assumptions.html",
+          "headline": "Study Finds Species Down to Fewer Than 50 Individuals Can Recover When Conservationists Step In",
+          "start": 7.52,
+          "duration": 96.1
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-05/happy-news-2026-11-05.mp3"
+    },
+    {
       "date": "2026-11-04",
       "title": "Happy News \u2014 4 November 2026",
       "runKey": "2026-11-04T22:00:00Z",
@@ -795,27 +815,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-07/happy-news-2026-10-07.mp3"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Happy News \u2014 5 October 2026",
-      "runKey": "2026-10-05T12:00:00Z",
-      "published": "2026-10-05T22:21:27Z",
-      "duration": 86.38,
-      "bytes": 691673,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-05",
-      "summary": "One good things: Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour",
-      "chapters": [
-        {
-          "url": "https://www.frontiersin.org/news/2026/10/02/underwater-umbrellas-coral-reefs-could-help-protect-against-heat-damage-frontiers-marine-science",
-          "headline": "Underwater Shades Protected Florida Brain Corals During Record Heat and Helped Them Regain Colour",
-          "start": 7.58,
-          "duration": 76.22
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-05/happy-news-2026-10-05.mp3"
     }
   ],
-  "updated": "2026-11-04T21:46:27Z"
+  "updated": "2026-11-05T22:12:09Z"
 }
