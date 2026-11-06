@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-06",
+      "title": "Happy News \u2014 6 November 2026",
+      "runKey": "2026-11-06T21:30:00Z",
+      "published": "2026-11-06T21:18:45Z",
+      "duration": 343.87,
+      "bytes": 2752477,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-06",
+      "summary": "Four good things: Drones and AI Help Tongariro National Park Recover One Year After Destructive Fires; Venomous Primate Feared Extinct for 100 Years Found Alive on Indonesia's Bangka Island; Dunedin Marae Night Markets Bring Hangi, Free Health Checks and Community Together; Terns Return to Pagham Harbour Colony Wiped Out by Avian Flu, With 756 Sandwich Terns Nesting Again",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2394212/drones-ai-helping-tongariro-national-park-regeneration-efforts-after-destructive-fires",
+          "headline": "Drones and AI Help Tongariro National Park Recover One Year After Destructive Fires",
+          "start": 7.02,
+          "duration": 79.92
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+          "headline": "Venomous Primate Feared Extinct for 100 Years Found Alive on Indonesia's Bangka Island",
+          "start": 86.94,
+          "duration": 85.92
+        },
+        {
+          "url": "https://dailyencourager.co.nz/hangi-and-hang-outs-at-night-markets/",
+          "headline": "Dunedin Marae Night Markets Bring Hangi, Free Health Checks and Community Together",
+          "start": 172.86,
+          "duration": 71.74
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
+          "headline": "Terns Return to Pagham Harbour Colony Wiped Out by Avian Flu, With 756 Sandwich Terns Nesting Again",
+          "start": 244.6,
+          "duration": 96.7
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-06/happy-news-2026-11-06.mp3"
+    },
+    {
       "date": "2026-11-05",
       "title": "Happy News \u2014 5 November 2026",
       "runKey": "2026-11-05T22:00:00Z",
@@ -817,5 +855,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-07/happy-news-2026-10-07.mp3"
     }
   ],
-  "updated": "2026-11-05T22:12:09Z"
+  "updated": "2026-11-06T21:19:00Z"
 }

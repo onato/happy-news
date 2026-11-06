@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 22:12:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:19:01 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 6 November 2026</title>
+      <description>Four good things: Drones and AI Help Tongariro National Park Recover One Year After Destructive Fires; Venomous Primate Feared Extinct for 100 Years Found Alive on Indonesia's Bangka Island; Dunedin Marae Night Markets Bring Hangi, Free Health Checks and Community Together; Terns Return to Pagham Harbour Colony Wiped Out by Avian Flu, With 756 Sandwich Terns Nesting Again</description>
+      <itunes:summary>Four good things: Drones and AI Help Tongariro National Park Recover One Year After Destructive Fires; Venomous Primate Feared Extinct for 100 Years Found Alive on Indonesia's Bangka Island; Dunedin Marae Night Markets Bring Hangi, Free Health Checks and Community Together; Terns Return to Pagham Harbour Colony Wiped Out by Avian Flu, With 756 Sandwich Terns Nesting Again</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 21:18:45 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-06/happy-news-2026-11-06.mp3" length="2752477" type="audio/mpeg" />
+      <itunes:duration>0:05:44</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 5 November 2026</title>
       <description>One good things: Study Finds Species Down to Fewer Than 50 Individuals Can Recover When Conservationists Step In</description>
