@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-11-07",
+      "title": "Happy News \u2014 7 November 2026",
+      "runKey": "2026-11-07T19:53:58Z",
+      "published": "2026-11-07T19:54:31Z",
+      "duration": 174.81,
+      "bytes": 1399655,
+      "storyCount": 2,
+      "guid": "happy-news-2026-11-07",
+      "summary": "Two good things: Captive-Bred Broad-Headed Snakes Released Into the Wild in a World First, With at Least Four Surviving; Sikhs and Hindus Help Rebuild Punjab Mosques Destroyed After Partition",
+      "chapters": [
+        {
+          "url": "https://phys.org/news/2026-11-world-successful-wild-endangered-broad.html",
+          "headline": "Captive-Bred Broad-Headed Snakes Released Into the Wild in a World First, With at Least Four Surviving",
+          "start": 7.44,
+          "duration": 98.28
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/rebuilding-mosques-brings-sikhs-hindus-and-muslims-together-after-punjab-violence/",
+          "headline": "Sikhs and Hindus Help Rebuild Punjab Mosques Destroyed After Partition",
+          "start": 105.72,
+          "duration": 66.64
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-07/happy-news-2026-11-07.mp3"
+    },
+    {
       "date": "2026-11-06",
       "title": "Happy News \u2014 6 November 2026",
       "runKey": "2026-11-06T21:30:00Z",
@@ -815,45 +841,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-08/happy-news-2026-10-08.mp3"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Happy News \u2014 7 October 2026",
-      "runKey": "2026-10-07T21:10:00Z",
-      "published": "2026-10-07T21:23:53Z",
-      "duration": 337.82,
-      "bytes": 2703497,
-      "storyCount": 4,
-      "guid": "happy-news-2026-10-07",
-      "summary": "Four good things: Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years; Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles; Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released; NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light",
-      "chapters": [
-        {
-          "url": "https://phys.org/news/2026-10-children-homes-hospitalization-analysis.html",
-          "headline": "Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years",
-          "start": 7.18,
-          "duration": 99.32
-        },
-        {
-          "url": "https://goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles",
-          "headline": "Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles",
-          "start": 106.5,
-          "duration": 78.36
-        },
-        {
-          "url": "https://sdhumane.org/bobcat-burned-in-camp-pendleton-fire-returns-to-wild-2/",
-          "headline": "Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released",
-          "start": 184.86,
-          "duration": 72.1
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
-          "headline": "NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light",
-          "start": 256.96,
-          "duration": 78.26
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-07/happy-news-2026-10-07.mp3"
     }
   ],
-  "updated": "2026-11-06T21:19:00Z"
+  "updated": "2026-11-07T19:54:43Z"
 }

@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 21:19:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 19:54:43 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 7 November 2026</title>
+      <description>Two good things: Captive-Bred Broad-Headed Snakes Released Into the Wild in a World First, With at Least Four Surviving; Sikhs and Hindus Help Rebuild Punjab Mosques Destroyed After Partition</description>
+      <itunes:summary>Two good things: Captive-Bred Broad-Headed Snakes Released Into the Wild in a World First, With at Least Four Surviving; Sikhs and Hindus Help Rebuild Punjab Mosques Destroyed After Partition</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 19:54:31 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-07/happy-news-2026-11-07.mp3" length="1399655" type="audio/mpeg" />
+      <itunes:duration>0:02:55</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 6 November 2026</title>
       <description>Four good things: Drones and AI Help Tongariro National Park Recover One Year After Destructive Fires; Venomous Primate Feared Extinct for 100 Years Found Alive on Indonesia's Bangka Island; Dunedin Marae Night Markets Bring Hangi, Free Health Checks and Community Together; Terns Return to Pagham Harbour Colony Wiped Out by Avian Flu, With 756 Sandwich Terns Nesting Again</description>
@@ -346,18 +358,6 @@
       <pubDate>Thu, 08 Oct 2026 21:04:47 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-08/happy-news-2026-10-08.mp3" length="873674" type="audio/mpeg" />
       <itunes:duration>0:01:49</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 7 October 2026</title>
-      <description>Four good things: Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years; Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles; Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released; NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light</description>
-      <itunes:summary>Four good things: Children in Improved New Zealand Homes Were 30% Less Likely to Be Hospitalised Over Five Years; Saudi Solar Park Becomes a Breeding Ground for Threatened Sand Gazelles; Bobcat Burned in Camp Pendleton Wildfire Is Nursed Back to Health and Released; NASA's Roman Space Telescope Passes Stability Tests and Its Coronagraph Sees First Light</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-07</guid>
-      <pubDate>Wed, 07 Oct 2026 21:23:53 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-07/happy-news-2026-10-07.mp3" length="2703497" type="audio/mpeg" />
-      <itunes:duration>0:05:38</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
