@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-11-08",
+      "title": "Happy News \u2014 8 November 2026",
+      "runKey": "2026-11-08T09:00:00Z",
+      "published": "2026-11-08T20:14:31Z",
+      "duration": 30.98,
+      "bytes": 248920,
+      "storyCount": 1,
+      "guid": "happy-news-2026-11-08",
+      "summary": "One good things: Puhoi Volunteer Fire Brigade Named National Volunteer Brigade of the Year, a First for the Town",
+      "chapters": [
+        {
+          "url": "https://www.localmatters.co.nz/health/brigade-punches-above-its-weight/",
+          "headline": "Puhoi Volunteer Fire Brigade Named National Volunteer Brigade of the Year, a First for the Town",
+          "start": 6.7,
+          "duration": 21.72
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-08/happy-news-2026-11-08.mp3"
+    },
+    {
       "date": "2026-11-07",
       "title": "Happy News \u2014 7 November 2026",
       "runKey": "2026-11-07T19:53:58Z",
@@ -821,27 +841,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-10/happy-news-2026-10-10.mp3"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Happy News \u2014 8 October 2026",
-      "runKey": "2026-10-08T21:30:00Z",
-      "published": "2026-10-08T21:04:47Z",
-      "duration": 109.13,
-      "bytes": 873674,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-08",
-      "summary": "One good things: Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra",
-      "chapters": [
-        {
-          "url": "https://phys.org/news/2026-10-giant-tortoises-outnumber-people-seychelles.html",
-          "headline": "Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra",
-          "start": 7.56,
-          "duration": 98.96
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-08/happy-news-2026-10-08.mp3"
     }
   ],
-  "updated": "2026-11-07T19:54:43Z"
+  "updated": "2026-11-08T20:14:39Z"
 }

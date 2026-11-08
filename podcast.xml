@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 19:54:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 20:14:39 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 8 November 2026</title>
+      <description>One good things: Puhoi Volunteer Fire Brigade Named National Volunteer Brigade of the Year, a First for the Town</description>
+      <itunes:summary>One good things: Puhoi Volunteer Fire Brigade Named National Volunteer Brigade of the Year, a First for the Town</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 20:14:31 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-08/happy-news-2026-11-08.mp3" length="248920" type="audio/mpeg" />
+      <itunes:duration>0:00:31</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 7 November 2026</title>
       <description>Two good things: Captive-Bred Broad-Headed Snakes Released Into the Wild in a World First, With at Least Four Surviving; Sikhs and Hindus Help Rebuild Punjab Mosques Destroyed After Partition</description>
@@ -346,18 +358,6 @@
       <pubDate>Sat, 10 Oct 2026 19:48:44 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-10/happy-news-2026-10-10.mp3" length="2564981" type="audio/mpeg" />
       <itunes:duration>0:05:21</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 8 October 2026</title>
-      <description>One good things: Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra</description>
-      <itunes:summary>One good things: Giant Tortoises Now Outnumber People in Seychelles, With Nearly 183,000 on Aldabra</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 21:04:47 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-08/happy-news-2026-10-08.mp3" length="873674" type="audio/mpeg" />
-      <itunes:duration>0:01:49</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
