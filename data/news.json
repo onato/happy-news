@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-09T23:59:00Z",
+  "updated": "2026-11-10T21:55:00Z",
   "stories": [
+    {
+      "headline": "Newborn Deaths Fell by Half in Flint After Cash Program for New Parents Launched",
+      "summary": "A study in JAMA Pediatrics found neonatal mortality in Flint, Michigan dropped 50% in the first year of Rx Kids, a program giving families cash during pregnancy and infancy. Deaths in the first week of life fell 74%, while the rest of Michigan stayed flat.",
+      "narrative": "In Flint, Michigan, a city long burdened by poverty and a water crisis, researchers say the number of babies dying in their first month of life has fallen by half.\n\nThe finding comes from a study in JAMA Pediatrics led by Michigan State University's Mona Hanna, who also directs the program in question. Called Rx Kids, it was the first community-wide cash prescription scheme for mothers and babies in the United States. Every family gets fifteen hundred dollars during pregnancy and five hundred dollars a month through the baby's first year.\n\nComparing statewide birth and death records from 2021 to 2025, the team found that neonatal mortality in Flint dropped from about ten per thousand live births to about five in the first year after launch. Deaths in the first seven days fell even more sharply, by 74 percent. Over the same period the rest of Michigan barely changed. Before the program Flint's rate was more than double the state's; now the gap is no longer statistically significant.\n\nAn earlier study had already found fewer preterm births, fewer low birth weight babies and fewer admissions to neonatal intensive care in Flint, which are leading causes of newborn death. The researchers suggest the money may help through steadier housing, less food hardship, better maternal mental health, more prenatal visits, and families buying safe sleeping gear like cribs.\n\nThe study is observational, so it can't prove the cash caused the drop, and the team plans to follow more years and other Rx Kids communities. Still, it's a striking early sign that a simple, low-cost support can help more babies live in a city that has seen more than its share of hardship.",
+      "url": "https://medicalxpress.com/news/2026-11-newborn-deaths-fell-flint-rx.html",
+      "source": "Medical Xpress",
+      "published": "2026-11-03T00:00:00Z",
+      "category": "Health",
+      "added": "2026-11-10T21:55:00Z",
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2022/newborn-3.jpg"
+    },
     {
       "headline": "Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life",
       "summary": "A decade after industrial scallop dredging was banned around the Summer Isles off north-west Scotland, ancient beds of pink maerl seaweed have survived and fish, dolphins and whales are thriving. The protection was won by a coalition of citizen scientists, activists and small-boat creel fishermen.",
@@ -2105,17 +2116,6 @@
       "category": "Community",
       "added": "2026-09-15T19:32:00Z",
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/credit-Station-Casinos-released-to-the-press.jpg"
-    },
-    {
-      "headline": "Kansas Rancher's Wind Turbines Have Quietly Funded His Family's Future for Two Decades",
-      "summary": "Fourth-generation Kansas rancher Pete Ferrell says royalties from 50 wind turbines on his Flint Hills prairie have covered about half his income since 2006, letting him pass the ranch on to his children without a financial burden. Cattle grazing and prairie chicken habitat have continued undisturbed alongside the turbines.",
-      "narrative": "Pete Ferrell runs a 7,000-acre cattle ranch on the tallgrass prairie of Kansas's Flint Hills, land that has been in his family for four generations. Ranching income is notoriously unpredictable, swinging with weather, cattle prices and drought. Twenty years ago, Ferrell made a decision that many of his neighbors viewed with suspicion: he agreed to let a wind energy developer put turbines on his land.\n\nThe original project fell through, and Ferrell ended up working with Greenlight Energy Resources to get fifty turbines built as part of what became known as the Elk River Wind Power project. Since it started generating in 2006, the turbines have produced enough electricity to power roughly 60,000 homes, and the royalty payments Ferrell receives have made up about half of his income ever since.\n\nThat steady stream of income has changed what ranching means for his family. Rather than living at the mercy of cattle markets alone, Ferrell has had a reliable second income that smooths out the bad years. He says it is the reason he can hand the ranch down to his children without them inheriting a business teetering on the edge of financial strain.\n\nFerrell was not naive about the tradeoffs. The Flint Hills are one of the last great expanses of tallgrass prairie left in North America, and turbines change the view of a landscape many people fought to protect. He also faced pushback from other ranchers who saw wind development as a betrayal of the open range aesthetic. But two decades on, his cattle still graze beneath the turbines, and the prairie chicken populations that depend on the grassland have not been driven off.\n\nFerrell has since become something of an informal advisor to other ranching families weighing similar offers from energy developers, sharing what he has learned about contracts, land impacts and how to keep the ranching operation front and center. His story has become a quiet example of how wind income and cattle ranching can coexist on the same acreage, and how a single decision made in the mid-2000s can still be paying dividends for a family two generations later.",
-      "url": "https://www.goodnewsnetwork.org/wind-turbines-have-made-up-half-this-ranchers-income-since-fateful-choice-to-allow-them-on-his-land/",
-      "source": "Good News Network",
-      "published": "2026-09-15T00:00:00Z",
-      "category": "Environment",
-      "added": "2026-09-15T19:32:00Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/credit-supplied-to-the-Environmental-Defense-Fund-as-a-courtesy-by-Pete-Ferrell.jpg"
     }
   ]
 }
