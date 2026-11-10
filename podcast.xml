@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 20:14:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:01:26 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 10 November 2026</title>
+      <description>Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009</description>
+      <itunes:summary>Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:56 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-10/happy-news-2026-11-10.mp3" length="3324862" type="audio/mpeg" />
+      <itunes:duration>0:06:55</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 8 November 2026</title>
       <description>One good things: Puhoi Volunteer Fire Brigade Named National Volunteer Brigade of the Year, a First for the Town</description>
@@ -346,18 +358,6 @@
       <pubDate>Sun, 11 Oct 2026 19:57:28 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-11/happy-news-2026-10-11.mp3" length="1200334" type="audio/mpeg" />
       <itunes:duration>0:02:30</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 10 October 2026</title>
-      <description>Three good things: Francis Halzen Wins the 2026 Nobel Prize in Physics for Catching 'Ghost Particles' at the South Pole; Fort Worth Zoo Welcomes Its First Critically Endangered Sumatran Tiger Cubs; Optogenetics Pioneers Win the 2026 Nobel Prize in Physiology or Medicine</description>
-      <itunes:summary>Three good things: Francis Halzen Wins the 2026 Nobel Prize in Physics for Catching 'Ghost Particles' at the South Pole; Fort Worth Zoo Welcomes Its First Critically Endangered Sumatran Tiger Cubs; Optogenetics Pioneers Win the 2026 Nobel Prize in Physiology or Medicine</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 19:48:44 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-10/happy-news-2026-10-10.mp3" length="2564981" type="audio/mpeg" />
-      <itunes:duration>0:05:21</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

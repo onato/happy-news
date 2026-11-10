@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-10",
+      "title": "Happy News \u2014 10 November 2026",
+      "runKey": "2026-11-09T23:59:00Z",
+      "published": "2026-11-10T00:00:56Z",
+      "duration": 415.42,
+      "bytes": 3324862,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-10",
+      "summary": "Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
+          "headline": "Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life",
+          "start": 8.06,
+          "duration": 113.48
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
+          "headline": "Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues",
+          "start": 121.54,
+          "duration": 100.6
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2388135/customary-landowners-welcome-kaiteretere-name-change-as-part-of-nelson-tenths-case",
+          "headline": "Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners",
+          "start": 222.14,
+          "duration": 102.3
+        },
+        {
+          "url": "https://www.wbur.org/news/2026/11/06/baby-right-whale-discovered-canada-boston",
+          "headline": "Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009",
+          "start": 324.44,
+          "duration": 88.0
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-10/happy-news-2026-11-10.mp3"
+    },
+    {
       "date": "2026-11-08",
       "title": "Happy News \u2014 8 November 2026",
       "runKey": "2026-11-08T09:00:00Z",
@@ -809,39 +847,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-11/happy-news-2026-10-11.mp3"
-    },
-    {
-      "date": "2026-10-10",
-      "title": "Happy News \u2014 10 October 2026",
-      "runKey": "2026-10-10T19:55:00Z",
-      "published": "2026-10-10T19:48:44Z",
-      "duration": 320.52,
-      "bytes": 2564981,
-      "storyCount": 3,
-      "guid": "happy-news-2026-10-10",
-      "summary": "Three good things: Francis Halzen Wins the 2026 Nobel Prize in Physics for Catching 'Ghost Particles' at the South Pole; Fort Worth Zoo Welcomes Its First Critically Endangered Sumatran Tiger Cubs; Optogenetics Pioneers Win the 2026 Nobel Prize in Physiology or Medicine",
-      "chapters": [
-        {
-          "url": "https://aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles",
-          "headline": "Francis Halzen Wins the 2026 Nobel Prize in Physics for Catching 'Ghost Particles' at the South Pole",
-          "start": 7.52,
-          "duration": 107.92
-        },
-        {
-          "url": "https://en.antaranews.com/news/434236/rare-sumatran-tiger-births-mark-us-ri-conservation-goal-officials",
-          "headline": "Fort Worth Zoo Welcomes Its First Critically Endangered Sumatran Tiger Cubs",
-          "start": 115.44,
-          "duration": 81.6
-        },
-        {
-          "url": "https://www.expressandstar.com/world-news/trio-awarded-nobel-prize-in-medicine-over-optogenetics-work-9266854",
-          "headline": "Optogenetics Pioneers Win the 2026 Nobel Prize in Physiology or Medicine",
-          "start": 197.04,
-          "duration": 120.82
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-10/happy-news-2026-10-10.mp3"
     }
   ],
-  "updated": "2026-11-08T20:14:39Z"
+  "updated": "2026-11-10T00:01:26Z"
 }
