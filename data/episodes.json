@@ -3,37 +3,19 @@
     {
       "date": "2026-11-10",
       "title": "Happy News \u2014 10 November 2026",
-      "runKey": "2026-11-09T23:59:00Z",
-      "published": "2026-11-10T00:00:56Z",
-      "duration": 415.42,
-      "bytes": 3324862,
-      "storyCount": 4,
+      "runKey": "2026-11-10T21:55:00Z",
+      "published": "2026-11-10T21:41:15Z",
+      "duration": 119.5,
+      "bytes": 957195,
+      "storyCount": 1,
       "guid": "happy-news-2026-11-10",
-      "summary": "Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009",
+      "summary": "One good things: Newborn Deaths Fell by Half in Flint After Cash Program for New Parents Launched",
       "chapters": [
         {
-          "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
-          "headline": "Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life",
-          "start": 8.06,
-          "duration": 113.48
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
-          "headline": "Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues",
-          "start": 121.54,
-          "duration": 100.6
-        },
-        {
-          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2388135/customary-landowners-welcome-kaiteretere-name-change-as-part-of-nelson-tenths-case",
-          "headline": "Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners",
-          "start": 222.14,
-          "duration": 102.3
-        },
-        {
-          "url": "https://www.wbur.org/news/2026/11/06/baby-right-whale-discovered-canada-boston",
-          "headline": "Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009",
-          "start": 324.44,
-          "duration": 88.0
+          "url": "https://medicalxpress.com/news/2026-11-newborn-deaths-fell-flint-rx.html",
+          "headline": "Newborn Deaths Fell by Half in Flint After Cash Program for New Parents Launched",
+          "start": 7.92,
+          "duration": 108.6
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-10/happy-news-2026-11-10.mp3"
@@ -849,5 +831,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-11/happy-news-2026-10-11.mp3"
     }
   ],
-  "updated": "2026-11-10T00:01:26Z"
+  "updated": "2026-11-10T21:41:26Z"
 }

@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:01:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 21:41:27 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -27,13 +27,13 @@
     </image>
     <item>
       <title>Happy News — 10 November 2026</title>
-      <description>Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009</description>
-      <itunes:summary>Four good things: Ten-Year Ban on Scallop Dredging Brings Scotland's Summer Isles Seabed and Fish Back to Life; Teen Teaches Himself Machine Learning and Builds a Free App Helping Families Read Autistic Children's Cues; Kaiteriteri Becomes Kaiteretere as Name Change Follows Return of Land to Nelson Tenths Owners; Unknown Right Whale Calf Found Off Canada Makes 24 Births This Season, the Best Since 2009</itunes:summary>
+      <description>One good things: Newborn Deaths Fell by Half in Flint After Cash Program for New Parents Launched</description>
+      <itunes:summary>One good things: Newborn Deaths Fell by Half in Flint After Cash Program for New Parents Launched</itunes:summary>
       <link>https://www.onato.com/happy-news/</link>
       <guid isPermaLink="false">happy-news-2026-11-10</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:56 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-10/happy-news-2026-11-10.mp3" length="3324862" type="audio/mpeg" />
-      <itunes:duration>0:06:55</itunes:duration>
+      <pubDate>Tue, 10 Nov 2026 21:41:15 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-10/happy-news-2026-11-10.mp3" length="957195" type="audio/mpeg" />
+      <itunes:duration>0:02:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
