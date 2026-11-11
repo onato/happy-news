@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-11",
+      "title": "Happy News \u2014 11 November 2026",
+      "runKey": "2026-11-11T22:40:00Z",
+      "published": "2026-11-11T22:31:38Z",
+      "duration": 321.25,
+      "bytes": 2571388,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-11",
+      "summary": "Four good things: Fiordland National Park Becomes the Southern Hemisphere's Largest International Dark Sky Park; Brown Bear Population in Spain Doubles as Its Breeding Range Expands; Chile's Atacama Desert Erupts in Its Biggest Wildflower Bloom in Decades; Archaeologists Find 280 Ice Age Engravings Hidden in Plain Sight in a Catalan Cave",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2551341/international-dark-sky-park-status-for-fiordland-national-park",
+          "headline": "Fiordland National Park Becomes the Southern Hemisphere's Largest International Dark Sky Park",
+          "start": 8.38,
+          "duration": 75.74
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
+          "headline": "Brown Bear Population in Spain Doubles as Its Breeding Range Expands",
+          "start": 84.12,
+          "duration": 70.48
+        },
+        {
+          "url": "https://www.kuow.org/npr-news/2026-11-08/a-desert-stirs-to-life-chiles-atacama-erupts-in-its-biggest-floral-display-in-decades",
+          "headline": "Chile's Atacama Desert Erupts in Its Biggest Wildflower Bloom in Decades",
+          "start": 154.6,
+          "duration": 85.14
+        },
+        {
+          "url": "https://www.smithsonianmag.com/smart-news/for-centuries-visitors-walked-right-by-280-ice-age-engravings-in-a-catalan-cave-the-newly-discovered-rock-art-is-rewriting-catalonias-prehistory-180989827/",
+          "headline": "Archaeologists Find 280 Ice Age Engravings Hidden in Plain Sight in a Catalan Cave",
+          "start": 239.74,
+          "duration": 78.52
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-11/happy-news-2026-11-11.mp3"
+    },
+    {
       "date": "2026-11-10",
       "title": "Happy News \u2014 10 November 2026",
       "runKey": "2026-11-10T21:55:00Z",
@@ -803,33 +841,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-12/happy-news-2026-10-12.mp3"
-    },
-    {
-      "date": "2026-10-11",
-      "title": "Happy News \u2014 11 October 2026",
-      "runKey": "2026-10-11T19:55:00Z",
-      "published": "2026-10-11T19:57:28Z",
-      "duration": 149.95,
-      "bytes": 1200334,
-      "storyCount": 2,
-      "guid": "happy-news-2026-10-11",
-      "summary": "Two good things: Sloth Bear Rescued From the Dancing Trade Is Thriving at 26; Victoria Creates Three New National Parks Covering More Than 250 Square Miles of Forest",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/sloth-bear-given-a-name-by-julia-roberts-is-flourishing/",
-          "headline": "Sloth Bear Rescued From the Dancing Trade Is Thriving at 26",
-          "start": 7.2,
-          "duration": 55.98
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/australia-announces-3-new-national-parks-to-protect-gliders-owls-and-other-victoria-wildlife/",
-          "headline": "Victoria Creates Three New National Parks Covering More Than 250 Square Miles of Forest",
-          "start": 63.18,
-          "duration": 84.18
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-11/happy-news-2026-10-11.mp3"
     }
   ],
-  "updated": "2026-11-10T21:41:26Z"
+  "updated": "2026-11-11T22:32:00Z"
 }
