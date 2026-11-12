@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 22:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 22:05:40 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 12 November 2026</title>
+      <description>Three good things: China Switches On the World's Largest Liquid-Air Energy Storage Plant; Lost Georgia O'Keeffe Painting Found in a Manhattan Closet Heads to Auction; Actor, 85, Takes to the Stage in Beckett Despite Alzheimer's Diagnosis</description>
+      <itunes:summary>Three good things: China Switches On the World's Largest Liquid-Air Energy Storage Plant; Lost Georgia O'Keeffe Painting Found in a Manhattan Closet Heads to Auction; Actor, 85, Takes to the Stage in Beckett Despite Alzheimer's Diagnosis</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 22:05:22 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-12/happy-news-2026-11-12.mp3" length="2016981" type="audio/mpeg" />
+      <itunes:duration>0:04:12</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 11 November 2026</title>
       <description>Four good things: Fiordland National Park Becomes the Southern Hemisphere's Largest International Dark Sky Park; Brown Bear Population in Spain Doubles as Its Breeding Range Expands; Chile's Atacama Desert Erupts in Its Biggest Wildflower Bloom in Decades; Archaeologists Find 280 Ice Age Engravings Hidden in Plain Sight in a Catalan Cave</description>
@@ -346,18 +358,6 @@
       <pubDate>Tue, 13 Oct 2026 21:01:50 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-13/happy-news-2026-10-13.mp3" length="1589537" type="audio/mpeg" />
       <itunes:duration>0:03:19</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 12 October 2026</title>
-      <description>One good things: Bowel Cancer 'Melted Away' After Short Pre-Surgery Immunotherapy, and Has Stayed Away for Nearly Three Years</description>
-      <itunes:summary>One good things: Bowel Cancer 'Melted Away' After Short Pre-Surgery Immunotherapy, and Has Stayed Away for Nearly Three Years</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 22:45:26 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-12/happy-news-2026-10-12.mp3" length="912678" type="audio/mpeg" />
-      <itunes:duration>0:01:54</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

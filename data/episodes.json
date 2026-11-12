@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-11-12",
+      "title": "Happy News \u2014 12 November 2026",
+      "runKey": "2026-11-12T22:30:00Z",
+      "published": "2026-11-12T22:05:22Z",
+      "duration": 251.95,
+      "bytes": 2016981,
+      "storyCount": 3,
+      "guid": "happy-news-2026-11-12",
+      "summary": "Three good things: China Switches On the World's Largest Liquid-Air Energy Storage Plant; Lost Georgia O'Keeffe Painting Found in a Manhattan Closet Heads to Auction; Actor, 85, Takes to the Stage in Beckett Despite Alzheimer's Diagnosis",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
+          "headline": "China Switches On the World's Largest Liquid-Air Energy Storage Plant",
+          "start": 8.22,
+          "duration": 94.76
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+          "headline": "Lost Georgia O'Keeffe Painting Found in a Manhattan Closet Heads to Auction",
+          "start": 102.98,
+          "duration": 71.16
+        },
+        {
+          "url": "https://www.positive.news/society/actor-85-takes-to-the-stage-despite-alzheimers-diagnosis/",
+          "headline": "Actor, 85, Takes to the Stage in Beckett Despite Alzheimer's Diagnosis",
+          "start": 174.14,
+          "duration": 74.92
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-12/happy-news-2026-11-12.mp3"
+    },
+    {
       "date": "2026-11-11",
       "title": "Happy News \u2014 11 November 2026",
       "runKey": "2026-11-11T22:40:00Z",
@@ -821,27 +853,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-13/happy-news-2026-10-13.mp3"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Happy News \u2014 12 October 2026",
-      "runKey": "2026-10-12T22:44:46Z",
-      "published": "2026-10-12T22:45:26Z",
-      "duration": 114.0,
-      "bytes": 912678,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-12",
-      "summary": "One good things: Bowel Cancer 'Melted Away' After Short Pre-Surgery Immunotherapy, and Has Stayed Away for Nearly Three Years",
-      "chapters": [
-        {
-          "url": "https://sciencedaily.com/releases/2026/10/261007042115.htm",
-          "headline": "Bowel Cancer 'Melted Away' After Short Pre-Surgery Immunotherapy, and Has Stayed Away for Nearly Three Years",
-          "start": 7.02,
-          "duration": 104.34
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-12/happy-news-2026-10-12.mp3"
     }
   ],
-  "updated": "2026-11-11T22:32:00Z"
+  "updated": "2026-11-12T22:05:40Z"
 }
