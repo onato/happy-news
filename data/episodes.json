@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-11-13",
+      "title": "Happy News \u2014 13 November 2026",
+      "runKey": "2026-11-13T21:55:00Z",
+      "published": "2026-11-13T21:50:55Z",
+      "duration": 209.46,
+      "bytes": 1676948,
+      "storyCount": 2,
+      "guid": "happy-news-2026-11-13",
+      "summary": "Two good things: Tiny One-Gram Trackers Let Scientists Follow Nationally Critical Long-Tailed Bats Through Fiordland Nights; China's Emissions Fall 3.1% in Third Quarter, Biggest Quarterly Drop Since 2022, as Clean Power and EVs Surge",
+      "chapters": [
+        {
+          "url": "https://dailyencourager.co.nz/new-technology-offers-window-into-secret-life-of-bats",
+          "headline": "Tiny One-Gram Trackers Let Scientists Follow Nationally Critical Long-Tailed Bats Through Fiordland Nights",
+          "start": 8.22,
+          "duration": 97.82
+        },
+        {
+          "url": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
+          "headline": "China's Emissions Fall 3.1% in Third Quarter, Biggest Quarterly Drop Since 2022, as Clean Power and EVs Surge",
+          "start": 106.04,
+          "duration": 100.48
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-13/happy-news-2026-11-13.mp3"
+    },
+    {
       "date": "2026-11-12",
       "title": "Happy News \u2014 12 November 2026",
       "runKey": "2026-11-12T22:30:00Z",
@@ -827,33 +853,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-14/happy-news-2026-10-14.mp3"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Happy News \u2014 13 October 2026",
-      "runKey": "2026-10-13T21:10:00Z",
-      "published": "2026-10-13T21:01:50Z",
-      "duration": 198.6,
-      "bytes": 1589537,
-      "storyCount": 2,
-      "guid": "happy-news-2026-10-13",
-      "summary": "Two good things: FDA Approves the First Drug for Alexander Disease, a Deadly Rare Brain Disorder; Family Sells 650 Acres of Lake Palestine Shoreline So It Can Become a Texas State Park",
-      "chapters": [
-        {
-          "url": "https://sciencedaily.com/releases/2026/10/261007042111.htm",
-          "headline": "FDA Approves the First Drug for Alexander Disease, a Deadly Rare Brain Disorder",
-          "start": 7.54,
-          "duration": 112.24
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/",
-          "headline": "Family Sells 650 Acres of Lake Palestine Shoreline So It Can Become a Texas State Park",
-          "start": 119.78,
-          "duration": 76.14
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-13/happy-news-2026-10-13.mp3"
     }
   ],
-  "updated": "2026-11-12T22:05:40Z"
+  "updated": "2026-11-13T21:51:07Z"
 }
