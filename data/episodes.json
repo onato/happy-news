@@ -3,37 +3,43 @@
     {
       "date": "2026-11-17",
       "title": "Happy News \u2014 17 November 2026",
-      "runKey": "2026-11-17T00:30:00Z",
-      "published": "2026-11-17T00:01:27Z",
-      "duration": 336.97,
-      "bytes": 2697566,
-      "storyCount": 4,
+      "runKey": "2026-11-17T23:45:00Z",
+      "published": "2026-11-17T23:22:55Z",
+      "duration": 365.05,
+      "bytes": 2922280,
+      "storyCount": 5,
       "guid": "happy-news-2026-11-17",
-      "summary": "Four good things: M\u0101ori Queen Makes Historic First Poukai Visit to Tair\u0101whiti; Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds; Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs; Pacific and M\u0101ori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals",
+      "summary": "Five good things: Auckland Hobbyist's Refurbished Bikes Give Kids a Christmas Present and Families a Ride; Earthshot Prize Awards \u00a31 Million Each to Five Climate Solutions in Mumbai; West Coast's First Recorded Sea Turtle Nests Produce Hatchlings Released Into the Pacific; Forever Chemicals Fall About 30% in England's Rivers and 49% in Fish",
       "chapters": [
         {
-          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2635449/maori-queen-makes-historic-visit-to-tai-rawhiti",
-          "headline": "M\u0101ori Queen Makes Historic First Poukai Visit to Tair\u0101whiti",
-          "start": 8.32,
-          "duration": 68.9
+          "url": "https://www.rnz.co.nz/news/community/2647412/refurbished-bikes-bring-christmas-cheer",
+          "headline": "Auckland Hobbyist's Refurbished Bikes Give Kids a Christmas Present and Families a Ride",
+          "start": 8.5,
+          "duration": 56.52
         },
         {
-          "url": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
-          "headline": "Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds",
-          "start": 77.22,
-          "duration": 91.56
+          "url": "https://news.mongabay.com/short-article/2026/11/prince-williams-presents-earthshot-prize-winners-with-1-3m-each-in-mumbai/",
+          "headline": "Earthshot Prize Awards \u00a31 Million Each to Five Climate Solutions in Mumbai",
+          "start": 65.02,
+          "duration": 57.66
         },
         {
-          "url": "https://www.rnz.co.nz/news/country/2586939/country-life-a-glimpse-into-country-life-for-kiwi-kids",
-          "headline": "Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs",
-          "start": 168.78,
-          "duration": 84.38
+          "url": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
+          "headline": "West Coast's First Recorded Sea Turtle Nests Produce Hatchlings Released Into the Pacific",
+          "start": 122.68,
+          "duration": 95.3
         },
         {
-          "url": "https://www.rnz.co.nz/news/pacific/2558347/why-mapas-still-matters-after-50-years-bringing-everyone-to-the-same-starting-point",
-          "headline": "Pacific and M\u0101ori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals",
-          "start": 253.16,
-          "duration": 80.88
+          "url": "https://www.goodnewsnetwork.org/30-drop-in-levels-of-forever-chemicals-in-englands-rivers-49-in-fish-brilliant-to-see/",
+          "headline": "Forever Chemicals Fall About 30% in England's Rivers and 49% in Fish",
+          "start": 217.98,
+          "duration": 86.92
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+          "headline": "Fibre Supplement Improves Gut Health in People With IBS in Randomised Trial",
+          "start": 304.9,
+          "duration": 57.22
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-17/happy-news-2026-11-17.mp3"
@@ -815,5 +821,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3"
     }
   ],
-  "updated": "2026-11-17T00:01:43Z"
+  "updated": "2026-11-17T23:23:17Z"
 }
