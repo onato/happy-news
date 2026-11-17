@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-17",
+      "title": "Happy News \u2014 17 November 2026",
+      "runKey": "2026-11-17T00:30:00Z",
+      "published": "2026-11-17T00:01:27Z",
+      "duration": 336.97,
+      "bytes": 2697566,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-17",
+      "summary": "Four good things: M\u0101ori Queen Makes Historic First Poukai Visit to Tair\u0101whiti; Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds; Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs; Pacific and M\u0101ori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2635449/maori-queen-makes-historic-visit-to-tai-rawhiti",
+          "headline": "M\u0101ori Queen Makes Historic First Poukai Visit to Tair\u0101whiti",
+          "start": 8.32,
+          "duration": 68.9
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+          "headline": "Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds",
+          "start": 77.22,
+          "duration": 91.56
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/country/2586939/country-life-a-glimpse-into-country-life-for-kiwi-kids",
+          "headline": "Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs",
+          "start": 168.78,
+          "duration": 84.38
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/pacific/2558347/why-mapas-still-matters-after-50-years-bringing-everyone-to-the-same-starting-point",
+          "headline": "Pacific and M\u0101ori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals",
+          "start": 253.16,
+          "duration": 80.88
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-17/happy-news-2026-11-17.mp3"
+    },
+    {
       "date": "2026-11-15",
       "title": "Happy News \u2014 15 November 2026",
       "runKey": "2026-11-15T21:00:00Z",
@@ -775,53 +813,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3"
-    },
-    {
-      "date": "2026-10-17",
-      "title": "Happy News \u2014 17 October 2026",
-      "runKey": "2026-10-17T18:30:00Z",
-      "published": "2026-10-17T18:12:05Z",
-      "duration": 107.98,
-      "bytes": 864473,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-17",
-      "summary": "One good things: Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family",
-      "chapters": [
-        {
-          "url": "https://www.foxcarolina.com/2026/10/15/luna-small-dog-missing-over-month-yellowstone-is-reunited-with-her-owners/",
-          "headline": "Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family",
-          "start": 7.4,
-          "duration": 98.1
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-17/happy-news-2026-10-17.mp3"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Happy News \u2014 16 October 2026",
-      "runKey": "2026-10-16T19:30:00Z",
-      "published": "2026-10-16T19:21:18Z",
-      "duration": 188.06,
-      "bytes": 1505242,
-      "storyCount": 2,
-      "guid": "happy-news-2026-10-16",
-      "summary": "Two good things: Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000; North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
-          "headline": "Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000",
-          "start": 7.22,
-          "duration": 74.62
-        },
-        {
-          "url": "https://coloradosun.com/2026/10/14/i25-wildlife-overpass-collisions-drop/",
-          "headline": "North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%",
-          "start": 81.84,
-          "duration": 103.58
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-16/happy-news-2026-10-16.mp3"
     }
   ],
-  "updated": "2026-11-15T20:53:32Z"
+  "updated": "2026-11-17T00:01:43Z"
 }

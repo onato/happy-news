@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 20:53:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:01:43 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 17 November 2026</title>
+      <description>Four good things: Māori Queen Makes Historic First Poukai Visit to Tairāwhiti; Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds; Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs; Pacific and Māori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals</description>
+      <itunes:summary>Four good things: Māori Queen Makes Historic First Poukai Visit to Tairāwhiti; Gentle Bursts of Pink Noise During Sleep Boost the Brain's Waste-Clearing Fluid Waves, MIT Study Finds; Hawke's Bay Vet Opens a Working-Farm Classroom So Town Kids Can Meet Calves and Collect Eggs; Pacific and Māori Medical Admission Scheme MAPAS Marks 50 Years, With Graduates Now Working in Hospitals</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 00:01:27 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-17/happy-news-2026-11-17.mp3" length="2697566" type="audio/mpeg" />
+      <itunes:duration>0:05:37</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 15 November 2026</title>
       <description>Four good things: Doctors Use Marrow From a Deceased Organ Donor to Treat Severe Aplastic Anemia in a First; Two of the Pacific's Last Untouched Atolls Become the Marshall Islands' First National Marine Sanctuary; King Charles's Farms to Trial Southland Deer Farmer's Edible Bale Netting; Wellington Town Hall Nears Reopening After 13 Years, With a New National Music Centre</description>
@@ -322,30 +334,6 @@
       <pubDate>Sun, 18 Oct 2026 18:29:46 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3" length="889042" type="audio/mpeg" />
       <itunes:duration>0:01:51</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 17 October 2026</title>
-      <description>One good things: Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family</description>
-      <itunes:summary>One good things: Tiny Jack Russell Lost for Five Weeks in Yellowstone Is Found Safe and Reunited With Her Family</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 18:12:05 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-17/happy-news-2026-10-17.mp3" length="864473" type="audio/mpeg" />
-      <itunes:duration>0:01:48</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 16 October 2026</title>
-      <description>Two good things: Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000; North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%</description>
-      <itunes:summary>Two good things: Free-Roaming Bison on America's Largest Private Conservation Project Pass 1,000; North America's Largest Wildlife Overpass Cuts Animal Collisions on I-25 by 91%</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 19:21:18 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-16/happy-news-2026-10-16.mp3" length="1505242" type="audio/mpeg" />
-      <itunes:duration>0:03:08</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
