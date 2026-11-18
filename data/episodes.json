@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-11-18",
+      "title": "Happy News \u2014 18 November 2026",
+      "runKey": "2026-11-18T22:55:00Z",
+      "published": "2026-11-18T22:52:54Z",
+      "duration": 201.99,
+      "bytes": 1617183,
+      "storyCount": 2,
+      "guid": "happy-news-2026-11-18",
+      "summary": "Two good things: Bay of Plenty Volunteer Helps Get Free Tracking Devices to People at Risk of Going Missing; Algeria Repays Kansas Town's World Cup Welcome With a Trip of a Lifetime",
+      "chapters": [
+        {
+          "url": "https://dailyencourager.co.nz/corey-helps-keep-people-safe/",
+          "headline": "Bay of Plenty Volunteer Helps Get Free Tracking Devices to People at Risk of Going Missing",
+          "start": 8.02,
+          "duration": 103.82
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/algeria-returns-kindness-shown-by-kansans-who-welcomed-its-world-cup-team-with-the-trip-of-a-lifetime/",
+          "headline": "Algeria Repays Kansas Town's World Cup Welcome With a Trip of a Lifetime",
+          "start": 111.84,
+          "duration": 87.2
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-18/happy-news-2026-11-18.mp3"
+    },
+    {
       "date": "2026-11-17",
       "title": "Happy News \u2014 17 November 2026",
       "runKey": "2026-11-17T23:45:00Z",
@@ -799,27 +825,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-20/happy-news-2026-10-20.mp3"
-    },
-    {
-      "date": "2026-10-18",
-      "title": "Happy News \u2014 18 October 2026",
-      "runKey": "2026-10-18T18:45:00Z",
-      "published": "2026-10-18T18:29:46Z",
-      "duration": 111.05,
-      "bytes": 889042,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-18",
-      "summary": "One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
-      "chapters": [
-        {
-          "url": "https://www.pv-magazine-australia.com/2026/10/12/rooftop-solar-reaches-new-highs-across-nem/",
-          "headline": "Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand",
-          "start": 7.08,
-          "duration": 101.14
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3"
     }
   ],
-  "updated": "2026-11-17T23:23:17Z"
+  "updated": "2026-11-18T22:53:11Z"
 }

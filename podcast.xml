@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 23:23:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 22:53:11 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 18 November 2026</title>
+      <description>Two good things: Bay of Plenty Volunteer Helps Get Free Tracking Devices to People at Risk of Going Missing; Algeria Repays Kansas Town's World Cup Welcome With a Trip of a Lifetime</description>
+      <itunes:summary>Two good things: Bay of Plenty Volunteer Helps Get Free Tracking Devices to People at Risk of Going Missing; Algeria Repays Kansas Town's World Cup Welcome With a Trip of a Lifetime</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 22:52:54 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-18/happy-news-2026-11-18.mp3" length="1617183" type="audio/mpeg" />
+      <itunes:duration>0:03:22</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 17 November 2026</title>
       <description>Five good things: Auckland Hobbyist's Refurbished Bikes Give Kids a Christmas Present and Families a Ride; Earthshot Prize Awards £1 Million Each to Five Climate Solutions in Mumbai; West Coast's First Recorded Sea Turtle Nests Produce Hatchlings Released Into the Pacific; Forever Chemicals Fall About 30% in England's Rivers and 49% in Fish</description>
@@ -322,18 +334,6 @@
       <pubDate>Tue, 20 Oct 2026 19:52:13 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-20/happy-news-2026-10-20.mp3" length="795737" type="audio/mpeg" />
       <itunes:duration>0:01:39</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 18 October 2026</title>
-      <description>One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand</description>
-      <itunes:summary>One good things: Australian Rooftop Solar Sets a New Record as Solar Meets Nearly 73% of Main-Grid Demand</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-18</guid>
-      <pubDate>Sun, 18 Oct 2026 18:29:46 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-18/happy-news-2026-10-18.mp3" length="889042" type="audio/mpeg" />
-      <itunes:duration>0:01:51</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
