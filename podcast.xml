@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 22:53:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:31:56 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 20 November 2026</title>
+      <description>Three good things: Takahē Chick Hatches at Farewell Spit Just Months After Birds Were Released There; Ladakh's Black-Necked Crane Count Climbs 25% to 108 as Ex-Servicemen Guard Nests; Leukemia Vaccine Extends Survival in Phase 3 Trial, Cutting Risk of Death by 41%</description>
+      <itunes:summary>Three good things: Takahē Chick Hatches at Farewell Spit Just Months After Birds Were Released There; Ladakh's Black-Necked Crane Count Climbs 25% to 108 as Ex-Servicemen Guard Nests; Leukemia Vaccine Extends Survival in Phase 3 Trial, Cutting Risk of Death by 41%</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 22:31:34 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-20/happy-news-2026-11-20.mp3" length="2284530" type="audio/mpeg" />
+      <itunes:duration>0:04:45</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 18 November 2026</title>
       <description>Two good things: Bay of Plenty Volunteer Helps Get Free Tracking Devices to People at Risk of Going Missing; Algeria Repays Kansas Town's World Cup Welcome With a Trip of a Lifetime</description>
@@ -322,18 +334,6 @@
       <pubDate>Wed, 21 Oct 2026 19:58:55 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3" length="3157596" type="audio/mpeg" />
       <itunes:duration>0:06:35</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 20 October 2026</title>
-      <description>One good things: Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag</description>
-      <itunes:summary>One good things: Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 19:52:13 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-20/happy-news-2026-10-20.mp3" length="795737" type="audio/mpeg" />
-      <itunes:duration>0:01:39</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

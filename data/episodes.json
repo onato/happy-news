@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-11-20",
+      "title": "Happy News \u2014 20 November 2026",
+      "runKey": "2026-11-20T22:45:00Z",
+      "published": "2026-11-20T22:31:34Z",
+      "duration": 285.38,
+      "bytes": 2284530,
+      "storyCount": 3,
+      "guid": "happy-news-2026-11-20",
+      "summary": "Three good things: Takah\u0113 Chick Hatches at Farewell Spit Just Months After Birds Were Released There; Ladakh's Black-Necked Crane Count Climbs 25% to 108 as Ex-Servicemen Guard Nests; Leukemia Vaccine Extends Survival in Phase 3 Trial, Cutting Risk of Death by 41%",
+      "chapters": [
+        {
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/new-takahe-chick-a-boost-for-conservation-at-onetahuafarewell-spit/",
+          "headline": "Takah\u0113 Chick Hatches at Farewell Spit Just Months After Birds Were Released There",
+          "start": 8.1,
+          "duration": 95.82
+        },
+        {
+          "url": "http://www.dailyexcelsior.com/lg-appreciates-epf-as-black-necked-crane-population-reaches-108-in-2026",
+          "headline": "Ladakh's Black-Necked Crane Count Climbs 25% to 108 as Ex-Servicemen Guard Nests",
+          "start": 103.92,
+          "duration": 78.26
+        },
+        {
+          "url": "https://www.mskcc.org/news-releases/investigational-peptide-vaccine-demonstrates-survival-benefit-in-people-with-acute-myeloid-leukemia",
+          "headline": "Leukemia Vaccine Extends Survival in Phase 3 Trial, Cutting Risk of Death by 41%",
+          "start": 182.18,
+          "duration": 100.24
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-20/happy-news-2026-11-20.mp3"
+    },
+    {
       "date": "2026-11-18",
       "title": "Happy News \u2014 18 November 2026",
       "runKey": "2026-11-18T22:55:00Z",
@@ -805,27 +837,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Happy News \u2014 20 October 2026",
-      "runKey": "2026-10-20T20:00:00Z",
-      "published": "2026-10-20T19:52:13Z",
-      "duration": 99.38,
-      "bytes": 795737,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-20",
-      "summary": "One good things: Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag",
-      "chapters": [
-        {
-          "url": "https://alaskapublic.org/news/outdoors/2026-10-20/oh-my-god-there-she-is-alaska-pilot-describes-finding-dog-lost-after-avalanche",
-          "headline": "Dog Lost After an Alaska Avalanche Is Found Alive Two Days Later by Pilots Following Her AirTag",
-          "start": 7.2,
-          "duration": 89.54
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-20/happy-news-2026-10-20.mp3"
     }
   ],
-  "updated": "2026-11-18T22:53:11Z"
+  "updated": "2026-11-20T22:31:56Z"
 }
