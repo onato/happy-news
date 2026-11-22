@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-22",
+      "title": "Happy News \u2014 22 November 2026",
+      "runKey": "2026-11-22T21:50:00Z",
+      "published": "2026-11-22T21:35:50Z",
+      "duration": 401.98,
+      "bytes": 3217289,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-22",
+      "summary": "Four good things: Hormone-Driven High Blood Pressure Eased for Up to Two Years After Drug Treatment Stopped; Ancient DNA Reveals a New Subspecies of New Zealand's Lost Bush Wren; Native Oysters Born in Scotland's Dornoch Firth for the First Time in Over a Century; Lake Baikal, the World's Largest Freshwater Lake, Is Recovering After Decades of Drying",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
+          "headline": "Hormone-Driven High Blood Pressure Eased for Up to Two Years After Drug Treatment Stopped",
+          "start": 8.26,
+          "duration": 91.18
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2719790/the-last-bird-to-go-extinct-in-nz-has-lessons-for-saving-other-species",
+          "headline": "Ancient DNA Reveals a New Subspecies of New Zealand's Lost Bush Wren",
+          "start": 99.44,
+          "duration": 93.46
+        },
+        {
+          "url": "https://www.hw.ac.uk/news/2026/first-oysters-born-in-dornoch-firth-for-over-100-years",
+          "headline": "Native Oysters Born in Scotland's Dornoch Firth for the First Time in Over a Century",
+          "start": 192.9,
+          "duration": 108.02
+        },
+        {
+          "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+          "headline": "Lake Baikal, the World's Largest Freshwater Lake, Is Recovering After Decades of Drying",
+          "start": 300.92,
+          "duration": 98.16
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-22/happy-news-2026-11-22.mp3"
+    },
+    {
       "date": "2026-11-20",
       "title": "Happy News \u2014 20 November 2026",
       "runKey": "2026-11-20T22:45:00Z",
@@ -761,83 +799,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-23/happy-news-2026-10-23.mp3"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Happy News \u2014 22 October 2026",
-      "runKey": "2026-10-22T19:55:00Z",
-      "published": "2026-10-22T19:47:04Z",
-      "duration": 361.49,
-      "bytes": 2893171,
-      "storyCount": 4,
-      "guid": "happy-news-2026-10-22",
-      "summary": "Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New K\u0101k\u0101p\u014d and Giant W\u0113t\u0101; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987",
-      "chapters": [
-        {
-          "url": "https://www.goodnewsnetwork.org/samoan-island-witnesses-explosion-of-native-wildlife-following-removal-of-invasive-rats-and-pigs/",
-          "headline": "Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed",
-          "start": 7.78,
-          "duration": 94.08
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/indonesia-calls-an-early-halt-to-worlds-largest-deforestation-project-saving-potentially-4-million-acres/",
-          "headline": "Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland",
-          "start": 101.86,
-          "duration": 92.66
-        },
-        {
-          "url": "https://www.nzherald.co.nz/waikato-news/news/sanctuary-mountain-maungatautari-marks-25-years-of-conservation-work/XTAKN52XWNAKDPAPX2FGFWIRCM/",
-          "headline": "Sanctuary Mountain Maungatautari Marks 25 Years With New K\u0101k\u0101p\u014d and Giant W\u0113t\u0101",
-          "start": 194.52,
-          "duration": 89.3
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/total-strangers-help-86-year-old-man-make-40-year-dream-reality/",
-          "headline": "Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987",
-          "start": 283.82,
-          "duration": 74.92
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-22/happy-news-2026-10-22.mp3"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Happy News \u2014 21 October 2026",
-      "runKey": "2026-10-21T20:05:00Z",
-      "published": "2026-10-21T19:58:55Z",
-      "duration": 394.58,
-      "bytes": 3157596,
-      "storyCount": 4,
-      "guid": "happy-news-2026-10-21",
-      "summary": "Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards",
-      "chapters": [
-        {
-          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
-          "headline": "FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients",
-          "start": 8.04,
-          "duration": 110.04
-        },
-        {
-          "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos",
-          "headline": "Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon",
-          "start": 118.08,
-          "duration": 80.06
-        },
-        {
-          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/new-method-makes-acrylic-glass-recycling-economically-viable.html",
-          "headline": "Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic",
-          "start": 198.14,
-          "duration": 97.98
-        },
-        {
-          "url": "https://www.scoop.co.nz/stories/AK2610/S00509/winners-of-the-nz-volunteering-awards-2026-announced.htm",
-          "headline": "Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards",
-          "start": 296.12,
-          "duration": 95.92
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3"
     }
   ],
-  "updated": "2026-11-20T22:31:56Z"
+  "updated": "2026-11-22T21:36:13Z"
 }

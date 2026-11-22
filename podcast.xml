@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 22:31:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 21:36:13 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 22 November 2026</title>
+      <description>Four good things: Hormone-Driven High Blood Pressure Eased for Up to Two Years After Drug Treatment Stopped; Ancient DNA Reveals a New Subspecies of New Zealand's Lost Bush Wren; Native Oysters Born in Scotland's Dornoch Firth for the First Time in Over a Century; Lake Baikal, the World's Largest Freshwater Lake, Is Recovering After Decades of Drying</description>
+      <itunes:summary>Four good things: Hormone-Driven High Blood Pressure Eased for Up to Two Years After Drug Treatment Stopped; Ancient DNA Reveals a New Subspecies of New Zealand's Lost Bush Wren; Native Oysters Born in Scotland's Dornoch Firth for the First Time in Over a Century; Lake Baikal, the World's Largest Freshwater Lake, Is Recovering After Decades of Drying</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 21:35:50 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-22/happy-news-2026-11-22.mp3" length="3217289" type="audio/mpeg" />
+      <itunes:duration>0:06:42</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 20 November 2026</title>
       <description>Three good things: Takahē Chick Hatches at Farewell Spit Just Months After Birds Were Released There; Ladakh's Black-Necked Crane Count Climbs 25% to 108 as Ex-Servicemen Guard Nests; Leukemia Vaccine Extends Survival in Phase 3 Trial, Cutting Risk of Death by 41%</description>
@@ -310,30 +322,6 @@
       <pubDate>Fri, 23 Oct 2026 19:49:04 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-23/happy-news-2026-10-23.mp3" length="822203" type="audio/mpeg" />
       <itunes:duration>0:01:43</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 22 October 2026</title>
-      <description>Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New Kākāpō and Giant Wētā; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987</description>
-      <itunes:summary>Four good things: Samoan Island's Native Wildlife Rebounds After Invasive Rats and Pigs Removed; Indonesia Halts Giant Rice-Estate Project, Sparing Around 4 Million Acres of Forest and Peatland; Sanctuary Mountain Maungatautari Marks 25 Years With New Kākāpō and Giant Wētā; Strangers Rally to Help 86-Year-Old Finish the 62-Foot Boat He Began Building in 1987</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 19:47:04 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-22/happy-news-2026-10-22.mp3" length="2893171" type="audio/mpeg" />
-      <itunes:duration>0:06:01</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 21 October 2026</title>
-      <description>Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards</description>
-      <itunes:summary>Four good things: FDA Approves First Antisense Drug for Chronic Hepatitis B, Opening a Path Off Lifelong Treatment for Some Patients; Japan Launches MMX, the First Mission to Bring Back Samples From a Martian Moon; Swiss Researchers Find a Low-Energy Way to Recycle Acrylic Glass Back Into New Plastic; Good Bitches Baking Wins Top Prize at the 2026 NZ Volunteering Awards</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 19:58:55 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-21/happy-news-2026-10-21.mp3" length="3157596" type="audio/mpeg" />
-      <itunes:duration>0:06:35</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
