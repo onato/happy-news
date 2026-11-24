@@ -1,6 +1,50 @@
 {
   "episodes": [
     {
+      "date": "2026-11-24",
+      "title": "Happy News \u2014 24 November 2026",
+      "runKey": "2026-11-24T03:10:00Z",
+      "published": "2026-11-24T02:48:02Z",
+      "duration": 470.2,
+      "bytes": 3763432,
+      "storyCount": 5,
+      "guid": "happy-news-2026-11-24",
+      "summary": "Five good things: Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care; 'Retired' Pair of Critically Endangered K\u0101k\u0101riki Karaka Surprise Keepers With Two Clutches of Eggs; New Light Therapy Kills Gum Disease Bacteria While Sparing Beneficial Ones in Mice; World's First Museum Built Inside a Children's Hospital Opens in New Orleans, Fulfilling a Dying Boy's Wish",
+      "chapters": [
+        {
+          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2762036/a-proud-moment-for-ngati-rehua-new-zealand-s-longest-lizard-returns-to-aotea-great-barrier-island",
+          "headline": "Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care",
+          "start": 8.38,
+          "duration": 100.76
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2759969/retired-pair-of-critically-endangered-kakariki-karaka-stun-keepers-with-two-sets-of-eggs",
+          "headline": "'Retired' Pair of Critically Endangered K\u0101k\u0101riki Karaka Surprise Keepers With Two Clutches of Eggs",
+          "start": 109.14,
+          "duration": 87.48
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261123005356.htm",
+          "headline": "New Light Therapy Kills Gum Disease Bacteria While Sparing Beneficial Ones in Mice",
+          "start": 196.62,
+          "duration": 84.7
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
+          "headline": "World's First Museum Built Inside a Children's Hospital Opens in New Orleans, Fulfilling a Dying Boy's Wish",
+          "start": 281.32,
+          "duration": 91.08
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/11/18/200000-walruses-are-forced-ashore-in-alaska-as-sea-ice-melts-now-theres-a-plan-to-protect-them/",
+          "headline": "Nearly 50,000 Acres in Alaska Secured as Permanent Refuge for Pacific Walrus",
+          "start": 372.4,
+          "duration": 94.86
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-24/happy-news-2026-11-24.mp3"
+    },
+    {
       "date": "2026-11-22",
       "title": "Happy News \u2014 22 November 2026",
       "runKey": "2026-11-22T21:50:00Z",
@@ -753,53 +797,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-25/happy-news-2026-10-25.mp3"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Happy News \u2014 24 October 2026",
-      "runKey": "2026-10-24T18:50:00Z",
-      "published": "2026-10-24T18:37:24Z",
-      "duration": 175.27,
-      "bytes": 1402929,
-      "storyCount": 2,
-      "guid": "happy-news-2026-10-24",
-      "summary": "Two good things: Experimental Drug Combination Shrinks Tumours in 82% of Patients With a Type of Advanced Pancreatic Cancer; Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began",
-      "chapters": [
-        {
-          "url": "https://statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque",
-          "headline": "Experimental Drug Combination Shrinks Tumours in 82% of Patients With a Type of Advanced Pancreatic Cancer",
-          "start": 7.58,
-          "duration": 62.22
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record",
-          "headline": "Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began",
-          "start": 69.8,
-          "duration": 102.86
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-24/happy-news-2026-10-24.mp3"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Happy News \u2014 23 October 2026",
-      "runKey": "2026-10-23T20:00:00Z",
-      "published": "2026-10-23T19:49:04Z",
-      "duration": 102.7,
-      "bytes": 822203,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-23",
-      "summary": "One good things: Chiricahua National Monument Becomes America's 64th National Park",
-      "chapters": [
-        {
-          "url": "https://www.azfamily.com/2026/10/20/chiricahuas-towering-spires-now-stand-arizonas-newest-national-park/",
-          "headline": "Chiricahua National Monument Becomes America's 64th National Park",
-          "start": 7.44,
-          "duration": 92.64
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-23/happy-news-2026-10-23.mp3"
     }
   ],
-  "updated": "2026-11-22T21:36:13Z"
+  "updated": "2026-11-24T02:48:34Z"
 }

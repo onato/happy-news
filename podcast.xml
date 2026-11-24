@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 21:36:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 02:48:34 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 24 November 2026</title>
+      <description>Five good things: Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care; 'Retired' Pair of Critically Endangered Kākāriki Karaka Surprise Keepers With Two Clutches of Eggs; New Light Therapy Kills Gum Disease Bacteria While Sparing Beneficial Ones in Mice; World's First Museum Built Inside a Children's Hospital Opens in New Orleans, Fulfilling a Dying Boy's Wish</description>
+      <itunes:summary>Five good things: Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care; 'Retired' Pair of Critically Endangered Kākāriki Karaka Surprise Keepers With Two Clutches of Eggs; New Light Therapy Kills Gum Disease Bacteria While Sparing Beneficial Ones in Mice; World's First Museum Built Inside a Children's Hospital Opens in New Orleans, Fulfilling a Dying Boy's Wish</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 02:48:02 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-24/happy-news-2026-11-24.mp3" length="3763432" type="audio/mpeg" />
+      <itunes:duration>0:07:50</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 22 November 2026</title>
       <description>Four good things: Hormone-Driven High Blood Pressure Eased for Up to Two Years After Drug Treatment Stopped; Ancient DNA Reveals a New Subspecies of New Zealand's Lost Bush Wren; Native Oysters Born in Scotland's Dornoch Firth for the First Time in Over a Century; Lake Baikal, the World's Largest Freshwater Lake, Is Recovering After Decades of Drying</description>
@@ -298,30 +310,6 @@
       <pubDate>Sun, 25 Oct 2026 18:46:26 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-25/happy-news-2026-10-25.mp3" length="638278" type="audio/mpeg" />
       <itunes:duration>0:01:20</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 24 October 2026</title>
-      <description>Two good things: Experimental Drug Combination Shrinks Tumours in 82% of Patients With a Type of Advanced Pancreatic Cancer; Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began</description>
-      <itunes:summary>Two good things: Experimental Drug Combination Shrinks Tumours in 82% of Patients With a Type of Advanced Pancreatic Cancer; Brazil's Amazon Deforestation Falls to the Lowest Level Since Records Began</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-24</guid>
-      <pubDate>Sat, 24 Oct 2026 18:37:24 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-24/happy-news-2026-10-24.mp3" length="1402929" type="audio/mpeg" />
-      <itunes:duration>0:02:55</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 23 October 2026</title>
-      <description>One good things: Chiricahua National Monument Becomes America's 64th National Park</description>
-      <itunes:summary>One good things: Chiricahua National Monument Becomes America's 64th National Park</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 19:49:04 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-23/happy-news-2026-10-23.mp3" length="822203" type="audio/mpeg" />
-      <itunes:duration>0:01:43</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
