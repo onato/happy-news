@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 02:48:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:23:22 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 25 November 2026</title>
+      <description>Three good things: Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial; Yap Island School Accepts Coconuts Instead of Tuition Fees; Northland's First Wind Farm, Kaiwaikawe, Officially Opens</description>
+      <itunes:summary>Three good things: Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial; Yap Island School Accepts Coconuts Instead of Tuition Fees; Northland's First Wind Farm, Kaiwaikawe, Officially Opens</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 00:23:01 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-25/happy-news-2026-11-25.mp3" length="2118145" type="audio/mpeg" />
+      <itunes:duration>0:04:25</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 24 November 2026</title>
       <description>Five good things: Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care; 'Retired' Pair of Critically Endangered Kākāriki Karaka Surprise Keepers With Two Clutches of Eggs; New Light Therapy Kills Gum Disease Bacteria While Sparing Beneficial Ones in Mice; World's First Museum Built Inside a Children's Hospital Opens in New Orleans, Fulfilling a Dying Boy's Wish</description>
@@ -298,18 +310,6 @@
       <pubDate>Mon, 26 Oct 2026 20:56:59 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3" length="2097958" type="audio/mpeg" />
       <itunes:duration>0:04:22</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 25 October 2026</title>
-      <description>One good things: Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First</description>
-      <itunes:summary>One good things: Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 18:46:26 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-25/happy-news-2026-10-25.mp3" length="638278" type="audio/mpeg" />
-      <itunes:duration>0:01:20</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

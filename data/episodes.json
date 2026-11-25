@@ -1,6 +1,38 @@
 {
   "episodes": [
     {
+      "date": "2026-11-25",
+      "title": "Happy News \u2014 25 November 2026",
+      "runKey": "2026-11-25T00:30:00Z",
+      "published": "2026-11-25T00:23:01Z",
+      "duration": 264.61,
+      "bytes": 2118145,
+      "storyCount": 3,
+      "guid": "happy-news-2026-11-25",
+      "summary": "Three good things: Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial; Yap Island School Accepts Coconuts Instead of Tuition Fees; Northland's First Wind Farm, Kaiwaikawe, Officially Opens",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
+          "headline": "Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial",
+          "start": 8.7,
+          "duration": 96.54
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+          "headline": "Yap Island School Accepts Coconuts Instead of Tuition Fees",
+          "start": 105.24,
+          "duration": 75.04
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2750898/mercury-cuts-ribbon-on-northland-s-287m-kaiwaikawe-wind-farm",
+          "headline": "Northland's First Wind Farm, Kaiwaikawe, Officially Opens",
+          "start": 180.28,
+          "duration": 81.36
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-25/happy-news-2026-11-25.mp3"
+    },
+    {
       "date": "2026-11-24",
       "title": "Happy News \u2014 24 November 2026",
       "runKey": "2026-11-24T03:10:00Z",
@@ -777,27 +809,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3"
-    },
-    {
-      "date": "2026-10-25",
-      "title": "Happy News \u2014 25 October 2026",
-      "runKey": "2026-10-25T18:50:00Z",
-      "published": "2026-10-25T18:46:26Z",
-      "duration": 79.7,
-      "bytes": 638278,
-      "storyCount": 1,
-      "guid": "happy-news-2026-10-25",
-      "summary": "One good things: Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First",
-      "chapters": [
-        {
-          "url": "https://www.goodgoodgood.co/articles/endangered-species-world-first-prosthetic-beak",
-          "headline": "Zoo Vets in Amsterdam Fit a Hornbill With a 3D-Printed Beak in a World First",
-          "start": 7.3,
-          "duration": 69.84
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-25/happy-news-2026-10-25.mp3"
     }
   ],
-  "updated": "2026-11-24T02:48:34Z"
+  "updated": "2026-11-25T00:23:22Z"
 }
