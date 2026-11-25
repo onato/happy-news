@@ -1,6 +1,39 @@
 {
-  "updated": "2026-11-24T03:10:00Z",
+  "updated": "2026-11-25T00:30:00Z",
   "stories": [
+    {
+      "headline": "Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial",
+      "summary": "A randomised trial in Belo Horizonte found that releasing mosquitoes carrying Wolbachia bacteria cut dengue cases by 68.5% and chikungunya by 73.3% among schoolchildren. The results came during Brazil's largest recorded dengue outbreak.",
+      "narrative": "A large trial in Brazil has produced some of the strongest evidence yet that a clever biological trick can protect people from mosquito-borne disease.\n\nResearchers in the city of Belo Horizonte divided the area around schools into 58 clusters. In half of them, they released mosquitoes carrying a harmless bacterium called Wolbachia, which stops the insects from passing on viruses. The other half relied on standard control measures such as spraying and removing breeding sites. More than five thousand schoolchildren aged six to eleven were followed.\n\nThe releases ran from early 2021 to mid 2022, a period that overlapped with the biggest dengue outbreak Brazil has ever recorded. Even so, dengue cases fell by about 68 percent in the areas with Wolbachia mosquitoes, and chikungunya cases dropped by around 73 percent. There were too few Zika cases to measure.\n\nThe findings were presented at a tropical medicine meeting in Maryland by a team from Johns Hopkins, the Federal University of Minas Gerais, the World Mosquito Program and other institutions. A citywide trial in Singapore has reported a similar drop.\n\nWhat makes this good news is that the approach is self-sustaining: once the bacteria establish in local mosquitoes, protection keeps going without constant spraying. For cities where dengue sends hundreds of thousands of people to hospital each year, that is a real prospect of lasting relief.",
+      "url": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
+      "source": "Good News Network",
+      "published": "2026-11-24T00:00:00Z",
+      "category": "Health",
+      "added": "2026-11-25T00:30:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2015/07/mosquito-Aedes_Albopictus-publicdomain.jpg"
+    },
+    {
+      "headline": "Yap Island School Accepts Coconuts Instead of Tuition Fees",
+      "summary": "Faith Christian Academy on Yap in Micronesia lets families pay school fees in coconuts, which feed a new virgin coconut oil business. The scheme eases pressure on families where few have cash incomes, and organisers plan to extend it to other schools and islands.",
+      "narrative": "On the island of Yap in the Federated States of Micronesia, a school has found a way to make education affordable without requiring cash that most families simply do not have.\n\nOnly about a third of islanders have paid work, mostly with the government, and the old coconut oil export trade faded away decades ago. Some students had been fishing at night to help cover fees, and some parents were working double shifts.\n\nFaith Christian Academy now accepts coconuts in place of tuition. The nuts go to a company called Island VCO, which presses high-grade virgin coconut oil. Because Yap bans pesticides, the coconuts are naturally organic, and the company is working toward certification and preparing its first shipments.\n\nStudents say gathering coconuts is rewarding and social, and one said her father no longer has to work so much to pay for her schooling. Profits beyond costs go to a nonprofit working in the Pacific.\n\nOrganisers plan to offer the arrangement to other private schools on Yap and then to other islands in Micronesia and the Marshall Islands, turning a plentiful local resource into schooling for kids.",
+      "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+      "source": "Good News Network",
+      "published": "2026-11-24T00:00:00Z",
+      "category": "Community",
+      "added": "2026-11-25T00:30:00Z",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/FCA-students-Shaya-Lani-and-Joyleen-with-coconuts.jpg"
+    },
+    {
+      "headline": "Northland's First Wind Farm, Kaiwaikawe, Officially Opens",
+      "summary": "Mercury has opened the $287 million Kaiwaikawe wind farm, with 12 turbines expected to power about 31,000 homes. It was built on time and on budget with no serious accidents, and includes funding for protecting the endangered bittern.",
+      "narrative": "Northland now has its first wind farm. Mercury officially opened the Kaiwaikawe project on the 23rd of November, with twelve turbines standing over land owned by Pāmu and within the rohe of Te Roroa.\n\nEach turbine reaches 206 metres to the blade tip and can generate up to six megawatts. Together they produce 77 megawatts, expected to be around 220 gigawatt hours a year, enough for roughly 31,000 homes. The first turbines began feeding power into the grid in July, with final commissioning to run into early 2027.\n\nThe project cost 287 million dollars and was reported as on time and on budget. At peak, about 180 people worked on site each day, clocking more than a quarter of a million hours without a serious accident.\n\nThere is also a conservation component: a 640,000 dollar fund for DOC and iwi programmes protecting the endangered matuku-hūrepo, the bittern, plus 360,000 dollars for GPS tracking, and 30,000 dollars a year for a local community fund.\n\nIt is a concrete addition of clean, local electricity for the north, delivered with iwi involvement.",
+      "url": "https://www.rnz.co.nz/news/environment/2750898/mercury-cuts-ribbon-on-northland-s-287m-kaiwaikawe-wind-farm",
+      "source": "RNZ",
+      "published": "2026-11-23T00:00:00Z",
+      "category": "Environment",
+      "added": "2026-11-25T00:30:00Z",
+      "image": "https://media.rnztools.nz/rnz/image/upload/s--MCBABtbx--/t_kt-crop-16x10/w_800/f_auto/q_auto:eco/4JKOACP_PD310826WINDFARM4_JPG"
+    },
     {
       "headline": "Eleven Chevron Skinks Return to Great Barrier Island After 30 Years in Auckland Zoo's Care",
       "summary": "Eleven niho taniwha, New Zealand's longest lizard, have been released into Glenfern Sanctuary on Aotea/Great Barrier Island. They join ten released in July, and the species survives on only two islands.",
@@ -2087,37 +2120,6 @@
       "published": "2026-09-14T00:00:00Z",
       "category": "Culture",
       "added": "2026-09-20T18:37:22Z"
-    },
-    {
-      "headline": "A 20-Year-Old's Sickle Cell Disease Has Been Wiped Out by Gene Therapy",
-      "summary": "Martin Mwita Jr., who spent his life battling sickle cell disease, underwent gene therapy at St. Louis Children's Hospital that reprogrammed his own cells to stop producing the misshapen blood cells behind the illness. Tests now show 85% of his hemoglobin is healthy, effectively curing him of a disease he had lived with since birth.",
-      "narrative": "Martin Mwita Jr., a 20-year-old from Nebraska, spent two decades managing the pain and complications of sickle cell disease before traveling with his mother to St. Louis Children's Hospital in search of something more than management: a cure.\n\nWhat he received was Lyfgenia, an FDA-approved gene therapy that works by taking a patient's own blood-forming cells, sending them to a lab where a company called Bluebird Bio genetically modifies them to stop producing the misshapen sickle-shaped cells, and then returning them to the body. Before the modified cells could be reinfused, Mwita first had to undergo high-dose chemotherapy to clear space in his bone marrow for them to take hold.\n\nMonths later, his doctor, Dr. Shalini Shenoy, delivered the results in person: 85% of his hemoglobin was now healthy hemoglobin A, meaning the sickle cells that had shaped his entire life were essentially gone. For someone who had spent 20 years navigating a disease with no real cure, hearing that was, in his words, worth everything the treatment had put him through.\n\nMwita was not the only patient going through the process at the hospital. Serenity Cole, another patient, completed the same therapy around the same time and was recovering at home. Their cases add to a small but growing group of sickle cell patients who have gone through gene therapy and come out the other side without the disease that once defined their daily lives.\n\nSickle cell disease disproportionately affects Black patients and has long been underfunded relative to its impact, so each successful case carries weight beyond the individual involved. For Mwita, the outcome was simple and direct: a disease he had carried since birth, and had once assumed he would carry forever, is no longer part of his blood.",
-      "url": "https://www.wistv.com/2026/09/18/gene-therapy-offers-new-hope-sickle-cell-patients/",
-      "source": "WIS10 News",
-      "published": "2026-09-18T00:00:00Z",
-      "category": "Health",
-      "added": "2026-09-20T18:37:22Z"
-    },
-    {
-      "headline": "A Maori-Owned Farm Trust Near Taumaranui Hasn't Posted a Loss in 16 Years",
-      "summary": "Pukepoto Farm Trust, owned by more than 1,000 shareholders descended from Ngati Maniapoto, has stayed profitable every year for 16 straight years by focusing on what it can control rather than commodity prices. It's now sharing its methods with neighbouring farmers through Beef + Lamb's Hub Farm Programme.",
-      "narrative": "Near Taumaranui, on land held by the Maori Land Court since 1978, Pukepoto Farm Trust has done something few sheep and beef operations anywhere can claim: it has posted a profit every single year for the past 16 years, through droughts, price crashes and everything else farming has thrown at it.\n\nThe trust runs roughly 1,000 effective hectares out of a 1,400-hectare property, wintering 6,000 Romney ewes and 300 mostly Angus cattle, and its profits flow back to more than 1,000 shareholders, all descendants of Ngati Maniapoto. Trustee Weo Maag sums up the philosophy behind the consistency plainly: the trust can't control what processors pay for its stock, so it puts its energy into the part of the equation it can control, which is what and how much it produces.\n\nThat discipline shows up in how the trust plans. Rather than reacting to commodity swings, it builds production forecasts from historical performance and figures out what it can realistically bring to market from there, tracking everything in writing so decisions are based on data rather than guesswork. Chairperson Aloma Shearer describes it as a constant search for an edge, whether that means squeezing more grass growth out of the land or finding small efficiencies elsewhere.\n\nThe trust's profits don't just stay in a bank account. Over the years they have funded shareholder dividends, then education grants for descendants, and more recently kaumatua grants supporting elders in the wider whanau. Last October it also joined Beef + Lamb's Hub Farm Programme, opening its books and its paddocks to neighbouring farmers who want to learn from a 16-year run most operations would envy.\n\nIn an industry where profitability often rises and falls with the season's weather and the year's commodity prices, a farm trust that has never had a losing year offers something more valuable than any single good harvest: proof that discipline, data and a clear sense of what you can and can't control can outlast the market's worst swings.",
-      "url": "https://www.farmersweekly.co.nz/farm-management/sheep-and-beef-farm-management/maori-farm-trust-shares-secrets-of-16-profitable-years/",
-      "source": "Farmers Weekly",
-      "published": "2026-09-20T00:00:00Z",
-      "category": "Community",
-      "added": "2026-09-20T18:37:22Z"
-    },
-    {
-      "headline": "Archaeologists Call an Untouched 600-Year-Old Tomb in Peru the 'Discovery of the Decade'",
-      "summary": "Researchers at the ancient Chimu capital of Chan Chan uncovered an intact elite mausoleum containing 38 bodies and rich grave goods, the first undisturbed noble burial ever found at the UNESCO World Heritage site. Only 7% of the vast adobe city has been excavated, suggesting more finds may still be waiting.",
-      "narrative": "Beneath the sprawling mud-brick ruins of Chan Chan, once the capital of the pre-Inca Chimu kingdom, archaeologists have opened a tomb that no one has touched in roughly 600 years. Inside, they found the remains of 38 people and a trove of grave goods rich enough that one outside expert immediately called it the discovery of the decade.\n\nThe main chamber, just 4 feet wide but 16 feet deep, held a single individual whose skull had been marked with red pigment, almost certainly someone of high status. Around that central figure, secondary chambers held 20 more bodies, while another 17 skeletons were found on a platform surrounding the mausoleum, all part of a palatial complex called Utzh An.\n\nWhat sets this find apart from other Chimu discoveries is that it was never looted. The tomb yielded metal weapons, copper and gold objects, ornate jewelry and textiles patterned with seabirds and monkeys, all still in the arrangement their owners left them in six centuries ago. Lead archaeologist Jorge Meneses noted that nearly everything previously known about Chimu elite burial practices came from looted artifacts scattered through private collections and museums, stripped of the context that tells researchers who these people were and how their world worked.\n\nThe Chimu ruled much of Peru's northern coast before being absorbed into the Inca empire, and Chan Chan, their capital, is now a UNESCO World Heritage site precisely because of how much of that civilization's story survives in its walls. Yet by researchers' own estimate, only about 7% of the vast city has been excavated so far, meaning a find this significant is likely a preview rather than a conclusion.\n\nFor archaeologists who have spent careers piecing together Chimu history from scraps left behind by looters, an intact elite burial offers something rarer than treasure: a chance to finally see the evidence in the order the Chimu themselves left it, undisturbed for six hundred years until now.",
-      "url": "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/",
-      "source": "Good News Network",
-      "published": "2026-09-18T00:00:00Z",
-      "category": "Science",
-      "added": "2026-09-20T18:37:22Z",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/The-newly-discovered-tomb-seen-in-the-center-©-ANDINA-Editora-Peru.jpeg"
     }
   ]
 }
