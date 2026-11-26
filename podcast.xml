@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:23:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:02:03 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -25,6 +25,18 @@
       <title>Happy News</title>
       <link>https://www.onato.com/happy-news/</link>
     </image>
+    <item>
+      <title>Happy News — 26 November 2026</title>
+      <description>Four good things: Blind Dunedin Woman and Her Friend Finish Walking All 2000-Plus Streets in Greater Dunedin; 126 Acres of Cape Cod Salt Marsh Returned to Native American Ownership Near First Encounter Beach; Wellington's Ōtari-Wilton's Bush, the World's First Native Plant Museum, Celebrates 100 Years; Jonathan the 194-Year-Old Tortoise Reveals Genetic Clues to a Long, Healthy Life</description>
+      <itunes:summary>Four good things: Blind Dunedin Woman and Her Friend Finish Walking All 2000-Plus Streets in Greater Dunedin; 126 Acres of Cape Cod Salt Marsh Returned to Native American Ownership Near First Encounter Beach; Wellington's Ōtari-Wilton's Bush, the World's First Native Plant Museum, Celebrates 100 Years; Jonathan the 194-Year-Old Tortoise Reveals Genetic Clues to a Long, Healthy Life</itunes:summary>
+      <link>https://www.onato.com/happy-news/</link>
+      <guid isPermaLink="false">happy-news-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 00:01:44 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-26/happy-news-2026-11-26.mp3" length="2772644" type="audio/mpeg" />
+      <itunes:duration>0:05:46</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Happy News — 25 November 2026</title>
       <description>Three good things: Releasing Wolbachia Mosquitoes Cuts Dengue by 68% in Brazilian Randomised Trial; Yap Island School Accepts Coconuts Instead of Tuition Fees; Northland's First Wind Farm, Kaiwaikawe, Officially Opens</description>
@@ -298,18 +310,6 @@
       <pubDate>Tue, 27 Oct 2026 20:29:38 +0000</pubDate>
       <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-27/happy-news-2026-10-27.mp3" length="2033156" type="audio/mpeg" />
       <itunes:duration>0:04:14</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Happy News — 26 October 2026</title>
-      <description>Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure</description>
-      <itunes:summary>Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure</itunes:summary>
-      <link>https://www.onato.com/happy-news/</link>
-      <guid isPermaLink="false">happy-news-2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 20:56:59 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3" length="2097958" type="audio/mpeg" />
-      <itunes:duration>0:04:22</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

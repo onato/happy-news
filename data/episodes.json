@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "date": "2026-11-26",
+      "title": "Happy News \u2014 26 November 2026",
+      "runKey": "2026-11-26T00:10:00Z",
+      "published": "2026-11-26T00:01:44Z",
+      "duration": 346.36,
+      "bytes": 2772644,
+      "storyCount": 4,
+      "guid": "happy-news-2026-11-26",
+      "summary": "Four good things: Blind Dunedin Woman and Her Friend Finish Walking All 2000-Plus Streets in Greater Dunedin; 126 Acres of Cape Cod Salt Marsh Returned to Native American Ownership Near First Encounter Beach; Wellington's \u014ctari-Wilton's Bush, the World's First Native Plant Museum, Celebrates 100 Years; Jonathan the 194-Year-Old Tortoise Reveals Genetic Clues to a Long, Healthy Life",
+      "chapters": [
+        {
+          "url": "https://dailyencourager.co.nz/2000-streets-together/",
+          "headline": "Blind Dunedin Woman and Her Friend Finish Walking All 2000-Plus Streets in Greater Dunedin",
+          "start": 8.22,
+          "duration": 103.76
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/land-returned-indigenous-care-first-encounter-beach/",
+          "headline": "126 Acres of Cape Cod Salt Marsh Returned to Native American Ownership Near First Encounter Beach",
+          "start": 111.98,
+          "duration": 82.02
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/environment/2753010/our-changing-world-a-century-of-native-plants-at-otari-wilton-s-bush",
+          "headline": "Wellington's \u014ctari-Wilton's Bush, the World's First Native Plant Museum, Celebrates 100 Years",
+          "start": 194.0,
+          "duration": 84.1
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+          "headline": "Jonathan the 194-Year-Old Tortoise Reveals Genetic Clues to a Long, Healthy Life",
+          "start": 278.1,
+          "duration": 65.32
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-26/happy-news-2026-11-26.mp3"
+    },
+    {
       "date": "2026-11-25",
       "title": "Happy News \u2014 25 November 2026",
       "runKey": "2026-11-25T00:30:00Z",
@@ -771,45 +809,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-27/happy-news-2026-10-27.mp3"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Happy News \u2014 26 October 2026",
-      "runKey": "2026-10-26T20:56:21Z",
-      "published": "2026-10-26T20:56:59Z",
-      "duration": 262.13,
-      "bytes": 2097958,
-      "storyCount": 4,
-      "guid": "happy-news-2026-10-26",
-      "summary": "Four good things: Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf; Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam; FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo; Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure",
-      "chapters": [
-        {
-          "url": "https://kiro7.com/news/local/new-male-calf-born-southern-resident-orca-j35/X2J6WVIM7VFQFAMEOXZBON5ZXA",
-          "headline": "Endangered Southern Resident Orca J35 Welcomes a New Healthy Calf",
-          "start": 7.92,
-          "duration": 57.74
-        },
-        {
-          "url": "https://www.goodnewsnetwork.org/live-smithsonian-webcam-for-cheetah-den-and-5-cubs/",
-          "headline": "Five Cheetah Cubs Born at Smithsonian Facility Can Be Watched Live on Cheetah Cam",
-          "start": 65.66,
-          "duration": 50.72
-        },
-        {
-          "url": "https://www.mskcc.org/news/rectal-cancer-disappears-after-experimental-use-immunotherapy",
-          "headline": "FDA Approves Immunotherapy Alone for Some Rectal Cancers, Letting Patients Skip Surgery, Radiation and Chemo",
-          "start": 116.38,
-          "duration": 79.68
-        },
-        {
-          "url": "https://goodnewsnetwork.org/st-paul-man-jumps-onto-runaway-school-bus-saves-18-children",
-          "headline": "Passer-By With No Medical Training Leaps Onto Runaway School Bus and Stops It After Driver Has a Seizure",
-          "start": 196.06,
-          "duration": 63.52
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-26/happy-news-2026-10-26.mp3"
     }
   ],
-  "updated": "2026-11-25T00:23:22Z"
+  "updated": "2026-11-26T00:02:03Z"
 }
