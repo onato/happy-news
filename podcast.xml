@@ -5,7 +5,7 @@
     <link>https://www.onato.com/happy-news/</link>
     <description>A short daily audio digest of genuinely good news, read aloud each morning. Collected and narrated automatically. Artwork: smile icon by Culai Lai from Noun Project (CC BY 3.0).</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:21:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 23:58:31 +0000</lastBuildDate>
     <generator>happy-news</generator>
     <atom:link href="https://www.onato.com/happy-news/podcast.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Happy News</itunes:author>
@@ -27,13 +27,13 @@
     </image>
     <item>
       <title>Happy News — 27 November 2026</title>
-      <description>Five good things: Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships; Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial; Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War; Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia</description>
-      <itunes:summary>Five good things: Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships; Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial; Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War; Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia</itunes:summary>
+      <description>Six good things: Leatherback Turtles That Cross the Pacific to New Zealand Are Slowly Recovering, Satellite Study Finds; Bangladesh and India Ban Paraquat, a Pesticide Linked to Suicide; Voyaging Waka Gather in Northland to Pass On Traditional Navigation Knowledge; Texas Community Surprises Thanksgiving Cook Who Feeds 2,000 With a New Car</description>
+      <itunes:summary>Six good things: Leatherback Turtles That Cross the Pacific to New Zealand Are Slowly Recovering, Satellite Study Finds; Bangladesh and India Ban Paraquat, a Pesticide Linked to Suicide; Voyaging Waka Gather in Northland to Pass On Traditional Navigation Knowledge; Texas Community Surprises Thanksgiving Cook Who Feeds 2,000 With a New Car</itunes:summary>
       <link>https://www.onato.com/happy-news/</link>
       <guid isPermaLink="false">happy-news-2026-11-27</guid>
-      <pubDate>Fri, 27 Nov 2026 00:21:09 +0000</pubDate>
-      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-27/happy-news-2026-11-27.mp3" length="2974667" type="audio/mpeg" />
-      <itunes:duration>0:06:12</itunes:duration>
+      <pubDate>Fri, 27 Nov 2026 23:58:17 +0000</pubDate>
+      <enclosure url="https://github.com/onato/happy-news/releases/download/audio-2026-11-27/happy-news-2026-11-27.mp3" length="3235019" type="audio/mpeg" />
+      <itunes:duration>0:06:44</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

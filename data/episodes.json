@@ -3,43 +3,49 @@
     {
       "date": "2026-11-27",
       "title": "Happy News \u2014 27 November 2026",
-      "runKey": "2026-11-27T00:40:00Z",
-      "published": "2026-11-27T00:21:09Z",
-      "duration": 371.64,
-      "bytes": 2974667,
-      "storyCount": 5,
+      "runKey": "2026-11-27T23:59:00Z",
+      "published": "2026-11-27T23:58:17Z",
+      "duration": 404.19,
+      "bytes": 3235019,
+      "storyCount": 6,
       "guid": "happy-news-2026-11-27",
-      "summary": "Five good things: Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships; Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial; Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War; Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia",
+      "summary": "Six good things: Leatherback Turtles That Cross the Pacific to New Zealand Are Slowly Recovering, Satellite Study Finds; Bangladesh and India Ban Paraquat, a Pesticide Linked to Suicide; Voyaging Waka Gather in Northland to Pass On Traditional Navigation Knowledge; Texas Community Surprises Thanksgiving Cook Who Feeds 2,000 With a New Car",
       "chapters": [
         {
-          "url": "https://www.goodnewsnetwork.org/texans-work-for-free-on-farms-that-arent-theirs-to-send-others-kids-to-college/",
-          "headline": "Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships",
-          "start": 8.58,
-          "duration": 90.0
+          "url": "https://www.rnz.co.nz/news/environment/2852566/the-giant-turtles-travelling-12-000km-to-new-zealand-need-our-help",
+          "headline": "Leatherback Turtles That Cross the Pacific to New Zealand Are Slowly Recovering, Satellite Study Finds",
+          "start": 8.52,
+          "duration": 82.38
         },
         {
-          "url": "https://www.sciencedaily.com/releases/2026/11/261126033031.htm",
-          "headline": "Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial",
-          "start": 98.58,
-          "duration": 70.94
+          "url": "https://www.goodnewsnetwork.org/2-of-the-worlds-largest-rice-producers-ban-toxic-pesticide-linked-to-suicide/",
+          "headline": "Bangladesh and India Ban Paraquat, a Pesticide Linked to Suicide",
+          "start": 90.9,
+          "duration": 58.54
         },
         {
-          "url": "https://www.positive.news/society/tomorrow-takes-time-the-global-seed-vault/",
-          "headline": "Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War",
-          "start": 169.52,
-          "duration": 72.12
+          "url": "https://www.rnz.co.nz/news/regions_northland/2805247/nz-s-biggest-waka-festival-aims-to-pass-on-traditional-voyaging-knowledge",
+          "headline": "Voyaging Waka Gather in Northland to Pass On Traditional Navigation Knowledge",
+          "start": 149.44,
+          "duration": 66.26
         },
         {
-          "url": "https://www.goodnewsnetwork.org/roman-glass-among-the-silk-road-treasures-unearthed-in-nomadic-nobles-tomb/",
-          "headline": "Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia",
-          "start": 241.64,
-          "duration": 62.08
+          "url": "https://www.goodnewsnetwork.org/town-rewards-a-woman-whose-thanksgiving-meal-feeds-thousands-with-a-new-car/",
+          "headline": "Texas Community Surprises Thanksgiving Cook Who Feeds 2,000 With a New Car",
+          "start": 215.7,
+          "duration": 59.32
         },
         {
-          "url": "https://www.positive.news/lifestyle/arts/song-of-hope-written-by-people-touched-by-terminal-illness-gets-its-debut/",
-          "headline": "Song of Hope Written by People Touched by Terminal Illness Gets Its Debut",
-          "start": 303.72,
-          "duration": 64.98
+          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2777586/pair-of-gottfried-lindauer-portraits-stolen-during-ram-raid-gifted-to-te-papa",
+          "headline": "Stolen Lindauer Portraits, Rescued From Mud and Mould, Gifted to Te Papa",
+          "start": 275.02,
+          "duration": 67.42
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/te-manu-korihi/2767590/wherever-i-can-help-law-dream-realised-20-years-on",
+          "headline": "Grandmother Who Left School at 17 Pregnant Graduates With a Law Degree",
+          "start": 342.44,
+          "duration": 58.84
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-27/happy-news-2026-11-27.mp3"
@@ -823,5 +829,5 @@
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-28/happy-news-2026-10-28.mp3"
     }
   ],
-  "updated": "2026-11-27T00:21:33Z"
+  "updated": "2026-11-27T23:58:30Z"
 }
