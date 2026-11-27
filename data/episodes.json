@@ -1,6 +1,50 @@
 {
   "episodes": [
     {
+      "date": "2026-11-27",
+      "title": "Happy News \u2014 27 November 2026",
+      "runKey": "2026-11-27T00:40:00Z",
+      "published": "2026-11-27T00:21:09Z",
+      "duration": 371.64,
+      "bytes": 2974667,
+      "storyCount": 5,
+      "guid": "happy-news-2026-11-27",
+      "summary": "Five good things: Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships; Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial; Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War; Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia",
+      "chapters": [
+        {
+          "url": "https://www.goodnewsnetwork.org/texans-work-for-free-on-farms-that-arent-theirs-to-send-others-kids-to-college/",
+          "headline": "Texas Farmers Work Free on a School's 640 Acres to Fund College Scholarships",
+          "start": 8.58,
+          "duration": 90.0
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261126033031.htm",
+          "headline": "Omega-3 and Low-Dose Aspirin Match Antibiotics for Severe Gum Disease in Brazilian Trial",
+          "start": 98.58,
+          "duration": 70.94
+        },
+        {
+          "url": "https://www.positive.news/society/tomorrow-takes-time-the-global-seed-vault/",
+          "headline": "Seeds Saved in Svalbard Vault Helped Rebuild Gene Banks Destroyed in Syria's War",
+          "start": 169.52,
+          "duration": 72.12
+        },
+        {
+          "url": "https://www.goodnewsnetwork.org/roman-glass-among-the-silk-road-treasures-unearthed-in-nomadic-nobles-tomb/",
+          "headline": "Roman Glass Among Silk Road Treasures Unearthed in Nomadic Noble's Tomb in Mongolia",
+          "start": 241.64,
+          "duration": 62.08
+        },
+        {
+          "url": "https://www.positive.news/lifestyle/arts/song-of-hope-written-by-people-touched-by-terminal-illness-gets-its-debut/",
+          "headline": "Song of Hope Written by People Touched by Terminal Illness Gets Its Debut",
+          "start": 303.72,
+          "duration": 64.98
+        }
+      ],
+      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-11-27/happy-news-2026-11-27.mp3"
+    },
+    {
       "date": "2026-11-26",
       "title": "Happy News \u2014 26 November 2026",
       "runKey": "2026-11-26T00:10:00Z",
@@ -777,39 +821,7 @@
         }
       ],
       "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-28/happy-news-2026-10-28.mp3"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Happy News \u2014 27 October 2026",
-      "runKey": "2026-10-27T20:50:00Z",
-      "published": "2026-10-27T20:29:38Z",
-      "duration": 253.99,
-      "bytes": 2033156,
-      "storyCount": 3,
-      "guid": "happy-news-2026-10-27",
-      "summary": "Three good things: Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer; Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf; Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold",
-      "chapters": [
-        {
-          "url": "https://news-medical.net/news/20261026/New-drug-effectively-decreases-recurrence-of-and-death-from-endometrial-cancer.aspx",
-          "headline": "Cancer Drug Cuts Risk of Progression by 41% in Women With Recurrent Endometrial Cancer",
-          "start": 7.42,
-          "duration": 112.36
-        },
-        {
-          "url": "https://kalingatv.com/offbeat/seven-hours-apart-forest-staff-reunite-elephant-calf-with-mother-in-heartwarming-rescue/",
-          "headline": "Forest Staff Spend Seven Hours Tracking Down a Mother Elephant to Reunite Her With Her Rescued Calf",
-          "start": 119.78,
-          "duration": 62.44
-        },
-        {
-          "url": "https://www.auckland.ac.nz/en/news/2026/10/20/from-research-to-the-world-stage-pacific-scholar-claims-gold.html",
-          "headline": "Auckland Lecturer Who Took Up Taekwon-Do With Her Daughter Wins World Cup Gold",
-          "start": 182.22,
-          "duration": 69.22
-        }
-      ],
-      "url": "https://github.com/onato/happy-news/releases/download/audio-2026-10-27/happy-news-2026-10-27.mp3"
     }
   ],
-  "updated": "2026-11-26T00:02:03Z"
+  "updated": "2026-11-27T00:21:33Z"
 }
